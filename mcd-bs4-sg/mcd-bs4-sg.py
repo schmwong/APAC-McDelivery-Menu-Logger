@@ -92,7 +92,8 @@ product_list_df = pd.DataFrame(product_list)
 
 print(product_list_df)
 
-# timestamp = str(current_date.strftime("[%Y-%m-%d %H:%M:%S]"))
-# product_list_df.to_csv(str(timestamp + " mcd-bs4-sg.csv"), encoding="utf-8")
+timestamp = str(current_date.strftime("[%Y-%m-%d %H:%M:%S]"))
+
+product_list_df.to_csv(str(timestamp + " mcd-bs4-sg.csv"), encoding="utf-8")
 
 # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-sg.csv"
