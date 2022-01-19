@@ -84,9 +84,9 @@ for url in URL_list:
         product_list.append(product)
 
 
-# ------------------------------------------------- #
-# Constructing the Dataframe and Saving it to File  #
-# ------------------------------------------------- #
+# ---------------------------------------------------- #
+# Constructing the Dataframe and Exporting it to File  #
+# ---------------------------------------------------- #
 
 product_list_df = pd.DataFrame(product_list)
 
@@ -94,6 +94,6 @@ print(product_list_df)
 
 timestamp = str(current_date.strftime("[%Y-%m-%d %H:%M:%S]"))
 
-product_list_df.to_csv(str(timestamp + " mcd-bs4-sg.csv"), encoding="utf-8")
+product_list_df.to_csv(f'./scraped-data/{str(timestamp + " mcd-bs4-sg.csv")}', float_format="%.2f", encoding="utf-8")
 
 # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-sg.csv"

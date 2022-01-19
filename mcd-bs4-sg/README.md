@@ -17,6 +17,7 @@
 ***New***
 
 1. Created scraper to get the live SGD to USD exchange rate from Xe.com.
+2. Created and successfully test-run manually triggered Github Workflow file ([scrape-sg-manual.yml](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-sg-manual.yml)).
 
 
 ***Improved***
