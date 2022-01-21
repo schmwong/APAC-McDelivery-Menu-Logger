@@ -28,6 +28,7 @@ jobs:
               pip install beautifulsoup4
               pip install pandas
               pip install lxml
+              pip install pytz
               pip3 install requests
               pip install path
           - name: execute py script # run mcd-bs4-sg.py to get the latest data
