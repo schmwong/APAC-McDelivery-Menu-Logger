@@ -2,10 +2,11 @@ import requests as r
 from bs4 import BeautifulSoup as BS
 import pandas as pd
 import datetime as dt
+import pytz
 import re
 
 
-current_date = dt.datetime.now()
+local_datetime = pytz.timezone("Asia/Singapore").localize(dt.datetime.utcnow())
 
 
 # Set headers to make HTTP request to seem to be from a normal browser
@@ -73,8 +74,8 @@ for url in URL_list:
   # Inner loop iterates through elements on each webpage
   for products in soup.select("div.product-card"):
         product = {}
-        product["Date"] = current_date.strftime("%Y/%m/%d")
-        product["Day"] = current_date.strftime("%a")
+        product["Date"] = local_datetime.strftime("%Y/%m/%d")
+        product["Day"] = local_datetime.strftime("%a")
         product["Territory"] = "Singapore"
         product["Menu Item"] = products.select("h5.product-title")[0].text
         product["Price (SGD)"] = float((re.findall(r"[-+]?(?:\d*\.\d+|\d+)",products.select("span.starting-price")[0].text)[0]))
@@ -92,7 +93,7 @@ product_list_df = pd.DataFrame(product_list)
 
 print(product_list_df)
 
-timestamp = str(current_date.strftime("[%Y-%m-%d %H:%M:%S]"))
+timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
 product_list_df.to_csv(f'./scraped-data/{str(timestamp + " mcd-bs4-sg.csv")}', float_format="%.2f", encoding="utf-8")
 

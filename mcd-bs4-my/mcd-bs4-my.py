@@ -2,10 +2,10 @@ import requests as r
 from bs4 import BeautifulSoup as BS
 import pandas as pd
 import datetime as dt
+import pytz
 import re
 
-
-current_date = dt.datetime.now()
+local_datetime = pytz.timezone("Asia/Kuala_Lumpur").localize(dt.datetime.utcnow())
 
 
 # Set headers to make HTTP request to seem to be from a normal browser
@@ -63,8 +63,8 @@ for url in start_URLs:
 	# Inner loop scrapes the menu data from first category page
 	for products in first_page.select("div.product-card"):
 		product = {}
-		product["Date"] = current_date.strftime("%Y/%m/%d")
-		product["Day"] = current_date.strftime("%a")
+		product["Date"] = local_datetime.strftime("%Y/%m/%d")
+		product["Day"] = local_datetime.strftime("%a")
 		product["Territory"] = "Malaysia"
 		product["Menu Item"] = products.select("h5.product-title")[0].text
 		product["Price (MYR)"] = float((re.findall(r"[-+]?(?:\d*\.\d+|\d+)",products.select("span.starting-price")[0].text)[0]))
@@ -81,8 +81,8 @@ for url in URL_list:
   # Inner loop iterates through elements on all other pages
 	for products in next_page.select("div.product-card"):
 		product = {}
-		product["Date"] = current_date.strftime("%Y/%m/%d")
-		product["Day"] = current_date.strftime("%a")
+		product["Date"] = local_datetime.strftime("%Y/%m/%d")
+		product["Day"] = local_datetime.strftime("%a")
 		product["Territory"] = "Malaysia"
 		product["Menu Item"] = products.select("h5.product-title")[0].text
 		product["Price (MYR)"] = float((re.findall(r"[-+]?(?:\d*\.\d+|\d+)",products.select("span.starting-price")[0].text)[0]))
@@ -100,7 +100,7 @@ product_list_df = pd.DataFrame(product_list)
 
 print(product_list_df)
 
-timestamp = str(current_date.strftime("[%Y-%m-%d %H:%M:%S]"))
+timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
 product_list_df.to_csv(f'./scraped-data/{str(timestamp + " mcd-bs4-my.csv")}', float_format="%.2f", encoding="utf-8")
 
