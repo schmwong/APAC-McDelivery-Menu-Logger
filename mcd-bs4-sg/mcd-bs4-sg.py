@@ -6,7 +6,10 @@ import pytz
 import re
 
 
-local_datetime = pytz.timezone("Asia/Singapore").localize(dt.datetime.utcnow())
+# local_datetime = pytz.timezone("Asia/Singapore").localize(dt.datetime.utcnow())
+
+# Reflects local time
+local_datetime = dt.datetime.now(pytz.timezone("Asia/Singapore"))
 
 
 # Set headers to make HTTP request to seem to be from a normal browser

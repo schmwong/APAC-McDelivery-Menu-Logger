@@ -5,7 +5,12 @@ import datetime as dt
 import pytz
 import re
 
-local_datetime = pytz.timezone("Asia/Kuala_Lumpur").localize(dt.datetime.utcnow())
+
+# Reflects UTC time with offset indicator
+# local_datetime = pytz.timezone("Asia/Kuala_Lumpur").localize(dt.datetime.utcnow())
+
+# Reflects local time
+local_datetime = dt.datetime.now(pytz.timezone("Asia/Kuala_Lumpur"))
 
 
 # Set headers to make HTTP request to seem to be from a normal browser
