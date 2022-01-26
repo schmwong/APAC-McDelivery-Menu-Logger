@@ -9,7 +9,7 @@ from pathlib import Path # install pathlib2 instead of pathlib
 
 
 # Reflects local time
-local_datetime = dt.datetime.now(pytz.timezone("Asia/Jakarta"))
+local_datetime = dt.datetime.now(pytz.timezone("Asia/Ho_Chi_Minh"))
 
 
 # Set headers to make HTTP request to seem to be from a normal browser
@@ -30,7 +30,7 @@ session = r.Session()
 # --------------------------------------- #
 
 # Getting the correct XE webpage (all elements)
-XE = BS(session.get("https://www.xe.com/currencyconverter/convert/?Amount=1&From=IDR&To=USD", headers=my_headers).content, "lxml")
+XE = BS(session.get("https://www.xe.com/currencyconverter/convert/?Amount=1&From=VND&To=USD", headers=my_headers).content, "lxml")
 
 # Scraping the text from the selected element (CSS selector)
 # Extracting only the number from the text string and converting it to a float value (decimal number) 
@@ -43,8 +43,8 @@ exchange_rate = float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__
 # --------------------------------------- #
 
 start_URLs = [     
-    "https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=1&locale=en", # Regular Menu
-		"https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=2&locale=en"  # Breakfast Menu
+    "https://mcdelivery.vn/vn/browse/menu.html?daypartId=1&catId=1&locale=en", # Regular Menu
+		"https://mcdelivery.vn/vn/browse/menu.html?daypartId=2&catId=1&locale=en"  # Breakfast Menu
 ]
 
 # Populated by scraping href values of anchor tags
@@ -61,7 +61,7 @@ product_list = []
 # Outer loop iterates through first category page of each menu type to get links to subsequent categories
 for url in start_URLs:
 	first_page = BS(session.get(url, headers=my_headers).content,"lxml")
-	links = ("https://www.mcdelivery.co.id/id/browse/menu.html" + a["href"] + "&locale=en" for a in (first_page.select("li.secondary-menu-item:not([class*='selected']) a[href]")))
+	links = ("https://mcdelivery.vn/vn/browse/menu.html" + a["href"] + "&locale=en" for a in (first_page.select("li.secondary-menu-item:not([class*='selected']) a[href]")))
 	URL_list.extend(links)
 
 	# Inner loop scrapes the menu data from first category page
@@ -69,11 +69,11 @@ for url in start_URLs:
 		product = {}
 		product["Date"] = local_datetime.strftime("%Y/%m/%d")
 		product["Day"] = local_datetime.strftime("%a")
-		product["Territory"] = "Indonesia"
+		product["Territory"] = "Vietnam"
 		product["Menu Item"] = products.select("h5.product-title")[0].text
 		# Regex for currencies in large denominations with "," thousands separator
-		product["Price (IDR)"] = float((re.findall(r"[-+]?(?:\d*\,\d+|\d+)",products.select("span.starting-price")[0].text)[0]).replace(",", ""))
-		product["Price (USD)"] = round((product["Price (IDR)"] * exchange_rate), 2)
+		product["Price (VND)"] = float((re.findall(r"[-+]?(?:\d*\,\d+|\d+)",products.select("span.starting-price")[0].text)[0]).replace(",", ""))
+		product["Price (USD)"] = round((product["Price (VND)"] * exchange_rate), 2)
 		product["Category"] = first_page.select("ol.breadcrumb > li.active")[0].text
 		product["Menu"] = first_page.select("li.primary-menu-item.selected > a > span")[0].text
 		product_list.append(product)
@@ -88,11 +88,11 @@ for url in URL_list:
 		product = {}
 		product["Date"] = local_datetime.strftime("%Y/%m/%d")
 		product["Day"] = local_datetime.strftime("%a")
-		product["Territory"] = "Indonesia"
+		product["Territory"] = "Vietnam"
 		product["Menu Item"] = products.select("h5.product-title")[0].text
 		# Regex for currencies in large denominations with "," thousands separator
-		product["Price (IDR)"] = float((re.findall(r"[-+]?(?:\d*\,\d+|\d+)", products.select("span.starting-price")[0].text)[0]).replace(",", ""))
-		product["Price (USD)"] = round((product["Price (IDR)"] * exchange_rate), 2)
+		product["Price (VND)"] = float((re.findall(r"[-+]?(?:\d*\,\d+|\d+)", products.select("span.starting-price")[0].text)[0]).replace(",", ""))
+		product["Price (USD)"] = round((product["Price (VND)"] * exchange_rate), 2)
 		product["Category"] = next_page.select("ol.breadcrumb > li.active")[0].text
 		product["Menu"] = next_page.select("li.primary-menu-item.selected > a > span")[0].text
 		product_list.append(product)
@@ -110,7 +110,7 @@ print(product_list_df)
 
 timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
-output_file = str(timestamp + " mcd-bs4-id.csv")
+output_file = str(timestamp + " mcd-bs4-vn.csv")
 output_dir = Path("./scraped-data")
 
 # Create directory as required; won't raise an error if directory already exists
@@ -118,4 +118,4 @@ output_dir.mkdir(parents=True, exist_ok=True)
 
 product_list_df.to_csv((output_dir / output_file), float_format="%.2f", encoding="utf-8")
 
-# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-id.csv"
+# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-vn.csv"
