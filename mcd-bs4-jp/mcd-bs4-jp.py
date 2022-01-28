@@ -85,23 +85,23 @@ for url in start_URLs:
 		product_list.append(product)
 
 
-	# Second Inner For Loop iterates through list of generated URLs
-	for url in URL_list:
-		next_page = BS(session.get(url, headers=my_headers).content,"lxml")
+# Second Outer For Loop iterates through list of generated URLs
+for url in URL_list:
+	next_page = BS(session.get(url, headers=my_headers).content,"lxml")
 
-		# Nested Inner For Loop iterates through elements on all other pages
-		for products in next_page.select("div.product-card"):
-			product = {}
-			product["Date"] = local_datetime.strftime("%Y/%m/%d")
-			product["Day"] = local_datetime.strftime("%a")
-			product["Territory"] = "Japan"
-			product["Menu Item"] = products.select("h5.product-title")[0].text
-			details = (products.select("div.product-controls > a[onclick]")[0].attrs["onclick"]).split(",")
-			product["Price (JPY)"] = float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", details[2])[0])
-			product["Price (USD)"] = round((product["Price (JPY)"] * exchange_rate), 2)
-			product["Category"] = next_page.select("ol.breadcrumb > li.active")[0].text
-			product["Menu"] = next_page.select("li.primary-menu-item.selected > a > span")[0].text
-			product_list.append(product)
+	# Second Inner For Loop iterates through elements on all other pages
+	for products in next_page.select("div.product-card"):
+		product = {}
+		product["Date"] = local_datetime.strftime("%Y/%m/%d")
+		product["Day"] = local_datetime.strftime("%a")
+		product["Territory"] = "Japan"
+		product["Menu Item"] = products.select("h5.product-title")[0].text
+		details = (products.select("div.product-controls > a[onclick]")[0].attrs["onclick"]).split(",")
+		product["Price (JPY)"] = float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", details[2])[0])
+		product["Price (USD)"] = round((product["Price (JPY)"] * exchange_rate), 2)
+		product["Category"] = next_page.select("ol.breadcrumb > li.active")[0].text
+		product["Menu"] = next_page.select("li.primary-menu-item.selected > a > span")[0].text
+		product_list.append(product)
 
 
 # ---------------------------------------------------- #
