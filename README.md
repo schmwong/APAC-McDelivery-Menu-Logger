@@ -1,3 +1,3 @@
 ## McDelivery Menu Logger (APAC Region)
 
-Runs once every 24 hours.
+Each country is schdeuled to update its menu once every 24 hours.
