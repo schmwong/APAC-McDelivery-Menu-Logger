@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup as BS # only for parsing XE exchange rate
-import json
 import pandas as pd
 import datetime as dt
 import pytz
@@ -110,8 +109,8 @@ for id in category_id_list:
 			product["Territory"] = "India"
 			product["Menu Item"] = products["Title"].strip()
 			# Price value already as float type in JSON object
-			product["Price (IDR)"] = products["DiscountedPrice"]
-			product["Price (USD)"] = round((product["Price (IDR)"] * exchange_rate), 2)
+			product["Price (INR)"] = products["DiscountedPrice"]
+			product["Price (USD)"] = round((product["Price (INR)"] * exchange_rate), 2)
 			product["Category"] = products["CategoryName"]
 			if ("Breakfast" or "McBreakfast") in product["Category"]:
 				product["Menu"] = "Breakfast"
@@ -134,7 +133,7 @@ print(product_list_df)
 
 timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
-output_file = str(timestamp + " mcd-bs4-in.csv")
+output_file = str(timestamp + " mcd-req-in.csv")
 output_dir = Path("./scraped-data")
 
 # Create directory as required; won't raise an error if directory already exists
