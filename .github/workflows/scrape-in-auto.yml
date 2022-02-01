@@ -5,7 +5,7 @@ name: scrape-in-auto
 # Controls when the workflow will run
 on:
   schedule:
-          - cron: '33 21 * * *' # runs once a day at 21:33 UTC (03:33 IST)
+          - cron: '36 01 * * *' # runs once a day at 01:36 UTC (07:06 IST)
           
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,7 +26,6 @@ jobs:
             working-directory: ./mcd-req-in
             run: |
               pip install beautifulsoup4
-              pip install json
               pip install pandas
               pip install lxml
               pip install pytz
