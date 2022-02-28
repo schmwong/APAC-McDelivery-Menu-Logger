@@ -1,0 +1,335 @@
+,Date,Day,Territory,Menu Item,Price (INR),Price (USD),Category,Menu
+0,2022/02/28,Mon,India,Triple Cheese American Veg Burger,205.00,2.73,New Launches,Regular
+1,2022/02/28,Mon,India,McSpicy Premium Veg Burger,221.00,2.94,New Launches,Regular
+2,2022/02/28,Mon,India,Triple Cheese American Chicken Burger,231.00,3.08,New Launches,Regular
+3,2022/02/28,Mon,India,McSpicy Premium Chicken Burger,261.00,3.48,New Launches,Regular
+4,2022/02/28,Mon,India,McAloo Tikki Burger,49.00,0.65,Trending,Regular
+5,2022/02/28,Mon,India,McSpicy Chicken Burger,173.00,2.30,Trending,Regular
+6,2022/02/28,Mon,India,McChicken Burger,126.00,1.68,Trending,Regular
+7,2022/02/28,Mon,India,McVeggie Burger,121.00,1.61,Trending,Regular
+8,2022/02/28,Mon,India,Big Spicy Chicken Wrap,215.00,2.86,Trending,Regular
+9,2022/02/28,Mon,India,Filet-O-Fish Burger,153.00,2.04,Trending,Regular
+10,2022/02/28,Mon,India,Sausage & Egg McMuffin,122.00,1.62,Trending,Regular
+11,2022/02/28,Mon,India,Veg McMuffin,100.00,1.33,Trending,Regular
+12,2022/02/28,Mon,India,Sausage McMuffin,107.00,1.43,Trending,Regular
+13,2022/02/28,Mon,India,Egg & Cheese McMuffin,79.00,1.05,Trending,Regular
+14,2022/02/28,Mon,India,Piri Piri Spiced Chicken Burger + Fries (R),249.00,3.32,Deals,Regular
+15,2022/02/28,Mon,India,Piri Piri Spiced Veg Burger + Fries (R),249.00,3.32,Deals,Regular
+16,2022/02/28,Mon,India,Masala McEgg BOGO,53.00,0.71,Deals,Regular
+17,2022/02/28,Mon,India,McVeggie + McAloo Tikki Burger,133.00,1.77,Deals,Regular
+18,2022/02/28,Mon,India,Pizza Mc Puff + McSpicy Chicken,170.00,2.26,Deals,Regular
+19,2022/02/28,Mon,India,McAloo Tikki + Veg Pizza McPuff + Coke,135.00,1.80,Deals,Regular
+20,2022/02/28,Mon,India,Black Forest Mcflurry (M) BOGO,116.00,1.54,Deals,Regular
+21,2022/02/28,Mon,India,2 Iced Coffee,198.00,2.64,Deals,Regular
+22,2022/02/28,Mon,India,2 Cappuccino,198.00,2.64,Deals,Regular
+23,2022/02/28,Mon,India,Cappuccino (S) + Iced Coffee (S),198.00,2.64,Deals,Regular
+24,2022/02/28,Mon,India,McSaver McAloo Tikki Meal,189.00,2.52,Deals,Regular
+25,2022/02/28,Mon,India,McChicken + McSpicy Chicken Burger,282.00,3.76,Deals,Regular
+26,2022/02/28,Mon,India,2 McAloo Tikki + 2 Fries (L),310.00,4.13,Deals,Regular
+27,2022/02/28,Mon,India,McChicken + McVeggie + Fries (L) + 2 Veg Pizza McPuff + Coke,500.00,6.66,Deals,Regular
+28,2022/02/28,Mon,India,2 McSpicy Chicken + McNuggets 20 Pcs + Fries (L) + Coke,870.00,11.59,Deals,Regular
+29,2022/02/28,Mon,India,4 McAloo Tikki + 2 Fries (M) + 2 Coke,450.00,5.99,Deals,Regular
+30,2022/02/28,Mon,India,Freedom Veg Meal,542.00,7.22,Deals,Regular
+31,2022/02/28,Mon,India,Freedom Chicken Meal,625.00,8.32,Deals,Regular
+32,2022/02/28,Mon,India,2 McVeggie + 2 American Cheese Supreme Veg + 2 Fries (L),683.00,9.10,Deals,Regular
+33,2022/02/28,Mon,India,Veg Maharaja Mac + Chicken Maharaja Mac + Fries (L) + 2 Veg Pizza McPuff + Coke,681.00,9.07,Deals,Regular
+34,2022/02/28,Mon,India,2 McVeggie + 2 McAloo Tikki + 2 Fries (M) + 2 Strawberry Shakes,824.00,10.97,Deals,Regular
+35,2022/02/28,Mon,India,Cheese Lava American Chicken Burger,261.00,3.48,Gourmet Burgers,Regular
+36,2022/02/28,Mon,India,Triple Cheese American Veg Burger,205.00,2.73,Gourmet Burgers,Regular
+37,2022/02/28,Mon,India,McSpicy Premium Veg Burger,221.00,2.94,Gourmet Burgers,Regular
+38,2022/02/28,Mon,India,Piri Piri Spiced Veg Burger,231.00,3.08,Gourmet Burgers,Regular
+39,2022/02/28,Mon,India,Triple Cheese American Chicken Burger,231.00,3.08,Gourmet Burgers,Regular
+40,2022/02/28,Mon,India,Cheese Lava American Veg Burger,241.00,3.21,Gourmet Burgers,Regular
+41,2022/02/28,Mon,India,Piri Piri Spiced Chicken Burger,251.00,3.34,Gourmet Burgers,Regular
+42,2022/02/28,Mon,India,McSpicy Premium Chicken Burger,261.00,3.48,Gourmet Burgers,Regular
+43,2022/02/28,Mon,India,Chunky Chipotle American Chicken Burger,268.00,3.57,Gourmet Burgers,Regular
+44,2022/02/28,Mon,India,McSaver Triple Cheese American Veg Meal,320.00,4.26,Gourmet Burgers,Regular
+45,2022/02/28,Mon,India,McSaver McSpicy Premium Veg Meal,320.00,4.26,Gourmet Burgers,Regular
+46,2022/02/28,Mon,India,McSaver Triple Cheese American Chicken Meal,320.00,4.26,Gourmet Burgers,Regular
+47,2022/02/28,Mon,India,McSaver Piri Piri Spiced Veg Burger Meal,320.00,4.26,Gourmet Burgers,Regular
+48,2022/02/28,Mon,India,McSaver Cheese Lava American Veg Meal,320.00,4.26,Gourmet Burgers,Regular
+49,2022/02/28,Mon,India,McSaver Piri Piri Spiced Chicken Burger Meal,320.00,4.26,Gourmet Burgers,Regular
+50,2022/02/28,Mon,India,McSaver McSpicy Premium Chicken Meal,320.00,4.26,Gourmet Burgers,Regular
+51,2022/02/28,Mon,India,McSaver Cheese Lava American Chicken Meal,320.00,4.26,Gourmet Burgers,Regular
+52,2022/02/28,Mon,India,McSaver Chunky Chipotle American Chicken Meal,320.00,4.26,Gourmet Burgers,Regular
+53,2022/02/28,Mon,India,Piri Piri Spiced Chicken Burger + Fries (R),249.00,3.32,Gourmet Burger Meal,Regular
+54,2022/02/28,Mon,India,Piri Piri Spiced Veg Burger + Fries (R),249.00,3.32,Gourmet Burger Meal,Regular
+55,2022/02/28,Mon,India,McSaver Triple Cheese American Veg Meal,320.00,4.26,Gourmet Burger Meal,Regular
+56,2022/02/28,Mon,India,McSaver McSpicy Premium Veg Meal,320.00,4.26,Gourmet Burger Meal,Regular
+57,2022/02/28,Mon,India,McSaver Piri Piri Spiced Veg Burger Meal,320.00,4.26,Gourmet Burger Meal,Regular
+58,2022/02/28,Mon,India,McSaver Triple Cheese American Chicken Meal,320.00,4.26,Gourmet Burger Meal,Regular
+59,2022/02/28,Mon,India,McSaver Cheese Lava American Veg Meal,320.00,4.26,Gourmet Burger Meal,Regular
+60,2022/02/28,Mon,India,McSaver Piri Piri Spiced Chicken Burger Meal,320.00,4.26,Gourmet Burger Meal,Regular
+61,2022/02/28,Mon,India,McSaver McSpicy Premium Chicken Meal,320.00,4.26,Gourmet Burger Meal,Regular
+62,2022/02/28,Mon,India,McSaver Cheese Lava American Chicken Meal,320.00,4.26,Gourmet Burger Meal,Regular
+63,2022/02/28,Mon,India,McSaver Chunky Chipotle American Chicken Meal,320.00,4.26,Gourmet Burger Meal,Regular
+64,2022/02/28,Mon,India,2 Coke (R),104.00,1.39,McSavers,Regular
+65,2022/02/28,Mon,India,2 Fries (R),105.00,1.40,McSavers,Regular
+66,2022/02/28,Mon,India,2 Soft Serve Hot Fudge (M),156.00,2.08,McSavers,Regular
+67,2022/02/28,Mon,India,2 McFlurry Oreo (S),156.00,2.08,McSavers,Regular
+68,2022/02/28,Mon,India,2 McVeggie Burger,156.00,2.08,McSavers,Regular
+69,2022/02/28,Mon,India,2 Coke,156.00,2.08,McSavers,Regular
+70,2022/02/28,Mon,India,Masala McEgg BOGO,53.00,0.71,VDAY Special Combos ,Regular
+71,2022/02/28,Mon,India,2 Fries (R),105.00,1.40,VDAY Special Combos ,Regular
+72,2022/02/28,Mon,India,2 (6 Pc Nuggets) + Coke,257.00,3.42,VDAY Special Combos ,Regular
+73,2022/02/28,Mon,India,2 Soft Serve Hot Fudge (M),156.00,2.08,VDAY Special Combos ,Regular
+74,2022/02/28,Mon,India,2 McFlurry Oreo (S),156.00,2.08,VDAY Special Combos ,Regular
+75,2022/02/28,Mon,India,2 McVeggie Burger,156.00,2.08,VDAY Special Combos ,Regular
+76,2022/02/28,Mon,India,2 Coke,156.00,2.08,VDAY Special Combos ,Regular
+77,2022/02/28,Mon,India,Pizza Mc Puff + McSpicy Chicken,170.00,2.26,VDAY Special Combos ,Regular
+78,2022/02/28,Mon,India,Black Forest Mcflurry (M) BOGO,116.00,1.54,VDAY Special Combos ,Regular
+79,2022/02/28,Mon,India,2 Iced Coffee,198.00,2.64,VDAY Special Combos ,Regular
+80,2022/02/28,Mon,India,2 Cappuccino,198.00,2.64,VDAY Special Combos ,Regular
+81,2022/02/28,Mon,India,Cappuccino (S) + Iced Coffee (S),198.00,2.64,VDAY Special Combos ,Regular
+82,2022/02/28,Mon,India,2 McAloo Tikki + 2 Fries (L),310.00,4.13,VDAY Special Combos ,Regular
+83,2022/02/28,Mon,India,2 McSpicy Chicken + McNuggets 20 Pcs + Fries (L) + Coke,870.00,11.59,VDAY Special Combos ,Regular
+84,2022/02/28,Mon,India,2 American Cheese Supreme Veg + 2 Veg Pizza McPuff + 2 Fries (L) + Coke,667.00,8.88,VDAY Special Combos ,Regular
+85,2022/02/28,Mon,India,2 McVeggie + 2 American Cheese Supreme Veg + 2 Fries (L),683.00,9.10,VDAY Special Combos ,Regular
+86,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + Chicken McNuggets 6 Pc + 2 Fries (L) + Coke,710.00,9.46,VDAY Special Combos ,Regular
+87,2022/02/28,Mon,India,Veg Maharaja Mac + Chicken Maharaja Mac + Fries (L) + 2 Veg Pizza McPuff + Coke,681.00,9.07,VDAY Special Combos ,Regular
+88,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + 2 Fries (L) + 2 Chocolate Shakes,856.00,11.40,VDAY Special Combos ,Regular
+89,2022/02/28,Mon,India,2 McVeggie + 2 McAloo Tikki + 2 Fries (M) + 2 Strawberry Shakes,824.00,10.97,VDAY Special Combos ,Regular
+90,2022/02/28,Mon,India,2 McSpicy Chicken + 2 Fries (L) + 2 Chocolate Shakes,908.00,12.09,VDAY Special Combos ,Regular
+91,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + McChicken + Chicken Maharaja Mac + 3 Fries (L),929.00,12.37,VDAY Special Combos ,Regular
+92,2022/02/28,Mon,India,Filet-O-Fish Burger,153.00,2.04,Recommended,Regular
+93,2022/02/28,Mon,India,McSpicy Chicken Burger,173.00,2.30,Recommended,Regular
+94,2022/02/28,Mon,India,American Mud Pie,184.00,2.45,Recommended,Regular
+95,2022/02/28,Mon,India,McSaver American Cheese Supreme - Veg Meal,257.00,3.42,Recommended,Regular
+96,2022/02/28,Mon,India,McSaver American Cheese Supreme - Chicken Meal,275.00,3.66,Recommended,Regular
+97,2022/02/28,Mon,India,McSaver Big Spicy Chicken Wrap Meal,356.00,4.74,Recommended,Regular
+98,2022/02/28,Mon,India,McSpicy Chicken + American Cheese Supreme + McChicken + Chicken Maharaja + 3 Fries (L),982.00,13.08,Recommended,Regular
+99,2022/02/28,Mon,India,Hashbrown,42.00,0.56,McBreakfast,Breakfast
+100,2022/02/28,Mon,India,Double Cheese McMuffin,75.00,1.00,McBreakfast,Breakfast
+101,2022/02/28,Mon,India,Egg & Cheese McMuffin,79.00,1.05,McBreakfast,Breakfast
+102,2022/02/28,Mon,India,Spicy Egg McMuffin,89.00,1.19,McBreakfast,Breakfast
+103,2022/02/28,Mon,India,Veg McMuffin,100.00,1.33,McBreakfast,Breakfast
+104,2022/02/28,Mon,India,Sausage McMuffin,107.00,1.43,McBreakfast,Breakfast
+105,2022/02/28,Mon,India,Hot Cakes With Maple Syrup,116.00,1.54,McBreakfast,Breakfast
+106,2022/02/28,Mon,India,Sausage & Egg McMuffin,122.00,1.62,McBreakfast,Breakfast
+107,2022/02/28,Mon,India,2 McAloo Tikki + 2 Fries (L),310.00,4.13,Stay Home Combos,Regular
+108,2022/02/28,Mon,India,McChicken + McVeggie + Fries (L) + 2 Veg Pizza McPuff + Coke,500.00,6.66,Stay Home Combos,Regular
+109,2022/02/28,Mon,India,2 McSpicy Chicken + McNuggets 20 Pcs + Fries (L) + Coke,870.00,11.59,Stay Home Combos,Regular
+110,2022/02/28,Mon,India,4 McAloo Tikki + 2 Fries (M) + 2 Coke,450.00,5.99,Stay Home Combos,Regular
+111,2022/02/28,Mon,India,McSpicy Paneer + McSpicy Chicken + 2 Fries (L) + Coke,641.00,8.54,Stay Home Combos,Regular
+112,2022/02/28,Mon,India,2 American Cheese Supreme Veg + 2 Veg Pizza McPuff + 2 Fries (L) + Coke,667.00,8.88,Stay Home Combos,Regular
+113,2022/02/28,Mon,India,2 McAloo Tikki + 2 American Veg + 2 Fries (M) + 2 Coke,681.00,9.07,Stay Home Combos,Regular
+114,2022/02/28,Mon,India,2 McVeggie + 2 American Cheese Supreme Veg + 2 Fries (L),683.00,9.10,Stay Home Combos,Regular
+115,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + Chicken McNuggets 6 Pc + 2 Fries (L) + Coke,710.00,9.46,Stay Home Combos,Regular
+116,2022/02/28,Mon,India,Veg Maharaja Mac + Chicken Maharaja Mac + Fries (L) + 2 Veg Pizza McPuff + Coke,681.00,9.07,Stay Home Combos,Regular
+117,2022/02/28,Mon,India,2 McSpicy Paneer + 2 Veg Pizza McPuff + 2 Fries (L) + Coke (M),697.00,9.28,Stay Home Combos,Regular
+118,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + 2 Fries (L) + 2 Chocolate Shakes,856.00,11.40,Stay Home Combos,Regular
+119,2022/02/28,Mon,India,2 McVeggie + 2 McAloo Tikki + 2 Fries (M) + 2 Strawberry Shakes,824.00,10.97,Stay Home Combos,Regular
+120,2022/02/28,Mon,India,2 McVeggie + 2 McAloo Tikki + 2 Fries (M) + 2 Chocolate Shakes,824.00,10.97,Stay Home Combos,Regular
+121,2022/02/28,Mon,India,2 McSpicy Chicken + 2 Fries (L) + 2 Chocolate Shakes,908.00,12.09,Stay Home Combos,Regular
+122,2022/02/28,Mon,India,4 American Cheese Supreme Veg + 2 Fries (M) + 2 Coke,830.00,11.05,Stay Home Combos,Regular
+123,2022/02/28,Mon,India,4 American Cheese Supreme Chicken + 2 Fries (M) + 2 Coke,898.00,11.96,Stay Home Combos,Regular
+124,2022/02/28,Mon,India,McSpicy Paneer + American Cheese Supreme + McVeggie + Veg Maharaja + 3 Fries (L),900.00,11.99,Stay Home Combos,Regular
+125,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + McChicken + Chicken Maharaja Mac + 3 Fries (L),929.00,12.37,Stay Home Combos,Regular
+126,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + 2 McChicken + 4 Fries (L),950.00,12.65,Stay Home Combos,Regular
+127,2022/02/28,Mon,India,McSpicy Chicken + American Cheese Supreme + McChicken + Chicken Maharaja + 3 Fries (L),982.00,13.08,Stay Home Combos,Regular
+128,2022/02/28,Mon,India,Veg McMuffin 2 Pc Meal,215.00,2.86,McBreakfast Meals,Breakfast
+129,2022/02/28,Mon,India,Sausage McMuffin 2 pc Meal,226.00,3.01,McBreakfast Meals,Breakfast
+130,2022/02/28,Mon,India,Hot Cake 2 Pc Meal,231.00,3.08,McBreakfast Meals,Breakfast
+131,2022/02/28,Mon,India,Double Cheese McMuffin 3 Pc Meal with Cappuccino (S),194.00,2.58,McBreakfast Meals,Breakfast
+132,2022/02/28,Mon,India,Egg & Cheese McMuffin 3 Pc Meal,215.00,2.86,McBreakfast Meals,Breakfast
+133,2022/02/28,Mon,India,Sausage & Egg McMuffin 2 pc Meal,237.00,3.16,McBreakfast Meals,Breakfast
+134,2022/02/28,Mon,India,Spicy Egg McMuffin 3 Pc Meal with Cappuccino (S),205.00,2.73,McBreakfast Meals,Breakfast
+135,2022/02/28,Mon,India,Veg McMuffin 3 Pc Meal,236.00,3.14,McBreakfast Meals,Breakfast
+136,2022/02/28,Mon,India,Sausage McMuffin 3 Pc Meal,244.00,3.25,McBreakfast Meals,Breakfast
+137,2022/02/28,Mon,India,Hot Cake 3 Pc Meal,247.00,3.29,McBreakfast Meals,Breakfast
+138,2022/02/28,Mon,India,Sausage with Egg McMuffin 3 Pc Meal,257.00,3.42,McBreakfast Meals,Breakfast
+139,2022/02/28,Mon,India,McAloo Tikki Meal ( R ),163.00,2.17,Meals,Regular
+140,2022/02/28,Mon,India,McSaver Chicken McNuggets 6 Pcs Meal,293.00,3.90,Meals,Regular
+141,2022/02/28,Mon,India,Masala McEgg Meal (R),149.00,1.98,Meals,Regular
+142,2022/02/28,Mon,India,Mexican McAloo Tikki Meal (R),170.00,2.26,Meals,Regular
+143,2022/02/28,Mon,India,McSaver Chicken McNuggets 9 Pcs Meal,326.00,4.34,Meals,Regular
+144,2022/02/28,Mon,India,Chicken McNuggets Piri Piri 6 Pcs Meal ( M ),308.00,4.10,Meals,Regular
+145,2022/02/28,Mon,India,Chicken McNuggets 6 Pcs Meal ( L ),313.00,4.17,Meals,Regular
+146,2022/02/28,Mon,India,McSaver McAloo Tikki Meal,189.00,2.52,Meals,Regular
+147,2022/02/28,Mon,India,McSaver Masala McEgg Meal,177.00,2.36,Meals,Regular
+148,2022/02/28,Mon,India,Chicken McNuggets Piri Piri 9 Pcs Meal ( M ),345.00,4.59,Meals,Regular
+149,2022/02/28,Mon,India,Chicken McNuggets 9 Pcs Meal ( L ),349.00,4.65,Meals,Regular
+150,2022/02/28,Mon,India,McSaver Mexican McAloo Tikki Meal,194.00,2.58,Meals,Regular
+151,2022/02/28,Mon,India,Chicken McNuggets Piri Piri 6 Pcs Meal ( L ),337.00,4.49,Meals,Regular
+152,2022/02/28,Mon,India,McAloo Tikki Meal ( L ),211.00,2.81,Meals,Regular
+153,2022/02/28,Mon,India,Masala McEgg Meal (L),194.00,2.58,Meals,Regular
+154,2022/02/28,Mon,India,Hot Cake 2 Pc Meal,231.00,3.08,Meals,Regular
+155,2022/02/28,Mon,India,Chicken McNuggets Piri Piri 9 Pcs Meal ( L ),374.00,4.98,Meals,Regular
+156,2022/02/28,Mon,India,McVeggie Meal ( R ),223.00,2.97,Meals,Regular
+157,2022/02/28,Mon,India,Mexican McAloo Tikki Meal (L),218.00,2.90,Meals,Regular
+158,2022/02/28,Mon,India,McSaver Chicken Kebab Burger Meal,226.00,3.01,Meals,Regular
+159,2022/02/28,Mon,India,McChicken Meal ( R ),238.00,3.17,Meals,Regular
+160,2022/02/28,Mon,India,American Cheese Supreme - Veg Meal (R),238.00,3.17,Meals,Regular
+161,2022/02/28,Mon,India,American Cheese Supreme - Chicken Meal (R),256.00,3.41,Meals,Regular
+162,2022/02/28,Mon,India,Chicken Kebab Burger Meal (L),247.00,3.29,Meals,Regular
+163,2022/02/28,Mon,India,McSaver McVeggie Meal,252.00,3.36,Meals,Regular
+164,2022/02/28,Mon,India,McSaver McChicken Meal,263.00,3.50,Meals,Regular
+165,2022/02/28,Mon,India,McSaver American Cheese Supreme - Veg Meal,257.00,3.42,Meals,Regular
+166,2022/02/28,Mon,India,McSpicy Chicken Meal ( R ),286.00,3.81,Meals,Regular
+167,2022/02/28,Mon,India,McSaver American Cheese Supreme - Chicken Meal,275.00,3.66,Meals,Regular
+168,2022/02/28,Mon,India,McVeggie Meal ( L ),271.00,3.61,Meals,Regular
+169,2022/02/28,Mon,India,McSaver Filet-O-Fish Meal,294.00,3.92,Meals,Regular
+170,2022/02/28,Mon,India,McChicken Meal ( L ),286.00,3.81,Meals,Regular
+171,2022/02/28,Mon,India,American Cheese Supreme - Veg Meal (L),286.00,3.81,Meals,Regular
+172,2022/02/28,Mon,India,Big Spicy Paneer Wrap Meal (R),318.00,4.24,Meals,Regular
+173,2022/02/28,Mon,India,McSaver McSpicy Chicken Meal,314.00,4.18,Meals,Regular
+174,2022/02/28,Mon,India,McSaver McSpicy Paneer Meal,314.00,4.18,Meals,Regular
+175,2022/02/28,Mon,India,American Cheese Supreme - Chicken Meal (L),304.00,4.05,Meals,Regular
+176,2022/02/28,Mon,India,Big Spicy Chicken Wrap Meal ( R ),329.00,4.38,Meals,Regular
+177,2022/02/28,Mon,India,Filet-O-Fish Meal ( L ),315.00,4.20,Meals,Regular
+178,2022/02/28,Mon,India,Veg Maharaja Mac Meal (R),318.00,4.24,Meals,Regular
+179,2022/02/28,Mon,India,Chicken Maharaja Mac Meal (R),329.00,4.38,Meals,Regular
+180,2022/02/28,Mon,India,McSpicy Paneer Meal ( L ),329.00,4.38,Meals,Regular
+181,2022/02/28,Mon,India,McSpicy Chicken Meal ( L ),334.00,4.45,Meals,Regular
+182,2022/02/28,Mon,India,McSaver Big Spicy Paneer Wrap Meal,347.00,4.62,Meals,Regular
+183,2022/02/28,Mon,India,McSaver Triple Cheese American Veg Meal,320.00,4.26,Meals,Regular
+184,2022/02/28,Mon,India,McSaver Big Spicy Chicken Wrap Meal,356.00,4.74,Meals,Regular
+185,2022/02/28,Mon,India,McSaver Veg Maharaja Mac Meal,347.00,4.62,Meals,Regular
+186,2022/02/28,Mon,India,McSaver McSpicy Premium Veg Meal,320.00,4.26,Meals,Regular
+187,2022/02/28,Mon,India,McSaver Triple Cheese American Chicken Meal,320.00,4.26,Meals,Regular
+188,2022/02/28,Mon,India,McSaver Piri Piri Spiced Veg Burger Meal,320.00,4.26,Meals,Regular
+189,2022/02/28,Mon,India,McSaver Chicken Maharaja Mac Meal,356.00,4.74,Meals,Regular
+190,2022/02/28,Mon,India,Big Spicy Paneer Wrap Meal (L),366.00,4.87,Meals,Regular
+191,2022/02/28,Mon,India,McSaver Cheese Lava American Veg Meal,320.00,4.26,Meals,Regular
+192,2022/02/28,Mon,India,Big Spicy Chicken Wrap Meal ( L ),377.00,5.02,Meals,Regular
+193,2022/02/28,Mon,India,Veg Maharaja Mac Meal (L),366.00,4.87,Meals,Regular
+194,2022/02/28,Mon,India,McSaver Piri Piri Spiced Chicken Burger Meal,320.00,4.26,Meals,Regular
+195,2022/02/28,Mon,India,Chicken Maharaja Mac Meal (L),377.00,5.02,Meals,Regular
+196,2022/02/28,Mon,India,McSaver McSpicy Premium Chicken Meal,320.00,4.26,Meals,Regular
+197,2022/02/28,Mon,India,McSaver Cheese Lava American Chicken Meal,320.00,4.26,Meals,Regular
+198,2022/02/28,Mon,India,McSaver Chunky Chipotle American Chicken Meal,320.00,4.26,Meals,Regular
+199,2022/02/28,Mon,India,Freedom Veg Meal,542.00,7.22,Meals,Regular
+200,2022/02/28,Mon,India,Freedom Chicken Meal,625.00,8.32,Meals,Regular
+201,2022/02/28,Mon,India,McEgg Happy Meal,209.00,2.78,Happy Meals,Regular
+202,2022/02/28,Mon,India,McAloo Tikki Happy Meal,209.00,2.78,Happy Meals,Regular
+203,2022/02/28,Mon,India,McVeggie Happy Meal,264.00,3.52,Happy Meals,Regular
+204,2022/02/28,Mon,India,McChicken Happy Meal,284.00,3.78,Happy Meals,Regular
+205,2022/02/28,Mon,India,Birthday Party Package - McVeggie,2160.00,28.77,Happy Meals,Regular
+206,2022/02/28,Mon,India,Birthday Party Package - McChicken,2160.00,28.77,Happy Meals,Regular
+207,2022/02/28,Mon,India,McAloo Tikki + Veg Pizza McPuff + Coke,135.00,1.80,Family Meals,Regular
+208,2022/02/28,Mon,India,American Cheese Supreme Chicken + 6 Pc Nuggets + Coke,273.00,3.64,Family Meals,Regular
+209,2022/02/28,Mon,India,Ultimate Match Day Combo,592.00,7.88,Family Meals,Regular
+210,2022/02/28,Mon,India,2 McAloo Tikki + 2 Fries (L),310.00,4.13,Family Meals,Regular
+211,2022/02/28,Mon,India,McChicken + McVeggie + Fries (L) + 2 Veg Pizza McPuff + Coke,500.00,6.66,Family Meals,Regular
+212,2022/02/28,Mon,India,4 McAloo Tikki + 2 Fries (M) + 2 Coke,450.00,5.99,Family Meals,Regular
+213,2022/02/28,Mon,India,2 American Cheese Supreme Veg + 2 Veg Pizza McPuff + 2 Fries (L) + Coke,667.00,8.88,Family Meals,Regular
+214,2022/02/28,Mon,India,2 McVeggie + 2 American Cheese Supreme Veg + 2 Fries (L),683.00,9.10,Family Meals,Regular
+215,2022/02/28,Mon,India,2 American Cheese Supreme Chicken + Chicken McNuggets 6 Pc + 2 Fries (L) + Coke,710.00,9.46,Family Meals,Regular
+216,2022/02/28,Mon,India,Veg Maharaja Mac + Chicken Maharaja Mac + Fries (L) + 2 Veg Pizza McPuff + Coke,681.00,9.07,Family Meals,Regular
+217,2022/02/28,Mon,India,2 McSpicy Paneer + 2 Veg Pizza McPuff + 2 Fries (L) + Coke (M),697.00,9.28,Family Meals,Regular
+218,2022/02/28,Mon,India,4 American Cheese Supreme Veg + 2 Fries (M) + 2 Coke,830.00,11.05,Family Meals,Regular
+219,2022/02/28,Mon,India,4 American Cheese Supreme Chicken + 2 Fries (M) + 2 Coke,898.00,11.96,Family Meals,Regular
+220,2022/02/28,Mon,India,McSpicy Paneer + American Cheese Supreme + McVeggie + Veg Maharaja + 3 Fries (L),900.00,11.99,Family Meals,Regular
+221,2022/02/28,Mon,India,McSpicy Chicken + American Cheese Supreme + McChicken + Chicken Maharaja + 3 Fries (L),982.00,13.08,Family Meals,Regular
+222,2022/02/28,Mon,India,McAloo Tikki Burger,49.00,0.65,Burgers & Wraps,Regular
+223,2022/02/28,Mon,India,Masala McEgg Burger,53.00,0.71,Burgers & Wraps,Regular
+224,2022/02/28,Mon,India,Mexican McAloo Tikki Burger,58.00,0.77,Burgers & Wraps,Regular
+225,2022/02/28,Mon,India,Chicken Kebab Burger,85.00,1.13,Burgers & Wraps,Regular
+226,2022/02/28,Mon,India,McVeggie Burger,121.00,1.61,Burgers & Wraps,Regular
+227,2022/02/28,Mon,India,McChicken Burger,126.00,1.68,Burgers & Wraps,Regular
+228,2022/02/28,Mon,India,American Cheese Supreme - Veg,131.00,1.74,Burgers & Wraps,Regular
+229,2022/02/28,Mon,India,American Cheese Supreme - Chicken,146.00,1.94,Burgers & Wraps,Regular
+230,2022/02/28,Mon,India,Filet-O-Fish Burger,153.00,2.04,Burgers & Wraps,Regular
+231,2022/02/28,Mon,India,McSpicy Paneer Burger,173.00,2.30,Burgers & Wraps,Regular
+232,2022/02/28,Mon,India,McSpicy Chicken Burger,173.00,2.30,Burgers & Wraps,Regular
+233,2022/02/28,Mon,India,Big Spicy Paneer Wrap,205.00,2.73,Burgers & Wraps,Regular
+234,2022/02/28,Mon,India,Big Spicy Chicken Wrap,215.00,2.86,Burgers & Wraps,Regular
+235,2022/02/28,Mon,India,Veg Maharaja Mac,221.00,2.94,Burgers & Wraps,Regular
+236,2022/02/28,Mon,India,Chicken Maharaja Mac,231.00,3.08,Burgers & Wraps,Regular
+237,2022/02/28,Mon,India,Tomato Ketchup Sachet,1.00,0.01,Fries & Sides,Regular
+238,2022/02/28,Mon,India,Chilli Sauce Sachet,2.00,0.03,Fries & Sides,Regular
+239,2022/02/28,Mon,India,Barbeque Sauce,15.00,0.20,Fries & Sides,Regular
+240,2022/02/28,Mon,India,Mustard Sauce,15.00,0.20,Fries & Sides,Regular
+241,2022/02/28,Mon,India,Chicken McNuggets - 6 Pcs,152.00,2.02,Fries & Sides,Regular
+242,2022/02/28,Mon,India,Piri Piri Spice Mix,23.00,0.31,Fries & Sides,Regular
+243,2022/02/28,Mon,India,Chicken McNuggets - 9 Pcs,189.00,2.52,Fries & Sides,Regular
+244,2022/02/28,Mon,India,Chicken McNuggets Piri Piri ( 6 pc),175.00,2.33,Fries & Sides,Regular
+245,2022/02/28,Mon,India,Chicken McNuggets - 20 Pcs,336.00,4.48,Fries & Sides,Regular
+246,2022/02/28,Mon,India,Masala Wedges (R),47.00,0.63,Fries & Sides,Regular
+247,2022/02/28,Mon,India,Veg Pizza McPuff,47.00,0.63,Fries & Sides,Regular
+248,2022/02/28,Mon,India,Chicken McNuggets Piri Piri ( 9 pc),212.00,2.82,Fries & Sides,Regular
+249,2022/02/28,Mon,India,Fries (R),68.00,0.91,Fries & Sides,Regular
+250,2022/02/28,Mon,India,Classic Corn Cup,75.00,1.00,Fries & Sides,Regular
+251,2022/02/28,Mon,India,Chicken Strips (2 Pc),84.00,1.12,Fries & Sides,Regular
+252,2022/02/28,Mon,India,Chicken McNuggets Piri Piri ( 20 pc),360.00,4.79,Fries & Sides,Regular
+253,2022/02/28,Mon,India,Fries (M),100.00,1.33,Fries & Sides,Regular
+254,2022/02/28,Mon,India,Masala Wedges (M),101.00,1.35,Fries & Sides,Regular
+255,2022/02/28,Mon,India,Cheesy Nugget - Veg Bites - 9 pc,116.00,1.54,Fries & Sides,Regular
+256,2022/02/28,Mon,India,Fries (L),117.00,1.56,Fries & Sides,Regular
+257,2022/02/28,Mon,India,Masala Wedges (L),121.00,1.61,Fries & Sides,Regular
+258,2022/02/28,Mon,India,Chicken Strips (3 Pc),125.00,1.66,Fries & Sides,Regular
+259,2022/02/28,Mon,India,Mexican cheesy fries,128.00,1.70,Fries & Sides,Regular
+260,2022/02/28,Mon,India,Loaded Masala Wedges,131.00,1.74,Fries & Sides,Regular
+261,2022/02/28,Mon,India,Chicken Strips (5 Pc),200.00,2.66,Fries & Sides,Regular
+262,2022/02/28,Mon,India,Mcflurry Oreo Small,84.00,1.12,Desserts,Regular
+263,2022/02/28,Mon,India,Soft Serve Hot Fudge (M),89.00,1.19,Desserts,Regular
+264,2022/02/28,Mon,India,Soft Serve Strawberry (M),89.00,1.19,Desserts,Regular
+265,2022/02/28,Mon,India,Black Forest McFlurry Medium,105.00,1.40,Desserts,Regular
+266,2022/02/28,Mon,India,Vanilla Chocolate Muffin,112.00,1.49,Desserts,Regular
+267,2022/02/28,Mon,India,McFlurry Oreo Medium,112.00,1.49,Desserts,Regular
+268,2022/02/28,Mon,India,Brownie Hot Fudge (M),117.00,1.56,Desserts,Regular
+269,2022/02/28,Mon,India,Chocolate Chip Muffin,121.00,1.61,Desserts,Regular
+270,2022/02/28,Mon,India,Black Forest Mcflurry (M) BOGO,116.00,1.54,Desserts,Regular
+271,2022/02/28,Mon,India,Vedica Zen Water Bottle,50.00,0.67,Beverages,Regular
+272,2022/02/28,Mon,India,Coke zero can,60.00,0.80,Beverages,Regular
+273,2022/02/28,Mon,India,Mixed Fruit Beverage,70.00,0.93,Beverages,Regular
+274,2022/02/28,Mon,India,Sprite (R),79.00,1.05,Beverages,Regular
+275,2022/02/28,Mon,India,Fanta (R),79.00,1.05,Beverages,Regular
+276,2022/02/28,Mon,India,Coke (R),79.00,1.05,Beverages,Regular
+277,2022/02/28,Mon,India,Sprite,85.00,1.13,Beverages,Regular
+278,2022/02/28,Mon,India,Coke,85.00,1.13,Beverages,Regular
+279,2022/02/28,Mon,India,Fanta,85.00,1.13,Beverages,Regular
+280,2022/02/28,Mon,India,Fanta (L),96.00,1.28,Beverages,Regular
+281,2022/02/28,Mon,India,Coke (L),96.00,1.28,Beverages,Regular
+282,2022/02/28,Mon,India,Sprite (L),96.00,1.28,Beverages,Regular
+283,2022/02/28,Mon,India,Berry Lemonade Splash Regular,113.00,1.50,Beverages,Regular
+284,2022/02/28,Mon,India,Raw Mango Fruit Splash Regular,113.00,1.50,Beverages,Regular
+285,2022/02/28,Mon,India,Masala Kadak Chai,113.00,1.50,Beverages,Regular
+286,2022/02/28,Mon,India,Mccafe Iced Americano,149.00,1.98,Beverages,Regular
+287,2022/02/28,Mon,India,Chocolate Shake,151.00,2.01,Beverages,Regular
+288,2022/02/28,Mon,India,Strawberry Shake,151.00,2.01,Beverages,Regular
+289,2022/02/28,Mon,India,Lemon Chiller,155.00,2.06,Beverages,Regular
+290,2022/02/28,Mon,India,Strawberry Chiller,155.00,2.06,Beverages,Regular
+291,2022/02/28,Mon,India,Green Apple Chiller,155.00,2.06,Beverages,Regular
+292,2022/02/28,Mon,India,Turmeric Latte,161.00,2.14,Beverages,Regular
+293,2022/02/28,Mon,India,McCafe-Ice Coffee,171.00,2.28,Beverages,Regular
+294,2022/02/28,Mon,India,Mixed Berry Smoothie,184.00,2.45,Beverages,Regular
+295,2022/02/28,Mon,India,Mango Smoothie,184.00,2.45,Beverages,Regular
+296,2022/02/28,Mon,India,McCafe-Classic Coffee,201.00,2.68,Beverages,Regular
+297,2022/02/28,Mon,India,McCafe-Mocha Frappe,243.00,3.24,Beverages,Regular
+298,2022/02/28,Mon,India,McCafe-Chocolate Frappe,247.00,3.29,Beverages,Regular
+299,2022/02/28,Mon,India,Masala Kadak Chai,113.00,1.50,Keep It Hot,Regular
+300,2022/02/28,Mon,India,Strawberry Green Tea (S),130.00,1.73,Keep It Hot,Regular
+301,2022/02/28,Mon,India,English Breakfast,138.00,1.84,Keep It Hot,Regular
+302,2022/02/28,Mon,India,McCafe Americano (S),141.00,1.88,Keep It Hot,Regular
+303,2022/02/28,Mon,India,Latte (S),149.00,1.98,Keep It Hot,Regular
+304,2022/02/28,Mon,India,Cappuccino (S),150.00,2.00,Keep It Hot,Regular
+305,2022/02/28,Mon,India,Flat White,155.00,2.06,Keep It Hot,Regular
+306,2022/02/28,Mon,India,Hot Chocolate (S),161.00,2.14,Keep It Hot,Regular
+307,2022/02/28,Mon,India,Turmeric Latte,161.00,2.14,Keep It Hot,Regular
+308,2022/02/28,Mon,India,Moroccan Mint Green Tea,165.00,2.20,Keep It Hot,Regular
+309,2022/02/28,Mon,India,Cappuccino (R),177.00,2.36,Keep It Hot,Regular
+310,2022/02/28,Mon,India,Latte (R),178.00,2.37,Keep It Hot,Regular
+311,2022/02/28,Mon,India,McCafe Americano (R),178.00,2.37,Keep It Hot,Regular
+312,2022/02/28,Mon,India,Mocha (S),184.00,2.45,Keep It Hot,Regular
+313,2022/02/28,Mon,India,Hot Chocolate (R),190.00,2.53,Keep It Hot,Regular
+314,2022/02/28,Mon,India,2 Cappuccino,198.00,2.64,Keep It Hot,Regular
+315,2022/02/28,Mon,India,Mocha (R),212.00,2.82,Keep It Hot,Regular
+316,2022/02/28,Mon,India,Raw Mango Fruit Splash Regular,113.00,1.50,Keep It Chill,Regular
+317,2022/02/28,Mon,India,Berry Lemonade Splash Regular,113.00,1.50,Keep It Chill,Regular
+318,2022/02/28,Mon,India,Mccafe Iced Americano,149.00,1.98,Keep It Chill,Regular
+319,2022/02/28,Mon,India,Strawberry Shake,151.00,2.01,Keep It Chill,Regular
+320,2022/02/28,Mon,India,Chocolate Shake,151.00,2.01,Keep It Chill,Regular
+321,2022/02/28,Mon,India,Lemon Chiller,155.00,2.06,Keep It Chill,Regular
+322,2022/02/28,Mon,India,Green Apple Chiller,155.00,2.06,Keep It Chill,Regular
+323,2022/02/28,Mon,India,Strawberry Chiller,155.00,2.06,Keep It Chill,Regular
+324,2022/02/28,Mon,India,McCafe-Ice Coffee,171.00,2.28,Keep It Chill,Regular
+325,2022/02/28,Mon,India,Mixed Berry Smoothie,184.00,2.45,Keep It Chill,Regular
+326,2022/02/28,Mon,India,Mango Smoothie,184.00,2.45,Keep It Chill,Regular
+327,2022/02/28,Mon,India,American Mud Pie,184.00,2.45,Keep It Chill,Regular
+328,2022/02/28,Mon,India,2 Iced Coffee,198.00,2.64,Keep It Chill,Regular
+329,2022/02/28,Mon,India,McCafe-Mocha Frappe,243.00,3.24,Keep It Chill,Regular
+330,2022/02/28,Mon,India,McCafe-Chocolate Frappe,247.00,3.29,Keep It Chill,Regular
+331,2022/02/28,Mon,India,Double Cheese McMuffin,75.00,1.00,Grab a Bite,Regular
+332,2022/02/28,Mon,India,Vanilla Chocolate Muffin,112.00,1.49,Grab a Bite,Regular
+333,2022/02/28,Mon,India,Chocolate Chip Muffin,121.00,1.61,Grab a Bite,Regular
