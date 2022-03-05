@@ -43,8 +43,8 @@ exchange_rate = float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__
 # --------------------------------------- #
 
 start_URLs = [     
-    "https://www.mcdelivery.com.tw/tw/browse/menu.html?daypartId=45&catId=97&locale=en", # Regular Menu
-		"https://www.mcdelivery.com.tw/tw/browse/menu.html?daypartId=46&catId=97&locale=en"  # Breakfast Menu
+    "https://www.mcdelivery.com.tw/tw/browse/menu.html?daypartId=45&locale=en", # Regular Menu
+		"https://www.mcdelivery.com.tw/tw/browse/menu.html?daypartId=46&locale=en"  # Breakfast Menu
 ]
 
 # Populated by scraping href values of anchor tags
