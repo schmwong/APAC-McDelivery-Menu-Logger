@@ -1,0 +1,250 @@
+,Date,Day,Territory,Menu Item,Price (VND),Price (USD),Category,Menu
+0,2022/04/30,Sat,Vietnam,1 pc Fried Chicken,36000.00,1.56,Promotions & Combos,Regular
+1,2022/04/30,Sat,Vietnam,Garlic Fish Sauce Fried Chicken Rice,49000.00,2.13,Promotions & Combos,Regular
+2,2022/04/30,Sat,Vietnam,Combo for 1,85000.00,3.69,Promotions & Combos,Regular
+3,2022/04/30,Sat,Vietnam,Macaroni Soup,39000.00,1.69,Promotions & Combos,Regular
+4,2022/04/30,Sat,Vietnam,Combo For 2A,136000.00,5.91,Promotions & Combos,Regular
+5,2022/04/30,Sat,Vietnam,Combo For 2B,176000.00,7.64,Promotions & Combos,Regular
+6,2022/04/30,Sat,Vietnam,Combo For 2C,186000.00,8.08,Promotions & Combos,Regular
+7,2022/04/30,Sat,Vietnam,Combo For 3A,276000.00,11.99,Promotions & Combos,Regular
+8,2022/04/30,Sat,Vietnam,Combo For 3B,286000.00,12.42,Promotions & Combos,Regular
+9,2022/04/30,Sat,Vietnam,1 pc Fried Chicken,36000.00,1.56,Promotions & Combos,Breakfast
+10,2022/04/30,Sat,Vietnam,Garlic Fish Sauce Fried Chicken Rice,49000.00,2.13,Promotions & Combos,Breakfast
+11,2022/04/30,Sat,Vietnam,Combo for 1,85000.00,3.69,Promotions & Combos,Breakfast
+12,2022/04/30,Sat,Vietnam,Macaroni Soup,39000.00,1.69,Promotions & Combos,Breakfast
+13,2022/04/30,Sat,Vietnam,Combo For 2A,136000.00,5.91,Promotions & Combos,Breakfast
+14,2022/04/30,Sat,Vietnam,Combo For 2B,176000.00,7.64,Promotions & Combos,Breakfast
+15,2022/04/30,Sat,Vietnam,Combo For 2C,186000.00,8.08,Promotions & Combos,Breakfast
+16,2022/04/30,Sat,Vietnam,Combo For 3A,276000.00,11.99,Promotions & Combos,Breakfast
+17,2022/04/30,Sat,Vietnam,Combo For 3B,286000.00,12.42,Promotions & Combos,Breakfast
+18,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,Monday - Coffee Day,Regular
+19,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,Monday - Coffee Day,Regular
+20,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,Monday - Coffee Day,Regular
+21,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,Monday - Coffee Day,Regular
+22,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,Monday - Coffee Day,Regular
+23,2022/04/30,Sat,Vietnam,1 pc Fried Chicken,36000.00,1.56,Tuesday - Chicken Day,Regular
+24,2022/04/30,Sat,Vietnam,Cheeseburger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Regular
+25,2022/04/30,Sat,Vietnam,Pork Burger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Regular
+26,2022/04/30,Sat,Vietnam,4pcs Chicken McNuggets Happy Meal,69000.00,3.00,Wednesday - Happy Day,Regular
+27,2022/04/30,Sat,Vietnam,Chicken Burger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Regular
+28,2022/04/30,Sat,Vietnam,Fried Chicken Happy Meal,69000.00,3.00,Wednesday - Happy Day,Regular
+29,2022/04/30,Sat,Vietnam,Double Cheeseburger,83000.00,3.61,Thursday  - Burger Day,Regular
+30,2022/04/30,Sat,Vietnam,Cheeseburger Deluxe,73000.00,3.17,Thursday  - Burger Day,Regular
+31,2022/04/30,Sat,Vietnam,McRoyal w. Cheese,93000.00,4.04,Thursday  - Burger Day,Regular
+32,2022/04/30,Sat,Vietnam,Big Mac,93000.00,4.04,Thursday  - Burger Day,Regular
+33,2022/04/30,Sat,Vietnam,McRoyal Deluxe,103000.00,4.47,Thursday  - Burger Day,Regular
+34,2022/04/30,Sat,Vietnam,McSpicy Deluxe,103000.00,4.47,Thursday  - Burger Day,Regular
+35,2022/04/30,Sat,Vietnam,McChicken Deluxe,93000.00,4.04,Thursday  - Burger Day,Regular
+36,2022/04/30,Sat,Vietnam,Filet - O - Fish,73000.00,3.17,Thursday  - Burger Day,Regular
+37,2022/04/30,Sat,Vietnam,Triple Cheeseburger,103000.00,4.47,Thursday  - Burger Day,Regular
+38,2022/04/30,Sat,Vietnam,Double McChicken,117000.00,5.08,Thursday  - Burger Day,Regular
+39,2022/04/30,Sat,Vietnam,Double McRoyal w Cheese,127000.00,5.52,Thursday  - Burger Day,Regular
+40,2022/04/30,Sat,Vietnam,Double Filet O Fish Burger,97000.00,4.21,Thursday  - Burger Day,Regular
+41,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,Friday - Tea Day,Regular
+42,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,Friday - Tea Day,Regular
+43,2022/04/30,Sat,Vietnam,Hot Tea,23000.00,1.00,Friday - Tea Day,Regular
+44,2022/04/30,Sat,Vietnam,Iced Tea,23000.00,1.00,Friday - Tea Day,Regular
+45,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,Friday - Tea Day,Regular
+46,2022/04/30,Sat,Vietnam,Double McChicken,95000.00,4.13,Secret Menu,Regular
+47,2022/04/30,Sat,Vietnam,Double McRoyal w Cheese,105000.00,4.56,Secret Menu,Regular
+48,2022/04/30,Sat,Vietnam,Double Filet O Fish Burger,75000.00,3.26,Secret Menu,Regular
+49,2022/04/30,Sat,Vietnam,Triple Cheeseburger,82000.00,3.56,Secret Menu,Regular
+50,2022/04/30,Sat,Vietnam,1 pc Fried Chicken,36000.00,1.56,Fried Chicken (Original/Spicy),Regular
+51,2022/04/30,Sat,Vietnam,1 pc Fried Chicken EVM,62000.00,2.69,Fried Chicken (Original/Spicy),Regular
+52,2022/04/30,Sat,Vietnam,1 pc Fried Chicken EVM,77000.00,3.34,Fried Chicken (Original/Spicy),Regular
+53,2022/04/30,Sat,Vietnam,2 pcs Fried Chicken EVM,89000.00,3.87,Fried Chicken (Original/Spicy),Regular
+54,2022/04/30,Sat,Vietnam,3 pcs Fried Chicken,99000.00,4.30,Fried Chicken (Original/Spicy),Regular
+55,2022/04/30,Sat,Vietnam,5 pcs Fried Chicken,169000.00,7.34,Fried Chicken (Original/Spicy),Regular
+56,2022/04/30,Sat,Vietnam,9 pcs Fried Chicken,289000.00,12.55,Fried Chicken (Original/Spicy),Regular
+57,2022/04/30,Sat,Vietnam,6pcs Chicken McNuggets,52000.00,2.26,Fried Chicken (Original/Spicy),Regular
+58,2022/04/30,Sat,Vietnam,3pcs Chicken McWings,69000.00,3.00,Fried Chicken (Original/Spicy),Regular
+59,2022/04/30,Sat,Vietnam,9pcs Chicken McNuggets,72000.00,3.13,Fried Chicken (Original/Spicy),Regular
+60,2022/04/30,Sat,Vietnam,6pcs Chicken McWings,125000.00,5.43,Fried Chicken (Original/Spicy),Regular
+61,2022/04/30,Sat,Vietnam,20pcs Chicken McNuggets ,120000.00,5.21,Fried Chicken (Original/Spicy),Regular
+62,2022/04/30,Sat,Vietnam,10pcs Chicken McWings ,175000.00,7.60,Fried Chicken (Original/Spicy),Regular
+63,2022/04/30,Sat,Vietnam,Big Mac,72000.00,3.13,Beef Burger,Regular
+64,2022/04/30,Sat,Vietnam,Double Cheeseburger,62000.00,2.69,Beef Burger,Regular
+65,2022/04/30,Sat,Vietnam,McRoyal Deluxe,82000.00,3.56,Beef Burger,Regular
+66,2022/04/30,Sat,Vietnam,Triple Cheeseburger,82000.00,3.56,Beef Burger,Regular
+67,2022/04/30,Sat,Vietnam,McRoyal w. Cheese,72000.00,3.13,Beef Burger,Regular
+68,2022/04/30,Sat,Vietnam,Cheeseburger,41000.00,1.78,Beef Burger,Regular
+69,2022/04/30,Sat,Vietnam,Cheeseburger Deluxe,52000.00,2.26,Beef Burger,Regular
+70,2022/04/30,Sat,Vietnam,Hamburger,34000.00,1.48,Beef Burger,Regular
+71,2022/04/30,Sat,Vietnam,McSpicy Deluxe,82000.00,3.56,Chicken & Fish Burger,Regular
+72,2022/04/30,Sat,Vietnam,Filet - O - Fish,52000.00,2.26,Chicken & Fish Burger,Regular
+73,2022/04/30,Sat,Vietnam,McChicken Deluxe,72000.00,3.13,Chicken & Fish Burger,Regular
+74,2022/04/30,Sat,Vietnam,McChicken,62000.00,2.69,Chicken & Fish Burger,Regular
+75,2022/04/30,Sat,Vietnam,Chicken Burger,34000.00,1.48,Chicken & Fish Burger,Regular
+76,2022/04/30,Sat,Vietnam,Garlic Fish Sauce Fried Chicken Rice,49000.00,2.13,Rice,Regular
+77,2022/04/30,Sat,Vietnam,McSpicy Chicken Rice,76000.00,3.30,Rice,Regular
+78,2022/04/30,Sat,Vietnam,Grilled Pork Rice w. Egg,49000.00,2.13,Rice,Regular
+79,2022/04/30,Sat,Vietnam,Chicken Rice,39000.00,1.69,Rice,Regular
+80,2022/04/30,Sat,Vietnam,Grilled Pork Rice,39000.00,1.69,Rice,Regular
+81,2022/04/30,Sat,Vietnam,Fried Chicken Happy Meal,69000.00,3.00,Happy Meals,Regular
+82,2022/04/30,Sat,Vietnam,4pcs Chicken McNuggets Happy Meal,69000.00,3.00,Happy Meals,Regular
+83,2022/04/30,Sat,Vietnam,Cheeseburger Happy Meal,69000.00,3.00,Happy Meals,Regular
+84,2022/04/30,Sat,Vietnam,Chicken Burger Happy Meal,69000.00,3.00,Happy Meals,Regular
+85,2022/04/30,Sat,Vietnam,Pork Burger Happy Meal,69000.00,3.00,Happy Meals,Regular
+86,2022/04/30,Sat,Vietnam,World Famous Fries ,18000.00,0.78,Snacks/Sides,Regular
+87,2022/04/30,Sat,Vietnam,Sweet Corn,18000.00,0.78,Snacks/Sides,Regular
+88,2022/04/30,Sat,Vietnam,Hot Apple Pie,27000.00,1.17,Snacks/Sides,Regular
+89,2022/04/30,Sat,Vietnam,6pcs Chicken McNuggets,52000.00,2.26,Snacks/Sides,Regular
+90,2022/04/30,Sat,Vietnam,Cheeseburger,41000.00,1.78,Snacks/Sides,Regular
+91,2022/04/30,Sat,Vietnam,Hamburger,34000.00,1.48,Snacks/Sides,Regular
+92,2022/04/30,Sat,Vietnam,Chicken Burger,34000.00,1.48,Snacks/Sides,Regular
+93,2022/04/30,Sat,Vietnam,Pork Burger,34000.00,1.48,Snacks/Sides,Regular
+94,2022/04/30,Sat,Vietnam,Coca-Cola Light ,27000.00,1.17,Beverages,Regular
+95,2022/04/30,Sat,Vietnam,Coca-Cola,17000.00,0.74,Beverages,Regular
+96,2022/04/30,Sat,Vietnam,Dasani water,20000.00,0.87,Beverages,Regular
+97,2022/04/30,Sat,Vietnam,Sprite,17000.00,0.74,Beverages,Regular
+98,2022/04/30,Sat,Vietnam,Fanta,17000.00,0.74,Beverages,Regular
+99,2022/04/30,Sat,Vietnam,Teppy Orange Drink,20000.00,0.87,Beverages,Regular
+100,2022/04/30,Sat,Vietnam,Milo,20000.00,0.87,Beverages,Regular
+101,2022/04/30,Sat,Vietnam,TH Milk,20000.00,0.87,Beverages,Regular
+102,2022/04/30,Sat,Vietnam,Fuze Tea - Peach & Chia Seeds,20000.00,0.87,Beverages,Regular
+103,2022/04/30,Sat,Vietnam,Fuze Tea - Passion & Chia Seeds,20000.00,0.87,Beverages,Regular
+104,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,Beverages,Regular
+105,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,Beverages,Regular
+106,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,Beverages,Regular
+107,2022/04/30,Sat,Vietnam,Matcha Frappe,78000.00,3.39,Beverages,Regular
+108,2022/04/30,Sat,Vietnam,Hot Matcha Latte,58000.00,2.52,Beverages,Regular
+109,2022/04/30,Sat,Vietnam,Hot Chocolate,43000.00,1.87,Beverages,Regular
+110,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,Beverages,Regular
+111,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,Beverages,Regular
+112,2022/04/30,Sat,Vietnam,Cappuccino,43000.00,1.87,Beverages,Regular
+113,2022/04/30,Sat,Vietnam,Mocha,53000.00,2.30,Beverages,Regular
+114,2022/04/30,Sat,Vietnam,Mocha Frappe,72000.00,3.13,Beverages,Regular
+115,2022/04/30,Sat,Vietnam,Americano,38000.00,1.65,Beverages,Regular
+116,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,Beverages,Regular
+117,2022/04/30,Sat,Vietnam,Latte Frappe,72000.00,3.13,Beverages,Regular
+118,2022/04/30,Sat,Vietnam,Caramel Frappe,72000.00,3.13,Beverages,Regular
+119,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,Beverages,Regular
+120,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,Beverages,Regular
+121,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,McCAFÉ,Regular
+122,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,McCAFÉ,Regular
+123,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,McCAFÉ,Regular
+124,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,McCAFÉ,Regular
+125,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,McCAFÉ,Regular
+126,2022/04/30,Sat,Vietnam,Yogurt Strawberry,58000.00,2.52,McCAFÉ,Regular
+127,2022/04/30,Sat,Vietnam,Kiwi Yogurt,58000.00,2.52,McCAFÉ,Regular
+128,2022/04/30,Sat,Vietnam,Iced Mocha,58000.00,2.52,McCAFÉ,Regular
+129,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,McCAFÉ,Regular
+130,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,McCAFÉ,Regular
+131,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,McCAFÉ,Regular
+132,2022/04/30,Sat,Vietnam,Matcha Frappe,78000.00,3.39,McCAFÉ,Regular
+133,2022/04/30,Sat,Vietnam,Hot Matcha Latte,58000.00,2.52,McCAFÉ,Regular
+134,2022/04/30,Sat,Vietnam,Hot Chocolate,43000.00,1.87,McCAFÉ,Regular
+135,2022/04/30,Sat,Vietnam,Cappuccino,43000.00,1.87,McCAFÉ,Regular
+136,2022/04/30,Sat,Vietnam,Mocha,53000.00,2.30,McCAFÉ,Regular
+137,2022/04/30,Sat,Vietnam,Mocha Frappe,72000.00,3.13,McCAFÉ,Regular
+138,2022/04/30,Sat,Vietnam,Americano,38000.00,1.65,McCAFÉ,Regular
+139,2022/04/30,Sat,Vietnam,Latte Frappe,72000.00,3.13,McCAFÉ,Regular
+140,2022/04/30,Sat,Vietnam,Caramel Frappe,72000.00,3.13,McCAFÉ,Regular
+141,2022/04/30,Sat,Vietnam,Hot Tea,23000.00,1.00,McCAFÉ,Regular
+142,2022/04/30,Sat,Vietnam,Iced Tea,23000.00,1.00,McCAFÉ,Regular
+143,2022/04/30,Sat,Vietnam,Hot Apple Pie,27000.00,1.17,Dessert,Regular
+144,2022/04/30,Sat,Vietnam,Butter Croissant,30000.00,1.30,Dessert,Regular
+145,2022/04/30,Sat,Vietnam,Matcha Oreo McFlurry,41000.00,1.78,Dessert,Regular
+146,2022/04/30,Sat,Vietnam,Oreo McFlurry,38000.00,1.65,Dessert,Regular
+147,2022/04/30,Sat,Vietnam,Sundae Hot Fudge,31000.00,1.35,Dessert,Regular
+148,2022/04/30,Sat,Vietnam,Sundae Strawberry,31000.00,1.35,Dessert,Regular
+149,2022/04/30,Sat,Vietnam,Tiramisu,55000.00,2.39,Dessert,Regular
+150,2022/04/30,Sat,Vietnam,Baked CheeseCake,35000.00,1.52,Dessert,Regular
+151,2022/04/30,Sat,Vietnam,Blueberry Cheese Cake,35000.00,1.52,Dessert,Regular
+152,2022/04/30,Sat,Vietnam,Banana Muffin,30000.00,1.30,Dessert,Regular
+153,2022/04/30,Sat,Vietnam,Choco Brownie,30000.00,1.30,Dessert,Regular
+154,2022/04/30,Sat,Vietnam,Chocolate Chip Cookie,25000.00,1.09,Dessert,Regular
+155,2022/04/30,Sat,Vietnam,Coconut Macaroons 2Pc,25000.00,1.09,Dessert,Regular
+156,2022/04/30,Sat,Vietnam,Coconut Macaroon,15000.00,0.65,Dessert,Regular
+157,2022/04/30,Sat,Vietnam,2 packs of ketchup,4000.00,0.17,Condiment,Regular
+158,2022/04/30,Sat,Vietnam,2 Packs of Sweet Chili,4000.00,0.17,Condiment,Regular
+159,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,Monday - Coffee Day,Breakfast
+160,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,Monday - Coffee Day,Breakfast
+161,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,Monday - Coffee Day,Breakfast
+162,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,Monday - Coffee Day,Breakfast
+163,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,Monday - Coffee Day,Breakfast
+164,2022/04/30,Sat,Vietnam,Cheeseburger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Breakfast
+165,2022/04/30,Sat,Vietnam,Pork Burger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Breakfast
+166,2022/04/30,Sat,Vietnam,4pcs Chicken McNuggets Happy Meal,69000.00,3.00,Wednesday - Happy Day,Breakfast
+167,2022/04/30,Sat,Vietnam,Chicken Burger Happy Meal,69000.00,3.00,Wednesday - Happy Day,Breakfast
+168,2022/04/30,Sat,Vietnam,Fried Chicken Happy Meal,69000.00,3.00,Wednesday - Happy Day,Breakfast
+169,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,Friday - Tea Day,Breakfast
+170,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,Friday - Tea Day,Breakfast
+171,2022/04/30,Sat,Vietnam,Hot Tea,23000.00,1.00,Friday - Tea Day,Breakfast
+172,2022/04/30,Sat,Vietnam,Iced Tea,23000.00,1.00,Friday - Tea Day,Breakfast
+173,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,Friday - Tea Day,Breakfast
+174,2022/04/30,Sat,Vietnam,Macaroni Soup,39000.00,1.69,Main menu,Breakfast
+175,2022/04/30,Sat,Vietnam,Macaroni Meal,49000.00,2.13,Main menu,Breakfast
+176,2022/04/30,Sat,Vietnam,9pcs Chicken McNuggets,72000.00,3.13,Main menu,Breakfast
+177,2022/04/30,Sat,Vietnam,10pcs Chicken McWings ,175000.00,7.60,Main menu,Breakfast
+178,2022/04/30,Sat,Vietnam,20pcs Chicken McNuggets ,120000.00,5.21,Main menu,Breakfast
+179,2022/04/30,Sat,Vietnam,Fried Chicken Happy Meal,69000.00,3.00,Happy Meals,Breakfast
+180,2022/04/30,Sat,Vietnam,4pcs Chicken McNuggets Happy Meal,69000.00,3.00,Happy Meals,Breakfast
+181,2022/04/30,Sat,Vietnam,Cheeseburger Happy Meal,69000.00,3.00,Happy Meals,Breakfast
+182,2022/04/30,Sat,Vietnam,Chicken Burger Happy Meal,69000.00,3.00,Happy Meals,Breakfast
+183,2022/04/30,Sat,Vietnam,Pork Burger Happy Meal,69000.00,3.00,Happy Meals,Breakfast
+184,2022/04/30,Sat,Vietnam,Coca-Cola Light ,27000.00,1.17,Beverages,Breakfast
+185,2022/04/30,Sat,Vietnam,Coca-Cola,17000.00,0.74,Beverages,Breakfast
+186,2022/04/30,Sat,Vietnam,Dasani water,20000.00,0.87,Beverages,Breakfast
+187,2022/04/30,Sat,Vietnam,Sprite,17000.00,0.74,Beverages,Breakfast
+188,2022/04/30,Sat,Vietnam,Fanta,17000.00,0.74,Beverages,Breakfast
+189,2022/04/30,Sat,Vietnam,Teppy Orange Drink,20000.00,0.87,Beverages,Breakfast
+190,2022/04/30,Sat,Vietnam,Milo,20000.00,0.87,Beverages,Breakfast
+191,2022/04/30,Sat,Vietnam,TH Milk,20000.00,0.87,Beverages,Breakfast
+192,2022/04/30,Sat,Vietnam,Fuze Tea - Peach & Chia Seeds,20000.00,0.87,Beverages,Breakfast
+193,2022/04/30,Sat,Vietnam,Fuze Tea - Passion & Chia Seeds,20000.00,0.87,Beverages,Breakfast
+194,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,Beverages,Breakfast
+195,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,Beverages,Breakfast
+196,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,Beverages,Breakfast
+197,2022/04/30,Sat,Vietnam,Matcha Frappe,78000.00,3.39,Beverages,Breakfast
+198,2022/04/30,Sat,Vietnam,Hot Matcha Latte,58000.00,2.52,Beverages,Breakfast
+199,2022/04/30,Sat,Vietnam,Hot Chocolate,43000.00,1.87,Beverages,Breakfast
+200,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,Beverages,Breakfast
+201,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,Beverages,Breakfast
+202,2022/04/30,Sat,Vietnam,Cappuccino,43000.00,1.87,Beverages,Breakfast
+203,2022/04/30,Sat,Vietnam,Mocha,53000.00,2.30,Beverages,Breakfast
+204,2022/04/30,Sat,Vietnam,Mocha Frappe,72000.00,3.13,Beverages,Breakfast
+205,2022/04/30,Sat,Vietnam,Americano,38000.00,1.65,Beverages,Breakfast
+206,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,Beverages,Breakfast
+207,2022/04/30,Sat,Vietnam,Latte Frappe,72000.00,3.13,Beverages,Breakfast
+208,2022/04/30,Sat,Vietnam,Caramel Frappe,72000.00,3.13,Beverages,Breakfast
+209,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,Beverages,Breakfast
+210,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,Beverages,Breakfast
+211,2022/04/30,Sat,Vietnam,Hot Latte,43000.00,1.87,McCAFÉ,Breakfast
+212,2022/04/30,Sat,Vietnam,Iced Latte,53000.00,2.30,McCAFÉ,Breakfast
+213,2022/04/30,Sat,Vietnam,Iced Americano,48000.00,2.08,McCAFÉ,Breakfast
+214,2022/04/30,Sat,Vietnam,Iced Vietnamese Black,33000.00,1.43,McCAFÉ,Breakfast
+215,2022/04/30,Sat,Vietnam,Iced Vietnamese white coffee,33000.00,1.43,McCAFÉ,Breakfast
+216,2022/04/30,Sat,Vietnam,Yogurt Strawberry,58000.00,2.52,McCAFÉ,Breakfast
+217,2022/04/30,Sat,Vietnam,Kiwi Yogurt,58000.00,2.52,McCAFÉ,Breakfast
+218,2022/04/30,Sat,Vietnam,Iced Mocha,58000.00,2.52,McCAFÉ,Breakfast
+219,2022/04/30,Sat,Vietnam,Lychee Black Tea,48000.00,2.08,McCAFÉ,Breakfast
+220,2022/04/30,Sat,Vietnam,Milk Cream Tea,48000.00,2.08,McCAFÉ,Breakfast
+221,2022/04/30,Sat,Vietnam,Peach Tea,48000.00,2.08,McCAFÉ,Breakfast
+222,2022/04/30,Sat,Vietnam,Matcha Frappe,78000.00,3.39,McCAFÉ,Breakfast
+223,2022/04/30,Sat,Vietnam,Hot Matcha Latte,58000.00,2.52,McCAFÉ,Breakfast
+224,2022/04/30,Sat,Vietnam,Hot Chocolate,43000.00,1.87,McCAFÉ,Breakfast
+225,2022/04/30,Sat,Vietnam,Cappuccino,43000.00,1.87,McCAFÉ,Breakfast
+226,2022/04/30,Sat,Vietnam,Mocha,53000.00,2.30,McCAFÉ,Breakfast
+227,2022/04/30,Sat,Vietnam,Mocha Frappe,72000.00,3.13,McCAFÉ,Breakfast
+228,2022/04/30,Sat,Vietnam,Americano,38000.00,1.65,McCAFÉ,Breakfast
+229,2022/04/30,Sat,Vietnam,Latte Frappe,72000.00,3.13,McCAFÉ,Breakfast
+230,2022/04/30,Sat,Vietnam,Caramel Frappe,72000.00,3.13,McCAFÉ,Breakfast
+231,2022/04/30,Sat,Vietnam,Hot Tea,23000.00,1.00,McCAFÉ,Breakfast
+232,2022/04/30,Sat,Vietnam,Iced Tea,23000.00,1.00,McCAFÉ,Breakfast
+233,2022/04/30,Sat,Vietnam,Hot Apple Pie,27000.00,1.17,Dessert,Breakfast
+234,2022/04/30,Sat,Vietnam,Butter Croissant,30000.00,1.30,Dessert,Breakfast
+235,2022/04/30,Sat,Vietnam,Matcha Oreo McFlurry,41000.00,1.78,Dessert,Breakfast
+236,2022/04/30,Sat,Vietnam,Oreo McFlurry,38000.00,1.65,Dessert,Breakfast
+237,2022/04/30,Sat,Vietnam,Sundae Hot Fudge,31000.00,1.35,Dessert,Breakfast
+238,2022/04/30,Sat,Vietnam,Sundae Strawberry,31000.00,1.35,Dessert,Breakfast
+239,2022/04/30,Sat,Vietnam,Tiramisu,55000.00,2.39,Dessert,Breakfast
+240,2022/04/30,Sat,Vietnam,Baked CheeseCake,35000.00,1.52,Dessert,Breakfast
+241,2022/04/30,Sat,Vietnam,Blueberry Cheese Cake,35000.00,1.52,Dessert,Breakfast
+242,2022/04/30,Sat,Vietnam,Banana Muffin,30000.00,1.30,Dessert,Breakfast
+243,2022/04/30,Sat,Vietnam,Choco Brownie,30000.00,1.30,Dessert,Breakfast
+244,2022/04/30,Sat,Vietnam,Chocolate Chip Cookie,25000.00,1.09,Dessert,Breakfast
+245,2022/04/30,Sat,Vietnam,Coconut Macaroons 2Pc,25000.00,1.09,Dessert,Breakfast
+246,2022/04/30,Sat,Vietnam,Coconut Macaroon,15000.00,0.65,Dessert,Breakfast
+247,2022/04/30,Sat,Vietnam,2 packs of ketchup,4000.00,0.17,Condiment,Breakfast
+248,2022/04/30,Sat,Vietnam,2 Packs of Sweet Chili,4000.00,0.17,Condiment,Breakfast
