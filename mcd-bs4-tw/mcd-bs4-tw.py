@@ -86,6 +86,7 @@ for url in start_URLs:
                 "li.primary-menu-item.selected > a > span")[0].text
         except:
             print(f"Error {i}")
+            i += 1
         else:
             product_list.append(product)
 
@@ -112,6 +113,7 @@ for url in URL_list:
                 "li.primary-menu-item.selected > a > span")[0].text
         except:
             print(f"Error {i}")
+            i += 1
         else:
             product_list.append(product)
 
