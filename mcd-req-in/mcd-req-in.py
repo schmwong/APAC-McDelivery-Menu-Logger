@@ -1,10 +1,10 @@
 import requests
-from bs4 import BeautifulSoup as BS # only for parsing XE exchange rate
+from bs4 import BeautifulSoup as BS  # only for parsing XE exchange rate
 import pandas as pd
 import datetime as dt
 import pytz
 import re
-from pathlib import Path # install pathlib2 instead of pathlib
+from pathlib import Path  # install pathlib2 instead of pathlib
 
 
 # ################################################ #
@@ -23,21 +23,21 @@ local_datetime = dt.datetime.now(pytz.timezone("Asia/Kolkata"))
 
 # Set headers to make HTTP request to seem to be from a normal browser
 json_headers = {
-	"Access-Control-Allow-Origin":"*",
-	"Access-Control-Allow-Methods": "GET",
-	"Access-Control-Allow-Headers": "Content-Type",
-	"Access-Control-Max-Age": "3600",
-	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36", 
-	"Accept": "application/json; charset=utf-8"
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "3600",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+    "Accept": "application/json; charset=utf-8"
 }
 
 my_headers = {
-	"Access-Control-Allow-Origin":"*",
-	"Access-Control-Allow-Methods": "GET",
-	"Access-Control-Allow-Headers": "Content-Type",
-	"Access-Control-Max-Age": "3600",
-	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36", 
-	"Accept": "text/html,application/xhtml+xml,application/xml; q=0.9,image/webp,image/apng,*/*;q=0.8"
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "3600",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml; q=0.9,image/webp,image/apng,*/*;q=0.8"
 }
 
 
@@ -49,12 +49,14 @@ session = requests.Session()
 # --------------------------------------- #
 
 # Getting the correct XE webpage (all elements)
-XE = BS(session.get("https://www.xe.com/currencyconverter/convert/?Amount=1&From=INR&To=USD", headers=my_headers).content, "lxml")
+XE = BS(session.get("https://www.xe.com/currencyconverter/convert/?Amount=1&From=INR&To=USD",
+        headers=my_headers).content, "lxml")
 
 # Scraping the text from the selected element (CSS selector)
-# Extracting only the number from the text string and converting it to a float value (decimal number) 
+# Extracting only the number from the text string and converting it to a float value (decimal number)
 # findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
-exchange_rate = float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")[0].text)[0])
+exchange_rate = float(re.findall(
+    r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")[0].text)[0])
 
 
 # --------------------------------------- #
@@ -80,8 +82,8 @@ category_details = session.get(start_URL, headers=json_headers).json()
 category_groups = category_details["data"]["category"]
 
 for category_group in category_groups:
-	for category in category_group["categoryGroup"]:
-		category_id_list.append(category["categoryId"])
+    for category in category_group["categoryGroup"]:
+        category_id_list.append(category["categoryId"])
 
 
 '''
@@ -97,28 +99,27 @@ product_list = []
 # Getting menu data from all endpoints and adding it to product_list
 # Outer For Loop gets menu data from each endpoint as a Python dictionary (from JSON response)
 for id in category_id_list:
-	endpoint = f"https://services.mcdelivery.co.in/Api/product/custommenu?CategoryID={id}"
+    endpoint = f"https://services.mcdelivery.co.in/Api/product/custommenu?CategoryID={id}"
 
-	menu = session.get(endpoint, headers=json_headers).json()
+    menu = session.get(endpoint, headers=json_headers).json()
 
-	# Inner For Loop iterates for each menu item
-	for products in menu["data"]:
-			product = {}
-			product["Date"] = local_datetime.strftime("%Y/%m/%d")
-			product["Day"] = local_datetime.strftime("%a")
-			product["Territory"] = "India"
-			product["Menu Item"] = products["Title"].strip()
-			# Price value already as float type in JSON object
-			product["Price (INR)"] = products["DiscountedPrice"]
-			product["Price (USD)"] = round((product["Price (INR)"] * exchange_rate), 2)
-			product["Category"] = products["CategoryName"]
-			if ("Breakfast" or "McBreakfast") in product["Category"]:
-				product["Menu"] = "Breakfast"
-			else:
-				product["Menu"] = "Regular"
-			product_list.append(product)
-		
-
+    # Inner For Loop iterates for each menu item
+    for products in menu["data"]:
+        product = {}
+        product["Date"] = local_datetime.strftime("%Y/%m/%d")
+        product["Day"] = local_datetime.strftime("%a")
+        product["Territory"] = "India"
+        product["Menu Item"] = products["Title"].strip()
+        # Price value already as float type in JSON object
+        product["Price (INR)"] = products["DiscountedPrice"]
+        product["Price (USD)"] = round(
+            (product["Price (INR)"] * exchange_rate), 2)
+        product["Category"] = products["CategoryName"]
+        if ("Breakfast" or "McBreakfast") in product["Category"]:
+            product["Menu"] = "Breakfast"
+        else:
+            product["Menu"] = "Regular"
+        product_list.append(product)
 
 
 # ---------------------------------------------------- #
@@ -126,8 +127,11 @@ for id in category_id_list:
 # ---------------------------------------------------- #
 
 product_list_df = pd.DataFrame(product_list)
-product_list_df.drop_duplicates(subset=None, keep='last', inplace=True, ignore_index=True)
+product_list_df.drop_duplicates(
+    subset=None, keep='last', inplace=True, ignore_index=True)
 product_list_df.reset_index(drop=True, inplace=True)
+product_list_df.index = pd.RangeIndex(
+    start=1, stop=(len(product_list_df.index) + 1), step=1)
 
 print(product_list_df)
 
@@ -139,7 +143,7 @@ output_dir = Path("./scraped-data")
 # Create directory as required; won't raise an error if directory already exists
 output_dir.mkdir(parents=True, exist_ok=True)
 
-product_list_df.to_csv((output_dir / output_file), float_format="%.2f", encoding="utf-8")
+product_list_df.to_csv((output_dir / output_file),
+                       float_format="%.2f", encoding="utf-8")
 
 # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-in.csv"
-

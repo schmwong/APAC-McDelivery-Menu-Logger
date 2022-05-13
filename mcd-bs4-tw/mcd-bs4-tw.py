@@ -126,6 +126,8 @@ product_list_df = pd.DataFrame(product_list)
 product_list_df.drop_duplicates(
     subset=None, keep='last', inplace=True, ignore_index=True)
 product_list_df.reset_index(drop=True, inplace=True)
+product_list_df.index = pd.RangeIndex(
+    start=1, stop=(len(product_list_df.index) + 1), step=1)
 
 print(product_list_df)
 
