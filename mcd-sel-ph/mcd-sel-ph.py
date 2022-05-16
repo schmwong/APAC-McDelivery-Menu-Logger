@@ -206,7 +206,7 @@ output_dir = Path("./scraped-data")
 # Create directory as required; won't raise an error if directory already exists
 output_dir.mkdir(parents=True, exist_ok=True)
 
-product_list_df.to_csv((output_file),
+product_list_df.to_csv((output_dir / output_file),
                        float_format="%.2f", encoding="utf-8")
 
 # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-sel-ph.csv"
