@@ -1,7 +1,12 @@
+# pip install selenium
+# pip install pandas
+# pip install pathlib2
+
+
 import time
 import selenium
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -19,8 +24,14 @@ local_datetime = dt.datetime.now(pytz.timezone("Pacific/Fiji"))
 
 # configure webdriver
 options = Options()
-options.headless = False
-# configure chrome browser to not load images
+################################################
+# To run on Linux root without crashing
+options.add_argument('--headless')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--no-sandbox')
+################################################
+
+# configure browser to not load images
 # 0 = default, 1 = allow, 2 = block
 prefs = {"profile.managed_default_content_settings.images": 2,
          "profile.default_content_setting_values.notifications": 2,
@@ -36,7 +47,7 @@ prefs = {"profile.managed_default_content_settings.images": 2,
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("prefs", prefs)
 
-browser = webdriver.Chrome(options=options, chrome_options=chrome_options)
+browser = webdriver.Firefox(options=options)
 
 
 # --------------------------------------- #
