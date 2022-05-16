@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: scrape-ph-manual
+name: scrape-ph-auto
 
 # Controls when the workflow will run
 on:
