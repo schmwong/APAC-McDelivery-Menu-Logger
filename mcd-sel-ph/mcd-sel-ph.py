@@ -42,7 +42,7 @@ prefs = {"profile.managed_default_content_settings.images": 2,
 
 ################################################
 # To run on Linux root without crashing
-# options.add_argument('--headless')
+options.add_argument('--headless')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--no-sandbox')
 ################################################
