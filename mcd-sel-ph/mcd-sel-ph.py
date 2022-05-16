@@ -85,7 +85,7 @@ time.sleep(2)
 
 browser.find_element(By.ID, "inputData").send_keys(Keys.DOWN, Keys.ENTER)
 
-time.sleep(3.5)
+time.sleep(6)
 
 WebDriverWait(browser, 100).until(
     EC.element_to_be_clickable((
@@ -97,14 +97,14 @@ WebDriverWait(browser, 100).until(
         (By.XPATH, "//*[@id='app']/div[5]/div/div/div[2]/div[3]/div/button"))
 ).click()
 
-time.sleep(1.5)
+time.sleep(3)
 
 WebDriverWait(browser, 100).until(
     EC.element_to_be_clickable(
         (By.XPATH, "//*[@id='app']/div[6]/div/div/div[3]/div[2]/div[1]/div/div/div"))
 ).click()
 
-time.sleep(1.5)
+time.sleep(2)
 
 WebDriverWait(browser, 100).until(
     EC.element_to_be_clickable((
