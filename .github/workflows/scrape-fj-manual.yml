@@ -30,7 +30,7 @@ jobs:
               pip3 install requests
               pip install path
               pip install pathlib2
-          - name: execute py script # run mcd-bs4-id.py to get the latest data
+          - name: execute py script # run mcd-sel-fj.py to get the latest data
             working-directory: ./mcd-sel-fj
             run: |
               python mcd-sel-fj.py
