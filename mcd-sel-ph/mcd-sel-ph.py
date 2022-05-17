@@ -11,7 +11,6 @@ from selenium.webdriver.firefox.options import Options
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import re
@@ -172,30 +171,30 @@ for ID in category_id_list:
 					)
 					price_list.append(price_text)
 	
-	# Nested to match each menu item with its Category
-	        category_text = ID
-	        category_list.append(category_text)
+# Nested to match each menu item with its Category
+					category_text = ID
+					category_list.append(category_text)
 
 
 # Zip function merges lists in parallel
 # Consolidating all the information: output each row of the menu into a {product dictionary}, then adding the {dictionary} to the [product_list]
 for menu_item_text, price_text, category_text in zip(item_list, price_list, category_list):
-    product = {}
-    product["Date"] = local_datetime.strftime("%Y/%m/%d")
-    product["Day"] = local_datetime.strftime("%a")
-    product["Territory"] = "Philippines"
-    product["Menu Item"] = menu_item_text
-    product["Price (PHP)"] = price_text
-    product["Price (USD)"] = round((price_text * exchange_rate), 2)
-    product["Category"] = category_text
-
-    if ("Breakfast" in category_text):
-        product["Menu"] = "Breakfast"
+		product = {}
+		product["Date"] = local_datetime.strftime("%Y/%m/%d")
+		product["Day"] = local_datetime.strftime("%a")
+		product["Territory"] = "Philippines"
+		product["Menu Item"] = menu_item_text
+		product["Price (PHP)"] = price_text
+		product["Price (USD)"] = round((price_text * exchange_rate), 2)
+		product["Category"] = category_text
+	
+		if ("Breakfast" in category_text):
+				product["Menu"] = "Breakfast"
 		elif (menu_item_text in breakfast_list):
-        product["Menu"] = "Breakfast"
-    else:
-        product["Menu"] = "Regular"
-    product_list.append(product)
+				product["Menu"] = "Breakfast"
+		else:
+				product["Menu"] = "Regular"
+		product_list.append(product)
 
 
 # ---------------------------------------------------- #
