@@ -125,7 +125,7 @@ time.sleep(4)
 browser.get("https://www.mcdelivery.com.ph/menu/")
 
 time.sleep(5)
-
+breakfast_list = []
 category_id_list = []
 item_list = []
 price_list = []
@@ -146,23 +146,35 @@ for ID in category_id_list:
 
     # Inner For Loops scrape (text from the corresponding elements) for
     # menu items and prices into individual lists
-    menu_items = browser.find_elements(
-        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div')
-    for menu_item in menu_items:
-        menu_item_text = menu_item.text
-        item_list.append(menu_item_text)
-
-    prices = browser.find_elements(
-        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div')
-    for price in prices:
-        price_text = round(
-            float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 2
-        )
-        price_list.append(price_text)
-
-# Nested to match each menu item with its Category
-        category_text = ID
-        category_list.append(category_text)
+		try:
+				if "Breakfast" in ID:
+					breakfast_items = browser.find_elements(
+                By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div')
+					for breakfast_item in breakfast_items:
+						breakfast_item_text = breakfast_item.text
+						breakfast_list.append(breakfast_item_text)
+	
+		except:
+				pass
+		
+		finally:
+			menu_items = browser.find_elements(
+	        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div')
+			for menu_item in menu_items:
+					menu_item_text = menu_item.text
+					item_list.append(menu_item_text)
+				
+			prices = browser.find_elements(
+	        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div')
+			for price in prices:
+					price_text = round(
+							float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 2
+					)
+					price_list.append(price_text)
+	
+	# Nested to match each menu item with its Category
+	        category_text = ID
+	        category_list.append(category_text)
 
 
 # Zip function merges lists in parallel
@@ -178,6 +190,8 @@ for menu_item_text, price_text, category_text in zip(item_list, price_list, cate
     product["Category"] = category_text
 
     if ("Breakfast" in category_text):
+        product["Menu"] = "Breakfast"
+		elif (menu_item_text in breakfast_list):
         product["Menu"] = "Breakfast"
     else:
         product["Menu"] = "Regular"
