@@ -5,7 +5,7 @@ name: scrape-fj-auto
 # Controls when the workflow will run
 on:
   schedule:
-          - cron: '36 15 * * *' # runs once a day at 15:36 UTC (03:36 FJT)
+          - cron: '12 18 * * *' # runs once a day at 18:12 UTC (06:12 FJT)
           
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
