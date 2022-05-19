@@ -71,7 +71,8 @@ for url in start_URLs:
     first_page = BS(session.get(url, headers=my_headers, allow_redirects=False).content, "lxml")
 	
     try:
-      print(session.get(url, headers=my_headers, allow_redirects=False).status_code)
+      print(url)
+      print(f"HTTP status code: {session.get(url, headers=my_headers, allow_redirects=False).status_code}")
       print()
 
     finally:
@@ -110,7 +111,8 @@ for url in URL_list:
     next_page = BS(session.get(url, headers=my_headers,allow_redirects=False).content, "lxml")
 
     try:
-      print(session.get(url, headers=my_headers, allow_redirects=False).status_code)
+      print(url)
+      print(f"HTTP status code: {session.get(url, headers=my_headers, allow_redirects=False).status_code}")
       print()
 
     finally:
@@ -132,7 +134,7 @@ for url in URL_list:
 	            product["Menu"] = next_page.select(
 	                "li.primary-menu-item.selected > a > span")[0].text
 	        except:
-	            print(f"Error {i}")
+	            print(f"Error {i}\n ")
 	            i += 1
 	        else:
 	            product_list.append(product)
