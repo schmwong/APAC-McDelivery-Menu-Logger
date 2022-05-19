@@ -39,6 +39,11 @@ exchange_rate = float(re.findall(
     r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")[0].text)[0])
 
 
+print(f"1 TWD = {exchange_rate} USD on {local_datetime.strftime('%A, %-d %B %Y')}")
+# >> 1 TWD = 0.033664962 USD on 19 May 2022
+print()
+
+
 # --------------------------------------- #
 # List of URLS of Webpages to be Scraped  #
 # --------------------------------------- #
@@ -63,10 +68,18 @@ i = 1
 
 # Outer For Loop iterates through first category page of each menu type to get links to subsequent categories
 for url in start_URLs:
-    first_page = BS(session.get(url, headers=my_headers).content, "lxml")
-    links = ("https://www.mcdelivery.com.tw/tw/browse/menu.html" + a["href"] + "&locale=en" for a in (
-        first_page.select("li.secondary-menu-item:not([class*='selected']) a[href]")))
-    URL_list.extend(links)
+    first_page = BS(session.get(url, headers=my_headers, allow_redirects=False).content, "lxml")
+	
+    try:
+      print(first_page.status_code)
+      print()
+
+    finally:
+      
+			
+      links = ("https://www.mcdelivery.com.tw/tw/browse/menu.html" + a["href"] + "&locale=en" for a in (
+      first_page.select("li.secondary-menu-item:not([class*='selected']) a[href]")))
+      URL_list.extend(links)
 
     # Inner For Loop scrapes the menu data from first category page of both regular and breakfast menus
     for products in first_page.select("div.product-card"):
@@ -86,6 +99,7 @@ for url in start_URLs:
                 "li.primary-menu-item.selected > a > span")[0].text
         except:
             print(f"Error {i}")
+            print()
             i += 1
         else:
             product_list.append(product)
@@ -93,29 +107,35 @@ for url in start_URLs:
 
 # Second Outer For Loop iterates through list of generated URLs
 for url in URL_list:
-    next_page = BS(session.get(url, headers=my_headers).content, "lxml")
+    next_page = BS(session.get(url, headers=my_headers,allow_redirects=False).content, "lxml")
 
-    # Second Inner For Loop iterates through elements on all other pages
-    for products in next_page.select("div.product-card"):
-        try:
-            product = {}
-            product["Date"] = local_datetime.strftime("%Y/%m/%d")
-            product["Day"] = local_datetime.strftime("%a")
-            product["Territory"] = "Taiwan"
-            product["Menu Item"] = products.select("h5.product-title")[0].text
-            product["Price (TWD)"] = float((re.findall(
-                r"[-+]?(?:\d*\.\d+|\d+)", products.select("span.starting-price")[0].text)[0]))
-            product["Price (USD)"] = round(
-                (product["Price (TWD)"] * exchange_rate), 2)
-            product["Category"] = next_page.select(
-                "ol.breadcrumb > li.active")[0].text
-            product["Menu"] = next_page.select(
-                "li.primary-menu-item.selected > a > span")[0].text
-        except:
-            print(f"Error {i}")
-            i += 1
-        else:
-            product_list.append(product)
+    try:
+      print(next_page.status_code)
+      print()
+
+    finally:
+
+	    # Second Inner For Loop iterates through elements on all other pages
+	    for products in next_page.select("div.product-card"):
+	        try:
+	            product = {}
+	            product["Date"] = local_datetime.strftime("%Y/%m/%d")
+	            product["Day"] = local_datetime.strftime("%a")
+	            product["Territory"] = "Taiwan"
+	            product["Menu Item"] = products.select("h5.product-title")[0].text
+	            product["Price (TWD)"] = float((re.findall(
+	                r"[-+]?(?:\d*\.\d+|\d+)", products.select("span.starting-price")[0].text)[0]))
+	            product["Price (USD)"] = round(
+	                (product["Price (TWD)"] * exchange_rate), 2)
+	            product["Category"] = next_page.select(
+	                "ol.breadcrumb > li.active")[0].text
+	            product["Menu"] = next_page.select(
+	                "li.primary-menu-item.selected > a > span")[0].text
+	        except:
+	            print(f"Error {i}")
+	            i += 1
+	        else:
+	            product_list.append(product)
 
 
 # ---------------------------------------------------- #
@@ -129,7 +149,9 @@ product_list_df.reset_index(drop=True, inplace=True)
 product_list_df.index = pd.RangeIndex(
     start=1, stop=(len(product_list_df.index) + 1), step=1)
 
+print()
 print(product_list_df)
+print()
 
 timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
