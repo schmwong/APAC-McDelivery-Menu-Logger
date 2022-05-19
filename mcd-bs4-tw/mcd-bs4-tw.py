@@ -71,7 +71,7 @@ for url in start_URLs:
     first_page = BS(session.get(url, headers=my_headers, allow_redirects=False).content, "lxml")
 	
     try:
-      print(first_page.status_code)
+      print(session.get(url, headers=my_headers, allow_redirects=False).status_code)
       print()
 
     finally:
@@ -110,7 +110,7 @@ for url in URL_list:
     next_page = BS(session.get(url, headers=my_headers,allow_redirects=False).content, "lxml")
 
     try:
-      print(next_page.status_code)
+      print(session.get(url, headers=my_headers, allow_redirects=False).status_code)
       print()
 
     finally:
