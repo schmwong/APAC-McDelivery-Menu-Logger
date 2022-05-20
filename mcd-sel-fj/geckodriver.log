@@ -234,3 +234,48 @@ JavaScript error: https://www.gstatic.com/firebasejs/7.6.0/firebase-messaging.js
 
 ###!!! [Child][PContentChild] Error: Send(msgname=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
 
+1653071587521	geckodriver	INFO	Listening on 127.0.0.1:37807
+1653071587708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "43661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilembuNrL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1653071596217	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilembuNrL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43661/devtools/browser/cc65fc08-08bd-4eff-bcfd-3bd63b680327
+1653071601494	Marionette	INFO	Listening on port 45675
+Read port: 45675
+1653071601726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.c5900dfeb0c4c9dc8f03.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1653071607817	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AAcrpHDydyl_zLrsUqLIoJaIpM6fuyfNuw3JGtq9cUA.js line 1 > eval line 6994 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AAcrpHDydyl_zLrsUqLIoJaIpM6fuyfNuw3JGtq9cUA.js line 1 > eval line 6994 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://www.gstatic.com/firebasejs/7.6.0/firebase-messaging.js, line 1: Error: Cannot instantiate firebase-messaging - be sure to load firebase-app.js first.
+1653071623466	Marionette	INFO	Stopped listening on port 45675
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PMessagePort::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
