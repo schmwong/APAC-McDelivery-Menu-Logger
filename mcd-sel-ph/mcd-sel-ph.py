@@ -66,51 +66,63 @@ XE = browser.get(
 exchange_rate = float(re.findall(
     r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
 
-print(exchange_rate)
+print(f"1 PHP = {exchange_rate} USD (1 USD = {1/exchange_rate} PHP) on {local_datetime.strftime('%A, %-d %B %Y')}")
+# >> 1 PHP = 0.019133839 USD (1 USD = 52.2634271147 PHP) on 21 May 2022
 print()
 
 
-# -------------------------------------- #
-#  Setting the Location to Metro Manila  #
-# -------------------------------------- #
+# ----------------------------------- #
+#  Selecting the Biggest Mcdo Outlet  #
+# ----------------------------------- #
+# ref: https://thesmartlocal.com/philippines/mcdonalds-pampanga/
 
+# -- Element Selectors -- #
+SEARCH_BOX = (By.ID, "inputData")
+
+Outlet_Address = "711 Capitol Boulevard, San Fernando, Pampanga, Philippines"
+
+CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]")
+
+DIALOG_CONFIRM_BUTTON = (By.XPATH, "//div[@class='pb-5']//button[contains(string(), 'Confirm')]")
+
+DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Capital Town')]")
+
+
+# -- Steps taken -- #
 browser.get("https://www.mcdelivery.com.ph/account/location/")
 
 WebDriverWait(browser, 100).until(
-    EC.visibility_of_element_located((By.ID, "inputData"))
-).send_keys("Manila, Metro Manila, Philippines")
+	EC.visibility_of_element_located(SEARCH_BOX)
+).send_keys(Outlet_Address)
 
 time.sleep(2)
 
-browser.find_element(By.ID, "inputData").send_keys(Keys.DOWN, Keys.ENTER)
+WebDriverWait(browser, 100).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+).send_keys(Keys.DOWN, Keys.ENTER)
 
 time.sleep(6)
 
 WebDriverWait(browser, 100).until(
-    EC.element_to_be_clickable((
-        By.XPATH, "//*[@id='app']/div[1]/main/div/div/div/div/div[4]/div/div/button"))
+    EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
 WebDriverWait(browser, 100).until(
-    EC.visibility_of_element_located(
-        (By.XPATH, "//*[@id='app']/div[5]/div/div/div[2]/div[3]/div/button"))
+	EC.visibility_of_element_located(DIALOG_CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
 WebDriverWait(browser, 100).until(
-    EC.element_to_be_clickable(
-        (By.XPATH, "//*[@id='app']/div[6]/div/div/div[3]/div[2]/div[1]/div/div/div"))
+    EC.element_to_be_clickable(DIALOG_SELECT_STORE)
 ).click()
 
 time.sleep(5)
 
 WebDriverWait(browser, 100).until(
-    EC.element_to_be_clickable((
-        By.XPATH, "//*[@id='app']/div[7]/div/div/div/div/div/div/div[3]/button"
-    ))
+    EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
 time.sleep(4)
@@ -121,7 +133,12 @@ time.sleep(4)
 # -------------------------------------- #
 
 
-browser.get("https://www.mcdelivery.com.ph/menu/")
+response = browser.get("https://www.mcdelivery.com.ph/menu/")
+
+print("https://www.mcdelivery.com.ph/menu/")
+print(f"HTTP status code: {response.status_code}")
+print()
+
 
 time.sleep(5)
 breakfast_list = []
@@ -148,7 +165,8 @@ for ID in category_id_list:
 		try:
 				if "Breakfast" in ID:
 					breakfast_items = browser.find_elements(
-                By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div')
+                By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]')
+								# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
 					for breakfast_item in breakfast_items:
 						breakfast_item_text = breakfast_item.text
 						breakfast_list.append(breakfast_item_text)
@@ -158,13 +176,16 @@ for ID in category_id_list:
 		
 		finally:
 			menu_items = browser.find_elements(
-	        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div')
+	        By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]')
+					# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
 			for menu_item in menu_items:
 					menu_item_text = menu_item.text
 					item_list.append(menu_item_text)
 				
 			prices = browser.find_elements(
-	        By.XPATH, f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div')
+	        By.XPATH, f'//*[@id="{ID}"]//span[contains(@class, "peso-sign")]/..')
+					# Parent element selector: /.. is shorthand for /parent::*
+					# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div'
 			for price in prices:
 					price_text = round(
 							float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 2
