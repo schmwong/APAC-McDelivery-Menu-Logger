@@ -87,6 +87,8 @@ DIALOG_CONFIRM_BUTTON = (By.XPATH, "//div[@class='pb-5']//button[contains(string
 
 DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Capital Town')]")
 
+OVERLAY = (By.XPATH, "//div[contains(@class, 'v-overlay__scrim')]")
+
 
 # -- Steps taken -- #
 browser.get("https://www.mcdelivery.com.ph/account/location/")
@@ -122,7 +124,7 @@ WebDriverWait(browser, 100).until(
 time.sleep(5)
 
 WebDriverWait(browser, 100).until(
-    EC.element_to_be_clickable(CONFIRM_BUTTON)
+    EC.element_to_be_clickable(OVERLAY)
 ).click()
 
 time.sleep(4)
