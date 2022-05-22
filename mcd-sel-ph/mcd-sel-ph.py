@@ -149,14 +149,10 @@ time.sleep(4)
 # -------------------------------------- #
 
 
-response = browser.get("https://www.mcdelivery.com.ph/menu/")
-
-print("https://www.mcdelivery.com.ph/menu/")
-print(f"HTTP status code: {response.status_code}")
-print()
-
+browser.get("https://www.mcdelivery.com.ph/menu/")
 
 time.sleep(5)
+
 breakfast_list = []
 category_id_list = []
 item_list = []
