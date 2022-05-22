@@ -87,6 +87,8 @@ DIALOG_CONFIRM_BUTTON = (By.XPATH, "//div[@class='pb-5']//button[contains(string
 
 DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Capital Town')]")
 
+DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2']")
+
 FINAL_CONFIRM_BUTTON = (By.XPATH, "//*[@id='app']/div[9]/div/div/div/div/div/div/div[3]/button")
 
 
@@ -117,9 +119,15 @@ WebDriverWait(browser, 100).until(
 
 time.sleep(6)
 
-WebDriverWait(browser, 100).until(
+try:
+	WebDriverWait(browser, 100).until(
     EC.element_to_be_clickable(DIALOG_SELECT_STORE)
-).click()
+	).click()
+
+except:
+	WebDriverWait(browser,100).until(
+		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
+	)
 
 time.sleep(5)
 
