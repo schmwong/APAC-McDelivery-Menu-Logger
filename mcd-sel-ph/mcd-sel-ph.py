@@ -87,9 +87,9 @@ DIALOG_CONFIRM_BUTTON = (By.XPATH, "//div[@class='pb-5']//button[contains(string
 
 DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Capital Town')]")
 
-DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2']")
+DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), '']")
 
-FINAL_CONFIRM_BUTTON = (By.XPATH, "//*[@id='app']/div[9]/div/div/div/div/div/div/div[3]/button")
+FINAL_CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]/..")
 
 
 # -- Steps taken -- #
@@ -101,38 +101,38 @@ WebDriverWait(browser, 100).until(
 
 time.sleep(2)
 
-WebDriverWait(browser, 100).until(
+WebDriverWait(browser, 10).until(
     EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Keys.DOWN, Keys.ENTER)
 
 time.sleep(6)
 
-WebDriverWait(browser, 100).until(
+WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
-WebDriverWait(browser, 100).until(
+WebDriverWait(browser, 10).until(
 	EC.visibility_of_element_located(DIALOG_CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
 try:
-	WebDriverWait(browser, 30).until(
+	WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable(DIALOG_SELECT_STORE)
 	).click()
 
 except:
-	WebDriverWait(browser,30).until(
+	WebDriverWait(browser,10).until(
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
 	)
 
 time.sleep(5)
 
 try:
-	WebDriverWait(browser, 30).until(
+	WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable(FINAL_CONFIRM_BUTTON)
 	).click()
 
