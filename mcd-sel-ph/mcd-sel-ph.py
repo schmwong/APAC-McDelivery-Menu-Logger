@@ -120,25 +120,25 @@ WebDriverWait(browser, 100).until(
 time.sleep(6)
 
 try:
-	WebDriverWait(browser, 100).until(
+	WebDriverWait(browser, 30).until(
     EC.element_to_be_clickable(DIALOG_SELECT_STORE)
 	).click()
 
 except:
-	WebDriverWait(browser,100).until(
+	WebDriverWait(browser,30).until(
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
 	)
 
 time.sleep(5)
 
 try:
-	WebDriverWait(browser, 100).until(
+	WebDriverWait(browser, 30).until(
     EC.element_to_be_clickable(FINAL_CONFIRM_BUTTON)
 	).click()
 
 except:
-	WebDriverWait(browser, 100).until(
-		EC.element_to_be_clickable((By.XPATH, "//*[@id='app']/div[7]/div/div/div/div/div/div/div[3]/button"))
+	WebDriverWait(browser, 30).until(
+		EC.element_to_be_clickable((By.XPATH, "//button[contains(string(), 'Confirm')]"))
 	).click()
 
 time.sleep(4)
