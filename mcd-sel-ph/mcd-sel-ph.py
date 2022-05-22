@@ -131,9 +131,15 @@ except:
 
 time.sleep(5)
 
-WebDriverWait(browser, 100).until(
+try:
+	WebDriverWait(browser, 100).until(
     EC.element_to_be_clickable(FINAL_CONFIRM_BUTTON)
-).click()
+	).click()
+
+except:
+	WebDriverWait(browser, 100).until(
+		EC.element_to_be_clickable((By.XPATH, "//*[@id='app']/div[7]/div/div/div/div/div/div/div[3]/button"))
+	).click()
 
 time.sleep(4)
 
