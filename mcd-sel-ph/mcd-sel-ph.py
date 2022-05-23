@@ -161,7 +161,7 @@ except:
 
 	WebDriverWait(browser,10).until(
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
-	)
+	).click()
 
 time.sleep(12)
 
