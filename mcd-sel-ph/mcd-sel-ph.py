@@ -159,6 +159,8 @@ except:
 			EC.element_to_be_clickable(DIALOG_CONFIRM_BUTTON)
 	).click()
 
+	time.sleep(6)
+	
 	WebDriverWait(browser,10).until(
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
 	).click()
