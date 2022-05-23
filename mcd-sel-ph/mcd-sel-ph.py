@@ -147,7 +147,7 @@ except:
 			EC.visibility_of_element_located(SEARCH_BOX)
 	).send_keys(Keys.DOWN, Keys.ENTER)
 
-	time.sleep(3)
+	time.sleep(6)
 
 	WebDriverWait(browser, 10).until(
 			EC.element_to_be_clickable(CONFIRM_BUTTON)
