@@ -351,3 +351,24 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/jNIfTJOJYpsZ98Q8qL-
 * WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 1653244335886	Marionette	INFO	Stopped listening on port 42159
+1653330856512	geckodriver	INFO	Listening on 127.0.0.1:48813
+1653330856889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "52113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBUQArQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1653330860824	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBUQArQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52113/devtools/browser/822020e1-a503-4e1d-a4ed-7b26e558a206
+1653330864747	Marionette	INFO	Listening on port 34211
+Read port: 34211
+1653330864845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.c5900dfeb0c4c9dc8f03.js, line 1: unreachable code after return statement
+1653330870140	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1653330870141	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1653330870144	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/firebasejs/7.6.0/firebase-messaging.js, line 1: Error: Cannot instantiate firebase-messaging - be sure to load firebase-app.js first.
+1653330886100	Marionette	INFO	Stopped listening on port 34211
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
