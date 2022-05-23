@@ -91,7 +91,7 @@ DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and not(contains(string(),
 
 CLOSE_BUTTON = (By.CSS_SELECTOR, "div.text-right.pa-2 > button")
 
-DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Un Del Pilar']")
+DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Un Del Pilar')]")
 
 FINAL_CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]/..")
 
