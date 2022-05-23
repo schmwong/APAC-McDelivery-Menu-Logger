@@ -171,7 +171,7 @@ try:
 	).click()
 
 except:
-	pass
+	browser.refresh()
 		
 time.sleep(4)
 
