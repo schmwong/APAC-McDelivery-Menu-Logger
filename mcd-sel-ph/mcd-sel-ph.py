@@ -163,7 +163,7 @@ except:
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
 	)
 
-time.sleep(5)
+time.sleep(12)
 
 try:
 	WebDriverWait(browser, 10).until(
@@ -171,8 +171,10 @@ try:
 	).click()
 
 except:
+	time.sleep(3)
+	
 	WebDriverWait(browser, 30).until(
-		EC.element_to_be_clickable(CONFIRM_BUTTON)
+		EC.element_to_be_clickable((By.XPATH, "//button[contains(string(), 'Confirm')]"))
 	).click()
 		
 time.sleep(4)
