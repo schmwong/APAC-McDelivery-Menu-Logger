@@ -81,13 +81,17 @@ SEARCH_BOX = (By.ID, "inputData")
 
 Outlet_Address = "711 Capitol Boulevard, San Fernando, Pampanga, Philippines"
 
+Alternate_Address = "1052 M. H. Del Pilar St, Ermita, Manila, 1000 Metro Manila, Philippines"
+
 CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]")
 
 DIALOG_CONFIRM_BUTTON = (By.XPATH, "//div[@class='pb-5']//button[contains(string(), 'Confirm')]")
 
-DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Capital Town')]")
+DIALOG_SELECT_STORE = (By.XPATH, "//div[@class='pb-2' and not(contains(string(), 'Store is currently unavailable')) and contains(string(), 'Capital Town')]")
 
-DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), '']")
+CLOSE_BUTTON = (By.CSS_SELECTOR, "div.text-right.pa-2 > button")
+
+DIALOG_FALLBACK_STORE = (By.XPATH, "//div[@class='pb-2' and contains(string(), 'Un Del Pilar']")
 
 FINAL_CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]/..")
 
@@ -125,6 +129,36 @@ try:
 	).click()
 
 except:
+	WebDriverWait(browser, 10).until(
+			EC.element_to_be_clickable(CLOSE_BUTTON)
+	).click()
+
+	WebDriverWait(browser, 10).until(
+			EC.visibility_of_element_located(SEARCH_BOX)
+	).clear()
+
+	WebDriverWait(browser, 10).until(
+			EC.visibility_of_element_located(SEARCH_BOX)
+	).send_keys(Alternate_Address)
+
+	time.sleep(2)
+
+	WebDriverWait(browser, 10).until(
+			EC.visibility_of_element_located(SEARCH_BOX)
+	).send_keys(Keys.DOWN, Keys.ENTER)
+
+	time.sleep(3)
+
+	WebDriverWait(browser, 10).until(
+			EC.element_to_be_clickable(CONFIRM_BUTTON)
+	).click()
+
+	time.sleep(6)
+
+	WebDriverWait(browser, 10).until(
+			EC.element_to_be_clickable(DIALOG_CONFIRM_BUTTON)
+	).click()
+
 	WebDriverWait(browser,10).until(
 		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
 	)
@@ -138,9 +172,9 @@ try:
 
 except:
 	WebDriverWait(browser, 30).until(
-		EC.element_to_be_clickable((By.XPATH, "//button[contains(string(), 'Confirm')]"))
+		EC.element_to_be_clickable(CONFIRM_BUTTON)
 	).click()
-
+		
 time.sleep(4)
 
 
