@@ -171,11 +171,7 @@ try:
 	).click()
 
 except:
-	time.sleep(3)
-	
-	WebDriverWait(browser, 30).until(
-		EC.element_to_be_clickable((By.XPATH, "//button[contains(string(), 'Confirm')]"))
-	).click()
+	pass
 		
 time.sleep(4)
 
