@@ -808,3 +808,48 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
 
+1653431921531	geckodriver	INFO	Listening on 127.0.0.1:33877
+1653431921907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "42413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVco8Rn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1653431925943	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVco8Rn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42413/devtools/browser/6d5d08dd-1051-4ff1-9038-8a99ee23b518
+1653431929705	Marionette	INFO	Listening on port 43561
+Read port: 43561
+1653431929770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.c5900dfeb0c4c9dc8f03.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/acronymusdcm96279568658/moatad.js#moatClientLevel1=24363961&moatClientLevel2=2375614&moatClientLevel3=276641297&moatClientLevel4=157558065&zMoatG=ct=US&st=VA&city=0&dma=13&zp=&bw=4&zMoatADV=5239943&zMoatENV=i, line 242: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/acronymusdcm96279568658/moatad.js#moatClientLevel1=24363961&moatClientLevel2=2375614&moatClientLevel3=276641297&moatClientLevel4=157558065&zMoatG=ct=US&st=VA&city=0&dma=13&zp=&bw=4&zMoatADV=5239943&zMoatENV=i, line 242: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/acronymusdcm96279568658/moatad.js#moatClientLevel1=24363961&moatClientLevel2=2375614&moatClientLevel3=276641297&moatClientLevel4=157558065&zMoatG=ct=US&st=VA&city=0&dma=13&zp=&bw=4&zMoatADV=5239943&zMoatENV=i, line 242: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/acronymusdcm96279568658/moatad.js#moatClientLevel1=24363961&moatClientLevel2=2375614&moatClientLevel3=276641297&moatClientLevel4=157558065&zMoatG=ct=US&st=VA&city=0&dma=13&zp=&bw=4&zMoatADV=5239943&zMoatENV=i, line 242: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1653431934612	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AAcrpHDydyl_zLrsUqLIoJaIpM6fuyfNuw3JGtq9cUA.js line 1 > eval line 3721 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AAcrpHDydyl_zLrsUqLIoJaIpM6fuyfNuw3JGtq9cUA.js line 1 > eval line 3721 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1653432035028	Marionette	INFO	Stopped listening on port 43561
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
