@@ -178,6 +178,38 @@ except:
 time.sleep(4)
 
 
+# -- Logging the Outlet Selected -- #
+def log_outlet():
+	
+		time.sleep(4)
+		
+		current_address = browser.find_element(
+				By.XPATH, "//a[@class='ml-1 font-16 font-speedy-bold my-auto black--text']"
+		).text
+		
+		if "711 Capitol Boulevard" in current_address:
+				print("McDo Outlet: Capital Town, San Fernando, Pampanga")
+				print("https://goo.gl/maps/RVQ6qsquqXUM2GCE8")
+				print()
+		
+		elif "1052 M. H. Del Pilar St, Ermita" in current_address:
+				print("McDo Outlet: U.N Del Pilar, Ermita, Manila")
+				print("https://goo.gl/maps/vMK866ySrjsofDyFA")
+				print()
+		
+		else:
+				print(current_address)
+
+
+if "home" in browser.current_url:
+		log_outlet()
+else:
+		browser.get("https://www.mcdelivery.com.ph/home/")
+		log_outlet()
+
+time.sleep(2)
+
+
 # -------------------------------------- #
 # Parsing the data into Dictionary List  #
 # -------------------------------------- #
