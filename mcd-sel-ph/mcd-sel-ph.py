@@ -58,13 +58,20 @@ browser = webdriver.Firefox(options=options)
 
 # Getting the correct XE webpage (all elements)
 XE = browser.get(
-    "https://www.xe.com/currencyconverter/convert/?Amount=1&From=PHP&To=USD")
+    "https://www.xe.com/currencyconverter/convert/?Amount=1&From=PHP&To=USD"
+)
 
 # Scraping the text from the selected element (CSS selector)
 # findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
 # Extracting only the number from the text string and converting it to a float value (decimal number)
-exchange_rate = float(re.findall(
-    r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
+exchange_rate = float(
+  re.findall(
+    r"[-+]?(?:\d*\.\d+|\d+)", 
+    browser.find_element(
+      By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod"
+    ).text
+  )[0]
+)
 
 print(f"1 PHP = {exchange_rate} USD (1 USD = {1/exchange_rate} PHP) on {local_datetime.strftime('%A, %-d %B %Y')}")
 # >> 1 PHP = 0.019133839 USD (1 USD = 52.2634271147 PHP) on 21 May 2022
@@ -100,80 +107,80 @@ FINAL_CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]/..")
 browser.get("https://www.mcdelivery.com.ph/account/location/")
 
 WebDriverWait(browser, 100).until(
-	EC.visibility_of_element_located(SEARCH_BOX)
+  EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Outlet_Address)
 
 time.sleep(2)
 
 WebDriverWait(browser, 10).until(
-    EC.visibility_of_element_located(SEARCH_BOX)
+  EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Keys.DOWN, Keys.ENTER)
 
 time.sleep(6)
 
 WebDriverWait(browser, 10).until(
-    EC.element_to_be_clickable(CONFIRM_BUTTON)
+  EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
 WebDriverWait(browser, 10).until(
-	EC.visibility_of_element_located(DIALOG_CONFIRM_BUTTON)
+  EC.visibility_of_element_located(DIALOG_CONFIRM_BUTTON)
 ).click()
 
 time.sleep(6)
 
 try:
-	WebDriverWait(browser, 10).until(
+  WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable(DIALOG_SELECT_STORE)
-	).click()
+  ).click()
 
 except:
-	WebDriverWait(browser, 10).until(
-			EC.element_to_be_clickable(CLOSE_BUTTON)
-	).click()
+  WebDriverWait(browser, 10).until(
+    EC.element_to_be_clickable(CLOSE_BUTTON)
+  ).click()
 
-	WebDriverWait(browser, 10).until(
-			EC.visibility_of_element_located(SEARCH_BOX)
-	).clear()
+  WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).clear()
 
-	WebDriverWait(browser, 10).until(
-			EC.visibility_of_element_located(SEARCH_BOX)
-	).send_keys(Alternate_Address)
+  WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).send_keys(Alternate_Address)
 
-	time.sleep(2)
+  time.sleep(2)
 
-	WebDriverWait(browser, 10).until(
-			EC.visibility_of_element_located(SEARCH_BOX)
-	).send_keys(Keys.DOWN, Keys.ENTER)
+  WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).send_keys(Keys.DOWN, Keys.ENTER)
 
-	time.sleep(6)
+  time.sleep(6)
 
-	WebDriverWait(browser, 10).until(
-			EC.element_to_be_clickable(CONFIRM_BUTTON)
-	).click()
+  WebDriverWait(browser, 10).until(
+    EC.element_to_be_clickable(CONFIRM_BUTTON)
+  ).click()
 
-	time.sleep(6)
+  time.sleep(6)
 
-	WebDriverWait(browser, 10).until(
-			EC.element_to_be_clickable(DIALOG_CONFIRM_BUTTON)
-	).click()
+  WebDriverWait(browser, 10).until(
+    EC.element_to_be_clickable(DIALOG_CONFIRM_BUTTON)
+  ).click()
 
-	time.sleep(6)
+  time.sleep(6)
 	
-	WebDriverWait(browser,10).until(
-		EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
-	).click()
+  WebDriverWait(browser,10).until(
+    EC.element_to_be_clickable(DIALOG_FALLBACK_STORE)
+  ).click()
 
 time.sleep(12)
 
 try:
-	WebDriverWait(browser, 10).until(
+  WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable(FINAL_CONFIRM_BUTTON)
-	).click()
+  ).click()
 
 except:
-	browser.refresh()
+  browser.refresh()
 		
 time.sleep(4)
 
@@ -181,31 +188,33 @@ time.sleep(4)
 # -- Logging the Outlet Selected -- #
 def log_outlet():
 	
-		time.sleep(4)
+  time.sleep(4)
 		
-		current_address = browser.find_element(
-				By.XPATH, "//a[@class='ml-1 font-16 font-speedy-bold my-auto black--text']"
-		).text
-		
-		if "711 Capitol Boulevard" in current_address:
-				print("McDo Outlet: Capital Town, San Fernando, Pampanga")
-				print("https://goo.gl/maps/RVQ6qsquqXUM2GCE8")
-				print()
-		
-		elif "1052 M. H. Del Pilar St, Ermita" in current_address:
-				print("McDo Outlet: U.N Del Pilar, Ermita, Manila")
-				print("https://goo.gl/maps/vMK866ySrjsofDyFA")
-				print()
-		
-		else:
-				print(current_address)
+  current_address = browser.find_element(
+    By.XPATH, "//a[@class='ml-1 font-16 font-speedy-bold my-auto black--text']"
+  ).text
+
+  if "711 Capitol Boulevard" in current_address:
+    print("McDo Outlet: Capital Town, San Fernando, Pampanga")
+    print("https://goo.gl/maps/RVQ6qsquqXUM2GCE8")
+    print()
+
+  elif "1052 M. H. Del Pilar St, Ermita" in current_address:
+    print("McDo Outlet: U.N Del Pilar, Ermita, Manila")
+    print("https://goo.gl/maps/vMK866ySrjsofDyFA")
+    print()
+
+  else:
+    print("McDo Outlet: " + current_address)
+    print()		
 
 
 if "home" in browser.current_url:
-		log_outlet()
+  log_outlet()
+	
 else:
-		browser.get("https://www.mcdelivery.com.ph/home/")
-		log_outlet()
+  browser.get("https://www.mcdelivery.com.ph/home/")
+  log_outlet()
 
 time.sleep(2)
 
@@ -231,69 +240,74 @@ product_list = []
 submenus = browser.find_elements(By.CSS_SELECTOR, "div#card section")
 
 for submenu in submenus:
-    category_id = submenu.get_attribute("id")
-    category_id_list.append(category_id)
+  category_id = submenu.get_attribute("id")
+  category_id_list.append(category_id)
 
 
 # Outer For Loop iterates through each Category section
 for ID in category_id_list:
 
-    # Inner For Loops scrape (text from the corresponding elements) for
-    # menu items and prices into individual lists
-		try:
-				if "Breakfast" in ID:
-					breakfast_items = browser.find_elements(
-                By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]')
-								# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
-					for breakfast_item in breakfast_items:
-						breakfast_item_text = breakfast_item.text
-						breakfast_list.append(breakfast_item_text)
-	
-		except:
-				pass
-		
-		finally:
-			menu_items = browser.find_elements(
-	        By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]')
-					# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
-			for menu_item in menu_items:
-					menu_item_text = menu_item.text
-					item_list.append(menu_item_text)
-				
-			prices = browser.find_elements(
-	        By.XPATH, f'//*[@id="{ID}"]//span[contains(@class, "peso-sign")]/..')
-					# Parent element selector: /.. is shorthand for /parent::*
-					# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div'
-			for price in prices:
-					price_text = round(
-							float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 2
-					)
-					price_list.append(price_text)
-	
-# Nested to match each menu item with its Category
-					category_text = ID
-					category_list.append(category_text)
+# Inner For Loops scrape (text from the corresponding elements) for
+# menu items and prices into individual lists
+  try:
+    if "Breakfast" in ID:
+      breakfast_items = browser.find_elements(
+        By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]'
+				# f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
+			)
+      for breakfast_item in breakfast_items:
+        breakfast_item_text = breakfast_item.text
+        breakfast_list.append(breakfast_item_text)
+
+  except:
+	  pass
+
+  finally:
+    menu_items = browser.find_elements(
+      By.XPATH, f'//*[@id="{ID}"]//div[contains(@class, "PRODUCT__NAME")]'
+      # f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[2]/div'
+	  )
+  for menu_item in menu_items:
+    menu_item_text = menu_item.text
+    item_list.append(menu_item_text)
+
+	# Parent element selector: /.. is shorthand for /parent::*
+  prices = browser.find_elements(
+    By.XPATH, f'//*[@id="{ID}"]//span[contains(@class, "peso-sign")]/..'
+	  # f'//*[@id="{ID}"]/div/div[2]/div/div/div/div[3]/div'
+	)
+  for price in prices:
+    price_text = round(
+      float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 
+			2
+    )
+    price_list.append(price_text)
+
+    # Nested to match each menu item with its Category
+    category_text = ID
+    category_list.append(category_text)
 
 
 # Zip function merges lists in parallel
 # Consolidating all the information: output each row of the menu into a {product dictionary}, then adding the {dictionary} to the [product_list]
 for menu_item_text, price_text, category_text in zip(item_list, price_list, category_list):
-		product = {}
-		product["Date"] = local_datetime.strftime("%Y/%m/%d")
-		product["Day"] = local_datetime.strftime("%a")
-		product["Territory"] = "Philippines"
-		product["Menu Item"] = menu_item_text
-		product["Price (PHP)"] = price_text
-		product["Price (USD)"] = round((price_text * exchange_rate), 2)
-		product["Category"] = category_text
-	
-		if ("Breakfast" in category_text):
-				product["Menu"] = "Breakfast"
-		elif (menu_item_text in breakfast_list):
-				product["Menu"] = "Breakfast"
-		else:
-				product["Menu"] = "Regular"
-		product_list.append(product)
+  product = {}
+  product["Date"] = local_datetime.strftime("%Y/%m/%d")
+  product["Day"] = local_datetime.strftime("%a")
+  product["Territory"] = "Philippines"
+  product["Menu Item"] = menu_item_text
+  product["Price (PHP)"] = price_text
+  product["Price (USD)"] = round((price_text * exchange_rate), 2)
+  product["Category"] = category_text
+
+  if ("Breakfast" in category_text):
+    product["Menu"] = "Breakfast"
+  elif (menu_item_text in breakfast_list):
+    product["Menu"] = "Breakfast"
+  else:
+    product["Menu"] = "Regular"
+    
+  product_list.append(product)
 
 
 # ---------------------------------------------------- #
@@ -301,11 +315,14 @@ for menu_item_text, price_text, category_text in zip(item_list, price_list, cate
 # ---------------------------------------------------- #
 
 product_list_df = pd.DataFrame(product_list)
-product_list_df.drop_duplicates(
-    subset=None, keep='last', inplace=True, ignore_index=True)
+
+product_list_df.drop_duplicates(subset=None, keep='last', inplace=True, ignore_index=True)
+
 product_list_df.reset_index(drop=True, inplace=True)
+
 product_list_df.index = pd.RangeIndex(
-    start=1, stop=(len(product_list_df.index) + 1), step=1)
+  start=1, stop=(len(product_list_df.index) + 1), step=1
+)
 
 print(product_list_df)
 print()
