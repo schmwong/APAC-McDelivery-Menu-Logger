@@ -110,15 +110,15 @@ WebDriverWait(browser, 100).until(
   EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Outlet_Address)
 
-time.sleep(2)
+time.sleep(6)
 
 WebDriverWait(browser, 10).until(
   EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Keys.DOWN, Keys.ENTER)
 
-time.sleep(10)
+time.sleep(5)
 
-WebDriverWait(browser, 20).until(
+WebDriverWait(browser, 10).until(
   EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
@@ -154,7 +154,7 @@ except:
     EC.visibility_of_element_located(SEARCH_BOX)
   ).send_keys(Alternate_Address)
 
-  time.sleep(2)
+  time.sleep(5)
 
   WebDriverWait(browser, 10).until(
     EC.visibility_of_element_located(SEARCH_BOX)
