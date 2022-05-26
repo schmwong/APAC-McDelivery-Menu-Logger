@@ -112,7 +112,7 @@ WebDriverWait(browser, 100).until(
   EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Outlet_Address)
 
-time.sleep(6)
+time.sleep(12)
 
 try:
   WebDriverWait(browser, 10).until(
@@ -132,7 +132,7 @@ except:
     EC.visibility_of_element_located(SEARCH_BOX)
   ).send_keys(Outlet_Address)
 
-  time.sleep(6)
+  time.sleep(12)
 
   WebDriverWait(browser, 10).until(
     EC.visibility_of_element_located(SEARCH_BOX)
