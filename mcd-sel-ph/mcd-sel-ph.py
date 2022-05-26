@@ -116,9 +116,9 @@ WebDriverWait(browser, 10).until(
   EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Keys.DOWN, Keys.ENTER)
 
-time.sleep(6)
+time.sleep(10)
 
-WebDriverWait(browser, 10).until(
+WebDriverWait(browser, 20).until(
   EC.element_to_be_clickable(CONFIRM_BUTTON)
 ).click()
 
@@ -140,9 +140,15 @@ except:
     EC.element_to_be_clickable(CLOSE_BUTTON)
   ).click()
 
+  time.sleep(1)
+  
+  browser.refresh()
+
   WebDriverWait(browser, 10).until(
     EC.visibility_of_element_located(SEARCH_BOX)
   ).clear()
+
+  time.sleep(1)
 
   WebDriverWait(browser, 10).until(
     EC.visibility_of_element_located(SEARCH_BOX)
@@ -154,9 +160,9 @@ except:
     EC.visibility_of_element_located(SEARCH_BOX)
   ).send_keys(Keys.DOWN, Keys.ENTER)
 
-  time.sleep(6)
+  time.sleep(10)
 
-  WebDriverWait(browser, 10).until(
+  WebDriverWait(browser, 20).until(
     EC.element_to_be_clickable(CONFIRM_BUTTON)
   ).click()
 
