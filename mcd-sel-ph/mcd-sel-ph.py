@@ -106,21 +106,44 @@ FINAL_CONFIRM_BUTTON = (By.XPATH, "//button[contains(string(), 'Confirm')]/..")
 # -- Steps taken -- #
 browser.get("https://www.mcdelivery.com.ph/account/location/")
 
+browser.refresh()
+
 WebDriverWait(browser, 100).until(
   EC.visibility_of_element_located(SEARCH_BOX)
 ).send_keys(Outlet_Address)
 
 time.sleep(6)
 
-WebDriverWait(browser, 10).until(
-  EC.visibility_of_element_located(SEARCH_BOX)
-).send_keys(Keys.DOWN, Keys.ENTER)
+try:
+  WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).send_keys(Keys.DOWN, Keys.ENTER)
 
-time.sleep(5)
+  time.sleep(5)
 
-WebDriverWait(browser, 10).until(
-  EC.element_to_be_clickable(CONFIRM_BUTTON)
-).click()
+  WebDriverWait(browser, 10).until(
+    EC.element_to_be_clickable(CONFIRM_BUTTON)
+  ).click()
+
+except:
+  browser.refresh()
+
+  WebDriverWait(browser, 100).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).send_keys(Outlet_Address)
+
+  time.sleep(6)
+
+  WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located(SEARCH_BOX)
+  ).send_keys(Keys.DOWN, Keys.ENTER)
+
+  time.sleep(5)
+
+  WebDriverWait(browser, 10).until(
+    EC.element_to_be_clickable(CONFIRM_BUTTON)
+  ).click()
+
 
 time.sleep(6)
 
@@ -129,6 +152,7 @@ WebDriverWait(browser, 10).until(
 ).click()
 
 time.sleep(6)
+
 
 try:
   WebDriverWait(browser, 10).until(
