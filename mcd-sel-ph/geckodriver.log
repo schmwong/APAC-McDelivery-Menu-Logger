@@ -1207,3 +1207,29 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1653968536557	geckodriver	INFO	Listening on 127.0.0.1:45573
+1653968537058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "56095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileifqliv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1653968537721	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileifqliv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56095/devtools/browser/b6341b9f-f4ef-43dc-bdb3-a2932bf92c12
+1653968539059	Marionette	INFO	Listening on port 44227
+Read port: 44227
+1653968539084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.c5900dfeb0c4c9dc8f03.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=798073&moatClientLevel2=14360512&moatClientLevel3=10885835&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=260310080&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:267994&zMoatCtn=teaser_4f659fa9-5951-dd90-80eb-65f095470795, line 244: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=798073&moatClientLevel2=14360512&moatClientLevel3=10885835&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=260310080&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:267994&zMoatCtn=teaser_4f659fa9-5951-dd90-80eb-65f095470795, line 244: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=798073&moatClientLevel2=14360512&moatClientLevel3=10885835&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=260310080&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:267994&zMoatCtn=teaser_4f659fa9-5951-dd90-80eb-65f095470795, line 244: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=798073&moatClientLevel2=14360512&moatClientLevel3=10885835&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=260310080&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:267994&zMoatCtn=teaser_4f659fa9-5951-dd90-80eb-65f095470795, line 244: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1653968703055	Marionette	INFO	Stopped listening on port 44227
