@@ -1461,3 +1461,31 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1654295713862	geckodriver	INFO	Listening on 127.0.0.1:37123
+1654295714114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "36139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyKG1q8"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1654295722569	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyKG1q8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36139/devtools/browser/b7b2d781-334d-4fb6-96c8-8a51aca807f8
+1654295728792	Marionette	INFO	Listening on port 42785
+Read port: 42785
+1654295728926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.c5900dfeb0c4c9dc8f03.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 50: TypeError: t.contentWindow is null
+JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 50: TypeError: t.contentWindow is null
+1654295892776	Marionette	INFO	Stopped listening on port 42785
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
