@@ -28,6 +28,7 @@ category_dict = {
 	11: "McDo Party Box",
 	76: "BREAKFAST HOURS",
 	77: "LUNCH HOURS",
+	78: "PM SNACK HOURS",
 	79: "DINNER HOURS",
 	80: "AFTER DINNER HOURS",
 }
@@ -276,8 +277,9 @@ class McdScrPhSpider(scrapy.Spider):
 			"McDo Party Box": 11,
 			"BREAKFAST HOURS": 12,
 			"LUNCH HOURS": 13,
-			"DINNER HOURS": 14,
-			"AFTER DINNER HOURS": 15
+			"PM SNACK HOURS": 14,
+			"DINNER HOURS": 15,
+			"AFTER DINNER HOURS": 16
 		}
 		
 		# ------------ #
