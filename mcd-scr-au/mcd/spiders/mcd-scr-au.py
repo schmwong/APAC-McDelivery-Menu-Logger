@@ -38,8 +38,8 @@ class McdScrAuSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 2: Parse exchange rate and store float value into global
-			variable, then send POST request to the Uber Eats API
-			to retrieve menu data as JSON
+		variable, then send POST request to the Uber Eats API
+		to retrieve menu data as JSON
 	'''''' ------------------------------------------------------ '''
 
 	def parse_fx(self, response):
@@ -89,7 +89,7 @@ class McdScrAuSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 3: Parse and store product data into a DataFrame,
-			then clean, sort, and export
+		then clean, sort, and export
 	'''''' ------------------------------------------------------ '''
 
 	def parse_products(self, response):
@@ -154,8 +154,8 @@ class McdScrAuSpider(scrapy.Spider):
 		product_list_df.insert(0, "Date", local_datetime.strftime("%Y/%m/%d"))
 
 		product_list_df.index = pd.RangeIndex(
-      start=1, stop=(len(product_list_df.index) + 1), step=1
-    )
+			start=1, stop=(len(product_list_df.index) + 1), step=1
+		)
 
 
 		print()
@@ -168,10 +168,11 @@ class McdScrAuSpider(scrapy.Spider):
 		# >>
 		# >> Order Page: https://www.ubereats.com/au/store/mcdonalds-clifton-hill/SIaq6LrDTFemKVajhXM-iA
 		# >>
+		
 		print()
 		print(
-      f"1 AUD = {exchange_rate} USD (1 USD = {1/exchange_rate} AUD) on {local_datetime.strftime('%A, %-d %B %Y')}"
-    )
+			f"1 AUD = {exchange_rate} USD (1 USD = {1/exchange_rate} AUD) on {local_datetime.strftime('%A, %-d %B %Y')}"
+		)
 		print()
 		# >>
 		# >> 1 AUD = 0.72251604 USD (1 USD = 1.3840523180634163 AUD) on Tuesday, 7 June 2022
@@ -193,6 +194,6 @@ class McdScrAuSpider(scrapy.Spider):
 		# output_dir.mkdir(parents=True, exist_ok=True)
 
 		product_list_df.to_csv((output_dir / output_file),
-													 float_format="%.2f", encoding="utf-8")
+				       float_format="%.2f", encoding="utf-8")
 
 		# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-scr-au.csv"
