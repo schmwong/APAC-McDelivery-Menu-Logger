@@ -7,7 +7,7 @@
 # pip3 install pytz
 # pip3 install path
 # pip3 install pathlib2
-# scrapy crawl mcd-scr-au
+# scrapy crawl mcd-scr-nz
 
 
 import scrapy  # version ^2.6.1 at time of writing
@@ -73,7 +73,7 @@ class McdScrAuSpider(scrapy.Spider):
 			'sec-fetch-site': 'same-origin',
 			'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
 			'x-csrf-token': 'x',
-    }
+		}
 
 		body = json.dumps({
 			# McDonald's Point Chevalier, Auckland
