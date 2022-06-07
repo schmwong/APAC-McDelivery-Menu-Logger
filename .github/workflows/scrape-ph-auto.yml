@@ -24,23 +24,22 @@ jobs:
             with:
                 python-version: 3.8.2
           - name: setup dependencies
-            working-directory: ./mcd-sel-ph
+            working-directory: ./mcd-scr-ph
             run: |
-              pip install selenium
-              pip install pandas 
-              pip install pytz
-              pip3 install requests
-              pip install path
-              pip install pathlib2
-          - name: execute py script # run mcd-sel-ph.py to get the latest data
-            working-directory: ./mcd-sel-ph
+              pip3 install scrapy
+              pip3 install pandas 
+              pip3 install pytz
+              pip3 install path
+              pip3 install pathlib2
+          - name: execute py script # run mcd-scr-ph.py to get the latest data
+            working-directory: ./mcd-scr-ph
             run: |
-              python mcd-sel-ph.py
+              scrapy crawl mcd-scr-ph
           - name: Commit and push if it changed
             run: |
               git config user.name "${GITHUB_ACTOR}"
               git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
               git add -A
               timestamp=$(date -u)
-              git commit -m "Scraped: [${timestamp}] mcd-sel-ph (auto)" 
+              git commit -m "Scraped: [${timestamp}] mcd-scr-ph (auto)" 
               git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
