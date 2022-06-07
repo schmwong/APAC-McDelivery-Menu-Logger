@@ -52,9 +52,9 @@ class McdScrPhSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 2: Parse exchange rate and store float value into global 
-					variable, then send POST request to retrieve GID and 
-					Bearer auth token to enable access to CMS endpoints 
-					of the haku API
+		variable, then send POST request to retrieve GID and 
+		Bearer auth token to enable access to CMS endpoints 
+		of the haku API
 	'''''' ------------------------------------------------------ '''
 
 	def parse_fx(self, response):
@@ -100,7 +100,7 @@ class McdScrPhSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 3: Store the right HTTP request headers and body, then send
-					POST requests to retrieve Category IDs and names
+		POST requests to retrieve Category IDs and names
 	'''''' ------------------------------------------------------ '''
 
 	def parse_auth(self, response):
@@ -164,8 +164,8 @@ class McdScrPhSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 4: Store the Category data into a global dictionary for
-					later reference, then send a POST request to retrieve
-					product information of all menu items
+		later reference, then send a POST request to retrieve
+		product information of all menu items
 	'''''' ------------------------------------------------------ '''
 
 	def parse_categories(self, response):
@@ -197,7 +197,7 @@ class McdScrPhSpider(scrapy.Spider):
 
 	''' ====================================================== ''''''
 	Step 5: Parse and store product data into a DataFrame, 
-					then clean, sort, and export
+		then clean, sort, and export
 	'''''' ------------------------------------------------------ '''
 
 	def parse_products(self, response):
