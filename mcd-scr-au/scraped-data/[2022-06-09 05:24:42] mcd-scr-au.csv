@@ -1,0 +1,324 @@
+,Date,Day,Territory,Menu Item,Price (AUD),Price (USD),Category,Menu
+1,2022/06/09,Thu,Australia,Mighty McMuffin,7.70,5.54,Most Popular,Breakfast Menu
+2,2022/06/09,Thu,Australia,Brekkie Bundle,29.95,21.56,Most Popular,Breakfast Menu
+3,2022/06/09,Thu,Australia,Bacon & Egg McMuffin,5.50,3.96,Most Popular,Breakfast Menu
+4,2022/06/09,Thu,Australia,Sausage & Egg McMuffin,5.70,4.10,Most Popular,Breakfast Menu
+5,2022/06/09,Thu,Australia,Hotcakes with Butter & Syrup,6.70,4.82,Most Popular,Breakfast Menu
+6,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,Most Popular,Breakfast Menu
+7,2022/06/09,Thu,Australia,McFlurry® with Cadbury® Dairy Milk®,5.90,4.25,Most Popular,Breakfast Menu
+8,2022/06/09,Thu,Australia,Mighty McMuffin,7.70,5.54,McMuffins,Breakfast Menu
+9,2022/06/09,Thu,Australia,Brekkie Bundle,29.95,21.56,McMuffins,Breakfast Menu
+10,2022/06/09,Thu,Australia,Bacon & Egg McMuffin,5.50,3.96,McMuffins,Breakfast Menu
+11,2022/06/09,Thu,Australia,Double Bacon & Egg McMuffin,6.40,4.61,McMuffins,Breakfast Menu
+12,2022/06/09,Thu,Australia,Sausage & Egg McMuffin,5.70,4.10,McMuffins,Breakfast Menu
+13,2022/06/09,Thu,Australia,Double Sausage & Egg McMuffin,6.80,4.90,McMuffins,Breakfast Menu
+14,2022/06/09,Thu,Australia,Sausage McMuffin,5.20,3.74,McMuffins,Breakfast Menu
+15,2022/06/09,Thu,Australia,Double Sausage McMuffin,6.30,4.54,McMuffins,Breakfast Menu
+16,2022/06/09,Thu,Australia,Big Brekkie Burger,8.75,6.30,McMuffins,Breakfast Menu
+17,2022/06/09,Thu,Australia,Hotcakes with Butter & Syrup,6.70,4.82,More Brekkie Favourites,Breakfast Menu
+18,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,More Brekkie Favourites,Breakfast Menu
+19,2022/06/09,Thu,Australia,Big Brekkie Burger,8.75,6.30,More Brekkie Favourites,Breakfast Menu
+20,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,All Day Menu,Breakfast Menu
+21,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,All Day Menu,Breakfast Menu
+22,2022/06/09,Thu,Australia,Cheeseburger,4.25,3.06,All Day Menu,Breakfast Menu
+23,2022/06/09,Thu,Australia,Big Mac,7.25,5.22,All Day Menu,Breakfast Menu
+24,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,All Day Menu,Breakfast Menu
+25,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,All Day Menu,Breakfast Menu
+26,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,All Day Menu,Breakfast Menu
+27,2022/06/09,Thu,Australia,Small Fries,2.95,2.12,All Day Menu,Breakfast Menu
+28,2022/06/09,Thu,Australia,Double Cheeseburger,6.00,4.32,All Day Menu,Breakfast Menu
+29,2022/06/09,Thu,Australia,Small Australiano Chai Coffee  McCafé,5.35,3.85,McCafe Drinks,Breakfast Menu
+30,2022/06/09,Thu,Australia,Small Cappuccino McCafe,4.75,3.42,McCafe Drinks,Breakfast Menu
+31,2022/06/09,Thu,Australia,Small Flat White McCafe,4.75,3.42,McCafe Drinks,Breakfast Menu
+32,2022/06/09,Thu,Australia,Small Long Black McCafe,4.75,3.42,McCafe Drinks,Breakfast Menu
+33,2022/06/09,Thu,Australia,Small Hot Chocolate McCafé,4.90,3.53,McCafe Drinks,Breakfast Menu
+34,2022/06/09,Thu,Australia,Small Latté McCafe,4.75,3.42,McCafe Drinks,Breakfast Menu
+35,2022/06/09,Thu,Australia,Small Mocha McCafe,4.90,3.53,McCafe Drinks,Breakfast Menu
+36,2022/06/09,Thu,Australia,Espresso McCafé,3.60,2.59,McCafe Drinks,Breakfast Menu
+37,2022/06/09,Thu,Australia,Macchiato McCafé,3.60,2.59,McCafe Drinks,Breakfast Menu
+38,2022/06/09,Thu,Australia,Piccolo Latte,3.60,2.59,McCafe Drinks,Breakfast Menu
+39,2022/06/09,Thu,Australia,Small Chai Latte McCafé,4.90,3.53,McCafe Drinks,Breakfast Menu
+40,2022/06/09,Thu,Australia,Small Iced Australiano Chai Coffee McCafé,6.15,4.43,McCafe Drinks,Breakfast Menu
+41,2022/06/09,Thu,Australia,Small McCafé Deluxe Iced Coffee,6.15,4.43,McCafe Drinks,Breakfast Menu
+42,2022/06/09,Thu,Australia,Small Iced Chocolate McCafé,5.00,3.60,McCafe Drinks,Breakfast Menu
+43,2022/06/09,Thu,Australia,Small Iced Mocha McCafé,5.25,3.78,McCafe Drinks,Breakfast Menu
+44,2022/06/09,Thu,Australia,Small Iced Chai Latte McCafé,4.75,3.42,McCafe Drinks,Breakfast Menu
+45,2022/06/09,Thu,Australia,Small Iced Latté McCafé,4.95,3.56,McCafe Drinks,Breakfast Menu
+46,2022/06/09,Thu,Australia,Zoetic Green Tea,4.10,2.95,McCafe Drinks,Breakfast Menu
+47,2022/06/09,Thu,Australia,Zoetic English Breakfast Tea,4.10,2.95,McCafe Drinks,Breakfast Menu
+48,2022/06/09,Thu,Australia,Zoetic Peppermint Tea,4.10,2.95,McCafe Drinks,Breakfast Menu
+49,2022/06/09,Thu,Australia,Small Orange Juice,4.35,3.13,Juice & Bottled Drinks,Breakfast Menu
+50,2022/06/09,Thu,Australia,Apple Juice 250mL,4.10,2.95,Juice & Bottled Drinks,Breakfast Menu
+51,2022/06/09,Thu,Australia,Bottled Water 250mL,3.60,2.59,Juice & Bottled Drinks,Breakfast Menu
+52,2022/06/09,Thu,Australia,CalciYum™ Chocolate Flavoured Milk,4.35,3.13,Juice & Bottled Drinks,Breakfast Menu
+53,2022/06/09,Thu,Australia,Bottled Water 600mL,4.45,3.20,Juice & Bottled Drinks,Breakfast Menu
+54,2022/06/09,Thu,Australia,Small Chocolate Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Breakfast Menu
+55,2022/06/09,Thu,Australia,Small Strawberry Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Breakfast Menu
+56,2022/06/09,Thu,Australia,Small Vanilla Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Breakfast Menu
+57,2022/06/09,Thu,Australia,Medium Chocolate Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Breakfast Menu
+58,2022/06/09,Thu,Australia,Medium Coffee Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Breakfast Menu
+59,2022/06/09,Thu,Australia,Medium Salted Caramel Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Breakfast Menu
+60,2022/06/09,Thu,Australia,Small Coke®,3.75,2.70,Soft Drinks,Breakfast Menu
+61,2022/06/09,Thu,Australia,Small Diet Coke®,3.75,2.70,Soft Drinks,Breakfast Menu
+62,2022/06/09,Thu,Australia,Small Sprite®,3.75,2.70,Soft Drinks,Breakfast Menu
+63,2022/06/09,Thu,Australia,Small Fanta®,3.75,2.70,Soft Drinks,Breakfast Menu
+64,2022/06/09,Thu,Australia,Small Coke® No Sugar,3.75,2.70,Soft Drinks,Breakfast Menu
+65,2022/06/09,Thu,Australia,Small Vanilla Coke®,3.75,2.70,Soft Drinks,Breakfast Menu
+66,2022/06/09,Thu,Australia,Small Sparkling Water,3.75,2.70,Soft Drinks,Breakfast Menu
+67,2022/06/09,Thu,Australia,Small Frozen Coke®,3.75,2.70,Soft Drinks,Breakfast Menu
+68,2022/06/09,Thu,Australia,McFlurry® with Cadbury® Dairy Milk®,5.90,4.25,Desserts,Breakfast Menu
+69,2022/06/09,Thu,Australia,McFlurry with OREO® Cookie,5.90,4.25,Desserts,Breakfast Menu
+70,2022/06/09,Thu,Australia,M&M'S® MINIS McFlurry,5.90,4.25,Desserts,Breakfast Menu
+71,2022/06/09,Thu,Australia,Hot Apple Pie,3.00,2.16,Desserts,Breakfast Menu
+72,2022/06/09,Thu,Australia,Hot Fudge Sundae,4.40,3.17,Desserts,Breakfast Menu
+73,2022/06/09,Thu,Australia,Strawberry Sundae,4.40,3.17,Desserts,Breakfast Menu
+74,2022/06/09,Thu,Australia,McDonaldland Cookies,1.40,1.01,Desserts,Breakfast Menu
+75,2022/06/09,Thu,Australia,Caramel Sundae,4.40,3.17,Desserts,Breakfast Menu
+76,2022/06/09,Thu,Australia,Hot Cake Syrup,0.80,0.58,Breakfast Condiments,Breakfast Menu
+77,2022/06/09,Thu,Australia,Sweet 'n Sour Sauce,0.55,0.40,Breakfast Condiments,Breakfast Menu
+78,2022/06/09,Thu,Australia,Barbecue Sauce,0.55,0.40,Breakfast Condiments,Breakfast Menu
+79,2022/06/09,Thu,Australia,Mustard Sauce,0.55,0.40,Breakfast Condiments,Breakfast Menu
+80,2022/06/09,Thu,Australia,Ketchup,0.30,0.22,Breakfast Condiments,Breakfast Menu
+81,2022/06/09,Thu,Australia,McChicken Sauce,0.55,0.40,Breakfast Condiments,Breakfast Menu
+82,2022/06/09,Thu,Australia,Chicken Deluxe Share Pack,18.50,13.32,Family & Sharing,Overnight Menu
+83,2022/06/09,Thu,Australia,Meal For 2,29.95,21.56,Family & Sharing,Overnight Menu
+84,2022/06/09,Thu,Australia,McValue Box,29.95,21.56,Family & Sharing,Overnight Menu
+85,2022/06/09,Thu,Australia,McFavourites Box,47.95,34.52,Family & Sharing,Overnight Menu
+86,2022/06/09,Thu,Australia,McFamily Box,57.95,41.72,Family & Sharing,Overnight Menu
+87,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Family & Sharing,Overnight Menu
+88,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,Family & Sharing,Overnight Menu
+89,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Family & Sharing,Overnight Menu
+90,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Chicken & Fish,Overnight Menu
+91,2022/06/09,Thu,Australia,Chicken Deluxe Share Pack,18.50,13.32,Chicken & Fish,Overnight Menu
+92,2022/06/09,Thu,Australia,McSpicy Burger,9.35,6.73,Chicken & Fish,Overnight Menu
+93,2022/06/09,Thu,Australia,Double McChicken,9.55,6.88,Chicken & Fish,Overnight Menu
+94,2022/06/09,Thu,Australia,McChicken,7.60,5.47,Chicken & Fish,Overnight Menu
+95,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Chicken & Fish,Overnight Menu
+96,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Chicken & Fish,Overnight Menu
+97,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Chicken & Fish,Overnight Menu
+98,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,Chicken & Fish,Overnight Menu
+99,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Chicken & Fish,Overnight Menu
+100,2022/06/09,Thu,Australia,Chicken 'n' Cheese,4.90,3.53,Chicken & Fish,Overnight Menu
+101,2022/06/09,Thu,Australia,Double Filet-O-Fish,8.00,5.76,Chicken & Fish,Overnight Menu
+102,2022/06/09,Thu,Australia,Filet-O-Fish,6.20,4.46,Chicken & Fish,Overnight Menu
+103,2022/06/09,Thu,Australia,Chicken McNuggets 3pc Happy Meal,6.90,4.97,Happy Meals,Overnight Menu
+104,2022/06/09,Thu,Australia,Chicken McNuggets 6pc Happy Meal,9.65,6.95,Happy Meals,Overnight Menu
+105,2022/06/09,Thu,Australia,Cheeseburger Happy Meal,6.90,4.97,Happy Meals,Overnight Menu
+106,2022/06/09,Thu,Australia,Grape Tomatoes,2.95,2.12,Happy Meals,Overnight Menu
+107,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Beef,Overnight Menu
+108,2022/06/09,Thu,Australia,Quarter Pounder,7.45,5.36,Beef,Overnight Menu
+109,2022/06/09,Thu,Australia,Double Quarter Pounder,9.85,7.09,Beef,Overnight Menu
+110,2022/06/09,Thu,Australia,Big Mac,7.25,5.22,Beef,Overnight Menu
+111,2022/06/09,Thu,Australia,Double Cheeseburger,6.00,4.32,Beef,Overnight Menu
+112,2022/06/09,Thu,Australia,Double Big Mac,9.70,6.98,Beef,Overnight Menu
+113,2022/06/09,Thu,Australia,Triple Cheeseburger,8.10,5.83,Beef,Overnight Menu
+114,2022/06/09,Thu,Australia,Hamburger,3.70,2.66,Beef,Overnight Menu
+115,2022/06/09,Thu,Australia,Cheeseburger,4.25,3.06,Beef,Overnight Menu
+116,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Chicken McNuggets,Overnight Menu
+117,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Chicken McNuggets,Overnight Menu
+118,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Chicken McNuggets,Overnight Menu
+119,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Chicken McNuggets,Overnight Menu
+120,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Chicken McNuggets,Overnight Menu
+121,2022/06/09,Thu,Australia,Small Australiano Chai Coffee  McCafé,5.35,3.85,McCafe Drinks,Overnight Menu
+122,2022/06/09,Thu,Australia,Small Cappuccino McCafe,4.75,3.42,McCafe Drinks,Overnight Menu
+123,2022/06/09,Thu,Australia,Small Flat White McCafe,4.75,3.42,McCafe Drinks,Overnight Menu
+124,2022/06/09,Thu,Australia,Small Latté McCafe,4.75,3.42,McCafe Drinks,Overnight Menu
+125,2022/06/09,Thu,Australia,Small Long Black McCafe,4.75,3.42,McCafe Drinks,Overnight Menu
+126,2022/06/09,Thu,Australia,Small Chai Latte McCafé,4.90,3.53,McCafe Drinks,Overnight Menu
+127,2022/06/09,Thu,Australia,Small Hot Chocolate McCafé,4.90,3.53,McCafe Drinks,Overnight Menu
+128,2022/06/09,Thu,Australia,Small Mocha McCafe,4.90,3.53,McCafe Drinks,Overnight Menu
+129,2022/06/09,Thu,Australia,Espresso McCafé,3.60,2.59,McCafe Drinks,Overnight Menu
+130,2022/06/09,Thu,Australia,Macchiato McCafé,3.60,2.59,McCafe Drinks,Overnight Menu
+131,2022/06/09,Thu,Australia,Piccolo Latte,3.60,2.59,McCafe Drinks,Overnight Menu
+132,2022/06/09,Thu,Australia,Small Iced Australiano Chai Coffee McCafé,6.15,4.43,McCafe Drinks,Overnight Menu
+133,2022/06/09,Thu,Australia,Small McCafé Deluxe Iced Coffee,6.15,4.43,McCafe Drinks,Overnight Menu
+134,2022/06/09,Thu,Australia,Small Iced Chocolate McCafé,5.00,3.60,McCafe Drinks,Overnight Menu
+135,2022/06/09,Thu,Australia,Small Iced Chai Latte McCafé,4.75,3.42,McCafe Drinks,Overnight Menu
+136,2022/06/09,Thu,Australia,Small Iced Mocha McCafé,5.25,3.78,McCafe Drinks,Overnight Menu
+137,2022/06/09,Thu,Australia,Small Iced Latté McCafé,4.95,3.56,McCafe Drinks,Overnight Menu
+138,2022/06/09,Thu,Australia,Zoetic Earl Grey Tea,4.10,2.95,McCafe Drinks,Overnight Menu
+139,2022/06/09,Thu,Australia,Zoetic Green Tea,4.10,2.95,McCafe Drinks,Overnight Menu
+140,2022/06/09,Thu,Australia,Zoetic English Breakfast Tea,4.10,2.95,McCafe Drinks,Overnight Menu
+141,2022/06/09,Thu,Australia,Zoetic Peppermint Tea,4.10,2.95,McCafe Drinks,Overnight Menu
+142,2022/06/09,Thu,Australia,Small Fries,2.95,2.12,Snacks & Fries,Overnight Menu
+143,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,Snacks & Fries,Overnight Menu
+144,2022/06/09,Thu,Australia,Hot Apple Pie,3.00,2.16,Snacks & Fries,Overnight Menu
+145,2022/06/09,Thu,Australia,Hamburger,3.70,2.66,Snacks & Fries,Overnight Menu
+146,2022/06/09,Thu,Australia,Cheeseburger,4.25,3.06,Snacks & Fries,Overnight Menu
+147,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Snacks & Fries,Overnight Menu
+148,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Snacks & Fries,Overnight Menu
+149,2022/06/09,Thu,Australia,Grape Tomatoes,2.95,2.12,Snacks & Fries,Overnight Menu
+150,2022/06/09,Thu,Australia,McDonaldland Cookies,1.40,1.01,Snacks & Fries,Overnight Menu
+151,2022/06/09,Thu,Australia,McFlurry® with Cadbury® Dairy Milk®,5.90,4.25,Desserts,Overnight Menu
+152,2022/06/09,Thu,Australia,McFlurry with OREO® Cookie,5.90,4.25,Desserts,Overnight Menu
+153,2022/06/09,Thu,Australia,M&M'S® MINIS McFlurry,5.90,4.25,Desserts,Overnight Menu
+154,2022/06/09,Thu,Australia,Hot Apple Pie,3.00,2.16,Desserts,Overnight Menu
+155,2022/06/09,Thu,Australia,Hot Fudge Sundae,4.40,3.17,Desserts,Overnight Menu
+156,2022/06/09,Thu,Australia,Strawberry Sundae,4.40,3.17,Desserts,Overnight Menu
+157,2022/06/09,Thu,Australia,McDonaldland Cookies,1.40,1.01,Desserts,Overnight Menu
+158,2022/06/09,Thu,Australia,Caramel Sundae,4.40,3.17,Desserts,Overnight Menu
+159,2022/06/09,Thu,Australia,Small Coke®,3.75,2.70,Soft Drinks,Overnight Menu
+160,2022/06/09,Thu,Australia,Small Diet Coke®,3.75,2.70,Soft Drinks,Overnight Menu
+161,2022/06/09,Thu,Australia,Small Sprite®,3.75,2.70,Soft Drinks,Overnight Menu
+162,2022/06/09,Thu,Australia,Small Fanta®,3.75,2.70,Soft Drinks,Overnight Menu
+163,2022/06/09,Thu,Australia,Small Coke® No Sugar,3.75,2.70,Soft Drinks,Overnight Menu
+164,2022/06/09,Thu,Australia,Small Vanilla Coke®,3.75,2.70,Soft Drinks,Overnight Menu
+165,2022/06/09,Thu,Australia,Small Sparkling Water,3.75,2.70,Soft Drinks,Overnight Menu
+166,2022/06/09,Thu,Australia,Small Frozen Coke®,3.75,2.70,Soft Drinks,Overnight Menu
+167,2022/06/09,Thu,Australia,Small Chocolate Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Overnight Menu
+168,2022/06/09,Thu,Australia,Small Strawberry Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Overnight Menu
+169,2022/06/09,Thu,Australia,Small Vanilla Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Overnight Menu
+170,2022/06/09,Thu,Australia,Medium Coffee Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Overnight Menu
+171,2022/06/09,Thu,Australia,Medium Chocolate Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Overnight Menu
+172,2022/06/09,Thu,Australia,Medium Salted Caramel Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Overnight Menu
+173,2022/06/09,Thu,Australia,Small Orange Juice,4.35,3.13,Juice & Bottled Drinks,Overnight Menu
+174,2022/06/09,Thu,Australia,Bottled Water 250mL,3.60,2.59,Juice & Bottled Drinks,Overnight Menu
+175,2022/06/09,Thu,Australia,Apple Juice 250mL,4.10,2.95,Juice & Bottled Drinks,Overnight Menu
+176,2022/06/09,Thu,Australia,CalciYum™ Chocolate Flavoured Milk,4.35,3.13,Juice & Bottled Drinks,Overnight Menu
+177,2022/06/09,Thu,Australia,Bottled Water 600mL,4.45,3.20,Juice & Bottled Drinks,Overnight Menu
+178,2022/06/09,Thu,Australia,Big Mac Special Sauce,0.55,0.40,Extra Sauces,Overnight Menu
+179,2022/06/09,Thu,Australia,Sweet 'n Sour Sauce,0.55,0.40,Extra Sauces,Overnight Menu
+180,2022/06/09,Thu,Australia,Aioli Sauce Tub,0.55,0.40,Extra Sauces,Overnight Menu
+181,2022/06/09,Thu,Australia,Barbecue Sauce,0.55,0.40,Extra Sauces,Overnight Menu
+182,2022/06/09,Thu,Australia,Mustard Sauce,0.55,0.40,Extra Sauces,Overnight Menu
+183,2022/06/09,Thu,Australia,Ketchup,0.30,0.22,Extra Sauces,Overnight Menu
+184,2022/06/09,Thu,Australia,McChicken Sauce,0.55,0.40,Extra Sauces,Overnight Menu
+185,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Most Popular,Regular Menu
+186,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Most Popular,Regular Menu
+187,2022/06/09,Thu,Australia,McChicken,7.60,5.47,Most Popular,Regular Menu
+188,2022/06/09,Thu,Australia,Quarter Pounder,7.45,5.36,Most Popular,Regular Menu
+189,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,Most Popular,Regular Menu
+190,2022/06/09,Thu,Australia,McFlurry® with Cadbury® Dairy Milk®,5.90,4.25,Most Popular,Regular Menu
+191,2022/06/09,Thu,Australia,Small Fries,2.95,2.12,Most Popular,Regular Menu
+192,2022/06/09,Thu,Australia,Chicken Deluxe Share Pack,18.50,13.32,Family & Sharing,Regular Menu
+193,2022/06/09,Thu,Australia,McValue Box,29.95,21.56,Family & Sharing,Regular Menu
+194,2022/06/09,Thu,Australia,McFavourites Box,47.95,34.52,Family & Sharing,Regular Menu
+195,2022/06/09,Thu,Australia,McFamily Box,57.95,41.72,Family & Sharing,Regular Menu
+196,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Family & Sharing,Regular Menu
+197,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,Family & Sharing,Regular Menu
+198,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Family & Sharing,Regular Menu
+199,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Chicken & Fish,Regular Menu
+200,2022/06/09,Thu,Australia,Crispy Chicken Deluxe Burger,8.25,5.94,Chicken & Fish,Regular Menu
+201,2022/06/09,Thu,Australia,McSpicy Burger,9.35,6.73,Chicken & Fish,Regular Menu
+202,2022/06/09,Thu,Australia,McChicken,7.60,5.47,Chicken & Fish,Regular Menu
+203,2022/06/09,Thu,Australia,Double McChicken,9.55,6.88,Chicken & Fish,Regular Menu
+204,2022/06/09,Thu,Australia,Grilled Chicken Deluxe Burger,8.25,5.94,Chicken & Fish,Regular Menu
+205,2022/06/09,Thu,Australia,Chicken 'n' Cheese,4.90,3.53,Chicken & Fish,Regular Menu
+206,2022/06/09,Thu,Australia,Chicken Deluxe Share Pack,18.50,13.32,Chicken & Fish,Regular Menu
+207,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Chicken & Fish,Regular Menu
+208,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Chicken & Fish,Regular Menu
+209,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,Chicken & Fish,Regular Menu
+210,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Chicken & Fish,Regular Menu
+211,2022/06/09,Thu,Australia,Filet-O-Fish,6.20,4.46,Chicken & Fish,Regular Menu
+212,2022/06/09,Thu,Australia,Double Filet-O-Fish,8.00,5.76,Chicken & Fish,Regular Menu
+213,2022/06/09,Thu,Australia,Crispy Chicken Snack Wrap,4.95,3.56,Chicken & Fish,Regular Menu
+214,2022/06/09,Thu,Australia,Grilled Chicken Snack Wrap,4.95,3.56,Chicken & Fish,Regular Menu
+215,2022/06/09,Thu,Australia,Caesar Grilled Chicken McWrap,9.70,6.98,Chicken & Fish,Regular Menu
+216,2022/06/09,Thu,Australia,Caesar Crispy Chicken McWrap,9.70,6.98,Chicken & Fish,Regular Menu
+217,2022/06/09,Thu,Australia,Aioli Crispy Chicken McWrap,9.70,6.98,Chicken & Fish,Regular Menu
+218,2022/06/09,Thu,Australia,Aioli Grilled Chicken McWrap,9.70,6.98,Chicken & Fish,Regular Menu
+219,2022/06/09,Thu,Australia,Classic Crispy Chicken Salad,11.35,8.17,Chicken & Fish,Regular Menu
+220,2022/06/09,Thu,Australia,Classic Grilled Chicken Salad,11.35,8.17,Chicken & Fish,Regular Menu
+221,2022/06/09,Thu,Australia,Caesar Crispy Chicken Salad,11.35,8.17,Chicken & Fish,Regular Menu
+222,2022/06/09,Thu,Australia,Caesar Grilled Chicken Salad,11.35,8.17,Chicken & Fish,Regular Menu
+223,2022/06/09,Thu,Australia,Chicken McNuggets 3pc Happy Meal,6.90,4.97,Happy Meals,Regular Menu
+224,2022/06/09,Thu,Australia,Chicken McNuggets 6pc Happy Meal,9.65,6.95,Happy Meals,Regular Menu
+225,2022/06/09,Thu,Australia,Crispy Chicken Snack Wrap Happy Meal,6.90,4.97,Happy Meals,Regular Menu
+226,2022/06/09,Thu,Australia,Grilled Chicken Snack Wrap Happy Meal,6.90,4.97,Happy Meals,Regular Menu
+227,2022/06/09,Thu,Australia,Cheeseburger Happy Meal,6.90,4.97,Happy Meals,Regular Menu
+228,2022/06/09,Thu,Australia,Grape Tomatoes,2.95,2.12,Happy Meals,Regular Menu
+229,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Chicken McNuggets,Regular Menu
+230,2022/06/09,Thu,Australia,Chicken McNuggets - 40pc,29.45,21.20,Chicken McNuggets,Regular Menu
+231,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Chicken McNuggets,Regular Menu
+232,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Chicken McNuggets,Regular Menu
+233,2022/06/09,Thu,Australia,Chicken McNuggets - 10pc,9.55,6.88,Chicken McNuggets,Regular Menu
+234,2022/06/09,Thu,Australia,Chicken McNuggets - 20pc,14.85,10.69,Chicken McNuggets,Regular Menu
+235,2022/06/09,Thu,Australia,Medium Kid Laroi Meal,16.30,11.74,Beef,Regular Menu
+236,2022/06/09,Thu,Australia,Classic Angus,10.00,7.20,Beef,Regular Menu
+237,2022/06/09,Thu,Australia,BBQ Bacon Angus,10.55,7.60,Beef,Regular Menu
+238,2022/06/09,Thu,Australia,Quarter Pounder,7.45,5.36,Beef,Regular Menu
+239,2022/06/09,Thu,Australia,Double Quarter Pounder,9.85,7.09,Beef,Regular Menu
+240,2022/06/09,Thu,Australia,Big Mac,7.25,5.22,Beef,Regular Menu
+241,2022/06/09,Thu,Australia,Double Big Mac,9.70,6.98,Beef,Regular Menu
+242,2022/06/09,Thu,Australia,Double Cheeseburger,6.00,4.32,Beef,Regular Menu
+243,2022/06/09,Thu,Australia,Triple Cheeseburger,8.10,5.83,Beef,Regular Menu
+244,2022/06/09,Thu,Australia,Hamburger,3.70,2.66,Beef,Regular Menu
+245,2022/06/09,Thu,Australia,Cheeseburger,4.25,3.06,Beef,Regular Menu
+246,2022/06/09,Thu,Australia,Crispy Chicken Snack Wrap,4.95,3.56,Wraps & Salads,Regular Menu
+247,2022/06/09,Thu,Australia,Grilled Chicken Snack Wrap,4.95,3.56,Wraps & Salads,Regular Menu
+248,2022/06/09,Thu,Australia,Caesar Grilled Chicken McWrap,9.70,6.98,Wraps & Salads,Regular Menu
+249,2022/06/09,Thu,Australia,Caesar Crispy Chicken McWrap,9.70,6.98,Wraps & Salads,Regular Menu
+250,2022/06/09,Thu,Australia,Aioli Grilled Chicken McWrap,9.70,6.98,Wraps & Salads,Regular Menu
+251,2022/06/09,Thu,Australia,Aioli Crispy Chicken McWrap,9.70,6.98,Wraps & Salads,Regular Menu
+252,2022/06/09,Thu,Australia,Classic Crispy Chicken Salad,11.35,8.17,Wraps & Salads,Regular Menu
+253,2022/06/09,Thu,Australia,Classic Grilled Chicken Salad,11.35,8.17,Wraps & Salads,Regular Menu
+254,2022/06/09,Thu,Australia,Caesar Grilled Chicken Salad,11.35,8.17,Wraps & Salads,Regular Menu
+255,2022/06/09,Thu,Australia,Caesar Crispy Chicken Salad,11.35,8.17,Wraps & Salads,Regular Menu
+256,2022/06/09,Thu,Australia,Garden Salad,4.50,3.24,Wraps & Salads,Regular Menu
+257,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,Extended Breakfast,Regular Menu
+258,2022/06/09,Thu,Australia,Small Australiano Chai Coffee  McCafé,5.35,3.85,McCafe Drinks,Regular Menu
+259,2022/06/09,Thu,Australia,Small Cappuccino McCafe,4.75,3.42,McCafe Drinks,Regular Menu
+260,2022/06/09,Thu,Australia,Small Latté McCafe,4.75,3.42,McCafe Drinks,Regular Menu
+261,2022/06/09,Thu,Australia,Small Flat White McCafe,4.75,3.42,McCafe Drinks,Regular Menu
+262,2022/06/09,Thu,Australia,Small Mocha McCafe,4.90,3.53,McCafe Drinks,Regular Menu
+263,2022/06/09,Thu,Australia,Small Long Black McCafe,4.75,3.42,McCafe Drinks,Regular Menu
+264,2022/06/09,Thu,Australia,Small Chai Latte McCafé,4.90,3.53,McCafe Drinks,Regular Menu
+265,2022/06/09,Thu,Australia,Small Hot Chocolate McCafé,4.90,3.53,McCafe Drinks,Regular Menu
+266,2022/06/09,Thu,Australia,Espresso McCafé,3.60,2.59,McCafe Drinks,Regular Menu
+267,2022/06/09,Thu,Australia,Macchiato McCafé,3.60,2.59,McCafe Drinks,Regular Menu
+268,2022/06/09,Thu,Australia,Piccolo Latte,3.60,2.59,McCafe Drinks,Regular Menu
+269,2022/06/09,Thu,Australia,Small Iced Australiano Chai Coffee McCafé,6.15,4.43,McCafe Drinks,Regular Menu
+270,2022/06/09,Thu,Australia,Small McCafé Deluxe Iced Coffee,6.15,4.43,McCafe Drinks,Regular Menu
+271,2022/06/09,Thu,Australia,Small Iced Chocolate McCafé,5.00,3.60,McCafe Drinks,Regular Menu
+272,2022/06/09,Thu,Australia,Small Iced Mocha McCafé,5.25,3.78,McCafe Drinks,Regular Menu
+273,2022/06/09,Thu,Australia,Small Iced Chai Latte McCafé,4.75,3.42,McCafe Drinks,Regular Menu
+274,2022/06/09,Thu,Australia,Small Iced Latté McCafé,4.95,3.56,McCafe Drinks,Regular Menu
+275,2022/06/09,Thu,Australia,Zoetic Earl Grey Tea,4.10,2.95,McCafe Drinks,Regular Menu
+276,2022/06/09,Thu,Australia,Zoetic Green Tea,4.10,2.95,McCafe Drinks,Regular Menu
+277,2022/06/09,Thu,Australia,Zoetic English Breakfast Tea,4.10,2.95,McCafe Drinks,Regular Menu
+278,2022/06/09,Thu,Australia,Zoetic Peppermint Tea,4.10,2.95,McCafe Drinks,Regular Menu
+279,2022/06/09,Thu,Australia,McFlurry® with Cadbury® Dairy Milk®,5.90,4.25,Desserts,Regular Menu
+280,2022/06/09,Thu,Australia,M&M'S® MINIS McFlurry,5.90,4.25,Desserts,Regular Menu
+281,2022/06/09,Thu,Australia,McFlurry with OREO® Cookie,5.90,4.25,Desserts,Regular Menu
+282,2022/06/09,Thu,Australia,Hot Apple Pie,3.00,2.16,Desserts,Regular Menu
+283,2022/06/09,Thu,Australia,Hot Fudge Sundae,4.40,3.17,Desserts,Regular Menu
+284,2022/06/09,Thu,Australia,Caramel Sundae,4.40,3.17,Desserts,Regular Menu
+285,2022/06/09,Thu,Australia,Strawberry Sundae,4.40,3.17,Desserts,Regular Menu
+286,2022/06/09,Thu,Australia,McDonaldland Cookies,1.40,1.01,Desserts,Regular Menu
+287,2022/06/09,Thu,Australia,Small Fries,2.95,2.12,Snacks & Fries,Regular Menu
+288,2022/06/09,Thu,Australia,Hash Brown,2.95,2.12,Snacks & Fries,Regular Menu
+289,2022/06/09,Thu,Australia,Hot Apple Pie,3.00,2.16,Snacks & Fries,Regular Menu
+290,2022/06/09,Thu,Australia,Chicken McNuggets - 3pc,5.40,3.89,Snacks & Fries,Regular Menu
+291,2022/06/09,Thu,Australia,Chicken McNuggets - 6pc,7.65,5.51,Snacks & Fries,Regular Menu
+292,2022/06/09,Thu,Australia,Crispy Chicken Snack Wrap,4.95,3.56,Snacks & Fries,Regular Menu
+293,2022/06/09,Thu,Australia,Grilled Chicken Snack Wrap,4.95,3.56,Snacks & Fries,Regular Menu
+294,2022/06/09,Thu,Australia,Chicken 'n' Cheese,4.90,3.53,Snacks & Fries,Regular Menu
+295,2022/06/09,Thu,Australia,Hamburger,3.70,2.66,Snacks & Fries,Regular Menu
+296,2022/06/09,Thu,Australia,Cheeseburger,4.25,3.06,Snacks & Fries,Regular Menu
+297,2022/06/09,Thu,Australia,McDonaldland Cookies,1.40,1.01,Snacks & Fries,Regular Menu
+298,2022/06/09,Thu,Australia,Grape Tomatoes,2.95,2.12,Snacks & Fries,Regular Menu
+299,2022/06/09,Thu,Australia,Small Coke®,3.75,2.70,Soft Drinks,Regular Menu
+300,2022/06/09,Thu,Australia,Small Sprite®,3.75,2.70,Soft Drinks,Regular Menu
+301,2022/06/09,Thu,Australia,Small Diet Coke®,3.75,2.70,Soft Drinks,Regular Menu
+302,2022/06/09,Thu,Australia,Small Coke® No Sugar,3.75,2.70,Soft Drinks,Regular Menu
+303,2022/06/09,Thu,Australia,Small Vanilla Coke®,3.75,2.70,Soft Drinks,Regular Menu
+304,2022/06/09,Thu,Australia,Small Fanta®,3.75,2.70,Soft Drinks,Regular Menu
+305,2022/06/09,Thu,Australia,Small Sparkling Water,3.75,2.70,Soft Drinks,Regular Menu
+306,2022/06/09,Thu,Australia,Small Chocolate Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Regular Menu
+307,2022/06/09,Thu,Australia,Small Strawberry Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Regular Menu
+308,2022/06/09,Thu,Australia,Small Vanilla Shake,5.10,3.67,"Shakes, Frappes & Smoothies",Regular Menu
+309,2022/06/09,Thu,Australia,Medium Coffee Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Regular Menu
+310,2022/06/09,Thu,Australia,Medium Chocolate Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Regular Menu
+311,2022/06/09,Thu,Australia,Medium Salted Caramel Frappé,5.65,4.07,"Shakes, Frappes & Smoothies",Regular Menu
+312,2022/06/09,Thu,Australia,Small Orange Juice,4.35,3.13,Juice & Bottled Drinks,Regular Menu
+313,2022/06/09,Thu,Australia,Apple Juice 250mL,4.10,2.95,Juice & Bottled Drinks,Regular Menu
+314,2022/06/09,Thu,Australia,Bottled Water 250mL,3.60,2.59,Juice & Bottled Drinks,Regular Menu
+315,2022/06/09,Thu,Australia,CalciYum™ Chocolate Flavoured Milk,4.35,3.13,Juice & Bottled Drinks,Regular Menu
+316,2022/06/09,Thu,Australia,Bottled Water 600mL,4.45,3.20,Juice & Bottled Drinks,Regular Menu
+317,2022/06/09,Thu,Australia,Sweet 'n Sour Sauce,0.55,0.40,Extra Sauces,Regular Menu
+318,2022/06/09,Thu,Australia,Aioli Sauce Tub,0.55,0.40,Extra Sauces,Regular Menu
+319,2022/06/09,Thu,Australia,Big Mac Special Sauce,0.55,0.40,Extra Sauces,Regular Menu
+320,2022/06/09,Thu,Australia,Barbecue Sauce,0.55,0.40,Extra Sauces,Regular Menu
+321,2022/06/09,Thu,Australia,Mustard Sauce,0.55,0.40,Extra Sauces,Regular Menu
+322,2022/06/09,Thu,Australia,Ketchup,0.30,0.22,Extra Sauces,Regular Menu
+323,2022/06/09,Thu,Australia,McChicken Sauce,0.55,0.40,Extra Sauces,Regular Menu
