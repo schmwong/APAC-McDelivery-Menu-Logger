@@ -5,10 +5,8 @@ name: inspector
 # Workflow will be triggered when any one of these workflows runs
 on:
   workflow_run:
-    workflows: >
-      [ scrape-au-auto, scrape-fj-auto, scrape-id-auto, scrape-in-auto, scrape-jp-auto, 
-        scrape-kr-auto, scrape-lk-auto, scrape-my-auto, scrape-nz-auto, scrape-ph-auto, 
-        scrape-pk-auto, scrape-sg-auto, scrape-th-auto, scrape-tw-auto, scrape-vn-auto ]
+    workflows: 
+      [scrape-au-auto, scrape-fj-auto, scrape-id-auto, scrape-in-auto, scrape-jp-auto, scrape-kr-auto, scrape-lk-auto, scrape-my-auto, scrape-nz-auto, scrape-ph-auto, scrape-pk-auto, scrape-sg-auto, scrape-th-auto, scrape-tw-auto, scrape-vn-auto ]
     types: [completed]
         
 
