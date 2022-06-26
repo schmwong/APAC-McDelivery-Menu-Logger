@@ -21,10 +21,10 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps: 
-      - run: echo ${{ github.event.workflows }} ' succeeded.'
+      - run: echo "${{ github.event.workflows }} succeeded."
   
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     steps: 
-      - run: echo ${{ github.event.workflows }} ' failed.'
+      - run: echo "${{ github.event.workflows }} failed."
