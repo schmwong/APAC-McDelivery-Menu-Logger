@@ -7,6 +7,10 @@ on:
   schedule:
           - cron: '20 13 * * *' # runs once a day at 13:20 UTC (01:20 NZST)
           
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
+          
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "scrape"
