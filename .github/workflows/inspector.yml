@@ -9,9 +9,9 @@ on:
     types: [completed]
     
     
-# concurrency:
-#   group: scrape-and-schedule
-#   cancel-in-progress: false
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
         
 
 
@@ -89,6 +89,7 @@ jobs:
       - name: Run Python script
         run: |
             export workflow_path=${{ github.event.workflow.path }}
+            export workflow_name=${{ github.event.workflow.name }}
             pip install ruamel.yaml
             python reschedule-next-run.py
             
