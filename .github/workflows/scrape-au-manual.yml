@@ -5,7 +5,11 @@ name: scrape-au-manual
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  workflow_dispatch:
+  [workflow_dispatch]
+  
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
