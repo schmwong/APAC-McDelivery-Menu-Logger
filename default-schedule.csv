@@ -1,0 +1,17 @@
+,Code,Territory,UTC,Cron,Local Time,Library
+1,in,India,01:36,36 01 * * *,07:06,Requests
+2,ph,Philippines,02:46,46 02 * * *,10:46,Scrapy
+3,nz,New Zealand,13:20,30 13 * * *,01:20,Scrapy
+4,jp,Japan,15:16,16 15 * * *,00:16,Beautiful Soup 4
+5,kr,Korea,16:33,33 16 * * *,01:33,Beautiful Soup 4
+6,fj,Fiji,18:12,12 18 * * *,06:12,Selenium
+7,my,Malaysia,18:28,28 18 * * *,02:28,Beautiful Soup 4
+8,au,Australia,19:15,15 19 * * *,05:15,Scrapy
+9,sg,Singapore,19:29,29 19 * * *,03:29,Beautiful Soup 4
+10,id,Indonesia,19:55,55 19 * * *,02:55,Beautiful Soup 4
+11,th,Thailand,20:22,22 20 * * *,03:22,Beautiful Soup 4
+12,pk,Pakistan,21:11,11 21 * * *,02:11,Beautiful Soup 4
+13,vn,Vietnam,21:44,44 21 * * *,04:44,Beautiful Soup 4
+14,tw,Taiwan,21:55,55 21 * * *,05:55,Beautiful Soup 4
+15,lk,Sri Lanka,22:11,11 22 * * *,03:41,Beautiful Soup 4
+16,ph,Philippines,22:26,26 22 * * *,06:26,Scrapy
