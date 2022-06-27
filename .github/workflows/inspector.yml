@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 
 name: inspector
 
@@ -8,23 +7,101 @@ on:
     workflows: 
       [scrape-au-auto, scrape-fj-auto, scrape-id-auto, scrape-in-auto, scrape-jp-auto, scrape-kr-auto, scrape-lk-auto, scrape-my-auto, scrape-nz-auto, scrape-ph-auto, scrape-pk-auto, scrape-sg-auto, scrape-th-auto, scrape-tw-auto, scrape-vn-auto ]
     types: [completed]
+    
+    
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
         
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
-  # This workflow contains a two jobs called "on-success" and "on-failure"
+
   on-success:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps: 
+      - name: Statement
       - run: echo -e "${{ github.event.workflow.name }} succeeded.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
+
+
+  reset-schedule:
+    needs: on-success
+    runs-on: ubuntu-latest
+    steps: 
+            
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+        with:
+            token: ${{ secrets.WORKFLOW_TOKEN }}
+            
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.8.2
+            
+      - name: Run Python script
+        run: |
+            export workflow_path=${{ github.event.workflow.path }}
+            pip install ruamel.yaml
+            python reset-schedule.py
+            
+      - name: Commit and push if YAML file was modified
+        env:
+            WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+        run: |
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git add -A
+            if ! git diff-index --quiet HEAD; then
+              git commit -m "${{ github.event.workflow.name }} back to normal schedule" 
+              git push "https://${GITHUB_ACTOR}:$WORKFLOW_TOKEN@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+            fi
+  
   
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     steps: 
+      - name: Statement
       - run: echo -e "${{ github.event.workflow.name }} failed.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
+
+
+  reschedule-next-run:
+    needs: on-failure
+    runs-on: ubuntu-latest
+    steps: 
+            
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+        with:
+            token: ${{ secrets.WORKFLOW_TOKEN }}
+            
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.8.2
+            
+      - name: Run Python script
+        run: |
+            export workflow_path=${{ github.event.workflow.path }}
+            pip install ruamel.yaml
+            python reschedule-next-run.py
+            
+      - name: Commit and push modified YAML file
+        env:
+            WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+        run: |
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git add -A
+            if ! git diff-index --quiet HEAD; then
+              git commit -m "rescheduled ${{ github.event.workflow.name }}" 
+              git push "https://${GITHUB_ACTOR}:$WORKFLOW_TOKEN@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+            fi
+    
+# EOF
