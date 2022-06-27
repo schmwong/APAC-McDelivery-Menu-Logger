@@ -9,9 +9,9 @@ on:
     types: [completed]
     
     
-concurrency:
-  group: scrape-and-schedule
-  cancel-in-progress: false
+# concurrency:
+#   group: scrape-and-schedule
+#   cancel-in-progress: false
         
 
 
