@@ -47,6 +47,7 @@ jobs:
       - name: Run Python script
         run: |
             export workflow_path=${{ github.event.workflow.path }}
+            export workflow_name=${{ github.event.workflow.name }}
             pip install ruamel.yaml
             python reset-schedule.py
             
@@ -89,7 +90,6 @@ jobs:
       - name: Run Python script
         run: |
             export workflow_path=${{ github.event.workflow.path }}
-            export workflow_name=${{ github.event.workflow.name }}
             pip install ruamel.yaml
             python reschedule-next-run.py
             
