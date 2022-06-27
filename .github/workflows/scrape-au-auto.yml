@@ -6,7 +6,11 @@ name: scrape-au-auto
 on:
   schedule:
           - cron: '15 19 * * *' # runs once a day at 19:15 UTC (05:15 AEST)
-    
+
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "scrape"
