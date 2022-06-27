@@ -26,7 +26,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps: 
       - name: Statement
-      - run: echo -e "${{ github.event.workflow.name }} succeeded.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
+        run: echo -e "${{ github.event.workflow.name }} succeeded.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
 
 
   reset-schedule:
@@ -68,7 +68,7 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     steps: 
       - name: Statement
-      - run: echo -e "${{ github.event.workflow.name }} failed.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
+        run: echo -e "${{ github.event.workflow.name }} failed.\n${{ github.event.workflow.path }}\n${{ github.event.workflow.html_url }}"
 
 
   reschedule-next-run:
