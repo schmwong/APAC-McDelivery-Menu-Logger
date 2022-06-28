@@ -1965,3 +1965,43 @@ JavaScript error: https://www.gstatic.com/firebasejs/7.6.0/firebase-messaging.js
 1656354997971	Marionette	INFO	Stopped listening on port 42017
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656441456114	geckodriver	INFO	Listening on 127.0.0.1:40311
+1656441456452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "34215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWqqtdM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1656441465132	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34215
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWqqtdM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656441470523	Marionette	INFO	Listening on port 46833
+Read port: 46833
+1656441470662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:34215/devtools/browser/4ff6155b-9ca7-4cb2-8d96-d91408688dc7
+JavaScript warning: https://www.xe.com/_next/static/chunks/commons.89d9046571e665b289c9.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=799013&moatClientLevel2=14398082&moatClientLevel3=10991555&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2022057124&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:268847&zMoatCtn=teaser_b772a6b6-747d-28da-b331-ab4ff6775215, line 244: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=799013&moatClientLevel2=14398082&moatClientLevel3=10991555&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2022057124&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:268847&zMoatCtn=teaser_b772a6b6-747d-28da-b331-ab4ff6775215, line 244: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=799013&moatClientLevel2=14398082&moatClientLevel3=10991555&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2022057124&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:268847&zMoatCtn=teaser_b772a6b6-747d-28da-b331-ab4ff6775215, line 244: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=799013&moatClientLevel2=14398082&moatClientLevel3=10991555&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2022057124&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:268847&zMoatCtn=teaser_b772a6b6-747d-28da-b331-ab4ff6775215, line 244: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1656441477490	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1656441477504	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zpJwJD7FiQGKtDMDI2qj6Q6sQapA_NmLJvc1GyKYZDI.js line 2 > eval line 5067 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zpJwJD7FiQGKtDMDI2qj6Q6sQapA_NmLJvc1GyKYZDI.js line 2 > eval line 5067 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1656441492764	Marionette	INFO	Stopped listening on port 46833
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
