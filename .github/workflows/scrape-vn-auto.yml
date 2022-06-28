@@ -5,12 +5,11 @@ name: scrape-vn-auto
 # Controls when the workflow will run
 on:
   schedule:
-          - cron: '44 21 * * *' # runs once a day at 21:44 UTC (04:44 ICT)
-          
+  - cron: 44 21 * * *           # runs once a day at 21:44 UTC (04:44 ICT)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
-          
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -20,31 +19,31 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-          - name: checkout repo content
-            uses: actions/checkout@v2 # checkout the repository content to github runner.
-          - name: setup python
-            uses: actions/setup-python@v2
-            with:
-                python-version: 3.8.2
-          - name: setup dependencies
-            working-directory: ./mcd-bs4-vn
-            run: |
-              pip install beautifulsoup4
-              pip install pandas
-              pip install lxml
-              pip install pytz
-              pip3 install requests
-              pip install path
-              pip install pathlib2
-          - name: execute py script # run mcd-bs4-vn.py to get the latest data
-            working-directory: ./mcd-bs4-vn
-            run: |
-              python mcd-bs4-vn.py
-          - name: Commit and push if it changed
-            run: |
-              git config user.name "${GITHUB_ACTOR}"
-              git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-              git add -A
-              timestamp=$(date -u)
-              git commit -m "Scraped: [${timestamp}] mcd-bs4-vn (auto)" 
-              git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+    - name: checkout repo content
+      uses: actions/checkout@v2       # checkout the repository content to github runner.
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8.2
+    - name: setup dependencies
+      working-directory: ./mcd-bs4-vn
+      run: |
+        pip install beautifulsoup4
+        pip install pandas
+        pip install lxml
+        pip install pytz
+        pip3 install requests
+        pip install path
+        pip install pathlib2
+    - name: execute py script       # run mcd-bs4-vn.py to get the latest data
+      working-directory: ./mcd-bs4-vn
+      run: |
+        python mcd-bs4-vn.py
+    - name: Commit and push if it changed
+      run: |
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Scraped: [${timestamp}] mcd-bs4-vn (auto)" 
+        git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
