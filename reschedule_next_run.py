@@ -21,7 +21,7 @@ with open(workflow_file, "r") as file:
 		cron = (schedule["cron"]).split()
 		new_hour = int(cron[1]) + 1
 		if new_hour > 23:
-			new_hour = f'0{new_hour - 23}'
+			new_hour = f'0{new_hour - 24}'
 		elif new_hour < 10:
 			new_hour = f'0{new_hour}'
 		else:
