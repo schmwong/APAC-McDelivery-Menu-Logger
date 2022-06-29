@@ -4,10 +4,10 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 
 
 | Vendor Page         | Scraper Script | Scraped Files    | Workflow File                             |
-|---------------------| :------------- |:----------------:| -----------------------------------------:|
+|:-------------------:| :------------- |:----------------:| -----------------------------------------:|
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>][au]    | [Australia]    | [mcd-scr-au.csv] | [![scrape-au-auto.yml][au-logo]][au-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" alt="gomamam" width="100"/>][bn]    | [Brunei]       | [mcd-scr-bn.csv] | [![scrape-bn-auto.yml][bn-logo]][bn-yaml] |
-| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="50" height="50"/>][fj]    | [Fiji]         | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="25" height="25"/>][fj]    | [Fiji]         | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" alt="foodpanda" width="100"/>][hk]    | [Hong Kong]    | [mcd-scr-hk.csv] | [![scrape-hk-auto.yml][hk-logo]][hk-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][in]    | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][id]    | [Indonesia]    | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
@@ -29,7 +29,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 [ubereats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>
 [foodpanda]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" alt="foodpanda" width="100"/>
 [gomamam]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" alt="gomamam" width="100"/>
-[fijieats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="50" height="50/>
+[fijieats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="25" height="25"/>
 
 
 [au]: https://www.ubereats.com/au/store/mcdonalds-clifton-hill/SIaq6LrDTFemKVajhXM-iA
