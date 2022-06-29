@@ -25,7 +25,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 
 
 
-[mcdelivery]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-mcdelivery.svg
+[mcdelivery]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg
 [ubereats]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-ubereats.svg
 [foodpanda]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-foodpanda.png
 [gomamam]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-gomamam.png
