@@ -49,5 +49,5 @@ jobs:
           git commit -m "Scraped: [${timestamp}] mcd-scr-hk (auto)" 
           git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
         fi
-        
+
 #EOF
