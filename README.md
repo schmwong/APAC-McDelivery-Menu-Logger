@@ -9,7 +9,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 | [![ubereats]][au]   | [Australia]    | [mcd-scr-au.csv] | [![scrape-au-auto.yml][au-logo]][au-yaml] |
 | [![fijieats]][fj]   | [Fiji]         | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
 | [![foodpanda]][hk]  | [Hong Kong]    | [mcd-scr-hk.csv] | [![scrape-hk-auto.yml][hk-logo]][hk-yaml] |
-| [![mcdelivery]][in] | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
+| [![mcdelivery]<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" width="100"/>][in] | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
 | [![mcdelivery]][id] | [Indonesia]    | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
 | [![mcdelivery]][jp] | [Japan]        | [mcd-bs4-jp.csv] | [![scrape-jp-auto.yml][jp-logo]][jp-yaml] |
 | [![mcdelivery]][kr] | [Korea]        | [mcd-bs4-kr.csv] | [![scrape-kr-auto.yml][kr-logo]][kr-yaml] |
