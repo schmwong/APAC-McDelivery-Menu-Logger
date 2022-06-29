@@ -5,31 +5,31 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 
 | Vendor Page         | Scraper Script | Scraped Files    | Workflow File                             |
 |---------------------| :------------- |:----------------:| -----------------------------------------:|
-| [![gomamam]][bn]    | [Brunei]       | [mcd-scr-bn.csv] | [![scrape-bn-auto.yml][bn-logo]][bn-yaml] |
-| [![ubereats]][au]   | [Australia]    | [mcd-scr-au.csv] | [![scrape-au-auto.yml][au-logo]][au-yaml] |
-| [![fijieats]][fj]   | [Fiji]         | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
-| [![foodpanda]][hk]  | [Hong Kong]    | [mcd-scr-hk.csv] | [![scrape-hk-auto.yml][hk-logo]][hk-yaml] |
-| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" width="100"/>][in] | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
-| [![mcdelivery]][id] | [Indonesia]    | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
-| [![mcdelivery]][jp] | [Japan]        | [mcd-bs4-jp.csv] | [![scrape-jp-auto.yml][jp-logo]][jp-yaml] |
-| [![mcdelivery]][kr] | [Korea]        | [mcd-bs4-kr.csv] | [![scrape-kr-auto.yml][kr-logo]][kr-yaml] |
-| [![mcdelivery]][my] | [Malaysia]     | [mcd-bs4-my.csv] | [![scrape-my-auto.yml][my-logo]][my-yaml] |
-| [![ubereats]][nz]   | [New Zealand]  | [mcd-scr-nz.csv] | [![scrape-nz-auto.yml][nz-logo]][nz-yaml] |
-| [![mcdelivery]][pk] | [Pakistan]     | [mcd-bs4-pk.csv] | [![scrape-pk-auto.yml][pk-logo]][pk-yaml] |
-| [![mcdelivery]][ph] | [Philippines]  | [mcd-scr-ph.csv] | [![scrape-ph-auto.yml][ph-logo]][ph-yaml] |
-| [![mcdelivery]][sg] | [Singapore]    | [mcd-bs4-sg.csv] | [![scrape-sg-auto.yml][sg-logo]][sg-yaml] |
-| [![mcdelivery]][lk] | [Sri Lanka]    | [mcd-bs4-lk.csv] | [![scrape-lk-auto.yml][lk-logo]][lk-yaml] |
-| [![mcdelivery]][tw] | [Taiwan]       | [mcd-bs4-tw.csv] | [![scrape-tw-auto.yml][tw-logo]][tw-yaml] |
-| [![mcdelivery]][th] | [Thailand]     | [mcd-bs4-th.csv] | [![scrape-th-auto.yml][th-logo]][th-yaml] |
-| [![mcdelivery]][vn] | [Vietnam]      | [mcd-bs4-vn.csv] | [![scrape-vn-auto.yml][vn-logo]][vn-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" alt="gomamam" width="100"/>][bn]    | [Brunei]       | [mcd-scr-bn.csv] | [![scrape-bn-auto.yml][bn-logo]][bn-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>][au]    | [Australia]    | [mcd-scr-au.csv] | [![scrape-au-auto.yml][au-logo]][au-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="100"/>][fj]    | [Fiji]         | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" alt="foodpanda" width="100"/>][hk]    | [Hong Kong]    | [mcd-scr-hk.csv] | [![scrape-hk-auto.yml][hk-logo]][hk-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][in]    | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][id]    | [Indonesia]    | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][jp]    | [Japan]        | [mcd-bs4-jp.csv] | [![scrape-jp-auto.yml][jp-logo]][jp-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][kr]    | [Korea]        | [mcd-bs4-kr.csv] | [![scrape-kr-auto.yml][kr-logo]][kr-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][my]    | [Malaysia]     | [mcd-bs4-my.csv] | [![scrape-my-auto.yml][my-logo]][my-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>][nz]    | [New Zealand]  | [mcd-scr-nz.csv] | [![scrape-nz-auto.yml][nz-logo]][nz-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][pk]    | [Pakistan]     | [mcd-bs4-pk.csv] | [![scrape-pk-auto.yml][pk-logo]][pk-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][ph]    | [Philippines]  | [mcd-scr-ph.csv] | [![scrape-ph-auto.yml][ph-logo]][ph-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][sg]    | [Singapore]    | [mcd-bs4-sg.csv] | [![scrape-sg-auto.yml][sg-logo]][sg-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][lk]    | [Sri Lanka]    | [mcd-bs4-lk.csv] | [![scrape-lk-auto.yml][lk-logo]][lk-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][tw]    | [Taiwan]       | [mcd-bs4-tw.csv] | [![scrape-tw-auto.yml][tw-logo]][tw-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][th]    | [Thailand]     | [mcd-bs4-th.csv] | [![scrape-th-auto.yml][th-logo]][th-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][vn]    | [Vietnam]      | [mcd-bs4-vn.csv] | [![scrape-vn-auto.yml][vn-logo]][vn-yaml] |
 
 
 
-[mcdelivery]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" width="100"/>
-[ubereats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" width="100"/>
-[foodpanda]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" width="100"/>
-[gomamam]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" width="100"/>
-[fijieats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" width="100"/>
+[mcdelivery]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>
+[ubereats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>
+[foodpanda]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" alt="foodpanda" width="100"/>
+[gomamam]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" alt="gomamam" width="100"/>
+[fijieats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" alt="fijieats" width="100"/>
 
 
 [au]: https://www.ubereats.com/au/store/mcdonalds-clifton-hill/SIaq6LrDTFemKVajhXM-iA
