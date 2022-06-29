@@ -25,11 +25,11 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 
 
 
-[mcdelivery]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg
-[ubereats]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-ubereats.svg
-[foodpanda]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-foodpanda.png
-[gomamam]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-gomamam.png
-[fijieats]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/readme-assets/logo-fijieats.webp
+[mcdelivery]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" width="100"/>
+[ubereats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" width="100"/>
+[foodpanda]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-foodpanda.png" width="100"/>
+[gomamam]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-gomamam.png" width="100"/>
+[fijieats]: <img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-fijieats.webp" width="100"/>
 
 
 [au]: https://www.ubereats.com/au/store/mcdonalds-clifton-hill/SIaq6LrDTFemKVajhXM-iA
