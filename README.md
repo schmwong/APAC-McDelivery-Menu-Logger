@@ -40,7 +40,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 [fj-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-fj-auto.yml/badge.svg
 [fj-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-fj-auto.yml
 
-[Hong Kong]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-scr-hk/mcd-scr-hk.py
+[Hong Kong]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-scr-hk/mcd/spiders/mcd-scr-hk.py
 [mcd-scr-hk.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-scr-hk/scraped-data
 [hk-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-hk-auto.yml/badge.svg
 [hk-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-hk-auto.yml
