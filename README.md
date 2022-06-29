@@ -8,6 +8,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 | [Australia]   | [mcd-scr-au.csv] | [![scrape-au-auto.yml][au-logo]][au-yaml] |
 | [Brunei]      | [mcd-scr-bn.csv] | [![scrape-bn-auto.yml][bn-logo]][bn-yaml] |
 | [Fiji]        | [mcd-sel-fj.csv] | [![scrape-fj-auto.yml][fj-logo]][fj-yaml] |
+| [Hong Kong]   | [mcd-scr-hk.csv] | [![scrape-hk-auto.yml][hk-logo]][hk-yaml] |
 | [India]       | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
 | [Indonesia]   | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
 | [Japan]       | [mcd-bs4-jp.csv] | [![scrape-jp-auto.yml][jp-logo]][jp-yaml] |
@@ -38,6 +39,11 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 [mcd-sel-fj.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-sel-fj/scraped-data
 [fj-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-fj-auto.yml/badge.svg
 [fj-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-fj-auto.yml
+
+[Hong Kong]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-scr-hk/mcd-scr-hk.py
+[mcd-scr-hk.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-scr-hk/scraped-data
+[hk-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-hk-auto.yml/badge.svg
+[hk-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-hk-auto.yml
 
 [India]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-req-in/mcd-req-in.py
 [mcd-req-in.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-req-in/scraped-data
