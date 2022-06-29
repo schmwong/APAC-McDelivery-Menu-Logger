@@ -265,7 +265,7 @@ class McdScrBnSpider(scrapy.Spider):
 				"Sides": 3,
 				"Dessert": 4
 			}
-			product_list_df = product_list_df.sort_values(
+			product_list_consolidated_df = product_list_consolidated_df.sort_values(
 				by=["Category", "id"], key=lambda x: x.map(category_sort),
 				ascending=True, na_position="last"
 			)
