@@ -56,6 +56,11 @@ jobs:
         with:
             python-version: 3.8.2
             
+      - name: setup dependencies
+        run: |
+          pip install pytz
+          pip install pandas
+            
       - name: Run Python script
         run: python update-utcoffset.py
             
