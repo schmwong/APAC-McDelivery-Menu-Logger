@@ -4,7 +4,7 @@ name: update-utcoffset
 # Workflow will be triggered when a: selected file is modified, and b: on a fixed schedule
 on:
   push:
-    paths: ["./blob/main/default-schedule.csv"]
+    paths: ["default-schedule.csv"]
   schedule: [cron: 32 23 * * *]  # runs once a day at 23:32 UTC
     
     
