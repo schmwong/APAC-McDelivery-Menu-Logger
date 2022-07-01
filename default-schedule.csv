@@ -1,5 +1,5 @@
 ,Code,Timezone,UTC,Cron,UTC Offset,Local Time,Library
-1,bn,Asia/Brunei,00:08,08 00 * * *,,09:19,Scrapy
+1,bn,Asia/Brunei,00:08,08 00 * * *,,09:09,Scrapy
 2,in,Asia/Kolkata,01:36,36 01 * * *,,07:06,Requests
 3,ph,Asia/Manila,02:46,46 02 * * *,,10:46,Scrapy
 4,hk,Asia/Hong_Kong,,,,11:33,Scrapy
