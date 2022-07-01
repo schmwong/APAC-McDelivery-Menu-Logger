@@ -20,6 +20,7 @@ on every pushed commit that edits the default-schedule.csv file
 import pytz
 from datetime import datetime
 import pandas as pd
+import traceback
 
 
 # Function to localize each local time string
@@ -75,23 +76,25 @@ def reset_index(n):
 #																			'''
 
 
-df = pd.read_csv("default-schedule.csv", index_col=0)
+try:
 
-
-reset_index(0)
-
-
-# List comprehension returns series of values (list) after 
-# chosen function iterates through temporary DataFrame extract
-def list_c(f):
-    return pd.Series([f(row[0], row[1]) for row in zip(df["Timezone"], df["Local Time"])])
-
-df["UTC"] = list_c(utc_time)
-df["Cron"] = list_c(cron_time)
-df["UTC Offset"] = list_c(utc_offset)
-
-
-reset_index(1)
+	df = pd.read_csv("default-schedule.csv", index_col=0)
+	
+	
+	reset_index(0)
+	
+	
+	# List comprehension returns series of values (list) after 
+	# chosen function iterates through temporary DataFrame extract
+	def list_c(f):
+	    return pd.Series([f(row[0], row[1]) for row in zip(df["Timezone"], df["Local Time"])])
+	
+	df["UTC"] = list_c(utc_time)
+	df["Cron"] = list_c(cron_time)
+	df["UTC Offset"] = list_c(utc_offset)
+	
+	
+	reset_index(1)
 
 
 
@@ -99,4 +102,22 @@ reset_index(1)
 # Step 3: Export new data to overwrite file               #
 # ======================================================= #
 
-df.to_csv("default-schedule.csv")
+	df.to_csv("default-schedule.csv")
+
+
+	print("File checked.\nChanges, if any, will be automatically committed by the yml workflow\n\n\n")
+
+
+except Exception:
+	print(
+		f'''
+		\n\n
+		---
+		One or more errors occurred:
+		
+		{traceback.format_exc()}
+		---
+		\n\n
+		'''
+	)
+
