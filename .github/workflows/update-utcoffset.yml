@@ -56,7 +56,7 @@ jobs:
         with:
             python-version: 3.8.2
             
-      - name: setup dependencies
+      - name: Setup dependencies
         run: |
           pip install pytz
           pip install pandas
