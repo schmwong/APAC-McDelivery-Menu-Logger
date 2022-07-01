@@ -38,6 +38,11 @@ jobs:
 
   update-utcoffset:
     needs: [on-push, on-schedule]
+    if: |
+      always() && 
+      (needs.on-push.result == 'success' || needs.on-push.result == 'skipped') && 
+      (needs.on-schedule.result == 'success' || needs.on-schedule.result == 'skipped') && 
+      !(needs.on-push.result == 'skipped' && needs.on-schedule.result == 'skipped')
     runs-on: ubuntu-latest
     steps: 
             
