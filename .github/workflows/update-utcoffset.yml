@@ -1,0 +1,71 @@
+
+name: update-utcoffset
+
+# Workflow will be triggered when a: selected file is modified, and b: on a fixed schedule
+on:
+  push:
+    paths: ["./blob/main/default-schedule.csv"]
+  schedule: [cron: 32 23 * * *]  # runs once a day at 23:32 UTC
+    
+    
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
+        
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+
+  on-push:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' }}
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps: 
+      - name: Statement
+        run: echo -e "\nFile default-schedule.csv has been modified.\nChecking UTC offset values momentarily.\n\n\n"
+  
+  
+  on-schedule:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'schedule' }}
+    steps: 
+      - name: Statement
+        run: echo -e "\nChecking UTC offset values momentarily.\n\n\n"
+
+
+  update-utcoffset:
+    needs: [on-push, on-schedule]
+    runs-on: ubuntu-latest
+    steps: 
+            
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+        with:
+            token: ${{ secrets.WORKFLOW_TOKEN }}
+            
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+            python-version: 3.8.2
+            
+      - name: Run Python script
+        run: python update-utcoffset.py
+            
+      - name: Commit and push CSV file if modified
+        env:
+            WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+        run: |
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git add -A
+            if ! git diff-index --quiet HEAD; then
+              echo -e "\nPushing modified CSV file.\n"
+              git commit -m "corrected UTC offset values" 
+              git push "https://${GITHUB_ACTOR}:$WORKFLOW_TOKEN@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+              echo -e "\nModified file has been pushed successfully.\n"
+            fi
+    
+# EOF
