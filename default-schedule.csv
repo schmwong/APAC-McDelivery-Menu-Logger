@@ -1,21 +1,21 @@
 ,Code,Timezone,UTC,Cron,UTC Offset,Local Time,Library
-1,bn,Asia/Brunei,00:08,08 00 * * *,,09:09,Scrapy
-2,in,Asia/Kolkata,01:36,36 01 * * *,,07:06,Requests
-3,ph,Asia/Manila,02:46,46 02 * * *,,10:46,Scrapy
-4,hk,Asia/Hong_Kong,,,,11:33,Scrapy
-5,bn,Asia/Brunei,06:44,44 06 * * *,,14:44,Scrapy
-6,nz,Pacific/Auckland,13:20,30 13 * * *,,01:20,Scrapy
-7,jp,Asia/Tokyo,15:16,16 15 * * *,,00:16,Beautiful Soup 4
-8,kr,Asia/Seoul,16:33,33 16 * * *,,01:33,Beautiful Soup 4
-9,fj,Pacific/Fiji,18:12,12 18 * * *,,06:12,Selenium
-10,my,Asia/Kuala_Lumpur,18:28,28 18 * * *,,02:28,Beautiful Soup 4
-11,au,Australia/Melbourne,19:15,15 19 * * *,,05:15,Scrapy
-12,sg,Asia/Singapore,19:29,29 19 * * *,,03:29,Beautiful Soup 4
-13,id,Asia/Jakarta,19:55,55 19 * * *,,02:55,Beautiful Soup 4
-14,th,Asia/Bangkok,20:22,22 20 * * *,,03:22,Beautiful Soup 4
-15,pk,Asia/Karachi,21:11,11 21 * * *,,02:11,Beautiful Soup 4
-16,vn,Asia/Ho_Chi_Minh,21:44,44 21 * * *,,04:44,Beautiful Soup 4
-17,tw,Asia/Taipei,21:55,55 21 * * *,,05:55,Beautiful Soup 4
-18,lk,Asia/Colombo,22:11,11 22 * * *,,03:41,Beautiful Soup 4
-19,ph,Asia/Manila,22:26,26 22 * * *,,06:26,Scrapy
-20,hk,Asia/Hong_Kong,,,,07:33,Scrapy
+1,bn,Asia/Brunei,01:09,09 01 * * *,+08:00,09:09,Scrapy
+2,in,Asia/Kolkata,01:36,36 01 * * *,+05:30,07:06,Requests
+3,ph,Asia/Manila,02:46,46 02 * * *,+08:00,10:46,Scrapy
+4,hk,Asia/Hong_Kong,03:33,33 03 * * *,+08:00,11:33,Scrapy
+5,bn,Asia/Brunei,06:44,44 06 * * *,+08:00,14:44,Scrapy
+6,nz,Pacific/Auckland,13:20,20 13 * * *,+12:00,01:20,Scrapy
+7,jp,Asia/Tokyo,15:16,16 15 * * *,+09:00,00:16,Beautiful Soup 4
+8,kr,Asia/Seoul,16:33,33 16 * * *,+09:00,01:33,Beautiful Soup 4
+9,fj,Pacific/Fiji,18:12,12 18 * * *,+12:00,06:12,Selenium
+10,my,Asia/Kuala_Lumpur,18:28,28 18 * * *,+08:00,02:28,Beautiful Soup 4
+11,au,Australia/Melbourne,19:15,15 19 * * *,+10:00,05:15,Scrapy
+12,sg,Asia/Singapore,19:29,29 19 * * *,+08:00,03:29,Beautiful Soup 4
+13,id,Asia/Jakarta,19:55,55 19 * * *,+07:00,02:55,Beautiful Soup 4
+14,th,Asia/Bangkok,20:22,22 20 * * *,+07:00,03:22,Beautiful Soup 4
+15,pk,Asia/Karachi,21:11,11 21 * * *,+05:00,02:11,Beautiful Soup 4
+16,vn,Asia/Ho_Chi_Minh,21:44,44 21 * * *,+07:00,04:44,Beautiful Soup 4
+17,tw,Asia/Taipei,21:55,55 21 * * *,+08:00,05:55,Beautiful Soup 4
+18,lk,Asia/Colombo,22:11,11 22 * * *,+05:30,03:41,Beautiful Soup 4
+19,ph,Asia/Manila,22:26,26 22 * * *,+08:00,06:26,Scrapy
+20,hk,Asia/Hong_Kong,23:33,33 23 * * *,+08:00,07:33,Scrapy
