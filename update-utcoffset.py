@@ -70,7 +70,7 @@ def reset_index(n):
 '''
 	Column headers
 	
-	 0		 1		  2	  	   3	  4			5			6			7 
+     0	     1	      2	       3    4         5              6          7 
 | [index] | Code | Timezone | UTC | Cron | UTC Offset | Local Time | Library |
 #																			'''
 
