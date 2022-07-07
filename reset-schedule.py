@@ -9,8 +9,8 @@ from ruamel.yaml import YAML
 
 
 # import env variables from runner's bash shell
-workflow_file = os.environ["workflow_path"]
-workflow_name = os.environ["workflow_name"]
+workflow_file = os.environ["workflow_path"].replace("manual", "auto")
+workflow_name = os.environ["workflow_name"].replace("manual", "auto")
 
 code = workflow_name.split("-")[1]
 default_cron = []
