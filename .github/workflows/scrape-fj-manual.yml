@@ -22,6 +22,7 @@ jobs:
           - name: sparse checkout country file directory
             uses: snow-actions/sparse-checkout@v1.1.0
             with:
+              token: ${{ secrets.WORKFLOW_TOKEN }}
               patterns: ./mcd-sel-fj
 
           - name: setup python
@@ -49,4 +50,4 @@ jobs:
               timestamp=$(date -u)
               git commit -m "Scraped: [${timestamp}] mcd-sel-fj (manual)"
               git config --global push.default current
-              git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" || exit 0
+              git push "https://${GITHUB_ACTOR}:${{ secrets.WORKFLOW_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" || exit 0
