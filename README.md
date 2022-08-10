@@ -44,7 +44,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 [bn-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-bn-auto.yml/badge.svg
 [bn-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-bn-auto.yml
 
-[fj]: https://fijieats.com/products/listing?supplierId=164
+[fj]: https://fijieats.com/vendor/mcdonalds-nadi
 [Fiji]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-sel-fj/mcd-sel-fj.py
 [mcd-sel-fj.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-sel-fj/scraped-data
 [fj-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-fj-auto.yml/badge.svg
