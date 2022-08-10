@@ -92,10 +92,14 @@ try:
     for submenu in submenus:
 
         # Category Names should only contain alphabetical characters
+        category_id = submenu.get_attribute("id")
         category = " ".join(
             re.findall(
                 r"[a-zA-Z]+",
-                ((submenu.find_element(By.CSS_SELECTOR, "h2")).text)
+                ((browser.find_element(
+                    By.CSS_SELECTOR,
+                    f'nav.scrollspy-menu a[data-slug="{category_id}"]'
+                )).text)
             )
         )
 
