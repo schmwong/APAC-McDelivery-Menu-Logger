@@ -24,7 +24,7 @@ jobs:
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
         patterns: ./mcd-sel-fj
-              
+
     - name: setup python
       uses: actions/setup-python@v2
       with:
