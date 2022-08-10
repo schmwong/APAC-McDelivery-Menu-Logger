@@ -19,8 +19,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-          - name: checkout repo content
-            uses: actions/checkout@v2 # checkout the repository content to github runner.
+          - name: sparse checkout country file directory
+            uses: snow-actions/sparse-checkout@v1.1.0
+            with:
+              token: ${{ secrets.WORKFLOW_TOKEN }}
+              patterns: ./mcd-sel-fj
+
           - name: setup python
             uses: actions/setup-python@v2
             with:
@@ -44,5 +48,6 @@ jobs:
               git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
               git add -A
               timestamp=$(date -u)
-              git commit -m "Scraped: [${timestamp}] mcd-sel-fj (manual)" 
-              git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+              git commit -m "Scraped: [${timestamp}] mcd-sel-fj (manual)"
+              git config --global push.default current
+              git push "https://${GITHUB_ACTOR}:${{ secrets.WORKFLOW_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" || exit 0
