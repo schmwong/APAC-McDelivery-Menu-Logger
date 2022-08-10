@@ -121,7 +121,7 @@ try:
                 (product["Price (FJD)"] * exchange_rate), 2
             )
             product["Category"] = category
-            if ("Breakfast" in category_text):
+            if ("Breakfast" in category):
                 product["Menu"] = "Breakfast"
             else:
                 product["Menu"] = "Regular"
