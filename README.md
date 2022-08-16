@@ -6,6 +6,18 @@
 
 Price figures recorded here are from each territory's online McDelivery menu, which is consistent within said country / territory.
 
+### Exclusions
+
+Delivery fees are not included. Surcharges for drink changes and menu upsizes are also not included. Vouchers, in-store and in-app promotions are not included, unless explicitly itemised in the vendor's webpage scraped by the script.
+
+### USD for Price Comparison
+
+For ease of comparison, all prices are recorded in both local currency and USD.
+
+The exchange rate is fetched live from [Xe.com](https://www.xe.com/currencyconverter/) just prior to scraping McDelivery menu data. This rate is the ***mid-market*** rate, **not** the send rate. Please do not rely on it to make purchases.
+
+### [Jump to Table](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/edit/main/README.md#table-of-links)
+
 The [**Table of Links**](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/edit/main/README.md#table-of-links) section below contains shortcuts to each territory's **vendor page**, **scraper script**, **scraped files**, and **workflow file**.<br/>
 
 ## Project Architecture and Nomenclature
@@ -24,11 +36,13 @@ The [**Table of Links**](https://github.com/schmwong/APAC-McDelivery-Menu-Logger
 ```
 
 
-### 1. [Workflows](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/.github/workflows)
+### 1. [Workflows](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/.github/workflows) and Maintenance Scripts
+
+#### Scraper workflows:
 
 Auto scraper files, one for each territory, execute its scraper script in a GitHub hosted virtual machine. They are triggered on cron schedules defined in [`default-schedule.csv`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/default-schedule.csv).
 
-Maintenance workflows:
+#### Maintenance workflows:
   
 <details>
   <summary>
@@ -111,15 +125,31 @@ in ***Local*** Date and Time.
   
 </details>
 
+### Example
+
+File tree with associated files for Singapore.
+
+```
+.
+├── .github/workflows/
+│   └── scrape-sg-auto.yml
+└── mcd-bs4-sg/
+    ├── mcd-bs4-sg.py
+    └── scraped-data/
+        ├── [2022-08-15 03:30:57] mcd-bs4-sg.csv
+        └── [2022-08-16 03:31:12] mcd-bs4-sg.csv
+```
+
 
 ## Table of Links
 
 ### What Each Column is For
-**`Vendor Page`** *points to the official McDelivery order webpage, or, if it is not accessible by script, to an assigned delivery partner.*<br/>
-**`Scraper Script`** *is a direct link to the .py script that is executed by the workflow to scrape menu data.*<br/>
-**`Scraped Files`** *links to the folder holding the scraped data in csv file format.*<br/>
-**`Workflow File`** *is a direct link to the auto scraper file that is automatically triggered by a cron schedule.*<br/><br/>
+>**`Vendor Page`** *points to the official McDelivery order webpage, or, if it is not accessible by script, to an assigned delivery partner.*<br/>
+>**`Scraper Script`** *is a direct link to the .py script that is executed by the workflow to scrape menu data.*<br/>
+>**`Scraped Files`** *links to the folder holding the scraped data in csv file format.*<br/>
+>**`Workflow File`** *is a direct link to the auto scraper file that is automatically triggered by a cron schedule.*
 
+<br/>
 
 | Vendor Page         | Scraper Script | Scraped Files    | Workflow File                             |
 |:-------------------:| :------------- |:----------------:| -----------------------------------------:|
@@ -253,3 +283,11 @@ in ***Local*** Date and Time.
 [vn-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-vn-auto.yml
 
 
+
+## Disclaimer
+
+Use of these scripts is limited only to **non-sensitive and publicly available data**.
+
+The automated scripts wholly rely on virtual machines hosted by GitHub Actions to execute them. While every effort has been made to ensure timely execution, there have been instances of [temporary disruption to GitHub services](https://www.githubstatus.com/). Scheduled events are often delayed, more so especially during periods of high loads of GitHub Action workflow runs.
+
+The material embodied in this repository is provided to you "as-is" and without warranty of any kind, express, implied or otherwise, including without limitation, any warranty of fitness for a particular purpose. In no event shall the author be liable to you or anyone else for any direct, special, incidental, indirect or consequential damages of any kind, or any damages whatsoever, including without limitation, loss of profit, loss of use, savings or revenue, or the claims of third parties, whether or not the author has been advised of the possibility of such loss, however caused and on any theory of liability, arising out of or in connection with the possession, use or performance of this repository.
