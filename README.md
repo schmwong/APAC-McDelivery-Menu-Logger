@@ -250,7 +250,9 @@ File tree with associated files for Singapore.
 
 ```mermaid
 flowchart LR
-    A([scrape-territory-auto.yml])-->B[[Run mcd-library-territory.py]]-->C([inspector.yml])
+    A([scrape-territory-auto.yml])-->B[[Run mcd-library-territory.py]]
+    B ==>|output|G[("[timestamp] mcd-library-territory.csv")]
+    B -.->|trigger on run|C([inspector.yml])
     C -->D{{Scraping Successful?}} ==>|Yes| E[[Run reset-schedule.py]] 
     D ==>|No| F[[Run reschedule-next-run.py]]
     E -->|next run back at usual time tomorrow| A
@@ -260,7 +262,7 @@ flowchart LR
 
 #### Scraper workflows:
 
-Auto scraper files, one for each territory, execute its scraper script in a GitHub hosted virtual machine.
+Automated scraper files, one for each territory, execute its scraper script in a GitHub hosted virtual machine.
 They are triggered on cron schedules defined in [`default-schedule.csv`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/default-schedule.csv).
 
 #### Maintenance workflows:
