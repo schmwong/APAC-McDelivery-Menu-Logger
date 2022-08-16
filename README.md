@@ -1,6 +1,124 @@
-## McDelivery Menu Logger (APAC Region)
+# McDelivery Menu Logger (APAC Region)
 
-Each country is schdeuled to update its menu at least once every 24 hours.
+## Overview
+
+*McDonald's allows its franchisees some leeway in menu pricing, hence there may be a slight variation in in-store prices across different franchise locations in the same country. Such prices are not widely accessible online.*
+
+Price figures recorded here are from each territory's online McDelivery menu, which is consistent within said country / territory.
+
+The [**Table of Links**](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/edit/main/README.md#table-of-links) section below contains shortcuts to each territory's **vendor page**, **scraper script**, **scraped files**, and **workflow file**.<br/>
+
+## Project Architecture and Nomenclature
+
+```
+.
+├── .github/workflows/
+│   ├── Auto scraper workflow files
+│   └── Maintenance workflow files
+├── Territory folders: mcd-<library>-<ccTLD>/
+│   ├── Scraper Script
+│   └── scraped-data/
+│       └── Scraped Files
+├── default-schedule.csv
+└── .py Maintenance scripts
+```
+
+
+### 1. [Workflows](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/.github/workflows)
+
+Auto scraper files, one for each territory, execute its scraper script in a GitHub hosted virtual machine. They are triggered on cron schedules defined in [`default-schedule.csv`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/default-schedule.csv).
+
+Maintenance workflows:
+  
+<details>
+  <summary>
+    <strong>inspector.yml</strong> : runs after every scraper workflow finishes running to execute scripts depending on the result of the scraper workflow. Click for description of each script.
+  </summary>
+  
+  These scripts edit the cron values in workflow .yml files.
+  
+  - [`reschedule-next-run.py`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/reschedule-next-run.py) : executes on ***failure*** of scraper workflow, ensures scrape reattempt by rescheduling the next run to be one hour from the last scheduled run.
+  
+  - [`reset-schedule.py`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/reset-schedule.py) : executes on ***success*** of scraper workflow, resets the schedule back to the original cron value defined in [`default-schedule.csv`](https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/default-schedule.csv).
+  
+</details>
+
+<details>
+  <summary>
+    <strong>update-utcoffset.yml</strong> : maintains data accuracy in <strong>default-schedule.csv</strong>.
+    Triggered on schedule once a day, and when <strong>default-schedule.csv</strong> is edited. Executes
+    <a href="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/update-utcoffset.py">
+      <strong>update-utcoffset.py</strong>
+    </a>
+    to ensure UTC offset values are current (for Daylight Savings), and UTC Time values (and Cron values)
+    are corrected after user edits are made to Local Time values.
+  </summary>
+</details>
+
+### 2. Territory Folders
+
+Except the workflow files, each territory has its associated files sequestered in its own folder. There are no shared user modules. Each territory, as a separate entity, has its code developed individually.
+
+The territory folder and its associated files follow a common naming convention: <br/>
+>`mcd-<library>-<ccTLD>` <br/>
+
+**Scraped data files** are housed in a `scraped-data` folder within the territory folder. Each file is prefixed with an additional timestamp
+>`[yyyy-mm-dd hh:mm:ss]`
+
+in ***Local*** Date and Time.
+
+<details>
+  <summary>
+    <strong>mcd</strong> prefix : scraping McDonald's data.
+  </summary>
+</details>
+
+<details>
+  <summary>
+    <strong>library</strong> : main library or framework used to scrape webpage data. Click for details.
+
+  </summary>
+
+  - `bs4` : [Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)
+  - `req` : [Requests](https://requests.readthedocs.io/en/latest/)
+  - `scr` : [Scrapy](https://docs.scrapy.org/en/latest/)
+  - `sel` : [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
+  
+</details>
+
+<details>
+  <summary>
+    <strong>ccTLD</strong> suffix : country code top-level domain of each APAC territory. Click for details.
+  </summary>
+  
+  - `au` : Australia
+  - `bn` : Brunei
+  - `fj` : Fiji
+  - `hk` : Hong Kong
+  - `in` : India
+  - `id` : Indonesia
+  - `jp` : Japan
+  - `kr` : South Korea
+  - `my` : Malaysia
+  - `nz` : New Zealand
+  - `pk` : Pakistan
+  - `ph` : Philippines
+  - `sg` : Singapore
+  - `lk` : Sri Lanka
+  - `tw` : Taiwan
+  - `th` : Thailand
+  - `vn` : Vietnam
+  
+</details>
+
+
+## Table of Links
+
+### What Each Column is For
+**`Vendor Page`** *points to the official McDelivery order webpage, or, if it is not accessible by script, to an assigned delivery partner.*<br/>
+**`Scraper Script`** *is a direct link to the .py script that is executed by the workflow to scrape menu data.*<br/>
+**`Scraped Files`** *links to the folder holding the scraped data in csv file format.*<br/>
+**`Workflow File`** *is a direct link to the auto scraper file that is automatically triggered by a cron schedule.*<br/><br/>
 
 
 | Vendor Page         | Scraper Script | Scraped Files    | Workflow File                             |
@@ -12,7 +130,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][in]    | [India]        | [mcd-req-in.csv] | [![scrape-in-auto.yml][in-logo]][in-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][id]    | [Indonesia]    | [mcd-bs4-id.csv] | [![scrape-id-auto.yml][id-logo]][id-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][jp]    | [Japan]        | [mcd-bs4-jp.csv] | [![scrape-jp-auto.yml][jp-logo]][jp-yaml] |
-| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][kr]    | [Korea]        | [mcd-bs4-kr.csv] | [![scrape-kr-auto.yml][kr-logo]][kr-yaml] |
+| [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][kr]    | [South Korea]        | [mcd-bs4-kr.csv] | [![scrape-kr-auto.yml][kr-logo]][kr-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][my]    | [Malaysia]     | [mcd-bs4-my.csv] | [![scrape-my-auto.yml][my-logo]][my-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-ubereats.svg" alt="ubereats" width="100"/>][nz]    | [New Zealand]  | [mcd-scr-nz.csv] | [![scrape-nz-auto.yml][nz-logo]][nz-yaml] |
 | [<img src="https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/readme-assets/logo-mcdelivery.svg" alt="mcdelivery" width="100"/>][pk]    | [Pakistan]     | [mcd-bs4-pk.csv] | [![scrape-pk-auto.yml][pk-logo]][pk-yaml] |
@@ -75,7 +193,7 @@ Each country is schdeuled to update its menu at least once every 24 hours.
 [jp-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-jp-auto.yml
 
 [kr]: https://www.mcdelivery.co.kr/kr/browse/menu.html?daypartId=1&catId=10&locale=en
-[Korea]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-kr/mcd-bs4-kr.py
+[South Korea]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-kr/mcd-bs4-kr.py
 [mcd-bs4-kr.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-kr/scraped-data
 [kr-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-kr-auto.yml/badge.svg
 [kr-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-kr-auto.yml
