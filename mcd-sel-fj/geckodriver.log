@@ -2551,3 +2551,35 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
 !!! error running onStopped callback: TypeError: callback is not a function
+1661279573685	geckodriver	INFO	Listening on 127.0.0.1:45809
+1661279574047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "47925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu79zU9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1661279580558	Marionette	INFO	Marionette enabled
+1661279580603	Marionette	INFO	Listening on port 33885
+WebDriver BiDi listening on ws://localhost:47925
+Read port: 33885
+1661279581697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu79zU9/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47925/devtools/browser/6a8d0bdd-676b-4454-b6d1-7acef8a6d49e
+JavaScript warning: https://www.xe.com/_next/static/chunks/4e03a1837c7ed84365d913e695260bf503b01c7d.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=767995866&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269101, line 237: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=767995866&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269101, line 237: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=767995866&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269101, line 237: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=767995866&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269101, line 237: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1661279592804	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://static.adsafeprotected.com/main.19.8-ab3dd55-SNAPSHOT.js, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://static.adsafeprotected.com/main.19.8.344.js, line 1: NS_ERROR_FAILURE: 
+1661279607632	Marionette	INFO	Stopped listening on port 33885
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
