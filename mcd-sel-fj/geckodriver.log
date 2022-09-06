@@ -3019,3 +3019,24 @@ JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 48: TypeError: e
 1662402905442	Marionette	INFO	Stopped listening on port 35555
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1662489249815	geckodriver	INFO	Listening on 127.0.0.1:45245
+1662489250334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "49379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejFGTeY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1662489261613	Marionette	INFO	Marionette enabled
+1662489261627	Marionette	INFO	Listening on port 40401
+Read port: 40401
+WebDriver BiDi listening on ws://localhost:49379
+Read port: 40401
+1662489263488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejFGTeY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49379/devtools/browser/cbd1db53-b050-4edb-8dec-d26beccdc6ea
+JavaScript warning: https://www.xe.com/_next/static/chunks/4e03a1837c7ed84365d913e695260bf503b01c7d.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 48: TypeError: e.contentWindow is null
+JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 48: TypeError: e.contentWindow is null
+1662489289261	Marionette	INFO	Stopped listening on port 40401
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
