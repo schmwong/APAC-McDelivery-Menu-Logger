@@ -58,6 +58,7 @@ jobs:
             git config user.name "${GITHUB_ACTOR}"
             git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add -A
+            git pull
             if ! git diff-index --quiet HEAD; then
               git commit -m "${{ github.event.workflow.name }} back to normal schedule" 
               git push "https://${GITHUB_ACTOR}:$WORKFLOW_TOKEN@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
@@ -100,6 +101,7 @@ jobs:
             git config user.name "${GITHUB_ACTOR}"
             git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add -A
+            git pull
             if ! git diff-index --quiet HEAD; then
               git commit -m "rescheduled ${{ github.event.workflow.name }}" 
               git push "https://${GITHUB_ACTOR}:$WORKFLOW_TOKEN@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
