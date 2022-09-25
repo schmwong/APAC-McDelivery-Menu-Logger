@@ -3458,3 +3458,30 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/D52GskfJOxf5PECSshY
 1664044585634	Marionette	INFO	Stopped listening on port 39445
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1664130946359	geckodriver	INFO	Listening on 127.0.0.1:40477
+1664130946862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "43901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletcydZN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1664130947387	Marionette	INFO	Marionette enabled
+1664130947392	Marionette	INFO	Listening on port 36493
+WebDriver BiDi listening on ws://localhost:43901
+Read port: 36493
+1664130947539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletcydZN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43901/devtools/browser/5675e864-61a5-4252-a4ba-665ff591a45d
+JavaScript warning: https://www.xe.com/_next/static/chunks/cc478a3cd39a1b0f1b15af94973ee3478a8969ef.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/D52GskfJOxf5PECSshYwDvZZSmyyoPi_bK3LssDxWko.js line 2 > eval line 748 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/D52GskfJOxf5PECSshYwDvZZSmyyoPi_bK3LssDxWko.js line 2 > eval line 748 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/D52GskfJOxf5PECSshYwDvZZSmyyoPi_bK3LssDxWko.js line 2 > eval line 6496 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/D52GskfJOxf5PECSshYwDvZZSmyyoPi_bK3LssDxWko.js line 2 > eval line 6496 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://cdn.marphezis.com/cmpp/index.js, line 48: TypeError: e.contentWindow is null
+1664130967705	Marionette	INFO	Stopped listening on port 36493
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
