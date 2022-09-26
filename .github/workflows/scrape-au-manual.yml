@@ -34,6 +34,7 @@ jobs:
               pip3 install pytz
               pip3 install path
               pip3 install pathlib2
+              pip3 install pyopenssl=22.0.0
           - name: execute py script # run mcd-scr-au.py to get the latest data
             working-directory: ./mcd-scr-au
             run: |
