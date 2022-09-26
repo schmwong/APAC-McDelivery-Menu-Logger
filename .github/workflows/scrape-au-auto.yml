@@ -25,11 +25,11 @@ jobs:
     - name: setup python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8.2
+        python-version: 3.9.6
     - name: setup dependencies
       working-directory: ./mcd-scr-au
       run: |
-        pip3 install scrapy
+        pip3 install scrapy==2.6.1
         pip3 install pandas 
         pip3 install pytz
         pip3 install path
