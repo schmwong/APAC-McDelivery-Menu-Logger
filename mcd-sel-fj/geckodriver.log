@@ -3820,3 +3820,18 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/b4aq_x9zMiku-4ayY0g
 1665340654088	Marionette	INFO	Stopped listening on port 37215
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1665427655277	geckodriver	INFO	Listening on 127.0.0.1:45073
+1665427655702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "50963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyVti7n"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1665427659037	Marionette	INFO	Marionette enabled
+1665427659047	Marionette	INFO	Listening on port 34259
+Read port: 34259
+WebDriver BiDi listening on ws://127.0.0.1:50963
+1665427659570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyVti7n/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:50963/devtools/browser/6ff63baf-d274-4b56-accf-2509dd2d4fd2
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
