@@ -3850,3 +3850,34 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 DevTools listening on ws://127.0.0.1:42579/devtools/browser/e348c690-6ae2-476f-a0fa-58ce886baaea
 JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+1665600293854	geckodriver	INFO	Listening on 127.0.0.1:43283
+1665600294262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "53825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYjSHnz"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1665600297919	Marionette	INFO	Marionette enabled
+1665600297932	Marionette	INFO	Listening on port 33987
+Read port: 33987
+WebDriver BiDi listening on ws://127.0.0.1:53825
+1665600298672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYjSHnz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:53825/devtools/browser/f503a8cc-c25b-44b5-912f-9794c271bad7
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 447 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 447 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 6972 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 6972 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 6555 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GqdA_Tv7WdpTYI8K1v09aLIv-PCgI0anbpiD0lWdf3k.js line 2 > eval line 6555 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: uncaught exception: 7
+1665600385058	Marionette	INFO	Stopped listening on port 33987
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
