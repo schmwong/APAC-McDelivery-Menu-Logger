@@ -1,0 +1,55 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2022/10/16,Sun,Brunei,Big Mac (Value Meal) — Medium,6.50,4.55,Regular Value Meal
+2,2022/10/16,Sun,Brunei,Big Mac (Value Meal) — Large,7.10,4.97,Regular Value Meal
+3,2022/10/16,Sun,Brunei,1 Pc Fish and Fries (Value Meal) — Large,5.80,4.06,Regular Value Meal
+4,2022/10/16,Sun,Brunei,2 Pcs Fish and Fries (Value Meal) — Large,7.40,5.19,Regular Value Meal
+5,2022/10/16,Sun,Brunei,6 Pcs Fish Nuggets (Value Meal) — Medium,5.80,4.06,Regular Value Meal
+6,2022/10/16,Sun,Brunei,6 Pcs Fish Nuggets (Value Meal) — Large,6.40,4.48,Regular Value Meal
+7,2022/10/16,Sun,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.34,Regular Value Meal
+8,2022/10/16,Sun,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,4.76,Regular Value Meal
+9,2022/10/16,Sun,Brunei,Nasi Lemak Set C,3.50,2.45,Regular Value Meal
+10,2022/10/16,Sun,Brunei,Big Mac (A La Carte),5.50,3.85,Regular Value Meal
+11,2022/10/16,Sun,Brunei,6 Pcs Fish Nuggets (A La Carte),4.30,3.01,Regular Value Meal
+12,2022/10/16,Sun,Brunei,Double Cheeseburger (A La Carte),5.10,3.57,Regular Value Meal
+13,2022/10/16,Sun,Brunei,1 Pc Fish and Fries (A La Carte),3.80,2.66,Regular Value Meal
+14,2022/10/16,Sun,Brunei,2 Pcs Fish and Fries (A La Carte),5.50,3.85,Regular Value Meal
+15,2022/10/16,Sun,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,3.92,Regular Value Meal
+16,2022/10/16,Sun,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.34,Regular Value Meal
+17,2022/10/16,Sun,Brunei,Filet-O-Fish (A La Carte),3.80,2.66,Regular Value Meal
+18,2022/10/16,Sun,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.22,Regular Value Meal
+19,2022/10/16,Sun,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.27,Regular Value Meal
+20,2022/10/16,Sun,Brunei,Chicken McNuggets — 9 Pieces - A la Carte,6.30,4.41,Regular Value Meal
+21,2022/10/16,Sun,Brunei,Chicken McNuggets — 9 Pieces - Medium Value Meal,6.80,4.76,Regular Value Meal
+22,2022/10/16,Sun,Brunei,Chicken McNuggets — 9 Pieces - Large Value Meal,7.40,5.19,Regular Value Meal
+23,2022/10/16,Sun,Brunei,Chicken McNuggets — 20 Pieces - A La Carte,12.60,8.83,Regular Value Meal
+24,2022/10/16,Sun,Brunei,McChicken — Ala Carte,5.00,3.50,Regular Value Meal
+25,2022/10/16,Sun,Brunei,McChicken — Medium,6.00,4.20,Regular Value Meal
+26,2022/10/16,Sun,Brunei,McChicken — Large,6.60,4.62,Regular Value Meal
+27,2022/10/16,Sun,Brunei,McChicken Deluxe — Ala Carte,5.20,3.64,Regular Value Meal
+28,2022/10/16,Sun,Brunei,McChicken Deluxe — Medium,6.20,4.34,Regular Value Meal
+29,2022/10/16,Sun,Brunei,McChicken Deluxe — Large,6.80,4.76,Regular Value Meal
+30,2022/10/16,Sun,Brunei,Happy Meal Beefburger,4.90,3.43,Happy Meal
+31,2022/10/16,Sun,Brunei,Happy Meal Cheeseburger,5.20,3.64,Happy Meal
+32,2022/10/16,Sun,Brunei,Happy Meal Fish Nuggets (4pcs),5.20,3.64,Happy Meal
+33,2022/10/16,Sun,Brunei,Happy Meal Ayam Goreng McD (1pc),5.20,3.64,Happy Meal
+34,2022/10/16,Sun,Brunei,Happy Meal Bubur McD (S),5.20,3.64,Happy Meal
+35,2022/10/16,Sun,Brunei,Happy meal chicken nugget(4pc),5.50,3.85,Happy Meal
+36,2022/10/16,Sun,Brunei,6 Pcs Fish Nuggets,4.30,3.01,Sides
+37,2022/10/16,Sun,Brunei,9 Pcs Fish Nuggets,6.00,4.20,Sides
+38,2022/10/16,Sun,Brunei,20 Pcs Fish Nuggets,11.90,8.34,Sides
+39,2022/10/16,Sun,Brunei,Fish Bites,2.20,1.54,Sides
+40,2022/10/16,Sun,Brunei,2pcs Ayam Goreng McD,5.30,3.71,Sides
+41,2022/10/16,Sun,Brunei,5pcs Ayam Goreng McD,12.00,8.41,Sides
+42,2022/10/16,Sun,Brunei,9pcs Ayam Goreng McD,21.80,15.27,Sides
+43,2022/10/16,Sun,Brunei,Rice,0.80,0.56,Sides
+44,2022/10/16,Sun,Brunei,French fries — Medium,2.20,1.54,Sides
+45,2022/10/16,Sun,Brunei,French fries — Large,2.50,1.75,Sides
+46,2022/10/16,Sun,Brunei,Cakoi — 1 Pc,1.50,1.05,Sides
+47,2022/10/16,Sun,Brunei,Cakoi — 2 Pc,2.80,1.96,Sides
+48,2022/10/16,Sun,Brunei,Bubur McD — Small,3.20,2.24,Sides
+49,2022/10/16,Sun,Brunei,Bubur McD — Large,3.70,2.59,Sides
+50,2022/10/16,Sun,Brunei,Medium fries,2.20,1.54,Sides
+51,2022/10/16,Sun,Brunei,Apple Pie — 1 Pc,1.80,1.26,Dessert
+52,2022/10/16,Sun,Brunei,Apple Pie — 2 Pc,3.30,2.31,Dessert
+53,2022/10/16,Sun,Brunei,Spicy Double Beef — Ala Carte,5.60,3.92,Promotion : Spicy Double Beef
+54,2022/10/16,Sun,Brunei,Spicy Double Beef — Medium,6.60,4.62,Promotion : Spicy Double Beef
