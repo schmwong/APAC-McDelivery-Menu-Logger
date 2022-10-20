@@ -4077,3 +4077,19 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/OLZMwUuXKff5QHkWgJZ
 * WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 JavaScript error: , line 0: uncaught exception: 7
+1666291940102	geckodriver	INFO	Listening on 127.0.0.1:35145
+1666291940462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "44917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejvJifR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1666291947887	Marionette	INFO	Marionette enabled
+1666291947908	Marionette	INFO	Listening on port 32973
+Read port: 32973
+WebDriver BiDi listening on ws://127.0.0.1:44917
+1666291948814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejvJifR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:44917/devtools/browser/c78655e2-eb3c-4d21-abfc-5186ecdfda74
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: 7
