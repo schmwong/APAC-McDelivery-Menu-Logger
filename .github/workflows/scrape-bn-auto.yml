@@ -5,8 +5,9 @@ name: scrape-bn-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 08 00 * * *           # runs at 00:08 UTC (08:08 BNT) for Breakfast Menu
+  - cron: 09 01 * * *           # runs at 00:08 UTC (08:08 BNT) for Breakfast Menu
   - cron: 44 06 * * *           # runs at 06:44 UTC (14:44 BNT) for Regular Menu
+  workflow_dispatch:
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
@@ -30,11 +31,12 @@ jobs:
     - name: setup dependencies
       working-directory: ./mcd-scr-bn
       run: |
-        pip3 install scrapy
+        pip3 install scrapy==2.6.1
         pip3 install pandas 
         pip3 install pytz
         pip3 install path
         pip3 install pathlib2
+        pip3 install pyopenssl==22.0.0
     - name: execute py script       # run mcd-scr-bn.py to get the latest data
       working-directory: ./mcd-scr-bn
       run: |

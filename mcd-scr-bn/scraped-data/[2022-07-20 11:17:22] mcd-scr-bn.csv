@@ -1,0 +1,53 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2022/07/20,Wed,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,4.89,Regular Value Meal
+2,2022/07/20,Wed,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.32,Regular Value Meal
+3,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Medium,6.30,4.53,Regular Value Meal
+4,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Large,6.90,4.96,Regular Value Meal
+5,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.53,Regular Value Meal
+6,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,4.96,Regular Value Meal
+7,2022/07/20,Wed,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.03,Regular Value Meal
+8,2022/07/20,Wed,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.46,Regular Value Meal
+9,2022/07/20,Wed,Brunei,1 Pc Fish and Fries (Value Meal) — Large,5.80,4.17,Regular Value Meal
+10,2022/07/20,Wed,Brunei,2 Pcs Fish and Fries (Value Meal) — Large,7.40,5.32,Regular Value Meal
+11,2022/07/20,Wed,Brunei,6 Pcs Fish Nuggets (Value Meal) — Medium,5.80,4.17,Regular Value Meal
+12,2022/07/20,Wed,Brunei,6 Pcs Fish Nuggets (Value Meal) — Large,6.40,4.60,Regular Value Meal
+13,2022/07/20,Wed,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.82,Regular Value Meal
+14,2022/07/20,Wed,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.74,Regular Value Meal
+15,2022/07/20,Wed,Brunei,Nasi Lemak Set C,3.50,2.52,Regular Value Meal
+16,2022/07/20,Wed,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.03,Regular Value Meal
+17,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Regular (A La Carte),5.30,3.81,Regular Value Meal
+18,2022/07/20,Wed,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,3.81,Regular Value Meal
+19,2022/07/20,Wed,Brunei,Filet-O-Fish (A La Carte),3.80,2.73,Regular Value Meal
+20,2022/07/20,Wed,Brunei,1 Pc Fish and Fries (A La Carte),3.80,2.73,Regular Value Meal
+21,2022/07/20,Wed,Brunei,2 Pcs Fish and Fries (A La Carte),5.50,3.95,Regular Value Meal
+22,2022/07/20,Wed,Brunei,6 Pcs Fish Nuggets (A La Carte),4.30,3.09,Regular Value Meal
+23,2022/07/20,Wed,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.31,Regular Value Meal
+24,2022/07/20,Wed,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.39,Regular Value Meal
+25,2022/07/20,Wed,Brunei,Happy Meal Fish Nuggets (4pcs),5.20,3.74,Happy Meal
+26,2022/07/20,Wed,Brunei,Happy Meal Bubur McD (S),5.20,3.74,Happy Meal
+27,2022/07/20,Wed,Brunei,Happy Meal Ayam Goreng McD (1pc),5.20,3.74,Happy Meal
+28,2022/07/20,Wed,Brunei,6 Pcs Fish Nuggets,4.30,3.09,Sides
+29,2022/07/20,Wed,Brunei,9 Pcs Fish Nuggets,6.00,4.31,Sides
+30,2022/07/20,Wed,Brunei,20 Pcs Fish Nuggets,11.90,8.56,Sides
+31,2022/07/20,Wed,Brunei,Fish Bites,2.20,1.58,Sides
+32,2022/07/20,Wed,Brunei,2pcs Ayam Goreng McD,5.30,3.81,Sides
+33,2022/07/20,Wed,Brunei,5pcs Ayam Goreng McD,12.00,8.63,Sides
+34,2022/07/20,Wed,Brunei,9pcs Ayam Goreng McD,21.80,15.67,Sides
+35,2022/07/20,Wed,Brunei,Rice,0.80,0.58,Sides
+36,2022/07/20,Wed,Brunei,Bubur McD — Small,3.20,2.30,Sides
+37,2022/07/20,Wed,Brunei,Bubur McD — Large,3.70,2.66,Sides
+38,2022/07/20,Wed,Brunei,Cakoi — 1 Pc,1.50,1.08,Sides
+39,2022/07/20,Wed,Brunei,Cakoi — 2 Pc,2.80,2.01,Sides
+40,2022/07/20,Wed,Brunei,Sundae Chocolate,2.50,1.80,Dessert
+41,2022/07/20,Wed,Brunei,Sundae Strawberry,2.50,1.80,Dessert
+42,2022/07/20,Wed,Brunei,Hershey Chocolate Sundae,2.50,1.80,Dessert
+43,2022/07/20,Wed,Brunei,Hershey Strawberry Sundae,2.50,1.80,Dessert
+44,2022/07/20,Wed,Brunei,Oreo Berry McFlurry,4.00,2.88,Dessert
+45,2022/07/20,Wed,Brunei,Oreo Mudpie McFlurry,4.00,2.88,Dessert
+46,2022/07/20,Wed,Brunei,Oreo McFlurry,3.50,2.52,Dessert
+47,2022/07/20,Wed,Brunei,Greentea Oreo McFlurry,4.00,2.88,Dessert
+48,2022/07/20,Wed,Brunei,Double Chocolate Oreo McFlurry,3.00,2.16,Dessert
+49,2022/07/20,Wed,Brunei,Apple Pie — 1 Pc,1.80,1.29,Dessert
+50,2022/07/20,Wed,Brunei,Apple Pie — 2 Pc,3.30,2.37,Dessert
+51,2022/07/20,Wed,Brunei,Sweet Potato Fries — Medium,3.00,2.16,Sweet Potato Fries
+52,2022/07/20,Wed,Brunei,Dinosaur McFlurry — Regular,3.50,2.52,Dinosaur McFlurry

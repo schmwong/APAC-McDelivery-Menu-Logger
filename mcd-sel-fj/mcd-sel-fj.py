@@ -21,6 +21,8 @@ import traceback
 
 # Reflects local time
 local_datetime = dt.datetime.now(pytz.timezone("Pacific/Fiji"))
+Date = local_datetime.strftime("%Y/%m/%d")
+Day = local_datetime.strftime("%a")
 
 
 # configure webdriver
@@ -53,128 +55,117 @@ browser = webdriver.Firefox(options=options)
 
 try:
 
-	# --------------------------------------- #
-	# Getting the Live Exchange Rate from XE  #
-	# --------------------------------------- #
-	
-	# Getting the correct XE webpage (all elements)
-	XE = browser.get(
-	    "https://www.xe.com/currencyconverter/convert/?Amount=1&From=FJD&To=USD")
-	
-	# Scraping the text from the selected element (CSS selector)
-	# findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
-	# Extracting only the number from the text string and converting it to a float value (decimal number)
-	exchange_rate = float(re.findall(
-	    r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
-	
-	print(exchange_rate)
-	print()
-	
-	
-	# -------------------------------------- #
-	# Parsing the data into Dictionary List  #
-	# -------------------------------------- #
-	
-	browser.get("https://fijieats.com/products/listing?supplierId=164")
-	
-	time.sleep(6)
-	
-	category_id_list = []
-	item_list = []
-	price_list = []
-	category_list = []
-	product_list = []
-	
-	
-	# Get ID of each Category div element (currently 0 through 5)
-	submenus = browser.find_elements(
-	    By.XPATH, ".//*[@id='detail_product_page']/div/div[2]/div[2]/div"
-	)
-	
-	for submenu in submenus:
-	    category_id = submenu.get_attribute("id")
-	    category_id_list.extend(category_id)
-	
-	
-	# Outer For Loop iterates through each Category div
-	for ID in category_id_list:
-	
-	    # Inner For Loops scrape (text from the corresponding elements) for
-	    # menu items and prices into individual lists
-	    menu_items = browser.find_elements(By.XPATH, f'.//*[@id="{ID}"]//h2')
-	    for menu_item in menu_items:
-	        menu_item_text = menu_item.text
-	        item_list.append(menu_item_text)
-	
-	    prices = browser.find_elements(By.XPATH, f'.//*[@id="{ID}"]//h6')
-	    for price in prices:
-	        price_text = round(
-	            float(re.findall(r"[-+]?(?:\d*\.\d+|\d+)", price.text)[0]), 2
-	        )
-	        price_list.append(price_text)
-	
-	# Nested For Loop matches each menu item with its Category
-	        categories = browser.find_elements(By.XPATH, f'.//*[@id="{ID}"]//h4')
-	        for category in categories:
-	            category_text = category.text
-	            category_list.append(category_text)
-	
-	
-	# Zip function merges lists in parallel
-	# Consolidating all the information: output each row of the menu into a {product dictionary}, then adding the {dictionary} to the [product_list]
-	for menu_item_text, price_text, category_text in zip(item_list, price_list, category_list):
-	    product = {}
-	    product["Date"] = local_datetime.strftime("%Y/%m/%d")
-	    product["Day"] = local_datetime.strftime("%a")
-	    product["Territory"] = "Fiji"
-	    product["Menu Item"] = menu_item_text
-	    product["Price (FJD)"] = price_text
-	    product["Price (USD)"] = round((price_text * exchange_rate), 2)
-	    product["Category"] = category_text
-	
-	    if ("Breakfast" in category_text):
-	        product["Menu"] = "Breakfast"
-	    else:
-	        product["Menu"] = "Regular"
-	    product_list.append(product)
-	
-	
-	# ---------------------------------------------------- #
-	# Constructing the Dataframe and Exporting it to File  #
-	# ---------------------------------------------------- #
-	
-	product_list_df = pd.DataFrame(product_list)
-	product_list_df.drop_duplicates(
-	    subset=None, keep='last', inplace=True, ignore_index=True)
-	product_list_df.reset_index(drop=True, inplace=True)
-	product_list_df.index = pd.RangeIndex(
-	    start=1, stop=(len(product_list_df.index) + 1), step=1)
-	
-	print(product_list_df)
-	print()
-	
-	timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
-	
-	output_file = str(timestamp + " mcd-sel-fj.csv")
-	output_dir = Path("./scraped-data")
-	
-	# Create directory as required; won't raise an error if directory already exists
-	output_dir.mkdir(parents=True, exist_ok=True)
-	
-	product_list_df.to_csv((output_dir / output_file),
-	                       float_format="%.2f", encoding="utf-8")
-	
-	# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-sel-fj.csv"
-	
-	
-	time.sleep(5)
-	
-	browser.quit()
+    # --------------------------------------- #
+    # Getting the Live Exchange Rate from XE  #
+    # --------------------------------------- #
+
+    # Getting the correct XE webpage (all elements)
+    XE = browser.get(
+        "https://www.xe.com/currencyconverter/convert/?Amount=1&From=FJD&To=USD")
+
+    # Scraping the text from the selected element (CSS selector)
+    # findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
+    # Extracting only the number from the text string and converting it to a float value (decimal number)
+    exchange_rate = float(re.findall(
+        r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
+
+    print(exchange_rate)
+    print()
+
+    # -------------------------------------- #
+    # Parsing the data into Dictionary List  #
+    # -------------------------------------- #
+
+    # Vendor updated page URL
+    browser.get("https://fijieats.com/vendor/mcdonalds-nadi")
+
+    time.sleep(6)
+
+    product_list = []
+
+    # Revamped page has menu items split across different html section elements
+    submenus = browser.find_elements(
+        By.CSS_SELECTOR, "section.scrolling_section"
+    )
+
+    # Outer For Loop iterates through each section element
+    for submenu in submenus:
+
+        # Category Names should only contain alphabetical characters
+        category_id = submenu.get_attribute("id")
+        category = " ".join(
+            re.findall(
+                r"[a-zA-Z]+",
+                ((browser.find_element(
+                    By.CSS_SELECTOR,
+                    f'nav.scrollspy-menu a[data-slug="{category_id}"]'
+                )).text)
+            )
+        )
+
+        items = submenu.find_elements(By.CSS_SELECTOR, "div.price_head")
+
+        # Inner For Loop iterates through each div containing a Menu Item
+        for item in items:
+            product = {}
+            product["Date"] = Date
+            product["Day"] = Day
+            product["Territory"] = "Fiji"
+            product["Menu Item"] = (item.find_element(
+                By.CSS_SELECTOR, "h5")).text.strip()
+            product["Price (FJD)"] = round(
+                float(
+                    re.findall(
+                        r"[-+]?(?:\d*\.\d+|\d+)",
+                        (item.find_element(By.CSS_SELECTOR, "p.product_price").text)
+                    )[0]
+                ), 2
+            )
+            product["Price (USD)"] = round(
+                (product["Price (FJD)"] * exchange_rate), 2
+            )
+            product["Category"] = category
+            if ("Breakfast" in category):
+                product["Menu"] = "Breakfast"
+            else:
+                product["Menu"] = "Regular"
+            product_list.append(product)
+
+    # ---------------------------------------------------- #
+    # Constructing the Dataframe and Exporting it to File  #
+    # ---------------------------------------------------- #
+
+    product_list_df = pd.DataFrame(product_list)
+    product_list_df.drop_duplicates(
+        subset=None, keep='last', inplace=True, ignore_index=True)
+    product_list_df.reset_index(drop=True, inplace=True)
+    product_list_df.index = pd.RangeIndex(
+        start=1, stop=(len(product_list_df.index) + 1), step=1)
+
+    print(product_list_df)
+    print()
+
+    timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
+
+    output_file = str(timestamp + " mcd-sel-fj.csv")
+    output_dir = Path("./scraped-data")
+
+    # Create directory as required; won't raise an error if directory already exists
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    product_list_df.to_csv((output_dir / output_file),
+                           float_format="%.2f", encoding="utf-8")
+
+    # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-sel-fj.csv"
+
+    time.sleep(5)
+
+    browser.quit()
 
 
 except Exception:
-	print(
-	f'''
+    print(
+        f'''
 	  \n\n
 	  ---
 	  One or more errors occurred:
@@ -183,4 +174,4 @@ except Exception:
 	  ---
 	  \n\n
 	  '''
-	)
+    )

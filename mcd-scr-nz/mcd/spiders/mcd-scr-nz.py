@@ -23,7 +23,7 @@ import traceback
 local_datetime = dt.datetime.now(pytz.timezone("Pacific/Auckland"))
 
 
-class McdScrAuSpider(scrapy.Spider):
+class McdScrNzSpider(scrapy.Spider):
 	name = 'mcd-scr-nz'
 	
 	''' ====================================================== ''''''

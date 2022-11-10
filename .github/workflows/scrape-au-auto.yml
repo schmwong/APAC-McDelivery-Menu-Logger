@@ -5,7 +5,7 @@ name: scrape-au-auto
 # Controls when the action will run
 on:
   schedule:
-  - cron: 15 19 * * *           # runs once a day at 19:15 UTC (05:15 AEST)
+  - cron: 15 18 * * *           # runs once a day at 19:15 UTC (05:15 AEST)
 
 concurrency:
   group: scrape-and-schedule
@@ -25,15 +25,16 @@ jobs:
     - name: setup python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8.2
+        python-version: 3.9.6
     - name: setup dependencies
       working-directory: ./mcd-scr-au
       run: |
-        pip3 install scrapy
+        pip3 install scrapy==2.6.1
         pip3 install pandas 
         pip3 install pytz
         pip3 install path
         pip3 install pathlib2
+        pip3 install pyopenssl==22.0.0
     - name: execute py script       # run mcd-scr-au.py to get the latest data
       working-directory: ./mcd-scr-au
       run: |
@@ -44,5 +45,6 @@ jobs:
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
+        git pull
         git commit -m "Scraped: [${timestamp}] mcd-scr-au (auto)" 
         git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0

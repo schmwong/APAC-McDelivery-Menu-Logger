@@ -30,11 +30,12 @@ jobs:
     - name: setup dependencies
       working-directory: ./mcd-scr-hk
       run: |
-        pip3 install scrapy
+        pip3 install scrapy==2.6.1
         pip3 install pandas 
         pip3 install pytz
         pip3 install path
         pip3 install pathlib2
+        pip3 install pyopenssl==22.0.0
     - name: execute py script       # run mcd-scr-hk.py to get the latest data
       working-directory: ./mcd-scr-hk
       run: |

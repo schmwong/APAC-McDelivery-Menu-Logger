@@ -92,6 +92,12 @@ try:
 	df["UTC"] = list_c(utc_time)
 	df["Cron"] = list_c(cron_time)
 	df["UTC Offset"] = list_c(utc_offset)
+
+
+	# Sort rows by UTC time in ascending order
+	df = df.sort_values(
+		by=["UTC"], ascending=True, na_position="last"
+	)
 	
 	
 	reset_index(1)

@@ -5,8 +5,8 @@ name: scrape-ph-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 46 02 * * *           # runs at 02:46 UTC (10:46 PHT) for Regular Menu
-  - cron: 26 22 * * *           # runs at 22:26 UTC (06:26 PHT) for Breakfast Menu
+  - cron: 46 08 * * *           # runs at 02:46 UTC (10:46 PHT) for Regular Menu
+  - cron: 26 04 * * *           # runs at 22:26 UTC (06:26 PHT) for Breakfast Menu
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
@@ -30,11 +30,12 @@ jobs:
     - name: setup dependencies
       working-directory: ./mcd-scr-ph
       run: |
-        pip3 install scrapy
+        pip3 install scrapy==2.6.1
         pip3 install pandas 
         pip3 install pytz
         pip3 install path
         pip3 install pathlib2
+        pip3 install pyopenssl==22.0.0
     - name: execute py script       # run mcd-scr-ph.py to get the latest data
       working-directory: ./mcd-scr-ph
       run: |
