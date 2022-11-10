@@ -41,7 +41,7 @@ class McdScrPhSpider(scrapy.Spider):
 	# This is a built-in Scrapy function that runs first where we'll override the default headers
   # Documentation: https://doc.scrapy.org/en/latest/topics/spiders.html#scrapy.spiders.Spider.start_requests	
 
-
+	
 	''' ====================================================== ''''''
 	Step 1: Send GET request to fetch HTML webpage from Xe.com
 	'''''' ------------------------------------------------------ '''
@@ -229,16 +229,16 @@ class McdScrPhSpider(scrapy.Spider):
 	
 			exchange_rate = response.meta["fx"]
 	
-			# url = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductList2"
-			url = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductListDefault"
+			url_default = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductListDefault"
+			url_specific = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductList2"
 	
 			auth_headers = response.meta["headers"]
 			body = response.meta["body"]
 			
 			yield scrapy.Request(
-				url, headers=auth_headers, body=body, method="POST",
+				url=url_default, headers=auth_headers, body=body, method="POST",
 				callback=self.parse_products,
-				meta={"categories": category_dict, "fx": exchange_rate}
+				meta={"categories": category_dict, "fx": exchange_rate, "url_specific": url_specific, "headers": auth_headers, "body": body}
 			)
 
 		except Exception:
@@ -263,6 +263,16 @@ class McdScrPhSpider(scrapy.Spider):
 	def parse_products(self, response):
 
 		try:
+			# Print response status code and message (for debugging)
+			status = json.loads(response.body).get("status")
+			message = json.loads(response.body).get("message")
+			print(
+				f"""
+				Status: {status}
+				Message: {message}
+				"""
+			)
+			# Prepare the required dicts for parsing
 			category_dict = response.meta["categories"]
 			data = json.loads(response.body).get("data")
 			product_list = []
@@ -402,4 +412,34 @@ class McdScrPhSpider(scrapy.Spider):
 			  ---
 			  \n\n
 			  '''
+			)
+			# Using the store specific endpoint if default endpoint does not work
+			try:
+				def check_meta(key):
+					if response.meta[key] is not None:
+						return response.meta[key]
+					else:
+						return None
+
+				url_specific = check_meta("url_specific")
+				auth_headers = check_meta("headers")
+				body = check_meta("body")
+
+				if (url_specific is not None) and (auth_headers is not None) and (body is not None):
+					yield scrapy.Request(
+						url=url_specific, headers=auth_headers, body=body, method="POST",
+						callback=self.parse_products,
+						meta={"categories": category_dict, "fx": exchange_rate}
+					)
+			except Exception:
+				print(
+				f'''
+				  \n\n
+				  ---
+				  One or more errors occurred:
+				  
+				  {traceback.format_exc()}
+				  ---
+				  \n\n
+				  '''
 			)
