@@ -4794,3 +4794,42 @@ JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55
 1668277952251	Marionette	INFO	Stopped listening on port 36023
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1668364329145	geckodriver	INFO	Listening on 127.0.0.1:36491
+1668364329390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "40751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebZhQjQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1668364339131	Marionette	INFO	Marionette enabled
+1668364339148	Marionette	INFO	Listening on port 43941
+Read port: 43941
+Read port: 43941
+WebDriver BiDi listening on ws://127.0.0.1:40751
+1668364340514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebZhQjQ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:40751/devtools/browser/65db990a-a014-4924-89e1-98c28ce3ed5b
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=406193&moatClientLevel2=14483752&moatClientLevel3=11129855&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1498664377&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269797&zMoatCtn=adRootContainer_1498664377&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=406193&moatClientLevel2=14483752&moatClientLevel3=11129855&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1498664377&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269797&zMoatCtn=adRootContainer_1498664377&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=406193&moatClientLevel2=14483752&moatClientLevel3=11129855&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1498664377&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269797&zMoatCtn=adRootContainer_1498664377&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=406193&moatClientLevel2=14483752&moatClientLevel3=11129855&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1498664377&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:269797&zMoatCtn=adRootContainer_1498664377&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 5518 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 5518 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 5435 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 5435 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 1862, MediaDecoderStateMachine #1] WARNING: Decoder=7f5b02b4da00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-f8aUTq/firefox-105.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 1862, MediaDecoderStateMachine #1] WARNING: Decoder=7f5b02b4da00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-f8aUTq/firefox-105.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/2.2.3-0/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1668364367426	Marionette	INFO	Stopped listening on port 43941
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
