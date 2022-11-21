@@ -5049,3 +5049,22 @@ JavaScript error: , line 0: AbortError: The fetching process for the media resou
 1668969050382	Marionette	INFO	Stopped listening on port 39931
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1669055523552	geckodriver	INFO	Listening on 127.0.0.1:60249
+1669055523938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "57679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepdCWDG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1669055531455	Marionette	INFO	Marionette enabled
+1669055531470	Marionette	INFO	Listening on port 38275
+Read port: 38275
+Read port: 38275
+WebDriver BiDi listening on ws://127.0.0.1:57679
+1669055532919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepdCWDG/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:57679/devtools/browser/a20b73fe-94ef-4889-abac-7b53cb3aa02c
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+1669055558814	Marionette	INFO	Stopped listening on port 38275
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
