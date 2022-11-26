@@ -1,0 +1,104 @@
+,Date,Day,Territory,Menu Item,Price (PHP),Price (USD),Category,Menu
+1,2022/11/26,Sat,Philippines,Triple Cheeseburger Meal,230.00,4.05,McDelivery Exclusives,Regular
+2,2022/11/26,Sat,Philippines,Double McChicken Meal,230.00,4.05,McDelivery Exclusives,Regular
+3,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,Featured,Regular
+4,2022/11/26,Sat,Philippines,1-pc. Chicken McDo & Mushroom Soup Meal,160.00,2.82,Featured,Regular
+5,2022/11/26,Sat,Philippines,6-pc. Chicken McShare Box,417.00,7.35,Featured,All Day
+6,2022/11/26,Sat,Philippines,BFF Fries,154.00,2.71,Featured,All Day
+7,2022/11/26,Sat,Philippines,Snack Burger McShare,380.00,6.70,Group Meals,Regular
+8,2022/11/26,Sat,Philippines,6-pc. Chicken McShare Box,417.00,7.35,Group Meals,All Day
+9,2022/11/26,Sat,Philippines,8-pc. Chicken McShare Box,549.00,9.68,Group Meals,All Day
+10,2022/11/26,Sat,Philippines,McSpaghetti Platter,242.00,4.26,Group Meals,Regular
+11,2022/11/26,Sat,Philippines,McShare Bundle for 3,589.00,10.38,Group Meals,All Day
+12,2022/11/26,Sat,Philippines,McShare Bundle for 4,809.00,14.26,Group Meals,All Day
+13,2022/11/26,Sat,Philippines,10-pc. Chicken McShare Box,633.00,11.16,Group Meals,All Day
+14,2022/11/26,Sat,Philippines,15-pc. Chicken McShare Box,825.00,14.54,Group Meals,All Day
+15,2022/11/26,Sat,Philippines,20-pc. Chicken McShare Box,1265.00,22.29,Group Meals,All Day
+16,2022/11/26,Sat,Philippines,McSpaghetti Platter Good for 10,440.00,7.75,Group Meals,Regular
+17,2022/11/26,Sat,Philippines,McSpaghetti Platter Good for 15,660.00,11.63,Group Meals,Regular
+18,2022/11/26,Sat,Philippines,McSpaghetti Platter Good for 20,880.00,15.51,Group Meals,Regular
+19,2022/11/26,Sat,Philippines,BFF Fries Good for 10,655.00,11.54,Group Meals,All Day
+20,2022/11/26,Sat,Philippines,BFF Fries Good for 15,1025.00,18.06,Group Meals,All Day
+21,2022/11/26,Sat,Philippines,BFF Fries Good for 20,1280.00,22.56,Group Meals,All Day
+22,2022/11/26,Sat,Philippines,Plain Rice Good for 10,245.00,4.32,Group Meals,All Day
+23,2022/11/26,Sat,Philippines,Plain Rice Good for 15,360.00,6.34,Group Meals,All Day
+24,2022/11/26,Sat,Philippines,Plain Rice Good for 20,475.00,8.37,Group Meals,All Day
+25,2022/11/26,Sat,Philippines,1-pc. Chicken McDo & Mushroom Soup Meal,160.00,2.82,Chicken,Regular
+26,2022/11/26,Sat,Philippines,1-pc. Chicken McDo & Fries Meal,156.00,2.75,Chicken,All Day
+27,2022/11/26,Sat,Philippines,2-pc. Chicken McDo Meal,207.00,3.65,Chicken,All Day
+28,2022/11/26,Sat,Philippines,1-pc. Chicken McDo Meal,116.00,2.04,Chicken,All Day
+29,2022/11/26,Sat,Philippines,1-pc. Chicken McDo w/ McSpaghetti Meal,175.00,3.08,Chicken,Regular
+30,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,Burgers,Regular
+31,2022/11/26,Sat,Philippines,Triple Cheeseburger Meal,230.00,4.05,Burgers,Regular
+32,2022/11/26,Sat,Philippines,Double McChicken Meal,230.00,4.05,Burgers,Regular
+33,2022/11/26,Sat,Philippines,McSpaghetti w/ Fries Meal,144.00,2.54,McSpaghetti,Regular
+34,2022/11/26,Sat,Philippines,McSpaghetti Platter,242.00,4.26,McSpaghetti,Regular
+35,2022/11/26,Sat,Philippines,McSpaghetti Meal,96.00,1.69,McSpaghetti,Regular
+36,2022/11/26,Sat,Philippines,1-pc. Chicken McDo w/ McSpaghetti Meal,175.00,3.08,McSpaghetti,Regular
+37,2022/11/26,Sat,Philippines,2-pc. Mushroom Pepper Steak Meal,134.00,2.36,Rice Bowls,All Day
+38,2022/11/26,Sat,Philippines,1-pc. Mushroom Pepper Steak Meal,101.00,1.78,Rice Bowls,All Day
+39,2022/11/26,Sat,Philippines,Apple Pie,41.00,0.72,Desserts & Drinks,All Day
+40,2022/11/26,Sat,Philippines,Coke Zero,66.00,1.16,Desserts & Drinks,All Day
+41,2022/11/26,Sat,Philippines,Sprite,66.00,1.16,Desserts & Drinks,All Day
+42,2022/11/26,Sat,Philippines,Orange Juice,72.00,1.27,Desserts & Drinks,All Day
+43,2022/11/26,Sat,Philippines,Pineapple Juice,72.00,1.27,Desserts & Drinks,All Day
+44,2022/11/26,Sat,Philippines,Iced Tea,72.00,1.27,Desserts & Drinks,All Day
+45,2022/11/26,Sat,Philippines,Cappuccino,135.00,2.38,McCafé,All Day
+46,2022/11/26,Sat,Philippines,McCafé Premium Roast Coffee,44.00,0.78,McCafé,All Day
+47,2022/11/26,Sat,Philippines,Espresso,85.00,1.50,McCafé,All Day
+48,2022/11/26,Sat,Philippines,Macchiato,85.00,1.50,McCafé,All Day
+49,2022/11/26,Sat,Philippines,Americano,125.00,2.20,McCafé,All Day
+50,2022/11/26,Sat,Philippines,Mochaccino,140.00,2.47,McCafé,All Day
+51,2022/11/26,Sat,Philippines,Café Latte,135.00,2.38,McCafé,All Day
+52,2022/11/26,Sat,Philippines,Flat White,135.00,2.38,McCafé,All Day
+53,2022/11/26,Sat,Philippines,McCafé Iced Coffee Original,51.00,0.90,McCafé,All Day
+54,2022/11/26,Sat,Philippines,McCafé Iced Coffee Chocolate,64.00,1.13,McCafé,All Day
+55,2022/11/26,Sat,Philippines,McCafé Iced Coffee Milky,62.00,1.09,McCafé,All Day
+56,2022/11/26,Sat,Philippines,McCafé Iced Coffee Sweet Black,48.00,0.85,McCafé,All Day
+57,2022/11/26,Sat,Philippines,McCafé Iced Coffee Sweet Black w/ Chocolate,63.00,1.11,McCafé,All Day
+58,2022/11/26,Sat,Philippines,McCafé Iced Americano,130.00,2.29,McCafé,All Day
+59,2022/11/26,Sat,Philippines,McCafé Iced Latte,135.00,2.38,McCafé,All Day
+60,2022/11/26,Sat,Philippines,McCafé Iced Mocha,145.00,2.56,McCafé,All Day
+61,2022/11/26,Sat,Philippines,McCafé Caramel Frappe,155.00,2.73,McCafé,All Day
+62,2022/11/26,Sat,Philippines,McCafé Mocha Frappe,155.00,2.73,McCafé,All Day
+63,2022/11/26,Sat,Philippines,McCafé Jasmine Tea,85.00,1.50,McCafé,All Day
+64,2022/11/26,Sat,Philippines,McCafé Peppermint Tea,85.00,1.50,McCafé,All Day
+65,2022/11/26,Sat,Philippines,McCafé Black Tea,85.00,1.50,McCafé,All Day
+66,2022/11/26,Sat,Philippines,McCafé Iced Tea,115.00,2.03,McCafé,All Day
+67,2022/11/26,Sat,Philippines,Dalandan Smoothie,145.00,2.56,McCafé,All Day
+68,2022/11/26,Sat,Philippines,Strawberry Smoothie,145.00,2.56,McCafé,All Day
+69,2022/11/26,Sat,Philippines,Choco Chip Cookies,65.00,1.15,McCafé,All Day
+70,2022/11/26,Sat,Philippines,Choco Chip Banana Slice,70.00,1.23,McCafé,All Day
+71,2022/11/26,Sat,Philippines,Caramel Cinnamon,90.00,1.59,McCafé,All Day
+72,2022/11/26,Sat,Philippines,Dark Chocolate Cake,135.00,2.38,McCafé,All Day
+73,2022/11/26,Sat,Philippines,Creamy Mushroom Soup,62.00,1.09,Fries & Extras,Regular
+74,2022/11/26,Sat,Philippines,Fries,74.00,1.30,Fries & Extras,All Day
+75,2022/11/26,Sat,Philippines,BFF Fries,154.00,2.71,Fries & Extras,All Day
+76,2022/11/26,Sat,Philippines,Shake Shake Fries BBQ,84.00,1.48,Fries & Extras,All Day
+77,2022/11/26,Sat,Philippines,Shake Shake Fries Cheese,84.00,1.48,Fries & Extras,All Day
+78,2022/11/26,Sat,Philippines,Extra Plain Rice,33.00,0.58,Fries & Extras,All Day
+79,2022/11/26,Sat,Philippines,Extra Egg,20.00,0.35,Fries & Extras,All Day
+80,2022/11/26,Sat,Philippines,Extra Gravy,10.00,0.18,Fries & Extras,All Day
+81,2022/11/26,Sat,Philippines,Extra BBQ Powder,10.00,0.18,Fries & Extras,All Day
+82,2022/11/26,Sat,Philippines,Extra McSpaghetti Sauce,25.00,0.44,Fries & Extras,Regular
+83,2022/11/26,Sat,Philippines,Extra McCrispy Chicken Fillet Ala King Sauce,10.00,0.18,Fries & Extras,All Day
+84,2022/11/26,Sat,Philippines,Extra Mushroom Pepper Steak Sauce,10.00,0.18,Fries & Extras,All Day
+85,2022/11/26,Sat,Philippines,Extra BBQ Sauce,12.00,0.21,Fries & Extras,All Day
+86,2022/11/26,Sat,Philippines,Extra Sweet N' Sour Sauce,12.00,0.21,Fries & Extras,All Day
+87,2022/11/26,Sat,Philippines,Extra Mayonnaise,15.00,0.26,Fries & Extras,All Day
+88,2022/11/26,Sat,Philippines,Extra Cheese,15.00,0.26,Fries & Extras,All Day
+89,2022/11/26,Sat,Philippines,1-pc. Chicken McDo Happy Meal,167.00,2.94,Happy Meal,All Day
+90,2022/11/26,Sat,Philippines,McSpaghetti Happy Meal,145.00,2.56,Happy Meal,Regular
+91,2022/11/26,Sat,Philippines,McDo Party Box 999 (Good for 5),999.00,17.61,McDo Party Box,All Day
+92,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,LUNCH HOURS,Regular
+93,2022/11/26,Sat,Philippines,6-pc. Chicken McShare Box,417.00,7.35,LUNCH HOURS,All Day
+94,2022/11/26,Sat,Philippines,2-pc. Mushroom Pepper Steak Meal,134.00,2.36,LUNCH HOURS,All Day
+95,2022/11/26,Sat,Philippines,1-pc. Chicken McDo & Fries Meal,156.00,2.75,LUNCH HOURS,All Day
+96,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,PM SNACK HOURS,Regular
+97,2022/11/26,Sat,Philippines,Snack Burger McShare,380.00,6.70,PM SNACK HOURS,Regular
+98,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,DINNER HOURS,Regular
+99,2022/11/26,Sat,Philippines,6-pc. Chicken McShare Box,417.00,7.35,DINNER HOURS,All Day
+100,2022/11/26,Sat,Philippines,McSpaghetti Platter,242.00,4.26,DINNER HOURS,Regular
+101,2022/11/26,Sat,Philippines,McSpicy Meal,251.00,4.42,AFTER DINNER HOURS,Regular
+102,2022/11/26,Sat,Philippines,BFF Fries,154.00,2.71,AFTER DINNER HOURS,All Day
+103,2022/11/26,Sat,Philippines,"Party Hats, Tray Mats, Balloons, and Classic Happy Meal Toys",50.00,0.88,,All Day
