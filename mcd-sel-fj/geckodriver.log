@@ -5323,3 +5323,33 @@ JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5
 JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/2.2.3-3/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
 JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
 1669746538103	Marionette	INFO	Stopped listening on port 41157
+1669833038684	geckodriver	INFO	Listening on 127.0.0.1:36329
+1669833038936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "37035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4l6Ii7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1669833039896	Marionette	INFO	Marionette enabled
+1669833039937	Marionette	INFO	Listening on port 45009
+Read port: 45009
+WebDriver BiDi listening on ws://127.0.0.1:37035
+1669833040188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4l6Ii7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37035/devtools/browser/49f762d8-6191-40f3-a6d3-9c95b62e7358
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=796703&moatClientLevel2=14462782&moatClientLevel3=11212565&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=255129271&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_255129271&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=796703&moatClientLevel2=14462782&moatClientLevel3=11212565&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=255129271&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_255129271&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=796703&moatClientLevel2=14462782&moatClientLevel3=11212565&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=255129271&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_255129271&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=796703&moatClientLevel2=14462782&moatClientLevel3=11212565&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=255129271&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_255129271&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 6889 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M3JMhzk_3vTF8k0i77EsfxGITEmQ_9Y04x5PTEuqQvc.js line 2 > eval line 6889 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: uncaught exception: 7
+[Child 1810, MediaDecoderStateMachine #1] WARNING: Decoder=7f988557e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-aGImVB/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 1810, MediaDecoderStateMachine #1] WARNING: Decoder=7f988557e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-aGImVB/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/2.2.3-3/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1669833078150	Marionette	INFO	Stopped listening on port 45009
