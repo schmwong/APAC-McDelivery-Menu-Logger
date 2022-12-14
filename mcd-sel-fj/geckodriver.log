@@ -5559,3 +5559,31 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/T3BTWj-SqXOOtsP36vZ
 * WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 1670437743028	Marionette	INFO	Stopped listening on port 46257
+1670998193367	geckodriver	INFO	Listening on 127.0.0.1:33771
+1670998193847	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "54429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehNAASM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670998198216	Marionette	INFO	Marionette enabled
+1670998198228	Marionette	INFO	Listening on port 35127
+Read port: 35127
+WebDriver BiDi listening on ws://127.0.0.1:54429
+1670998198800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehNAASM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54429/devtools/browser/dc379e9d-b988-43c3-9ac3-17db3d94fe7d
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5cb595ca3e62c7f0aba3.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=800083&moatClientLevel2=14519302&moatClientLevel3=11210935&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=813020174&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_813020174&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=800083&moatClientLevel2=14519302&moatClientLevel3=11210935&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=813020174&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_813020174&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=800083&moatClientLevel2=14519302&moatClientLevel3=11210935&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=813020174&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_813020174&zMoatTP=&zMoatExp=interactiveInframe, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=800083&moatClientLevel2=14519302&moatClientLevel3=11210935&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611_&zMoatINV=iab&zMoatRND=813020174&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270028&zMoatCtn=adRootContainer_813020174&zMoatTP=&zMoatExp=interactiveInframe, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 4264 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA1ex70oaN1LFGaXyg_pTqcRvs.js line 2 > eval line 4264 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1670998222376	Marionette	INFO	Stopped listening on port 35127
