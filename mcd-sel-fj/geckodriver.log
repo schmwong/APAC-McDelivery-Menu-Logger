@@ -5587,3 +5587,27 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/QDrzY6hqzGh0aYGUuTA
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
 1670998222376	Marionette	INFO	Stopped listening on port 35127
+1671042418793	geckodriver	INFO	Listening on 127.0.0.1:58009
+1671042419137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "47439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4f1GOE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671042430381	Marionette	INFO	Marionette enabled
+1671042430394	Marionette	INFO	Listening on port 45093
+Read port: 45093
+Read port: 45093
+WebDriver BiDi listening on ws://127.0.0.1:47439
+1671042432192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4f1GOE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47439/devtools/browser/6f670374-1f5b-458f-bd03-c69c27610cf4
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5cb595ca3e62c7f0aba3.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3WpNOUgrN-_pxVw2NAHVNtofer_w6aLb3ZHXGHAM44Y.js line 2 > eval line 2084 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3WpNOUgrN-_pxVw2NAHVNtofer_w6aLb3ZHXGHAM44Y.js line 2 > eval line 2084 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3WpNOUgrN-_pxVw2NAHVNtofer_w6aLb3ZHXGHAM44Y.js line 2 > eval line 2501 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3WpNOUgrN-_pxVw2NAHVNtofer_w6aLb3ZHXGHAM44Y.js line 2 > eval line 2501 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1671042460335	Marionette	INFO	Stopped listening on port 45093
