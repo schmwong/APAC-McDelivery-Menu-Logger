@@ -6324,3 +6324,29 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1671560807711	geckodriver	INFO	Listening on 127.0.0.1:34267
+1671560808330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "37049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilec83liX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671560816077	Marionette	INFO	Marionette enabled
+1671560816099	Marionette	INFO	Listening on port 36809
+Read port: 36809
+WebDriver BiDi listening on ws://127.0.0.1:37049
+Read port: 36809
+1671560818155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec83liX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37049/devtools/browser/f8d25076-a453-4540-b6cc-984d83d88fe8
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5cb595ca3e62c7f0aba3.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=774143&moatClientLevel2=14473182&moatClientLevel3=11114575_&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2134396999&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270073&zMoatCtn=teaser_4c27ea1c-5a90-6c5a-55b7-dd7f9a9fb8b8, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=774143&moatClientLevel2=14473182&moatClientLevel3=11114575_&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2134396999&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270073&zMoatCtn=teaser_4c27ea1c-5a90-6c5a-55b7-dd7f9a9fb8b8, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=774143&moatClientLevel2=14473182&moatClientLevel3=11114575_&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2134396999&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270073&zMoatCtn=teaser_4c27ea1c-5a90-6c5a-55b7-dd7f9a9fb8b8, line 239: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=774143&moatClientLevel2=14473182&moatClientLevel3=11114575_&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931&zMoatRND=2134396999&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:270073&zMoatCtn=teaser_4c27ea1c-5a90-6c5a-55b7-dd7f9a9fb8b8, line 239: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Jk7fixpOLBqPs8Ll1CI4HFyikeoml7Ub_Y2jZpe5d_o.js line 2 > eval line 1031 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Jk7fixpOLBqPs8Ll1CI4HFyikeoml7Ub_Y2jZpe5d_o.js line 2 > eval line 1031 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
