@@ -1,0 +1,55 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2022/12/24,Sat,Brunei,Big Mac (Value Meal) — Medium,6.50,4.81,Regular Value Meal
+2,2022/12/24,Sat,Brunei,Big Mac (Value Meal) — Large,7.10,5.25,Regular Value Meal
+3,2022/12/24,Sat,Brunei,2 Pcs Fish and Fries (Value Meal) — Large,7.40,5.48,Regular Value Meal
+4,2022/12/24,Sat,Brunei,6 Pcs Fish Nuggets (Value Meal) — Medium,5.80,4.29,Regular Value Meal
+5,2022/12/24,Sat,Brunei,6 Pcs Fish Nuggets (Value Meal) — Large,6.40,4.74,Regular Value Meal
+6,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Medium,6.30,4.66,Regular Value Meal
+7,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Large,6.90,5.11,Regular Value Meal
+8,2022/12/24,Sat,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.59,Regular Value Meal
+9,2022/12/24,Sat,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,5.03,Regular Value Meal
+10,2022/12/24,Sat,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.85,Regular Value Meal
+11,2022/12/24,Sat,Brunei,Nasi Lemak Set C,3.50,2.59,Regular Value Meal
+12,2022/12/24,Sat,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.96,Regular Value Meal
+13,2022/12/24,Sat,Brunei,Big Mac (A La Carte),5.50,4.07,Regular Value Meal
+14,2022/12/24,Sat,Brunei,6 Pcs Fish Nuggets (A La Carte),4.30,3.18,Regular Value Meal
+15,2022/12/24,Sat,Brunei,Double Cheeseburger (A La Carte),5.10,3.77,Regular Value Meal
+16,2022/12/24,Sat,Brunei,2 Pcs Fish and Fries (A La Carte),5.50,4.07,Regular Value Meal
+17,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,3.92,Regular Value Meal
+18,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Regular (A La Carte),5.30,3.92,Regular Value Meal
+19,2022/12/24,Sat,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.14,Regular Value Meal
+20,2022/12/24,Sat,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.59,Regular Value Meal
+21,2022/12/24,Sat,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.14,Regular Value Meal
+22,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.66,Regular Value Meal
+23,2022/12/24,Sat,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,5.11,Regular Value Meal
+24,2022/12/24,Sat,Brunei,Filet-O-Fish (A La Carte),3.80,2.81,Regular Value Meal
+25,2022/12/24,Sat,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,5.03,Regular Value Meal
+26,2022/12/24,Sat,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.48,Regular Value Meal
+27,2022/12/24,Sat,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.40,Regular Value Meal
+28,2022/12/24,Sat,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.51,Regular Value Meal
+29,2022/12/24,Sat,Brunei,McChicken — Ala Carte,5.00,3.70,Regular Value Meal
+30,2022/12/24,Sat,Brunei,McChicken — Medium,6.00,4.44,Regular Value Meal
+31,2022/12/24,Sat,Brunei,McChicken — Large,6.60,4.88,Regular Value Meal
+32,2022/12/24,Sat,Brunei,McChicken Deluxe — Ala Carte,5.20,3.85,Regular Value Meal
+33,2022/12/24,Sat,Brunei,McChicken Deluxe — Medium,6.20,4.59,Regular Value Meal
+34,2022/12/24,Sat,Brunei,McChicken Deluxe — Large,6.80,5.03,Regular Value Meal
+35,2022/12/24,Sat,Brunei,Chicken Nuggets — 20 Pieces,12.60,9.32,Regular Value Meal
+36,2022/12/24,Sat,Brunei,Chicken Nuggets — Ala Carte,6.30,4.66,Regular Value Meal
+37,2022/12/24,Sat,Brunei,Chicken Nuggets — Medium,6.80,5.03,Regular Value Meal
+38,2022/12/24,Sat,Brunei,Chicken Nuggets — Large,7.40,5.48,Regular Value Meal
+39,2022/12/24,Sat,Brunei,6 Pcs Fish Nuggets,4.30,3.18,Sides
+40,2022/12/24,Sat,Brunei,9 Pcs Fish Nuggets,6.00,4.44,Sides
+41,2022/12/24,Sat,Brunei,20 Pcs Fish Nuggets,11.90,8.81,Sides
+42,2022/12/24,Sat,Brunei,Fish Bites,2.20,1.63,Sides
+43,2022/12/24,Sat,Brunei,2pcs Ayam Goreng McD,5.30,3.92,Sides
+44,2022/12/24,Sat,Brunei,5pcs Ayam Goreng McD,12.00,8.88,Sides
+45,2022/12/24,Sat,Brunei,9pcs Ayam Goreng McD,21.80,16.13,Sides
+46,2022/12/24,Sat,Brunei,Rice,0.80,0.59,Sides
+47,2022/12/24,Sat,Brunei,French Fries — Medium,2.20,1.63,Sides
+48,2022/12/24,Sat,Brunei,French Fries — Large,2.50,1.85,Sides
+49,2022/12/24,Sat,Brunei,Cakoi — 1 Pc,1.50,1.11,Sides
+50,2022/12/24,Sat,Brunei,Cakoi — 2 Pc,2.80,2.07,Sides
+51,2022/12/24,Sat,Brunei,Bubur McD — Small,3.20,2.37,Sides
+52,2022/12/24,Sat,Brunei,Bubur McD — Large,3.70,2.74,Sides
+53,2022/12/24,Sat,Brunei,Twister Fries (Medium),2.90,2.15,Twister Fries
+54,2022/12/24,Sat,Brunei,Twister Fries (Large),3.30,2.44,Twister Fries
