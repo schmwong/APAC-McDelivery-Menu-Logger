@@ -5,7 +5,7 @@ name: scrape-vn-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 44 21 * * *           # runs once a day at 21:44 UTC (04:44 ICT)
+  - cron: 33 21 * * *           # runs once a day at 21:44 UTC (04:44 ICT)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
