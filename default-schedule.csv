@@ -14,7 +14,7 @@
 13,id,Asia/Jakarta,19:55,55 19 * * *,+07:00,02:55,Beautiful Soup 4
 14,th,Asia/Bangkok,20:22,22 20 * * *,+07:00,03:22,Beautiful Soup 4
 15,pk,Asia/Karachi,21:11,11 21 * * *,+05:00,02:11,Beautiful Soup 4
-16,vn,Asia/Ho_Chi_Minh,21:44,44 21 * * *,+07:00,04:33,Beautiful Soup 4
+16,vn,Asia/Ho_Chi_Minh,21:33,33 21 * * *,+07:00,04:33,Beautiful Soup 4
 17,tw,Asia/Taipei,21:55,55 21 * * *,+08:00,05:55,Beautiful Soup 4
 18,lk,Asia/Colombo,22:11,11 22 * * *,+05:30,03:41,Beautiful Soup 4
 19,ph,Asia/Manila,22:26,26 22 * * *,+08:00,06:26,Scrapy
