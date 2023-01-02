@@ -5,8 +5,8 @@ name: scrape-hk-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 33 03 * * *           # runs at 03:33 UTC (11:33 HKT) for Regular Menu
-  - cron: 33 23 * * *           # runs at 23:33 UTC (07:33 HKT) for Breakfast Menu
+  - cron: 33 04 * * *           # runs at 03:33 UTC (11:33 HKT) for Regular Menu
+  - cron: 33 00 * * *           # runs at 23:33 UTC (07:33 HKT) for Breakfast Menu
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
