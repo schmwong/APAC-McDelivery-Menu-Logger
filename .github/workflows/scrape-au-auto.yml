@@ -21,9 +21,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: checkout repo content
-      uses: actions/checkout@v2       # checkout the repository content to github runner.
+      uses: actions/checkout@v3       # checkout the repository content to github runner.
     - name: setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
 #       with:
 #         python-version: 3.9.6
     - name: setup dependencies
@@ -34,7 +34,8 @@ jobs:
         pip3 install pytz
         pip3 install path
         pip3 install pathlib2
-        pip3 install pyopenssl==22.0.0
+        pip3 install pyopenssl
+#       pip3 install pyopenssl==22.0.0
     - name: execute py script       # run mcd-scr-au.py to get the latest data
       working-directory: ./mcd-scr-au
       run: |
