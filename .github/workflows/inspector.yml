@@ -35,12 +35,12 @@ jobs:
     steps: 
             
       - name: Checkout repo content
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
             token: ${{ secrets.WORKFLOW_TOKEN }}
             
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
 #         with:
 #             python-version: 3.8.2
             
@@ -79,12 +79,12 @@ jobs:
     steps: 
             
       - name: Checkout repo content
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
             token: ${{ secrets.WORKFLOW_TOKEN }}
             
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
 #         with:
 #             python-version: 3.8.2
             
