@@ -5,8 +5,8 @@ name: scrape-bn-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 09 19 * * *           # runs at 00:08 UTC (08:08 BNT) for Breakfast Menu
-  - cron: 44 00 * * *           # runs at 06:44 UTC (14:44 BNT) for Regular Menu
+  - cron: 09 01 * * *           # runs at 00:08 UTC (08:08 BNT) for Breakfast Menu
+  - cron: 44 06 * * *           # runs at 06:44 UTC (14:44 BNT) for Regular Menu
   workflow_dispatch:
 concurrency:
   group: scrape-and-schedule
