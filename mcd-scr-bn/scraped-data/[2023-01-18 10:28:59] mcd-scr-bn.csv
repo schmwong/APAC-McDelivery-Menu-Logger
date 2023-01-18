@@ -1,0 +1,83 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2023/01/18,Wed,Brunei,Big Mac (Value Meal) — Medium,6.50,4.92,Regular Value Meal
+2,2023/01/18,Wed,Brunei,Big Mac (Value Meal) — Large,7.10,5.38,Regular Value Meal
+3,2023/01/18,Wed,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.70,Regular Value Meal
+4,2023/01/18,Wed,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,5.15,Regular Value Meal
+5,2023/01/18,Wed,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,5.15,Regular Value Meal
+6,2023/01/18,Wed,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.60,Regular Value Meal
+7,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Medium,6.30,4.77,Regular Value Meal
+8,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Large,6.90,5.23,Regular Value Meal
+9,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.77,Regular Value Meal
+10,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,5.23,Regular Value Meal
+11,2023/01/18,Wed,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.24,Regular Value Meal
+12,2023/01/18,Wed,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.70,Regular Value Meal
+13,2023/01/18,Wed,Brunei,2 Pcs Fish and Fries (Value Meal) — Large,7.40,5.60,Regular Value Meal
+14,2023/01/18,Wed,Brunei,6 Pcs Fish Nuggets (Value Meal) — Medium,5.80,4.39,Regular Value Meal
+15,2023/01/18,Wed,Brunei,6 Pcs Fish Nuggets (Value Meal) — Large,6.40,4.85,Regular Value Meal
+16,2023/01/18,Wed,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,5.07,Regular Value Meal
+17,2023/01/18,Wed,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.94,Regular Value Meal
+18,2023/01/18,Wed,Brunei,Nasi Lemak Set C,3.50,2.65,Regular Value Meal
+19,2023/01/18,Wed,Brunei,Big Mac (A La Carte),5.50,4.17,Regular Value Meal
+20,2023/01/18,Wed,Brunei,Double Cheeseburger (A La Carte),5.10,3.86,Regular Value Meal
+21,2023/01/18,Wed,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.24,Regular Value Meal
+22,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Regular (A La Carte),5.30,4.01,Regular Value Meal
+23,2023/01/18,Wed,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,4.01,Regular Value Meal
+24,2023/01/18,Wed,Brunei,Filet-O-Fish (A La Carte),3.80,2.88,Regular Value Meal
+25,2023/01/18,Wed,Brunei,2 Pcs Fish and Fries (A La Carte),5.50,4.17,Regular Value Meal
+26,2023/01/18,Wed,Brunei,6 Pcs Fish Nuggets (A La Carte),4.30,3.26,Regular Value Meal
+27,2023/01/18,Wed,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.48,Regular Value Meal
+28,2023/01/18,Wed,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.62,Regular Value Meal
+29,2023/01/18,Wed,Brunei,Chicken McNuggets — 9 Pieces - A la carte,6.30,4.77,Regular Value Meal
+30,2023/01/18,Wed,Brunei,Chicken McNuggets — 9 pieces - Medium Value Meal,6.80,5.15,Regular Value Meal
+31,2023/01/18,Wed,Brunei,Chicken McNuggets — 9 pieces - Large Value Meal,7.40,5.60,Regular Value Meal
+32,2023/01/18,Wed,Brunei,Chicken McNuggets — 20 pieces - A la Carte,12.60,9.54,Regular Value Meal
+33,2023/01/18,Wed,Brunei,McChicken — Ala Carte,5.00,3.79,Regular Value Meal
+34,2023/01/18,Wed,Brunei,McChicken — Large,6.60,5.00,Regular Value Meal
+35,2023/01/18,Wed,Brunei,McChicken Deluxe — Ala Carte,5.20,3.94,Regular Value Meal
+36,2023/01/18,Wed,Brunei,McChicken Deluxe — Medium,6.20,4.70,Regular Value Meal
+37,2023/01/18,Wed,Brunei,McChicken Deluxe — Large,6.80,5.15,Regular Value Meal
+38,2023/01/18,Wed,Brunei,Happy Meal Cheeseburger,5.20,3.94,Happy Meal
+39,2023/01/18,Wed,Brunei,Happy Meal Beefburger,4.90,3.71,Happy Meal
+40,2023/01/18,Wed,Brunei,Happy Meal Fish Nuggets (4pcs),5.20,3.94,Happy Meal
+41,2023/01/18,Wed,Brunei,Happy Meal Bubur McD (S),5.20,3.94,Happy Meal
+42,2023/01/18,Wed,Brunei,Happy Meal Ayam Goreng McD (1pc),5.20,3.94,Happy Meal
+43,2023/01/18,Wed,Brunei,Happy Meal with Fruit Tea — Happy Meal Ayam Goreng McD (1pc),5.00,3.79,Happy Meal
+44,2023/01/18,Wed,Brunei,Happy Meal with Fruit Tea — Happy Meal Beef Burger,4.70,3.56,Happy Meal
+45,2023/01/18,Wed,Brunei,Happy Meal with Fruit Tea — Happy Meal Bubur Mcd (S),5.00,3.79,Happy Meal
+46,2023/01/18,Wed,Brunei,Happy Meal with Fruit Tea — Happy Cheeseburger,5.00,3.79,Happy Meal
+47,2023/01/18,Wed,Brunei,Happy Meal with Fruit Tea — Happy Meal Fish Nuggets,5.00,3.79,Happy Meal
+48,2023/01/18,Wed,Brunei,6 Pcs Fish Nuggets,4.30,3.26,Sides
+49,2023/01/18,Wed,Brunei,9 Pcs Fish Nuggets,6.00,4.54,Sides
+50,2023/01/18,Wed,Brunei,20 Pcs Fish Nuggets,11.90,9.01,Sides
+51,2023/01/18,Wed,Brunei,Fish Bites,2.20,1.67,Sides
+52,2023/01/18,Wed,Brunei,2pcs Ayam Goreng McD,5.30,4.01,Sides
+53,2023/01/18,Wed,Brunei,5pcs Ayam Goreng McD,12.00,9.09,Sides
+54,2023/01/18,Wed,Brunei,9pcs Ayam Goreng McD,21.80,16.51,Sides
+55,2023/01/18,Wed,Brunei,Rice,0.80,0.61,Sides
+56,2023/01/18,Wed,Brunei,BBQ Dipping Sauce,0.50,0.38,Sides
+57,2023/01/18,Wed,Brunei,French Fries — Medium,2.20,1.67,Sides
+58,2023/01/18,Wed,Brunei,French Fries — Large,2.50,1.89,Sides
+59,2023/01/18,Wed,Brunei,Bubur McD — Small,3.20,2.42,Sides
+60,2023/01/18,Wed,Brunei,Bubur McD — Large,3.70,2.80,Sides
+61,2023/01/18,Wed,Brunei,Cakoi — 1 Pc,1.50,1.14,Sides
+62,2023/01/18,Wed,Brunei,Cakoi — 2 Pc,2.80,2.12,Sides
+63,2023/01/18,Wed,Brunei,Prosperity Burger Beef — A La Carte,7.00,5.30,Prosperity Burger
+64,2023/01/18,Wed,Brunei,Prosperity Burger Beef — Medium,9.00,6.82,Prosperity Burger
+65,2023/01/18,Wed,Brunei,Prosperity Burger Beef — Large,9.60,7.27,Prosperity Burger
+66,2023/01/18,Wed,Brunei,Prosperity Burger Chicken — A La Carte,7.00,5.30,Prosperity Burger
+67,2023/01/18,Wed,Brunei,Prosperity Burger Chicken — Medium,9.00,6.82,Prosperity Burger
+68,2023/01/18,Wed,Brunei,Prosperity Burger Chicken — Large,9.60,7.27,Prosperity Burger
+69,2023/01/18,Wed,Brunei,Double Prosperity Burger Beef — A La Carte,8.60,6.51,Prosperity Burger
+70,2023/01/18,Wed,Brunei,Double Prosperity Burger Beef — Medium,10.60,8.03,Prosperity Burger
+71,2023/01/18,Wed,Brunei,Double Prosperity Burger Beef — Large,11.20,8.48,Prosperity Burger
+72,2023/01/18,Wed,Brunei,Double Prosperity Burger Chicken — A La Carte,8.60,6.51,Prosperity Burger
+73,2023/01/18,Wed,Brunei,Double Prosperity Burger Chicken — Medium,10.60,8.03,Prosperity Burger
+74,2023/01/18,Wed,Brunei,Double Prosperity Burger Chicken — Large,11.20,8.48,Prosperity Burger
+75,2023/01/18,Wed,Brunei,Twister Fries (Medium),2.90,2.20,Twister Fries
+76,2023/01/18,Wed,Brunei,Twister Fries (Large),3.30,2.50,Twister Fries
+77,2023/01/18,Wed,Brunei,Orange McFizz (Medium),2.90,2.20,Orange McFizz
+78,2023/01/18,Wed,Brunei,Orange McFizz (Large),3.20,2.42,Orange McFizz
+79,2023/01/18,Wed,Brunei,Bucket Hat,8.00,6.06,FIFA World Cup
+80,2023/01/18,Wed,Brunei,Kit Bag,5.00,3.79,FIFA World Cup
+81,2023/01/18,Wed,Brunei,String Bag,5.00,3.79,FIFA World Cup
+82,2023/01/18,Wed,Brunei,Tumbler,10.00,7.57,FIFA World Cup
