@@ -13466,3 +13466,18 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1676572051944	geckodriver	INFO	Listening on 127.0.0.1:60145
+1676572052191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "38167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIEI9Cf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1676572061956	Marionette	INFO	Marionette enabled
+1676572062010	Marionette	INFO	Listening on port 38053
+Read port: 38053
+Read port: 38053
+WebDriver BiDi listening on ws://127.0.0.1:38167
+Read port: 38053
+1676572064525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIEI9Cf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38167/devtools/browser/b333dc17-98ba-473f-8c1f-66aa892f07e2
+JavaScript warning: https://www.xe.com/_next/static/chunks/78661c815aa67889edf55e4bc19f92dd01fb8f3f.5cb595ca3e62c7f0aba3.js, line 1: unreachable code after return statement
