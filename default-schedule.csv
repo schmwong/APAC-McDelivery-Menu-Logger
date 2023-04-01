@@ -4,12 +4,12 @@
 3,ph,Asia/Manila,02:46,46 02 * * *,+08:00,10:46,Scrapy
 4,hk,Asia/Hong_Kong,03:33,33 03 * * *,+08:00,11:33,Scrapy
 5,bn,Asia/Brunei,06:44,44 06 * * *,+08:00,14:44,Scrapy
-6,nz,Pacific/Auckland,12:20,20 12 * * *,+13:00,01:20,Scrapy
+6,nz,Pacific/Auckland,13:20,20 13 * * *,+12:00,01:20,Scrapy
 7,jp,Asia/Tokyo,15:16,16 15 * * *,+09:00,00:16,Beautiful Soup 4
 8,kr,Asia/Seoul,16:33,33 16 * * *,+09:00,01:33,Beautiful Soup 4
 9,fj,Pacific/Fiji,18:12,12 18 * * *,+12:00,06:12,Selenium
-10,au,Australia/Melbourne,18:15,15 18 * * *,+11:00,05:15,Scrapy
-11,my,Asia/Kuala_Lumpur,18:28,28 18 * * *,+08:00,02:28,Beautiful Soup 4
+10,my,Asia/Kuala_Lumpur,18:28,28 18 * * *,+08:00,02:28,Beautiful Soup 4
+11,au,Australia/Melbourne,19:15,15 19 * * *,+10:00,05:15,Scrapy
 12,sg,Asia/Singapore,19:29,29 19 * * *,+08:00,03:29,Beautiful Soup 4
 13,id,Asia/Jakarta,19:55,55 19 * * *,+07:00,02:55,Beautiful Soup 4
 14,th,Asia/Bangkok,20:22,22 20 * * *,+07:00,03:22,Beautiful Soup 4
