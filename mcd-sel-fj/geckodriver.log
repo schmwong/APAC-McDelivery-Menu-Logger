@@ -19005,3 +19005,31 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/lLwpSR5MnyGzOFtGAuW
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1681064599546	geckodriver	INFO	Listening on 127.0.0.1:32871
+1681064599793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "--remote-debugging-port" "46739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2gLrps"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1681064605125	Marionette	INFO	Marionette enabled
+1681064605135	Marionette	INFO	Listening on port 44639
+Read port: 44639
+console.error: "Warning: unrecognized command line flag -disable-dev-shm-usage\n"
+WebDriver BiDi listening on ws://127.0.0.1:46739
+1681064605996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2gLrps/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46739/devtools/browser/7b8002b9-0eff-4cbf-a414-8a98f751b5ae
+JavaScript warning: https://www.xe.com/_next/static/chunks/1ff84c18a13c94472bccfed2789928c2a644cb70.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lLwpSR5MnyGzOFtGAuW1fc1OQlo0k-g4ASkZp7pYH4M.js line 2 > eval line 6843 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lLwpSR5MnyGzOFtGAuW1fc1OQlo0k-g4ASkZp7pYH4M.js line 2 > eval line 6843 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lLwpSR5MnyGzOFtGAuW1fc1OQlo0k-g4ASkZp7pYH4M.js line 2 > eval line 2217 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lLwpSR5MnyGzOFtGAuW1fc1OQlo0k-g4ASkZp7pYH4M.js line 2 > eval line 2217 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
