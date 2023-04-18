@@ -19248,3 +19248,27 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/bsdAhfwWdZZ0lwKfZyo
 * WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681842343110	geckodriver	INFO	Listening on 127.0.0.1:40153
+1681842343443	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "48511" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCHf7XR"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1681842353987	Marionette	INFO	Marionette enabled
+1681842354013	Marionette	INFO	Listening on port 34939
+Read port: 34939
+console.error: "Warning: unrecognized command line flag -disable-dev-shm-usage\n"
+Read port: 34939
+WebDriver BiDi listening on ws://127.0.0.1:48511
+1681842355535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCHf7XR/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:48511/devtools/browser/467dce58-0ef9-42be-b4c0-84dc0bce08fe
+JavaScript warning: https://www.xe.com/_next/static/chunks/1ff84c18a13c94472bccfed2789928c2a644cb70.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7821 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7821 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
