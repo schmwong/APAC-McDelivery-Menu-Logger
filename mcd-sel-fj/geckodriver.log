@@ -19601,3 +19601,23 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:45507/devtools/browser/37ec9918-c292-4493-9958-e52e07c133af
 JavaScript warning: https://www.xe.com/_next/static/chunks/12b85881aa8a9330520218bb2964c5f40e5c3442.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1683051862855	geckodriver	INFO	Listening on 127.0.0.1:59199
+1683051863079	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "59105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1bPTs0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1683051867250	Marionette	INFO	Marionette enabled
+1683051867263	Marionette	INFO	Listening on port 41235
+Read port: 41235
+console.error: "Warning: unrecognized command line flag -disable-dev-shm-usage\n"
+Read port: 41235
+WebDriver BiDi listening on ws://127.0.0.1:59105
+1683051868674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1bPTs0/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:59105/devtools/browser/a9e4f45e-a449-480e-906b-ae1df4204f72
+JavaScript warning: https://www.xe.com/_next/static/chunks/12b85881aa8a9330520218bb2964c5f40e5c3442.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
