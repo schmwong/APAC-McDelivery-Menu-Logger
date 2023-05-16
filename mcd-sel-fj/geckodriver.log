@@ -19966,3 +19966,41 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1684261459408	geckodriver	INFO	Listening on 127.0.0.1:44225
+1684261459678	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "42611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileir3qY8"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1684261468310	Marionette	INFO	Marionette enabled
+1684261468325	Marionette	INFO	Listening on port 44423
+Read port: 44423
+console.error: "Warning: unrecognized command line flag -disable-dev-shm-usage\n"
+Read port: 44423
+WebDriver BiDi listening on ws://127.0.0.1:42611
+1684261470309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:42611/devtools/browser/6417a145-d646-42d6-8e8b-a6e3d054d3a8
+JavaScript warning: https://www.xe.com/_next/static/chunks/12b85881aa8a9330520218bb2964c5f40e5c3442.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=31498582&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761, line 284: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=31498582&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761, line 284: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=31498582&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761, line 284: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponentialrandomized875428645731/moatad.js#moatClientLevel1=299113&moatClientLevel2=11094602&moatClientLevel3=6811665&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=24611&zMoatRND=31498582&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761, line 284: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/P5-LUlKWgeVE-8P4rcqghB-z6blpBMZONJN7JkJDv9g.js line 2 > eval line 7607 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/P5-LUlKWgeVE-8P4rcqghB-z6blpBMZONJN7JkJDv9g.js line 2 > eval line 7607 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/P5-LUlKWgeVE-8P4rcqghB-z6blpBMZONJN7JkJDv9g.js line 2 > eval line 5888 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/P5-LUlKWgeVE-8P4rcqghB-z6blpBMZONJN7JkJDv9g.js line 2 > eval line 5888 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
