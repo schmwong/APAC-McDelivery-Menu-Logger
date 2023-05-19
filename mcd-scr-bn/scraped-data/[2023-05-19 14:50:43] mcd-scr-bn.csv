@@ -1,0 +1,51 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2023/05/19,Fri,Brunei,Big Mac (Value Meal) — Medium,6.50,4.82,Regular Value Meal
+2,2023/05/19,Fri,Brunei,Big Mac (Value Meal) — Large,7.10,5.26,Regular Value Meal
+3,2023/05/19,Fri,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.60,Regular Value Meal
+4,2023/05/19,Fri,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,5.04,Regular Value Meal
+5,2023/05/19,Fri,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,5.04,Regular Value Meal
+6,2023/05/19,Fri,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.49,Regular Value Meal
+7,2023/05/19,Fri,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.67,Regular Value Meal
+8,2023/05/19,Fri,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,5.12,Regular Value Meal
+9,2023/05/19,Fri,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.15,Regular Value Meal
+10,2023/05/19,Fri,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.60,Regular Value Meal
+11,2023/05/19,Fri,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.97,Regular Value Meal
+12,2023/05/19,Fri,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.86,Regular Value Meal
+13,2023/05/19,Fri,Brunei,Big Mac (A La Carte),5.50,4.08,Regular Value Meal
+14,2023/05/19,Fri,Brunei,Double Cheeseburger (A La Carte),5.10,3.78,Regular Value Meal
+15,2023/05/19,Fri,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.15,Regular Value Meal
+16,2023/05/19,Fri,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,3.93,Regular Value Meal
+17,2023/05/19,Fri,Brunei,Filet-O-Fish (A La Carte),3.80,2.82,Regular Value Meal
+18,2023/05/19,Fri,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.41,Regular Value Meal
+19,2023/05/19,Fri,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.52,Regular Value Meal
+20,2023/05/19,Fri,Brunei,Happy Meal Cheeseburger,5.20,3.86,Happy Meal
+21,2023/05/19,Fri,Brunei,Happy Meal Beefburger,4.90,3.63,Happy Meal
+22,2023/05/19,Fri,Brunei,Happy Meal with Fruit Tea — Happy Meal Ayam Goreng McD (1pc),5.00,3.71,Happy Meal
+23,2023/05/19,Fri,Brunei,Happy Meal with Fruit Tea — Happy Meal Beef Burger,4.70,3.48,Happy Meal
+24,2023/05/19,Fri,Brunei,Happy Meal with Fruit Tea — Happy Meal Bubur Mcd (S),5.00,3.71,Happy Meal
+25,2023/05/19,Fri,Brunei,Happy Meal with Fruit Tea — Happy Cheeseburger,5.00,3.71,Happy Meal
+26,2023/05/19,Fri,Brunei,Happy Meal with Fruit Tea — Happy Meal Fish Nuggets,5.00,3.71,Happy Meal
+27,2023/05/19,Fri,Brunei,2pcs Ayam Goreng McD,5.30,3.93,Sides
+28,2023/05/19,Fri,Brunei,5pcs Ayam Goreng McD,12.00,8.90,Sides
+29,2023/05/19,Fri,Brunei,9pcs Ayam Goreng McD,21.80,16.16,Sides
+30,2023/05/19,Fri,Brunei,Rice,0.80,0.59,Sides
+31,2023/05/19,Fri,Brunei,BBQ Dipping Sauce,0.50,0.37,Sides
+32,2023/05/19,Fri,Brunei,French Fries — Medium,2.20,1.63,Sides
+33,2023/05/19,Fri,Brunei,French Fries — Large,2.50,1.85,Sides
+34,2023/05/19,Fri,Brunei,Bubur McD — Small,3.20,2.37,Sides
+35,2023/05/19,Fri,Brunei,Bubur McD — Large,3.70,2.74,Sides
+36,2023/05/19,Fri,Brunei,Cakoi — 1 Pc,1.50,1.11,Sides
+37,2023/05/19,Fri,Brunei,Cakoi — 2 Pc,2.80,2.08,Sides
+38,2023/05/19,Fri,Brunei,Sundae Chocolate,2.50,1.85,Dessert
+39,2023/05/19,Fri,Brunei,Sundae Strawberry,2.50,1.85,Dessert
+40,2023/05/19,Fri,Brunei,Hershey Chocolate Sundae,2.50,1.85,Dessert
+41,2023/05/19,Fri,Brunei,Hershey Strawberry Sundae,2.50,1.85,Dessert
+42,2023/05/19,Fri,Brunei,Oreo Berry McFlurry,4.00,2.97,Dessert
+43,2023/05/19,Fri,Brunei,Oreo Mudpie McFlurry,4.00,2.97,Dessert
+44,2023/05/19,Fri,Brunei,Oreo McFlurry,3.50,2.59,Dessert
+45,2023/05/19,Fri,Brunei,Greentea Oreo McFlurry,4.00,2.97,Dessert
+46,2023/05/19,Fri,Brunei,Double Chocolate Oreo McFlurry,3.00,2.22,Dessert
+47,2023/05/19,Fri,Brunei,Apple Pie — 1 Pc,1.80,1.33,Dessert
+48,2023/05/19,Fri,Brunei,Apple Pie — 2 Pc,3.30,2.45,Dessert
+49,2023/05/19,Fri,Brunei,Horlicks McFlurry — 1 Horlicks McFlurry,4.00,2.97,Dessert
+50,2023/05/19,Fri,Brunei,Horlicks McFlurry — 2 Horlicks McFlurry,6.00,4.45,Dessert
