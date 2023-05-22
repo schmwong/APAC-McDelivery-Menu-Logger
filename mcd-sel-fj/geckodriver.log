@@ -20185,3 +20185,48 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/cHrP8GR4WD3-4SafWKd
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1684779864643	geckodriver	INFO	Listening on 127.0.0.1:33879
+1684779864943	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "57305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWmUhzI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1684779875621	Marionette	INFO	Marionette enabled
+1684779875685	Marionette	INFO	Listening on port 43201
+Read port: 43201
+console.error: "Warning: unrecognized command line flag -disable-dev-shm-usage\n"
+Read port: 43201
+WebDriver BiDi listening on ws://127.0.0.1:57305
+1684779877551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57305/devtools/browser/5c754e04-73a1-4264-ac6c-24f032de9b67
+JavaScript warning: https://www.xe.com/_next/static/chunks/12b85881aa8a9330520218bb2964c5f40e5c3442.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=803183&moatClientLevel2=14667142&moatClientLevel3=m:11500885;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1100806780&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761&zMoatCtn=adRootContainer_1100806780&zMoatTP=366419690&zMoatExp=interactiveInframe, line 285: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=803183&moatClientLevel2=14667142&moatClientLevel3=m:11500885;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1100806780&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761&zMoatCtn=adRootContainer_1100806780&zMoatTP=366419690&zMoatExp=interactiveInframe, line 285: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=803183&moatClientLevel2=14667142&moatClientLevel3=m:11500885;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1100806780&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761&zMoatCtn=adRootContainer_1100806780&zMoatTP=366419690&zMoatExp=interactiveInframe, line 285: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=803183&moatClientLevel2=14667142&moatClientLevel3=m:11500885;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=1100806780&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:271761&zMoatCtn=adRootContainer_1100806780&zMoatTP=366419690&zMoatExp=interactiveInframe, line 285: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 1657 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 1657 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 2865 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 2865 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 1539 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x4MEI6eqFB0dCdwpn32-R0gTDA087Zgj0u4bOKm75nA.js line 2 > eval line 1539 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 1863, MediaDecoderStateMachine #1] WARNING: Decoder=7f0690a4fa00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-mvch40/firefox-113.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 1863, MediaDecoderStateMachine #1] WARNING: Decoder=7f0690a4fa00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-mvch40/firefox-113.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/3.11.1-3/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
