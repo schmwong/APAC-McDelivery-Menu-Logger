@@ -1,0 +1,72 @@
+,Date,Day,Territory,Menu Item,Price (LKR),Price (USD),Category,Menu
+1,2023/06/13,Tue,Sri Lanka,Crispy Chicken 02 PC,1220.00,4.05,Ala Carte & Value Meals,Regular
+2,2023/06/13,Tue,Sri Lanka,Crispy Chicken 05 PC,3080.00,10.23,Ala Carte & Value Meals,Regular
+3,2023/06/13,Tue,Sri Lanka,Spicy chicken footlong,840.00,2.79,Ala Carte & Value Meals,Regular
+4,2023/06/13,Tue,Sri Lanka,Crispy Chicken Wrap,840.00,2.79,Ala Carte & Value Meals,Regular
+5,2023/06/13,Tue,Sri Lanka,McSpicy Chicken Wrap,1700.00,5.65,Ala Carte & Value Meals,Regular
+6,2023/06/13,Tue,Sri Lanka,Crispy Chicken Burger,580.00,1.93,Ala Carte & Value Meals,Regular
+7,2023/06/13,Tue,Sri Lanka,Chicken Junior,780.00,2.59,Ala Carte & Value Meals,Regular
+8,2023/06/13,Tue,Sri Lanka,Beefburger,1050.00,3.49,Ala Carte & Value Meals,Regular
+9,2023/06/13,Tue,Sri Lanka,Cheeseburger,1200.00,3.99,Ala Carte & Value Meals,Regular
+10,2023/06/13,Tue,Sri Lanka,Double Cheeseburger,1880.00,6.24,Ala Carte & Value Meals,Regular
+11,2023/06/13,Tue,Sri Lanka,Big Mac,1820.00,6.05,Ala Carte & Value Meals,Regular
+12,2023/06/13,Tue,Sri Lanka,McChicken Burger,1700.00,5.65,Ala Carte & Value Meals,Regular
+13,2023/06/13,Tue,Sri Lanka,McSpicy Chicken Burger,1100.00,3.65,Ala Carte & Value Meals,Regular
+14,2023/06/13,Tue,Sri Lanka,Chicken Big Mac,1700.00,5.65,Ala Carte & Value Meals,Regular
+15,2023/06/13,Tue,Sri Lanka,Chicken McNuggets 6 PC,1500.00,4.98,Ala Carte & Value Meals,Regular
+16,2023/06/13,Tue,Sri Lanka,Chicken McNuggets 9 PC,2090.00,6.94,Ala Carte & Value Meals,Regular
+17,2023/06/13,Tue,Sri Lanka,McSpicy Chicken Fillet,1320.00,4.38,Ala Carte & Value Meals,Regular
+18,2023/06/13,Tue,Sri Lanka,McSpicy Wings 3 PC,570.00,1.89,Ala Carte & Value Meals,Regular
+19,2023/06/13,Tue,Sri Lanka,McSpicy Wings 6 PC,1070.00,3.55,Ala Carte & Value Meals,Regular
+20,2023/06/13,Tue,Sri Lanka,Filet-O-Fish,1380.00,4.58,Ala Carte & Value Meals,Regular
+21,2023/06/13,Tue,Sri Lanka,Veggie Burger,1100.00,3.65,Ala Carte & Value Meals,Regular
+22,2023/06/13,Tue,Sri Lanka,Sausage & Egg Burger,580.00,1.93,Breakfast & Value Meals,Breakfast
+23,2023/06/13,Tue,Sri Lanka,Egg Burger,440.00,1.46,Breakfast & Value Meals,Breakfast
+24,2023/06/13,Tue,Sri Lanka,Hash Brown,340.00,1.13,Breakfast & Value Meals,Breakfast
+25,2023/06/13,Tue,Sri Lanka,Crispy Chicken Wrap,840.00,2.79,Breakfast & Value Meals,Breakfast
+26,2023/06/13,Tue,Sri Lanka,Crispy Chicken Burger,580.00,1.93,Breakfast & Value Meals,Breakfast
+27,2023/06/13,Tue,Sri Lanka,Chicken Junior,780.00,2.59,Breakfast & Value Meals,Breakfast
+28,2023/06/13,Tue,Sri Lanka,McSpicy Chicken Burger,1100.00,3.65,Breakfast & Value Meals,Breakfast
+29,2023/06/13,Tue,Sri Lanka,Double Chicken Rice meal,1250.00,4.15,Rice,Regular
+30,2023/06/13,Tue,Sri Lanka,Curry N Rice,560.00,1.86,Rice,Regular
+31,2023/06/13,Tue,Sri Lanka,McRice Chicken,970.00,3.22,Rice,Regular
+32,2023/06/13,Tue,Sri Lanka,McRice - Fish,970.00,3.22,Rice,Regular
+33,2023/06/13,Tue,Sri Lanka,McRice - Vegetable,970.00,3.22,Rice,Regular
+34,2023/06/13,Tue,Sri Lanka,Fries,570.00,1.89,Salads/Sides,Regular
+35,2023/06/13,Tue,Sri Lanka,Choco Chip McFlurry,940.00,3.12,Desserts,Regular
+36,2023/06/13,Tue,Sri Lanka,OREO McFLURRY,940.00,3.12,Desserts,Regular
+37,2023/06/13,Tue,Sri Lanka,Chocolate Sundae,660.00,2.19,Desserts,Regular
+38,2023/06/13,Tue,Sri Lanka,Strawberry Sundae,660.00,2.19,Desserts,Regular
+39,2023/06/13,Tue,Sri Lanka,Plain Sundae,580.00,1.93,Desserts,Regular
+40,2023/06/13,Tue,Sri Lanka,Chocolate flavoured milk,410.00,1.36,Beverages,Regular
+41,2023/06/13,Tue,Sri Lanka,Coke zero,310.00,1.03,Beverages,Regular
+42,2023/06/13,Tue,Sri Lanka,Coke,370.00,1.23,Beverages,Regular
+43,2023/06/13,Tue,Sri Lanka,Fanta,370.00,1.23,Beverages,Regular
+44,2023/06/13,Tue,Sri Lanka,Sprite,370.00,1.23,Beverages,Regular
+45,2023/06/13,Tue,Sri Lanka,Water,80.00,0.27,Beverages,Regular
+46,2023/06/13,Tue,Sri Lanka,Happy Crispy Burger Meal,1490.00,4.95,Happy Meals,Regular
+47,2023/06/13,Tue,Sri Lanka,Happy Meal Rice - Chicken,1340.00,4.45,Happy Meals,Regular
+48,2023/06/13,Tue,Sri Lanka,Happy Meal Beef,1750.00,5.81,Happy Meals,Regular
+49,2023/06/13,Tue,Sri Lanka,Happy Meal Chicken Junior,2550.00,8.47,Happy Meals,Regular
+50,2023/06/13,Tue,Sri Lanka,Happy Meal Cheeseburger,1850.00,6.14,Happy Meals,Regular
+51,2023/06/13,Tue,Sri Lanka,Happy Meal 4 Nugget,1490.00,4.95,Happy Meals,Regular
+52,2023/06/13,Tue,Sri Lanka,Spicy and Crispy  Bundle,3500.00,11.63,Promotion & Bundle Meals,Regular
+53,2023/06/13,Tue,Sri Lanka,Wrap and Wings Combo,950.00,3.16,Promotion & Bundle Meals,Regular
+54,2023/06/13,Tue,Sri Lanka,Crave Busters,950.00,3.16,Promotion & Bundle Meals,Regular
+55,2023/06/13,Tue,Sri Lanka,Share box Rice Bundles,7720.00,25.64,Promotion & Bundle Meals,Regular
+56,2023/06/13,Tue,Sri Lanka,Share box Chicken Bundles,7720.00,25.64,Promotion & Bundle Meals,Regular
+57,2023/06/13,Tue,Sri Lanka,Share box Beef Bundles,9080.00,30.16,Promotion & Bundle Meals,Regular
+58,2023/06/13,Tue,Sri Lanka,Fries,570.00,1.89,Salads/Sides,Breakfast
+59,2023/06/13,Tue,Sri Lanka,Choco Chip McFlurry,940.00,3.12,Desserts,Breakfast
+60,2023/06/13,Tue,Sri Lanka,OREO McFLURRY,940.00,3.12,Desserts,Breakfast
+61,2023/06/13,Tue,Sri Lanka,Chocolate Sundae,660.00,2.19,Desserts,Breakfast
+62,2023/06/13,Tue,Sri Lanka,Strawberry Sundae,660.00,2.19,Desserts,Breakfast
+63,2023/06/13,Tue,Sri Lanka,Plain Sundae,580.00,1.93,Desserts,Breakfast
+64,2023/06/13,Tue,Sri Lanka,Chocolate flavoured milk,410.00,1.36,Beverages,Breakfast
+65,2023/06/13,Tue,Sri Lanka,Coke zero,310.00,1.03,Beverages,Breakfast
+66,2023/06/13,Tue,Sri Lanka,Coke,370.00,1.23,Beverages,Breakfast
+67,2023/06/13,Tue,Sri Lanka,Fanta,370.00,1.23,Beverages,Breakfast
+68,2023/06/13,Tue,Sri Lanka,Sprite,370.00,1.23,Beverages,Breakfast
+69,2023/06/13,Tue,Sri Lanka,Water,80.00,0.27,Beverages,Breakfast
+70,2023/06/13,Tue,Sri Lanka,Happy Crispy Burger Meal,1490.00,4.95,Happy Meals,Breakfast
+71,2023/06/13,Tue,Sri Lanka,Happy Meal Chicken Junior,2550.00,8.47,Happy Meals,Breakfast
