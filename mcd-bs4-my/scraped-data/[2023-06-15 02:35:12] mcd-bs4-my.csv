@@ -1,0 +1,244 @@
+,Date,Day,Territory,Menu Item,Price (MYR),Price (USD),Category,Menu
+1,2023/06/15,Thu,Malaysia,Samurai Beef Burger,14.15,3.06,Promotion,Regular
+2,2023/06/15,Thu,Malaysia,Double Samurai Beef Burger,17.92,3.88,Promotion,Regular
+3,2023/06/15,Thu,Malaysia,Samurai Chicken Burger,14.15,3.06,Promotion,Regular
+4,2023/06/15,Thu,Malaysia,Double Samurai Chicken Burger,17.92,3.88,Promotion,Regular
+5,2023/06/15,Thu,Malaysia,Lotus Biscoff McFlurry™,8.73,1.89,Promotion,Regular
+6,2023/06/15,Thu,Malaysia,Blueberry Cream Cheese Pie,5.33,1.15,Promotion,Regular
+7,2023/06/15,Thu,Malaysia,White Chocolate & Strawberry Pie,5.33,1.15,Promotion,Regular
+8,2023/06/15,Thu,Malaysia,Mango McFizz,6.79,1.47,Promotion,Regular
+9,2023/06/15,Thu,Malaysia,Lychee Berry McFizz,6.51,1.41,Promotion,Regular
+10,2023/06/15,Thu,Malaysia,Ice Blended Chocolate with OREO®,15.00,3.25,Promotion,Regular
+11,2023/06/15,Thu,Malaysia,Ice Blended Mocha with OREO®,15.00,3.25,Promotion,Regular
+12,2023/06/15,Thu,Malaysia,Ice Blended Strawberry with OREO®,15.00,3.25,Promotion,Regular
+13,2023/06/15,Thu,Malaysia,6pcs Chicken McNuggets®,10.42,2.25,Promotion,Regular
+14,2023/06/15,Thu,Malaysia,9pcs Chicken McNuggets® ,13.82,2.99,Promotion,Regular
+15,2023/06/15,Thu,Malaysia,20pcs Chicken McNuggets®,26.70,5.78,Promotion,Regular
+16,2023/06/15,Thu,Malaysia,4pcs Chicken McNuggets®,11.42,2.47,Promotion,Regular
+17,2023/06/15,Thu,Malaysia,Iced Apple Pear,5.19,1.12,Promotion,Regular
+18,2023/06/15,Thu,Malaysia,Nasi Lemak McD™,6.59,1.43,Promotion,Breakfast
+19,2023/06/15,Thu,Malaysia,Bubur Ayam McD™ (Medium),8.44,1.83,Promotion,Breakfast
+20,2023/06/15,Thu,Malaysia,Bubur Ayam McD™ (Small),7.22,1.56,Promotion,Breakfast
+21,2023/06/15,Thu,Malaysia,Omelette Wrap with Chicken Sausage,10.00,2.16,Promotion,Breakfast
+22,2023/06/15,Thu,Malaysia,Omelette Wrap with Crispy Chicken,10.00,2.16,Promotion,Breakfast
+23,2023/06/15,Thu,Malaysia,Lotus Biscoff McFlurry™,8.73,1.89,Promotion,Breakfast
+24,2023/06/15,Thu,Malaysia,Blueberry Cream Cheese Pie,5.33,1.15,Promotion,Breakfast
+25,2023/06/15,Thu,Malaysia,Mango McFizz,6.79,1.47,Promotion,Breakfast
+26,2023/06/15,Thu,Malaysia,Lychee Berry McFizz,6.51,1.41,Promotion,Breakfast
+27,2023/06/15,Thu,Malaysia,Ice Blended Chocolate with OREO®,15.00,3.25,Promotion,Breakfast
+28,2023/06/15,Thu,Malaysia,Ice Blended Mocha with OREO®,15.00,3.25,Promotion,Breakfast
+29,2023/06/15,Thu,Malaysia,Ice Blended Strawberry with OREO®,15.00,3.25,Promotion,Breakfast
+30,2023/06/15,Thu,Malaysia,Iced Apple Pear,5.19,1.12,Promotion,Breakfast
+31,2023/06/15,Thu,Malaysia,2x GCB (M),23.58,5.10,Crazy Hour,Regular
+32,2023/06/15,Thu,Malaysia,1x Spicy Chicken McDeluxe (M) + 1x 3pcs AG (M),29.24,6.33,Crazy Hour,Regular
+33,2023/06/15,Thu,Malaysia,2x Spicy Crispy Chicken (M),19.81,4.29,Crazy Hour,Regular
+34,2023/06/15,Thu,Malaysia,2x Spicy Double Cheese (M),20.75,4.49,Crazy Hour,Regular
+35,2023/06/15,Thu,Malaysia,2x McChicken (M),16.98,3.67,Crazy Hour,Regular
+36,2023/06/15,Thu,Malaysia,2x Spicy Chicken McDeluxe (M),23.58,5.10,Crazy Hour,Regular
+37,2023/06/15,Thu,Malaysia,2x Big Mac (M),23.58,5.10,Crazy Hour,Regular
+38,2023/06/15,Thu,Malaysia,2x Double Cheeseburger (M),23.58,5.10,Crazy Hour,Regular
+39,2023/06/15,Thu,Malaysia,2x Filet-O-Fish (M),16.98,3.67,Crazy Hour,Regular
+40,2023/06/15,Thu,Malaysia,5pcs AG,18.86,4.08,Crazy Hour,Regular
+41,2023/06/15,Thu,Malaysia,Bubur (M) + 1pc AG + Iced Milo (M),12.26,2.65,Crazy Hour,Regular
+42,2023/06/15,Thu,Malaysia,2x Nasi Lemak + AG Spicy (M),25.09,5.43,Crazy Hour,Regular
+43,2023/06/15,Thu,Malaysia,McChicken® Super Value Meal,17.41,3.77,Super Value Meals,Regular
+44,2023/06/15,Thu,Malaysia,Filet-O-Fish™ Super Value Meal,17.69,3.83,Super Value Meals,Regular
+45,2023/06/15,Thu,Malaysia,6pcs Chicken McNuggets® Super Value Meal,18.40,3.98,Super Value Meals,Regular
+46,2023/06/15,Thu,Malaysia,9pcs Chicken McNuggets® Super Value Meal,21.42,4.64,Super Value Meals,Regular
+47,2023/06/15,Thu,Malaysia,Spicy Chicken McDeluxe™ Super Value Meal,21.18,4.58,Super Value Meals,Regular
+48,2023/06/15,Thu,Malaysia,GCB™ Super Value Meal,21.18,4.58,Super Value Meals,Regular
+49,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Regular (2pcs) Super Value Meal,22.12,4.79,Super Value Meals,Regular
+50,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (2pcs) Super Value Meal,22.12,4.79,Super Value Meals,Regular
+51,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (3pcs) Super Value Meal,25.90,5.60,Super Value Meals,Regular
+52,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Regular (3pcs) Super Value Meal,25.90,5.60,Super Value Meals,Regular
+53,2023/06/15,Thu,Malaysia,Double Cheeseburger Super Value Meal,19.53,4.23,Super Value Meals,Regular
+54,2023/06/15,Thu,Malaysia,Big Mac™ Super Value Meal,20.61,4.46,Super Value Meals,Regular
+55,2023/06/15,Thu,Malaysia,Quarter Pounder™ with Cheese Super Value Meal,20.61,4.46,Super Value Meals,Regular
+56,2023/06/15,Thu,Malaysia,Samurai Beef Burger,14.15,3.06,Burgers,Regular
+57,2023/06/15,Thu,Malaysia,Double Cheeseburger,11.51,2.49,Burgers,Regular
+58,2023/06/15,Thu,Malaysia,Spicy Double Cheese,12.45,2.69,Burgers,Regular
+59,2023/06/15,Thu,Malaysia,Double Samurai Beef Burger,17.92,3.88,Burgers,Regular
+60,2023/06/15,Thu,Malaysia,Samurai Chicken Burger,14.15,3.06,Burgers,Regular
+61,2023/06/15,Thu,Malaysia,Double Samurai Chicken Burger,17.92,3.88,Burgers,Regular
+62,2023/06/15,Thu,Malaysia,Spicy Beef Deluxe Burger with Cheese,13.40,2.90,Burgers,Regular
+63,2023/06/15,Thu,Malaysia,Spicy Cheese,9.62,2.08,Burgers,Regular
+64,2023/06/15,Thu,Malaysia,Quarter Pounder™ with Cheese,13.40,2.90,Burgers,Regular
+65,2023/06/15,Thu,Malaysia,Big Mac™,13.40,2.90,Burgers,Regular
+66,2023/06/15,Thu,Malaysia,Chicken Burger,7.88,1.71,Burgers,Regular
+67,2023/06/15,Thu,Malaysia,McChicken®,9.29,2.01,Burgers,Regular
+68,2023/06/15,Thu,Malaysia,Spicy Chicken McDeluxe™,13.49,2.92,Burgers,Regular
+69,2023/06/15,Thu,Malaysia,Spicy Crispy Chicken,11.79,2.55,Burgers,Regular
+70,2023/06/15,Thu,Malaysia,GCB™,13.49,2.92,Burgers,Regular
+71,2023/06/15,Thu,Malaysia,Filet-O-Fish™,9.76,2.11,Burgers,Regular
+72,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (1pc),8.40,1.82,Ayam Goreng McD,Regular
+73,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Regular (1pc),8.40,1.82,Ayam Goreng McD,Regular
+74,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (2pcs),14.39,3.11,Ayam Goreng McD,Regular
+75,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Regular (2pcs) ,14.39,3.11,Ayam Goreng McD,Regular
+76,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Mixed (2pcs),14.39,3.11,Ayam Goreng McD,Regular
+77,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (3pcs),17.78,3.85,Ayam Goreng McD,Regular
+78,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Regular (3pcs),17.78,3.85,Ayam Goreng McD,Regular
+79,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Mixed (3pcs),17.78,3.85,Ayam Goreng McD,Regular
+80,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ (5pcs),32.08,6.94,Ayam Goreng McD,Regular
+81,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ (10pcs),59.43,12.86,Ayam Goreng McD,Regular
+82,2023/06/15,Thu,Malaysia,6pcs Chicken McNuggets®,10.42,2.25,McNuggets,Regular
+83,2023/06/15,Thu,Malaysia,9pcs Chicken McNuggets® ,13.82,2.99,McNuggets,Regular
+84,2023/06/15,Thu,Malaysia,20pcs Chicken McNuggets®,26.70,5.78,McNuggets,Regular
+85,2023/06/15,Thu,Malaysia,Nasi McD + 1pc AG McD,11.23,2.43,Nasi Lemak & Bubur,Regular
+86,2023/06/15,Thu,Malaysia,Nasi McD + 2pcs AG McD,15.57,3.37,Nasi Lemak & Bubur,Regular
+87,2023/06/15,Thu,Malaysia,Nasi Lemak  McD™ AG Spicy (1pc),13.77,2.98,Nasi Lemak & Bubur,Regular
+88,2023/06/15,Thu,Malaysia,Nasi Lemak McD™ AG Regular (1pc),13.77,2.98,Nasi Lemak & Bubur,Regular
+89,2023/06/15,Thu,Malaysia,Nasi Lemak McD™ AG Spicy  (2pcs),16.60,3.59,Nasi Lemak & Bubur,Regular
+90,2023/06/15,Thu,Malaysia,Nasi Lemak McD™ AG Regular (2pcs),16.60,3.59,Nasi Lemak & Bubur,Regular
+91,2023/06/15,Thu,Malaysia,Bubur Ayam McD™,7.22,1.56,Nasi Lemak & Bubur,Regular
+92,2023/06/15,Thu,Malaysia,Family Meal A,40.57,8.78,Family Meal,Regular
+93,2023/06/15,Thu,Malaysia,Family Meal B,51.89,11.23,Family Meal,Regular
+94,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ (5pcs),32.08,6.94,Family Meal,Regular
+95,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ (10pcs),59.43,12.86,Family Meal,Regular
+96,2023/06/15,Thu,Malaysia,Parties@Home Package A,117.92,25.52,Parties@Home,Regular
+97,2023/06/15,Thu,Malaysia,Parties@Home Package B,141.51,30.62,Parties@Home,Regular
+98,2023/06/15,Thu,Malaysia,Parties@Home Package C,165.09,35.72,Parties@Home,Regular
+99,2023/06/15,Thu,Malaysia,Chicken Burger,11.13,2.41,Happy Meals,Regular
+100,2023/06/15,Thu,Malaysia,4pcs Chicken McNuggets®,11.42,2.47,Happy Meals,Regular
+101,2023/06/15,Thu,Malaysia,Ayam Goreng McD™,11.13,2.41,Happy Meals,Regular
+102,2023/06/15,Thu,Malaysia,Cheeseburger,11.13,2.41,Happy Meals,Regular
+103,2023/06/15,Thu,Malaysia,Ayam Goreng McD™ Spicy (1pc),11.13,2.41,Happy Meals,Regular
+104,2023/06/15,Thu,Malaysia,Bubur Ayam McD™,11.13,2.41,Happy Meals,Regular
+105,2023/06/15,Thu,Malaysia,Minions Carrier,30.00,6.49,Happy Meals,Regular
+106,2023/06/15,Thu,Malaysia,Iced Apple Pear,5.19,1.12,McCafe Drinks,Regular
+107,2023/06/15,Thu,Malaysia,Ice Blended Chocolate with OREO®,15.00,3.25,McCafe Drinks,Regular
+108,2023/06/15,Thu,Malaysia,Ice Blended Mocha with OREO®,15.00,3.25,McCafe Drinks,Regular
+109,2023/06/15,Thu,Malaysia,Ice Blended Strawberry with OREO®,15.00,3.25,McCafe Drinks,Regular
+110,2023/06/15,Thu,Malaysia,Kopi Susu,8.40,1.82,McCafe Drinks,Regular
+111,2023/06/15,Thu,Malaysia,Iced Kopi Susu,9.34,2.02,McCafe Drinks,Regular
+112,2023/06/15,Thu,Malaysia,Ice Blended Kopi Susu,13.49,2.92,McCafe Drinks,Regular
+113,2023/06/15,Thu,Malaysia,Latte,8.96,1.94,McCafe Drinks,Regular
+114,2023/06/15,Thu,Malaysia,Iced Latte,9.91,2.14,McCafe Drinks,Regular
+115,2023/06/15,Thu,Malaysia,Ice Blended Latte,14.06,3.04,McCafe Drinks,Regular
+116,2023/06/15,Thu,Malaysia,2x Iced Latte (M),11.32,2.45,McCafe Drinks,Regular
+117,2023/06/15,Thu,Malaysia,Cappuccino,8.96,1.94,McCafe Drinks,Regular
+118,2023/06/15,Thu,Malaysia,Americano,7.07,1.53,McCafe Drinks,Regular
+119,2023/06/15,Thu,Malaysia,Iced Americano,8.02,1.74,McCafe Drinks,Regular
+120,2023/06/15,Thu,Malaysia,Iced Chocolate,10.85,2.35,McCafe Drinks,Regular
+121,2023/06/15,Thu,Malaysia,Ice Blended Chocolate,14.06,3.04,McCafe Drinks,Regular
+122,2023/06/15,Thu,Malaysia,Ice Blended Milo,14.06,3.04,McCafe Drinks,Regular
+123,2023/06/15,Thu,Malaysia,Iced Mocha,10.85,2.35,McCafe Drinks,Regular
+124,2023/06/15,Thu,Malaysia,Ice Blended Mocha,14.06,3.04,McCafe Drinks,Regular
+125,2023/06/15,Thu,Malaysia,Ice Blended Lychee Berry,10.28,2.22,McCafe Drinks,Regular
+126,2023/06/15,Thu,Malaysia,Ice Blended Strawberry,10.28,2.22,McCafe Drinks,Regular
+127,2023/06/15,Thu,Malaysia,Ice Blended Mango Peach,10.28,2.22,McCafe Drinks,Regular
+128,2023/06/15,Thu,Malaysia,Kopi Susu (S) + McCafé Cake,12.17,2.63,McCafe Drinks,Regular
+129,2023/06/15,Thu,Malaysia,Iced Kopi Susu (M) + McCafé Cake,12.17,2.63,McCafe Drinks,Regular
+130,2023/06/15,Thu,Malaysia,Belgium Chocolate + McCafé Drink,15.08,3.26,McCafe Drinks,Regular
+131,2023/06/15,Thu,Malaysia,Red Velvet Cake + McCafé Drink,15.08,3.26,McCafe Drinks,Regular
+132,2023/06/15,Thu,Malaysia,Classic Cheesecake + McCafé Drink,16.03,3.47,McCafe Drinks,Regular
+133,2023/06/15,Thu,Malaysia,Chocolate Marble Cake,8.40,1.82,McCafe Cakes,Regular
+134,2023/06/15,Thu,Malaysia,Butter Cake,8.40,1.82,McCafe Cakes,Regular
+135,2023/06/15,Thu,Malaysia,Belgium Chocolate Cake,13.11,2.84,McCafe Cakes,Regular
+136,2023/06/15,Thu,Malaysia,Red Velvet Cake,13.11,2.84,McCafe Cakes,Regular
+137,2023/06/15,Thu,Malaysia,Classic Cheesecake,13.11,2.84,McCafe Cakes,Regular
+138,2023/06/15,Thu,Malaysia,Kopi Susu (S) + McCafé Cake,12.17,2.63,McCafe Cakes,Regular
+139,2023/06/15,Thu,Malaysia,Iced Kopi Susu (M) + McCafé Cake,12.17,2.63,McCafe Cakes,Regular
+140,2023/06/15,Thu,Malaysia,Belgium Chocolate + McCafé Drink,15.08,3.26,McCafe Cakes,Regular
+141,2023/06/15,Thu,Malaysia,Red Velvet Cake + McCafé Drink,15.08,3.26,McCafe Cakes,Regular
+142,2023/06/15,Thu,Malaysia,Classic Cheesecake + McCafé Drink,16.03,3.47,McCafe Cakes,Regular
+143,2023/06/15,Thu,Malaysia,Blueberry Cream Cheese Pie,5.33,1.15,Desserts & Sides,Regular
+144,2023/06/15,Thu,Malaysia,White Chocolate & Strawberry Pie,5.33,1.15,Desserts & Sides,Regular
+145,2023/06/15,Thu,Malaysia,Lotus Biscoff McFlurry™,8.73,1.89,Desserts & Sides,Regular
+146,2023/06/15,Thu,Malaysia,OREO® McFlurry™,7.78,1.68,Desserts & Sides,Regular
+147,2023/06/15,Thu,Malaysia,Chocolate Sundae,5.90,1.28,Desserts & Sides,Regular
+148,2023/06/15,Thu,Malaysia,Strawberry Sundae,5.90,1.28,Desserts & Sides,Regular
+149,2023/06/15,Thu,Malaysia,Apple Pie,4.95,1.07,Desserts & Sides,Regular
+150,2023/06/15,Thu,Malaysia,French Fries,6.32,1.37,Desserts & Sides,Regular
+151,2023/06/15,Thu,Malaysia,Corn,5.38,1.16,Desserts & Sides,Regular
+152,2023/06/15,Thu,Malaysia,Hot MILO®,5.66,1.22,Drinks,Regular
+153,2023/06/15,Thu,Malaysia,Hot Tea,5.47,1.18,Drinks,Regular
+154,2023/06/15,Thu,Malaysia,Hot Teh Tarik,5.47,1.18,Drinks,Regular
+155,2023/06/15,Thu,Malaysia,MILO®,7.83,1.69,Drinks,Regular
+156,2023/06/15,Thu,Malaysia,Mango McFizz,6.79,1.47,Drinks,Regular
+157,2023/06/15,Thu,Malaysia,Lychee Berry McFizz,6.51,1.41,Drinks,Regular
+158,2023/06/15,Thu,Malaysia,Coca-Cola®,5.47,1.18,Drinks,Regular
+159,2023/06/15,Thu,Malaysia,100 Plus,5.47,1.18,Drinks,Regular
+160,2023/06/15,Thu,Malaysia,Sprite®,5.47,1.18,Drinks,Regular
+161,2023/06/15,Thu,Malaysia,Iced Lemon Tea,6.89,1.49,Drinks,Regular
+162,2023/06/15,Thu,Malaysia,Minute Maid® Orange Juice,7.83,1.69,Drinks,Regular
+163,2023/06/15,Thu,Malaysia,Drinking water,4.72,1.02,Drinks,Regular
+164,2023/06/15,Thu,Malaysia,Barbecue Sauce,0.94,0.20,Condiments,Regular
+165,2023/06/15,Thu,Malaysia,Sweet&Sour Sauce,0.94,0.20,Condiments,Regular
+166,2023/06/15,Thu,Malaysia,McChicken® Sauce,0.94,0.20,Condiments,Regular
+167,2023/06/15,Thu,Malaysia,Sambal,0.94,0.20,Condiments,Regular
+168,2023/06/15,Thu,Malaysia,Omelette Cheese Muffin,6.98,1.51,Muffins & Sandwich,Breakfast
+169,2023/06/15,Thu,Malaysia,Sausage & Omelette Cheese Muffin,7.92,1.71,Muffins & Sandwich,Breakfast
+170,2023/06/15,Thu,Malaysia,Omelette Wrap with Chicken Sausage,10.00,2.16,Muffins & Sandwich,Breakfast
+171,2023/06/15,Thu,Malaysia,Omelette Wrap with Crispy Chicken,10.00,2.16,Muffins & Sandwich,Breakfast
+172,2023/06/15,Thu,Malaysia,Crispy Chicken Muffin,8.44,1.83,Muffins & Sandwich,Breakfast
+173,2023/06/15,Thu,Malaysia,Crispy Chicken Muffin with Egg,9.39,2.03,Muffins & Sandwich,Breakfast
+174,2023/06/15,Thu,Malaysia,Sausage McMuffin™,7.50,1.62,Muffins & Sandwich,Breakfast
+175,2023/06/15,Thu,Malaysia,Sausage McMuffin™ with Egg,8.44,1.83,Muffins & Sandwich,Breakfast
+176,2023/06/15,Thu,Malaysia,Sausage & Scrambled Egg Sandwich,8.44,1.83,Muffins & Sandwich,Breakfast
+177,2023/06/15,Thu,Malaysia,Crispy Chicken & Scrambled Egg Sandwich,8.44,1.83,Muffins & Sandwich,Breakfast
+178,2023/06/15,Thu,Malaysia,Scrambled Egg Sandwich,7.50,1.62,Muffins & Sandwich,Breakfast
+179,2023/06/15,Thu,Malaysia,Big Breakfast™,12.22,2.64,Muffins & Sandwich,Breakfast
+180,2023/06/15,Thu,Malaysia,2 pcs Hotcakes™,11.27,2.44,Muffins & Sandwich,Breakfast
+181,2023/06/15,Thu,Malaysia,Nasi Lemak McD™,6.59,1.43,Nasi Lemak & Bubur,Breakfast
+182,2023/06/15,Thu,Malaysia,Bubur Ayam McD™ (Medium),8.44,1.83,Nasi Lemak & Bubur,Breakfast
+183,2023/06/15,Thu,Malaysia,Bubur Ayam McD™ (Small),7.22,1.56,Nasi Lemak & Bubur,Breakfast
+184,2023/06/15,Thu,Malaysia,Sausage McMuffin™,11.13,2.41,Happy Meals,Breakfast
+185,2023/06/15,Thu,Malaysia,2 pcs Hotcakes™,11.13,2.41,Happy Meals,Breakfast
+186,2023/06/15,Thu,Malaysia,Bubur Ayam McD™,11.13,2.41,Happy Meals,Breakfast
+187,2023/06/15,Thu,Malaysia,Minions Carrier,30.00,6.49,Happy Meals,Breakfast
+188,2023/06/15,Thu,Malaysia,Iced Apple Pear,5.19,1.12,McCafe Drinks,Breakfast
+189,2023/06/15,Thu,Malaysia,Ice Blended Chocolate with OREO®,15.00,3.25,McCafe Drinks,Breakfast
+190,2023/06/15,Thu,Malaysia,Ice Blended Mocha with OREO®,15.00,3.25,McCafe Drinks,Breakfast
+191,2023/06/15,Thu,Malaysia,Ice Blended Strawberry with OREO®,15.00,3.25,McCafe Drinks,Breakfast
+192,2023/06/15,Thu,Malaysia,Kopi Susu,8.40,1.82,McCafe Drinks,Breakfast
+193,2023/06/15,Thu,Malaysia,Iced Kopi Susu,9.34,2.02,McCafe Drinks,Breakfast
+194,2023/06/15,Thu,Malaysia,Ice Blended Kopi Susu,13.49,2.92,McCafe Drinks,Breakfast
+195,2023/06/15,Thu,Malaysia,Latte,8.96,1.94,McCafe Drinks,Breakfast
+196,2023/06/15,Thu,Malaysia,Iced Latte,9.91,2.14,McCafe Drinks,Breakfast
+197,2023/06/15,Thu,Malaysia,Ice Blended Latte,14.06,3.04,McCafe Drinks,Breakfast
+198,2023/06/15,Thu,Malaysia,2x Iced Latte (M),11.32,2.45,McCafe Drinks,Breakfast
+199,2023/06/15,Thu,Malaysia,Cappuccino,8.96,1.94,McCafe Drinks,Breakfast
+200,2023/06/15,Thu,Malaysia,Americano,7.07,1.53,McCafe Drinks,Breakfast
+201,2023/06/15,Thu,Malaysia,Iced Americano,8.02,1.74,McCafe Drinks,Breakfast
+202,2023/06/15,Thu,Malaysia,Iced Chocolate,10.85,2.35,McCafe Drinks,Breakfast
+203,2023/06/15,Thu,Malaysia,Ice Blended Chocolate,14.06,3.04,McCafe Drinks,Breakfast
+204,2023/06/15,Thu,Malaysia,Ice Blended Milo,14.06,3.04,McCafe Drinks,Breakfast
+205,2023/06/15,Thu,Malaysia,Iced Mocha,10.85,2.35,McCafe Drinks,Breakfast
+206,2023/06/15,Thu,Malaysia,Ice Blended Mocha,14.06,3.04,McCafe Drinks,Breakfast
+207,2023/06/15,Thu,Malaysia,Ice Blended Lychee Berry,10.28,2.22,McCafe Drinks,Breakfast
+208,2023/06/15,Thu,Malaysia,Ice Blended Strawberry,10.28,2.22,McCafe Drinks,Breakfast
+209,2023/06/15,Thu,Malaysia,Ice Blended Mango Peach,10.28,2.22,McCafe Drinks,Breakfast
+210,2023/06/15,Thu,Malaysia,Kopi Susu (S) + McCafé Cake,12.17,2.63,McCafe Drinks,Breakfast
+211,2023/06/15,Thu,Malaysia,Iced Kopi Susu (M) + McCafé Cake,12.17,2.63,McCafe Drinks,Breakfast
+212,2023/06/15,Thu,Malaysia,Belgium Chocolate + McCafé Drink,15.08,3.26,McCafe Drinks,Breakfast
+213,2023/06/15,Thu,Malaysia,Red Velvet Cake + McCafé Drink,15.08,3.26,McCafe Drinks,Breakfast
+214,2023/06/15,Thu,Malaysia,Classic Cheesecake + McCafé Drink,16.03,3.47,McCafe Drinks,Breakfast
+215,2023/06/15,Thu,Malaysia,Chocolate Marble Cake,8.40,1.82,McCafe Cakes,Breakfast
+216,2023/06/15,Thu,Malaysia,Butter Cake,8.40,1.82,McCafe Cakes,Breakfast
+217,2023/06/15,Thu,Malaysia,Belgium Chocolate Cake,13.11,2.84,McCafe Cakes,Breakfast
+218,2023/06/15,Thu,Malaysia,Red Velvet Cake,13.11,2.84,McCafe Cakes,Breakfast
+219,2023/06/15,Thu,Malaysia,Classic Cheesecake,13.11,2.84,McCafe Cakes,Breakfast
+220,2023/06/15,Thu,Malaysia,Kopi Susu (S) + McCafé Cake,12.17,2.63,McCafe Cakes,Breakfast
+221,2023/06/15,Thu,Malaysia,Iced Kopi Susu (M) + McCafé Cake,12.17,2.63,McCafe Cakes,Breakfast
+222,2023/06/15,Thu,Malaysia,Belgium Chocolate + McCafé Drink,15.08,3.26,McCafe Cakes,Breakfast
+223,2023/06/15,Thu,Malaysia,Red Velvet Cake + McCafé Drink,15.08,3.26,McCafe Cakes,Breakfast
+224,2023/06/15,Thu,Malaysia,Classic Cheesecake + McCafé Drink,16.03,3.47,McCafe Cakes,Breakfast
+225,2023/06/15,Thu,Malaysia,Blueberry Cream Cheese Pie,5.33,1.15,Desserts & Sides,Breakfast
+226,2023/06/15,Thu,Malaysia,Lotus Biscoff McFlurry™,8.73,1.89,Desserts & Sides,Breakfast
+227,2023/06/15,Thu,Malaysia,OREO® McFlurry™,7.78,1.68,Desserts & Sides,Breakfast
+228,2023/06/15,Thu,Malaysia,Chocolate Sundae,5.90,1.28,Desserts & Sides,Breakfast
+229,2023/06/15,Thu,Malaysia,Strawberry Sundae,5.90,1.28,Desserts & Sides,Breakfast
+230,2023/06/15,Thu,Malaysia,Hash Browns,4.72,1.02,Desserts & Sides,Breakfast
+231,2023/06/15,Thu,Malaysia,Hot MILO®,5.66,1.22,Drinks,Breakfast
+232,2023/06/15,Thu,Malaysia,Hot Tea,5.47,1.18,Drinks,Breakfast
+233,2023/06/15,Thu,Malaysia,Hot Teh Tarik,5.47,1.18,Drinks,Breakfast
+234,2023/06/15,Thu,Malaysia,MILO®,7.83,1.69,Drinks,Breakfast
+235,2023/06/15,Thu,Malaysia,Mango McFizz,6.79,1.47,Drinks,Breakfast
+236,2023/06/15,Thu,Malaysia,Lychee Berry McFizz,6.51,1.41,Drinks,Breakfast
+237,2023/06/15,Thu,Malaysia,Coca-Cola®,5.47,1.18,Drinks,Breakfast
+238,2023/06/15,Thu,Malaysia,100 Plus,5.47,1.18,Drinks,Breakfast
+239,2023/06/15,Thu,Malaysia,Sprite®,5.47,1.18,Drinks,Breakfast
+240,2023/06/15,Thu,Malaysia,Iced Lemon Tea,6.89,1.49,Drinks,Breakfast
+241,2023/06/15,Thu,Malaysia,Minute Maid® Orange Juice,7.83,1.69,Drinks,Breakfast
+242,2023/06/15,Thu,Malaysia,Drinking water,4.72,1.02,Drinks,Breakfast
+243,2023/06/15,Thu,Malaysia,Sambal,0.94,0.20,Condiments,Breakfast
