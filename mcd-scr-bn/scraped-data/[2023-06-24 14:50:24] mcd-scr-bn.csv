@@ -1,0 +1,43 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2023/06/24,Sat,Brunei,Big Mac (Value Meal) — Medium,6.50,4.81,Regular Value Meal
+2,2023/06/24,Sat,Brunei,Big Mac (Value Meal) — Large,7.10,5.26,Regular Value Meal
+3,2023/06/24,Sat,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.59,Regular Value Meal
+4,2023/06/24,Sat,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,5.03,Regular Value Meal
+5,2023/06/24,Sat,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,5.03,Regular Value Meal
+6,2023/06/24,Sat,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.48,Regular Value Meal
+7,2023/06/24,Sat,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.15,Regular Value Meal
+8,2023/06/24,Sat,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.59,Regular Value Meal
+9,2023/06/24,Sat,Brunei,Big Mac (A La Carte),5.50,4.07,Regular Value Meal
+10,2023/06/24,Sat,Brunei,Double Cheeseburger (A La Carte),5.10,3.78,Regular Value Meal
+11,2023/06/24,Sat,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.15,Regular Value Meal
+12,2023/06/24,Sat,Brunei,Filet-O-Fish (A La Carte),3.80,2.81,Regular Value Meal
+13,2023/06/24,Sat,Brunei,Chicken Sandwich (A La Carte),5.50,4.07,Regular Value Meal
+14,2023/06/24,Sat,Brunei,Chicken Sandwich (Value Meal) — Medium,6.70,4.96,Regular Value Meal
+15,2023/06/24,Sat,Brunei,Chicken Sandwich (Value Meal) — Large,7.30,5.40,Regular Value Meal
+16,2023/06/24,Sat,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.41,Regular Value Meal
+17,2023/06/24,Sat,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.52,Regular Value Meal
+18,2023/06/24,Sat,Brunei,Happy Meal with Fruit Tea — Happy Meal Ayam Goreng McD (1pc),5.00,3.70,Happy Meal
+19,2023/06/24,Sat,Brunei,Happy Meal with Fruit Tea — Happy Meal Beef Burger,4.70,3.48,Happy Meal
+20,2023/06/24,Sat,Brunei,Happy Meal with Fruit Tea — Happy Meal Bubur Mcd (S),5.00,3.70,Happy Meal
+21,2023/06/24,Sat,Brunei,Happy Meal with Fruit Tea — Happy Cheeseburger,5.00,3.70,Happy Meal
+22,2023/06/24,Sat,Brunei,Happy Meal with Fruit Tea — Happy Meal Fish Nuggets,5.00,3.70,Happy Meal
+23,2023/06/24,Sat,Brunei,Fish Bites,2.20,1.63,Sides
+24,2023/06/24,Sat,Brunei,2pcs Ayam Goreng McD,5.30,3.92,Sides
+25,2023/06/24,Sat,Brunei,5pcs Ayam Goreng McD,12.00,8.88,Sides
+26,2023/06/24,Sat,Brunei,9pcs Ayam Goreng McD,21.80,16.14,Sides
+27,2023/06/24,Sat,Brunei,Rice,0.80,0.59,Sides
+28,2023/06/24,Sat,Brunei,Sweet & Sour Dipping Sauce,0.50,0.37,Sides
+29,2023/06/24,Sat,Brunei,French Fries — Medium,2.20,1.63,Sides
+30,2023/06/24,Sat,Brunei,French Fries — Large,2.50,1.85,Sides
+31,2023/06/24,Sat,Brunei,Bubur McD — Small,3.20,2.37,Sides
+32,2023/06/24,Sat,Brunei,Bubur McD — Large,3.70,2.74,Sides
+33,2023/06/24,Sat,Brunei,Cakoi — 1 Pc,1.50,1.11,Sides
+34,2023/06/24,Sat,Brunei,Cakoi — 2 Pc,2.80,2.07,Sides
+35,2023/06/24,Sat,Brunei,Sauces — Tartar Sauce,0.50,0.37,Sides
+36,2023/06/24,Sat,Brunei,Sauces — Nasi Lemak McD Sambal,0.50,0.37,Sides
+37,2023/06/24,Sat,Brunei,Samurai — Ala Carte,6.20,4.59,Promotion : Limited Time Offer
+38,2023/06/24,Sat,Brunei,Samurai — Medium,8.80,6.52,Promotion : Limited Time Offer
+39,2023/06/24,Sat,Brunei,Samurai — Large,9.10,6.74,Promotion : Limited Time Offer
+40,2023/06/24,Sat,Brunei,Shogun — Ala Carte,6.80,5.03,Promotion : Limited Time Offer
+41,2023/06/24,Sat,Brunei,Shogun — Medium,9.40,6.96,Promotion : Limited Time Offer
+42,2023/06/24,Sat,Brunei,Shogun — Large,9.70,7.18,Promotion : Limited Time Offer
