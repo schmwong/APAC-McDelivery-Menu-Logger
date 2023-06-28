@@ -70,7 +70,7 @@ Price figures recorded here are from each territory's online McDelivery menu, wh
 [hk-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-hk-auto.yml
 
 [in]: https://www.mcdelivery.co.in/home
-[India]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-req-in/mcd-req-in.py
+[India]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-req-in/mcd-api-in.py
 [mcd-req-in.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-req-in/scraped-data
 [in-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-in-auto.yml/badge.svg
 [in-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-in-auto.yml
