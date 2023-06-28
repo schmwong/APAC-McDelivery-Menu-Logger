@@ -32,5 +32,5 @@ jobs:
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Scraped: [${timestamp}] mcd-req-in (auto)" 
+        git commit -m "Scraped: [${timestamp}] mcd-req-in (manual)" 
         git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
