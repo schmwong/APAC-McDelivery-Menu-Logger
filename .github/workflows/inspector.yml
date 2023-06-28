@@ -5,7 +5,7 @@ name: inspector
 on:
   workflow_run:
     workflows: 
-      [scrape-au-auto, scrape-au-manual, scrape-bn-auto, scrape-fj-auto, scrape-fj-manual, scrape-hk-auto, scrape-id-auto, scrape-in-auto, scrape-id-manual, scrape-jp-auto, scrape-jp-manual, scrape-kr-auto, scrape-lk-auto, scrape-my-auto, scrape-nz-auto, scrape-nz-manual, scrape-ph-auto, scrape-ph-manual, scrape-pk-auto, scrape-sg-auto, scrape-sg-manual, scrape-th-auto, scrape-tw-auto, scrape-tw-manual, scrape-vn-auto ]
+      [scrape-au-auto, scrape-au-manual, scrape-bn-auto, scrape-fj-auto, scrape-fj-manual, scrape-hk-auto, scrape-id-auto, scrape-in-auto, scrape-in-manual, scrape-id-manual, scrape-jp-auto, scrape-jp-manual, scrape-kr-auto, scrape-lk-auto, scrape-my-auto, scrape-nz-auto, scrape-nz-manual, scrape-ph-auto, scrape-ph-manual, scrape-pk-auto, scrape-sg-auto, scrape-sg-manual, scrape-th-auto, scrape-tw-auto, scrape-tw-manual, scrape-vn-auto ]
     types: [completed]
     
     

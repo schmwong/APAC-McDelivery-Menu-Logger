@@ -1,11 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
-name: scrape-in-auto
+name: scrape-in-manual
 
 # Controls when the workflow will run
 on:
-  schedule:
-  - cron: 36 17 * * *           # runs once a day at 01:36 UTC (07:06 IST)
+  [workflow_dispatch]
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
