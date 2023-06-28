@@ -1,0 +1,36 @@
+name: scrape-in-manual
+
+# Controls when the workflow will run
+on:
+  [workflow_dispatch]
+concurrency:
+  group: scrape-and-schedule
+  cancel-in-progress: false
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v3       # checkout the repository content to github runner.
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: execute py script       # run mcd-api-in.py to get the latest data
+      working-directory: ./mcd-req-in
+      run: |
+        python mcd-api-in.py
+    - name: Commit and push if it changed
+      run: |
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Scraped: [${timestamp}] mcd-req-in (auto)" 
+        git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
