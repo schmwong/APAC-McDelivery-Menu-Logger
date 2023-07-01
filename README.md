@@ -75,14 +75,14 @@ Price figures recorded here are from each territory's online McDelivery menu, wh
 [in-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-in-auto.yml/badge.svg
 [in-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-in-auto.yml
 
-[id]: https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=1&locale=en"
+[id]: https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=1&locale=en
 [Indonesia]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-id/mcd-bs4-id.py
 [mcd-bs4-id.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-id/scraped-data
 [id-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-id-auto.yml/badge.svg
 [id-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-id-auto.yml
 
-[jp]: https://mcdelivery.mcdonalds.com/jp/browse/menu.html?daypartId=1&catId=1&locale=en
-[Japan]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-jp/mcd-bs4-jp.py
+[jp]: https://www.mcdonalds.co.jp/en/mcdelivery/menu/
+[Japan]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-jp/mcd-bs4-jp-v2.py
 [mcd-bs4-jp.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-jp/scraped-data
 [jp-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-jp-auto.yml/badge.svg
 [jp-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-jp-auto.yml
