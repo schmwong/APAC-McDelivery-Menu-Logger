@@ -154,7 +154,7 @@ class McdScrPhSpider(scrapy.Spider):
 	    ]
 	
 			auth_headers = {
-				':authority': 'haku-prod-cms-service.mcdelivery.com.ph',
+				'authority': 'haku-prod-cms-service.mcdelivery.com.ph',
 				'accept': 'application/json, text/plain, */*',
 				'accept-language': 'en-GB,en;q=0.9',
 				'access-control-allow-origin': '*',
