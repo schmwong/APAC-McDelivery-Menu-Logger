@@ -89,7 +89,7 @@ class McdScrPhSpider(scrapy.Spider):
 	
 			# Set the headers here. The important part is "application/json"
 			headers = {
-				":authority": "haku-prod-api-service.mcdelivery.com.ph",
+				"authority": "haku-prod-api-service.mcdelivery.com.ph",
 				"accept": "application/json, text/plain, */*",
 				"accept-language": "en-GB,en;q=0.9",
 				"access-control-allow-origin": "*",
