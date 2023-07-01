@@ -33,11 +33,11 @@ try:
 
   start = time()
 
-	# --------------------------------------- #
-	# Getting the Live Exchange Rate from XE  #
-	# --------------------------------------- #
-	
-	# Getting the correct XE webpage (all elements)
+  # --------------------------------------- #
+  # Getting the Live Exchange Rate from XE  #
+  # --------------------------------------- #
+
+  # Getting the correct XE webpage (all elements)
   XE = BS(session.get("https://www.xe.com/currencyconverter/convert/?Amount=1&From=JPY&To=USD",
 	        headers=my_headers).content, "lxml")
 	
@@ -51,9 +51,9 @@ try:
   print(f"1 JPY = {exchange_rate} USD on {local_datetime.strftime('%A, %-d %B %Y')}\n")
 	
 	
-	# --------------------------------------- #
-	# List of URLS of Webpages to be Scraped  #
-	# --------------------------------------- #
+  # --------------------------------------- #
+  # List of URLS of Webpages to be Scraped  #
+  # --------------------------------------- #
 	
   # start_URLs = [
     # Old Regular Menu
@@ -66,11 +66,11 @@ try:
   start_url = "https://www.mcdonalds.co.jp/en/mcdelivery/menu/"
 
 
-	# -------------------------------------- #
-	# Parsing the data into Dictionary List  #
-	# -------------------------------------- #
-	
-	# Initialising the list object [] to hold dictionaries {}
+  # -------------------------------------- #
+  # Parsing the data into Dictionary List  #
+  # -------------------------------------- #
+
+  # Initialising the list object [] to hold dictionaries {}
   product_list = []
 
   first_page = BS(session.get(url=start_url, headers=my_headers).content, "lxml")
@@ -108,9 +108,9 @@ try:
       product_list.append(product)
 
 
-	# ---------------------------------------------------- #
-	# Constructing the Dataframe and Exporting it to File  #
-	# ---------------------------------------------------- #
+  # ---------------------------------------------------- #
+  # Constructing the Dataframe and Exporting it to File  #
+  # ---------------------------------------------------- #
 	
   product_list_df = pd.DataFrame(product_list)
   product_list_df.drop_duplicates(
@@ -119,6 +119,7 @@ try:
   product_list_df.index = pd.RangeIndex(
       start=1, stop=(len(product_list_df.index) + 1), step=1)
 	
+  print(f"Scrape time: {round((time() - start), 6)} seconds")
   print(product_list_df)
 
   timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
@@ -131,6 +132,10 @@ try:
 
   product_list_df.to_csv((output_dir / output_file),
                           float_format="%.2f", encoding="utf-8")
+  
+  print(f"Write CSV time: {round((time() - start), 6)} seconds\n")
+  print(f'''\n\nExported to file:
+				  https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-jp/scraped-data/{output_file.replace(" ", "%20")}\n\n ============ \n\n\n\n\n\n''')
 
   # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-jp.csv"
 
