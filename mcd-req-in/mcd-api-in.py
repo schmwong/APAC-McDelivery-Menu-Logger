@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 import re
 import json
-from csv import DictWriter
+from csv import DictWriter, DictReader
 from pathlib import Path
 import traceback
 from time import time
@@ -63,31 +63,65 @@ def fetch_mcd_json() -> list[dict]:
   with urllib.request.urlopen(req) as response:
     menu_items = json.loads(response.read())
     return menu_items
+  
 
 
-def filepath() -> Path:
+def output_filename() -> str:
   timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
-  output_file = str(timestamp + " mcd-api-in.csv")
+  return str(timestamp + " mcd-api-in.csv")
+
+
+def filepath(filename) -> Path:
   output_dir = Path(Path.cwd() / "scraped-data")
   output_dir.mkdir(parents=True, exist_ok=True)
-  return Path(output_dir / output_file)
+  return Path(output_dir / filename)
 
 
-def write_mcd_csv(menu_items: list[dict], exchange_rate: float):
-  with open(filepath(), "w") as csvfile:
-    fieldnames = ["Date", "Day", "Territory", "Menu Item", "Price (INR)", "Price (USD)", "Category"]
+def write_mcd_csv(menu_items, exchange_rate, filepath):
+  with open(filepath, "w") as csvfile:
+    fieldnames = ["", "Date", "Day", "Territory", "Menu Item", "Price (INR)", "Price (USD)", "Category"]
     writer = DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-    for item in menu_items:
-      writer.writerow({
+    for i, item in enumerate(menu_items, start=1):
+      row = {
+        "": i,
         "Date": local_date,
         "Day": local_day,
         "Territory": "India",
         "Menu Item": item["item_name"].replace("\t", ""),
-        "Price (INR)": item["item_price"]["discount_price"],
-        "Price (USD)": round((item["item_price"]["discount_price"] * exchange_rate), 2),
+        "Price (INR)": f'{item["item_price"]["discount_price"]:.2f}',
+        "Price (USD)": f'{round((item["item_price"]["discount_price"] * exchange_rate), 2):.2f}',
         "Category": item["category_name"]
-      })
+      }
+      writer.writerow(row)
+
+
+def print_mcd_csv(filepath: Path):
+  with open(filepath, "r") as csvfile:
+    reader = DictReader(csvfile)
+    # Read all rows into a list of dictionaries
+    rows = list(reader)
+    # Get the keys (column names) from the first row
+    keys = reader.fieldnames
+    # Get the maximum length of each column
+    max_lengths = [max(len(row[key]) for row in rows + [{key: key}]) for key in keys]
+    # Print the headers
+    for key, max_length in zip(keys, max_lengths):
+        print(f"{key:{max_length}}", end="  ")
+    print()
+    # Print the separator line
+    def print_separator_line(char='-'):
+        for max_length in max_lengths:
+          print(char * max_length, end='  ')
+        print()
+    print_separator_line()
+    # Print the data rows
+    for row in rows:
+        for key, max_length in zip(keys, max_lengths):
+          print(f'{row[key]:{max_length}}', end='  ')
+        print()
+    print_separator_line()
+
 
 
 if __name__ == "__main__":
@@ -99,8 +133,16 @@ if __name__ == "__main__":
     print(f"1 INR = {fx_inr_usd} USD on {local_datetime.strftime('%A, %-d %B %Y')}\n")
     data = fetch_mcd_json()
     print(f"Fetch JSON time: {round((time() - start), 6)} seconds")
-    write_mcd_csv(data, fx_inr_usd)
-    print(f"Write CSV time: {round((time() - start), 6)} seconds")
+    print(f"Write CSV time: {round((time() - start), 6)} seconds\n")
+    output_file = output_filename()
+    output_filepath = filepath(output_file)
+    write_mcd_csv(data, fx_inr_usd, output_filepath)
+    print_mcd_csv(output_filepath)
+    print(f'''\n\nExported to file:
+				  https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-req-in/scraped-data/{output_file.replace(" ", "%20")}\n\n ============ \n\n\n\n\n\n''')
+    
   except Exception:
     print(f"\n\n---\nOne or more errors occurred:\n\n{traceback.format_exc()}\n---\n\n")
-    
+
+
+# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-api-in.csv"
