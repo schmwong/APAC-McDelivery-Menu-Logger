@@ -230,13 +230,14 @@ class McdScrPhSpider(scrapy.Spider):
 			exchange_rate = response.meta["fx"]
 	
 			url_default = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductListDefault"
+			url_default2 = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductList"
 			url_specific = "https://haku-prod-cms-service.mcdelivery.com.ph/api/v2/customerNewGetProductList2"
 	
 			auth_headers = response.meta["headers"]
 			body = response.meta["body"]
 			
 			yield scrapy.Request(
-				url=url_default, headers=auth_headers, body=body, method="POST",
+				url=url_default2, headers=auth_headers, body=body, method="POST",
 				callback=self.parse_products,
 				meta={"categories": category_dict, "fx": exchange_rate, "url_specific": url_specific, "headers": auth_headers, "body": body}
 			)
