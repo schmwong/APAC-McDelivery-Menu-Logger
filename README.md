@@ -136,7 +136,7 @@ Price figures recorded here are from each territory's online McDelivery menu, wh
 [tw-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-tw-auto.yml
 
 [th]: https://www.mcdonalds.co.th/mcDelivery/nonMember/category/promotion&lang=en
-[Thailand]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-th/mcd-bs4-th.py
+[Thailand]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-th/mcd-bs4-th-v2.py
 [mcd-bs4-th.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-th/scraped-data
 [th-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-th-auto.yml/badge.svg
 [th-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-th-auto.yml
