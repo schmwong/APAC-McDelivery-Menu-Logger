@@ -98,7 +98,7 @@ try:
                 r"[a-zA-Z]+",
                 ((browser.find_element(
                     By.CSS_SELECTOR,
-                    f'nav.scrollspy-menu a[data-slug="{category_id}"]'
+                    f'nav.scrollspy-menu a[href="#{category_id}"]'
                 )).text)
             )
         )
