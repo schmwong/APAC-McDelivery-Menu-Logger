@@ -1,0 +1,286 @@
+,Date,Day,Territory,Menu Item,Price (PHP),Price (USD),Category,Menu
+1,2023/07/22,Sat,Philippines,McSpaghetti Platter,199.00,3.64,McDelivery Exclusives,Regular
+2,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets Bundle,495.00,9.04,McDelivery Exclusives,Regular
+3,2023/07/22,Sat,Philippines,6-pc. Chicken McShare Box,399.00,7.29,McDelivery Exclusives,All Day
+4,2023/07/22,Sat,Philippines,8-pc Chicken McShare Box,519.00,9.48,McDelivery Exclusives,All Day
+5,2023/07/22,Sat,Philippines,Cheeseburger Meal,142.00,2.59,McDelivery Exclusives,Regular
+6,2023/07/22,Sat,Philippines,Double Cheeseburger Meal,195.00,3.56,McDelivery Exclusives,Regular
+7,2023/07/22,Sat,Philippines,Double Big Mac Meal,327.00,5.97,McDelivery Exclusives,Regular
+8,2023/07/22,Sat,Philippines,Double Quarter Pounder w/ Cheese Meal,323.00,5.90,McDelivery Exclusives,Regular
+9,2023/07/22,Sat,Philippines,Triple Cheeseburger Meal,242.00,4.42,McDelivery Exclusives,Regular
+10,2023/07/22,Sat,Philippines,Double McChicken Meal,248.00,4.53,McDelivery Exclusives,Regular
+11,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & Burger McDo,217.00,3.96,McDelivery Exclusives,Breakfast
+12,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & McFlurry,220.00,4.02,McDelivery Exclusives,All Day
+13,2023/07/22,Sat,Philippines,The BCB Meal,260.00,4.75,McDelivery Exclusives,Regular
+14,2023/07/22,Sat,Philippines,Snack Burger McShare,380.00,6.94,Featured,Regular
+15,2023/07/22,Sat,Philippines,BFF Fries N' McFloat Combo,282.00,5.15,Featured,Regular
+16,2023/07/22,Sat,Philippines,McShare Bundle for 3,589.00,10.76,Featured,Regular
+17,2023/07/22,Sat,Philippines,McShare Bundle for 4,809.00,14.78,Featured,Regular
+18,2023/07/22,Sat,Philippines,Big Breakfast Meal,179.00,3.27,Featured,Breakfast
+19,2023/07/22,Sat,Philippines,Sausage McMuffin w/ Egg Meal,164.00,3.00,Featured,Breakfast
+20,2023/07/22,Sat,Philippines,Egg McMuffin Meal,154.00,2.81,Featured,Breakfast
+21,2023/07/22,Sat,Philippines,2-pc. Hotcakes & Sausage Meal,170.00,3.11,Featured,Breakfast
+22,2023/07/22,Sat,Philippines,Longganisa w/ Egg Meal,184.00,3.36,Featured,Breakfast
+23,2023/07/22,Sat,Philippines,McChicken Meal,215.00,3.93,Featured,Regular
+24,2023/07/22,Sat,Philippines,McSpaghetti Platter Good for 10,456.00,8.33,Group Meals,Regular
+25,2023/07/22,Sat,Philippines,McSpaghetti Platter Good for 15,676.00,12.35,Group Meals,Regular
+26,2023/07/22,Sat,Philippines,McSpaghetti Platter Good for 20,896.00,16.37,Group Meals,Regular
+27,2023/07/22,Sat,Philippines,BFF Fries Good for 10,665.00,12.15,Group Meals,All Day
+28,2023/07/22,Sat,Philippines,Plain Rice Good for 10,275.00,5.02,Group Meals,All Day
+29,2023/07/22,Sat,Philippines,Plain Rice Good for 20,525.00,9.59,Group Meals,All Day
+30,2023/07/22,Sat,Philippines,Plain Rice Good for 15,400.00,7.31,Group Meals,All Day
+31,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets,350.00,6.40,Group Meals,Regular
+32,2023/07/22,Sat,Philippines,10-pc. Chicken McShare Box,635.00,11.60,Group Meals,All Day
+33,2023/07/22,Sat,Philippines,Snack Burger McShare,380.00,6.94,Group Meals,Regular
+34,2023/07/22,Sat,Philippines,40-pc. Chicken McNuggets,700.00,12.79,Group Meals,Regular
+35,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets Bundle,495.00,9.04,Group Meals,Regular
+36,2023/07/22,Sat,Philippines,20-pc. Chicken McShare Box,1130.00,20.65,Group Meals,All Day
+37,2023/07/22,Sat,Philippines,60-pc. Chicken McNuggets,1050.00,19.19,Group Meals,Regular
+38,2023/07/22,Sat,Philippines,80-pc. Chicken McNuggets,1400.00,25.58,Group Meals,Regular
+39,2023/07/22,Sat,Philippines,BFF Fries Good for 15,1045.00,19.09,Group Meals,All Day
+40,2023/07/22,Sat,Philippines,BFF Fries Good for 20,1295.00,23.66,Group Meals,All Day
+41,2023/07/22,Sat,Philippines,BFF Fries N' McFloat Combo,282.00,5.15,Group Meals,Regular
+42,2023/07/22,Sat,Philippines,BFF Shake Shake Fries BBQ N' McFloat Combo,284.00,5.19,Group Meals,All Day
+43,2023/07/22,Sat,Philippines,BFF Shake Shake Fries Cheese N' McFloat Combo,284.00,5.19,Group Meals,All Day
+44,2023/07/22,Sat,Philippines,15-pc. Chicken McShare Box,865.00,15.80,Group Meals,All Day
+45,2023/07/22,Sat,Philippines,McShare Bundle for 3,589.00,10.76,Group Meals,Regular
+46,2023/07/22,Sat,Philippines,McShare Bundle for 4,809.00,14.78,Group Meals,Regular
+47,2023/07/22,Sat,Philippines,10-pc. Chicken McNuggets,175.00,3.20,Group Meals,Regular
+48,2023/07/22,Sat,Philippines,20-pc. Spicy Chicken McShare Box,1210.00,22.11,Group Meals,All Day
+49,2023/07/22,Sat,Philippines,10-pc. Spicy Chicken McShare Box,675.00,12.33,Group Meals,All Day
+50,2023/07/22,Sat,Philippines,15-pc. Spicy Chicken McShare Box,925.00,16.90,Group Meals,All Day
+51,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets,350.00,6.40,Chicken,Regular
+52,2023/07/22,Sat,Philippines,40-pc. Chicken McNuggets,700.00,12.79,Chicken,Regular
+53,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets Bundle,495.00,9.04,Chicken,Regular
+54,2023/07/22,Sat,Philippines,60-pc. Chicken McNuggets,1050.00,19.19,Chicken,Regular
+55,2023/07/22,Sat,Philippines,80-pc. Chicken McNuggets,1400.00,25.58,Chicken,Regular
+56,2023/07/22,Sat,Philippines,10-pc. Chicken McNuggets,175.00,3.20,Chicken,Regular
+57,2023/07/22,Sat,Philippines,6-pc. Chicken McNuggets,99.00,1.81,Chicken,Regular
+58,2023/07/22,Sat,Philippines,20-pc. Spicy Chicken McShare Box,1210.00,22.11,Chicken,All Day
+59,2023/07/22,Sat,Philippines,10-pc. Spicy Chicken McShare Box,675.00,12.33,Chicken,All Day
+60,2023/07/22,Sat,Philippines,15-pc. Spicy Chicken McShare Box,925.00,16.90,Chicken,All Day
+61,2023/07/22,Sat,Philippines,2-pc. Chicken McDo Meal,222.00,4.06,Chicken,All Day
+62,2023/07/22,Sat,Philippines,2-pc. Spicy Chicken McDo Meal,230.00,4.20,Chicken,All Day
+63,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo Meal,135.00,2.47,Chicken,All Day
+64,2023/07/22,Sat,Philippines,1-pc. Chicken McDo w/ McSpaghetti Meal,189.00,3.45,Chicken,Regular
+65,2023/07/22,Sat,Philippines,Mega Meal - Spicy Chicken McDo w/ Rice & McSpaghetti,213.00,3.89,Chicken,Regular
+66,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet Meal,115.00,2.10,Chicken,All Day
+67,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet Ala King Meal,119.00,2.17,Chicken,All Day
+68,2023/07/22,Sat,Philippines,1-pc. Chicken McDo Meal,131.00,2.39,Chicken,All Day
+69,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo w/ McSpaghetti Meal,193.00,3.53,Chicken,Regular
+70,2023/07/22,Sat,Philippines,6-pc. Chicken McNuggets w/ Rice Meal,182.00,3.33,Chicken,Regular
+71,2023/07/22,Sat,Philippines,McChicken Meal,215.00,3.93,Chicken,Regular
+72,2023/07/22,Sat,Philippines,1-pc. Chicken McDo & Fries Meal,187.00,3.42,Chicken,All Day
+73,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Fries Meal,191.00,3.49,Chicken,All Day
+74,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet w/ Fries Meal,153.00,2.80,Chicken,All Day
+75,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet Ala King w/ Fries Meal,160.00,2.92,Chicken,All Day
+76,2023/07/22,Sat,Philippines,6-pc. Chicken McNuggets w/ Fries Meal,203.00,3.71,Chicken,Regular
+77,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & Burger McDo,217.00,3.96,Chicken,Breakfast
+78,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & McFlurry,220.00,4.02,Chicken,All Day
+79,2023/07/22,Sat,Philippines,Mega Meal - Spicy Chicken McDo w/ Fries & McFlurry,224.00,4.09,Chicken,Regular
+80,2023/07/22,Sat,Philippines,Mega Meal - Spicy Chicken McDo w/ Fries & Burger McDo,221.00,4.04,Chicken,All Day
+81,2023/07/22,Sat,Philippines,2-pc. Chicken McDo & Fries Meal,267.00,4.88,Chicken,All Day
+82,2023/07/22,Sat,Philippines,2-pc. Spicy Chicken McDo & Fries Meal,275.00,5.02,Chicken,All Day
+83,2023/07/22,Sat,Philippines,1-pc. Chicken McDo w/ McSpaghetti & Fries Meal,242.00,4.42,Chicken,Regular
+84,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo w/ McSpaghetti & Fries Meal,246.00,4.49,Chicken,Regular
+85,2023/07/22,Sat,Philippines,Big Mac Meal,267.00,4.88,Burgers,Regular
+86,2023/07/22,Sat,Philippines,Burger McDo Meal,140.00,2.56,Burgers,All Day
+87,2023/07/22,Sat,Philippines,Cheeseburger Meal,142.00,2.59,Burgers,Regular
+88,2023/07/22,Sat,Philippines,Double Cheeseburger Meal,195.00,3.56,Burgers,Regular
+89,2023/07/22,Sat,Philippines,McChicken Meal,215.00,3.93,Burgers,Regular
+90,2023/07/22,Sat,Philippines,Quarter Pounder w/ Cheese Meal,267.00,4.88,Burgers,Regular
+91,2023/07/22,Sat,Philippines,Double Big Mac Meal,327.00,5.97,Burgers,Regular
+92,2023/07/22,Sat,Philippines,Double Quarter Pounder w/ Cheese Meal,323.00,5.90,Burgers,Regular
+93,2023/07/22,Sat,Philippines,Triple Cheeseburger Meal,242.00,4.42,Burgers,Regular
+94,2023/07/22,Sat,Philippines,Double McChicken Meal,248.00,4.53,Burgers,Regular
+95,2023/07/22,Sat,Philippines,McCrispy Chicken Sandwich Meal,157.00,2.87,Burgers,All Day
+96,2023/07/22,Sat,Philippines,The BCB Meal,260.00,4.75,Burgers,Regular
+97,2023/07/22,Sat,Philippines,Burger McDo w/ Lettuce & Tomatoes Meal,165.00,3.01,Burgers,Regular
+98,2023/07/22,Sat,Philippines,McCrispy Chicken Sandwich w/ Lettuce & Tomatoes Meal,182.00,3.33,Burgers,Regular
+99,2023/07/22,Sat,Philippines,Double Cheeseburger w/ Lettuce & Tomatoes Meal,248.00,4.53,Burgers,Regular
+100,2023/07/22,Sat,Philippines,"Quarter Pounder w/ Cheese, Lettuce, & Tomatoes Meal",292.00,5.34,Burgers,Regular
+101,2023/07/22,Sat,Philippines,McSpaghetti w/ Burger McDo Meal,142.00,2.59,McSpaghetti,Regular
+102,2023/07/22,Sat,Philippines,1-pc. Chicken McDo w/ McSpaghetti Meal,189.00,3.45,McSpaghetti,Regular
+103,2023/07/22,Sat,Philippines,McSpaghetti Meal,99.00,1.81,McSpaghetti,Regular
+104,2023/07/22,Sat,Philippines,Mega Meal - Spicy Chicken McDo w/ Rice & McSpaghetti,213.00,3.89,McSpaghetti,Regular
+105,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo w/ McSpaghetti Meal,193.00,3.53,McSpaghetti,Regular
+106,2023/07/22,Sat,Philippines,McSpaghetti w/ Fries Meal,160.00,2.92,McSpaghetti,Regular
+107,2023/07/22,Sat,Philippines,2-pc. Mushroom Pepper Steak Meal,135.00,2.47,Rice Bowls,Regular
+108,2023/07/22,Sat,Philippines,1-pc. Mushroom Pepper Steak Meal,105.00,1.92,Rice Bowls,Regular
+109,2023/07/22,Sat,Philippines,2-pc. Mushroom Pepper Steak & Fries Meal,197.00,3.60,Rice Bowls,Regular
+110,2023/07/22,Sat,Philippines,1-pc. Mushroom Pepper Steak & Fries Meal,144.00,2.63,Rice Bowls,Regular
+111,2023/07/22,Sat,Philippines,McFlurry® with Oreo®,59.00,1.08,Desserts & Drinks,All Day
+112,2023/07/22,Sat,Philippines,Apple Pie,43.00,0.79,Desserts & Drinks,All Day
+113,2023/07/22,Sat,Philippines,Hot Fudge Sundae,53.00,0.97,Desserts & Drinks,All Day
+114,2023/07/22,Sat,Philippines,Hot Caramel Sundae,53.00,0.97,Desserts & Drinks,All Day
+115,2023/07/22,Sat,Philippines,Coke McFloat,55.00,1.00,Desserts & Drinks,All Day
+116,2023/07/22,Sat,Philippines,Coke,73.00,1.33,Desserts & Drinks,All Day
+117,2023/07/22,Sat,Philippines,Coke Zero,73.00,1.33,Desserts & Drinks,All Day
+118,2023/07/22,Sat,Philippines,Sprite,73.00,1.33,Desserts & Drinks,All Day
+119,2023/07/22,Sat,Philippines,Orange Juice,79.00,1.44,Desserts & Drinks,All Day
+120,2023/07/22,Sat,Philippines,Pineapple Juice,79.00,1.44,Desserts & Drinks,All Day
+121,2023/07/22,Sat,Philippines,Iced Tea,79.00,1.44,Desserts & Drinks,All Day
+122,2023/07/22,Sat,Philippines,McCafé Coffee Float,79.00,1.44,McCafé,All Day
+123,2023/07/22,Sat,Philippines,Choco Chip Cookies,80.00,1.46,McCafé,All Day
+124,2023/07/22,Sat,Philippines,Oreo Cheesecake,170.00,3.11,McCafé,All Day
+125,2023/07/22,Sat,Philippines,Dark Chocolate Cake,150.00,2.74,McCafé,All Day
+126,2023/07/22,Sat,Philippines,Blueberry Cheesecake,170.00,3.11,McCafé,All Day
+127,2023/07/22,Sat,Philippines,Mushroom Cheese Egg Pie,145.00,2.65,McCafé,All Day
+128,2023/07/22,Sat,Philippines,Sausage Croissant,130.00,2.38,McCafé,All Day
+129,2023/07/22,Sat,Philippines,Chicken Pesto Wrap,175.00,3.20,McCafé,All Day
+130,2023/07/22,Sat,Philippines,Cheese and Bacon Croissant,135.00,2.47,McCafé,All Day
+131,2023/07/22,Sat,Philippines,Caramel Cinnamon,110.00,2.01,McCafé,All Day
+132,2023/07/22,Sat,Philippines,Choco Chip Banana Slice,85.00,1.55,McCafé,All Day
+133,2023/07/22,Sat,Philippines,Macchiato,95.00,1.74,McCafé,All Day
+134,2023/07/22,Sat,Philippines,Espresso,95.00,1.74,McCafé,All Day
+135,2023/07/22,Sat,Philippines,McCafé Black Tea,95.00,1.74,McCafé,All Day
+136,2023/07/22,Sat,Philippines,McCafé Peppermint Tea,95.00,1.74,McCafé,All Day
+137,2023/07/22,Sat,Philippines,McCafé Jasmine Tea,95.00,1.74,McCafé,All Day
+138,2023/07/22,Sat,Philippines,McCafé Premium Roast Coffee,55.00,1.00,McCafé,All Day
+139,2023/07/22,Sat,Philippines,McCafé Iced Coffee Vanilla,69.00,1.26,McCafé,All Day
+140,2023/07/22,Sat,Philippines,McCafé Iced Coffee Original,59.00,1.08,McCafé,All Day
+141,2023/07/22,Sat,Philippines,McCafé Iced Coffee Chocolate,69.00,1.26,McCafé,All Day
+142,2023/07/22,Sat,Philippines,Americano,135.00,2.47,McCafé,All Day
+143,2023/07/22,Sat,Philippines,Cappuccino,145.00,2.65,McCafé,All Day
+144,2023/07/22,Sat,Philippines,Café Latte,145.00,2.65,McCafé,All Day
+145,2023/07/22,Sat,Philippines,Flat White,145.00,2.65,McCafé,All Day
+146,2023/07/22,Sat,Philippines,Mochaccino,150.00,2.74,McCafé,All Day
+147,2023/07/22,Sat,Philippines,McCafé Iced Mocha,155.00,2.83,McCafé,All Day
+148,2023/07/22,Sat,Philippines,McCafé Iced Chocolate,145.00,2.65,McCafé,All Day
+149,2023/07/22,Sat,Philippines,McCafé Iced Latte,145.00,2.65,McCafé,All Day
+150,2023/07/22,Sat,Philippines,McCafé Iced Tea,125.00,2.28,McCafé,All Day
+151,2023/07/22,Sat,Philippines,McCafé Iced Americano,140.00,2.56,McCafé,All Day
+152,2023/07/22,Sat,Philippines,Strawberry Smoothie,155.00,2.83,McCafé,All Day
+153,2023/07/22,Sat,Philippines,Dalandan Smoothie,155.00,2.83,McCafé,All Day
+154,2023/07/22,Sat,Philippines,McCafé Double Choco Frappe,170.00,3.11,McCafé,All Day
+155,2023/07/22,Sat,Philippines,McCafé Mocha Frappe,165.00,3.01,McCafé,All Day
+156,2023/07/22,Sat,Philippines,McCafé Caramel Frappe,165.00,3.01,McCafé,All Day
+157,2023/07/22,Sat,Philippines,McCafé Mocha Oreo Frappe,175.00,3.20,McCafé,All Day
+158,2023/07/22,Sat,Philippines,McCafé Caramel Oreo Frappe,175.00,3.20,McCafé,All Day
+159,2023/07/22,Sat,Philippines,McCafé Strawberry Oreo Frappe,165.00,3.01,McCafé,All Day
+160,2023/07/22,Sat,Philippines,Premium Hot Chocolate,145.00,2.65,McCafé,Breakfast
+161,2023/07/22,Sat,Philippines,BFF Fries,169.00,3.09,Fries & Extras,All Day
+162,2023/07/22,Sat,Philippines,Extra Gravy,11.00,0.20,Fries & Extras,All Day
+163,2023/07/22,Sat,Philippines,Hash Browns,55.00,1.00,Fries & Extras,Breakfast
+164,2023/07/22,Sat,Philippines,Extra McSpaghetti Sauce,25.00,0.46,Fries & Extras,Regular
+165,2023/07/22,Sat,Philippines,Extra Cheese,17.00,0.31,Fries & Extras,All Day
+166,2023/07/22,Sat,Philippines,Extra Butter,11.00,0.20,Fries & Extras,Breakfast
+167,2023/07/22,Sat,Philippines,Extra Maple Syrup,11.00,0.20,Fries & Extras,Breakfast
+168,2023/07/22,Sat,Philippines,Extra Plain Rice,39.00,0.71,Fries & Extras,All Day
+169,2023/07/22,Sat,Philippines,Extra Mayonnaise,17.00,0.31,Fries & Extras,All Day
+170,2023/07/22,Sat,Philippines,Extra McCrispy Chicken Fillet Ala King Sauce,11.00,0.20,Fries & Extras,All Day
+171,2023/07/22,Sat,Philippines,Extra Sweet N' Sour Sauce,17.00,0.31,Fries & Extras,All Day
+172,2023/07/22,Sat,Philippines,Extra BBQ Sauce,17.00,0.31,Fries & Extras,All Day
+173,2023/07/22,Sat,Philippines,Extra Mushroom Pepper Steak Sauce,11.00,0.20,Fries & Extras,Regular
+174,2023/07/22,Sat,Philippines,Extra BBQ Powder,10.00,0.18,Fries & Extras,All Day
+175,2023/07/22,Sat,Philippines,Extra Cheese Powder,10.00,0.18,Fries & Extras,Breakfast
+176,2023/07/22,Sat,Philippines,Extra Garlic Rice,46.00,0.84,Fries & Extras,Breakfast
+177,2023/07/22,Sat,Philippines,Tartar Sauce,17.00,0.31,Fries & Extras,Regular
+178,2023/07/22,Sat,Philippines,Thousand Island Sauce,18.00,0.33,Fries & Extras,Regular
+179,2023/07/22,Sat,Philippines,Cajun Sauce,20.00,0.37,Fries & Extras,Regular
+180,2023/07/22,Sat,Philippines,BFF Shake Shake Fries BBQ N' McFloat Combo,284.00,5.19,Fries & Extras,All Day
+181,2023/07/22,Sat,Philippines,BFF Shake Shake Fries Cheese N' McFloat Combo,284.00,5.19,Fries & Extras,All Day
+182,2023/07/22,Sat,Philippines,Large Fries N' McFloat Combo,135.00,2.47,Fries & Extras,All Day
+183,2023/07/22,Sat,Philippines,Shake Shake Fries BBQ N' McFloat Combo,123.00,2.25,Fries & Extras,All Day
+184,2023/07/22,Sat,Philippines,Large Shake Shake Fries BBQ N' McFloat Combo,148.00,2.70,Fries & Extras,All Day
+185,2023/07/22,Sat,Philippines,Shake Shake Fries Cheese N' McFloat Combo,123.00,2.25,Fries & Extras,All Day
+186,2023/07/22,Sat,Philippines,Large Shake Shake Fries Cheese N' McFloat Combo,148.00,2.70,Fries & Extras,All Day
+187,2023/07/22,Sat,Philippines,Shake Shake Fries BBQ,93.00,1.70,Fries & Extras,All Day
+188,2023/07/22,Sat,Philippines,Shake Shake Fries Cheese,93.00,1.70,Fries & Extras,All Day
+189,2023/07/22,Sat,Philippines,Fries,83.00,1.52,Fries & Extras,All Day
+190,2023/07/22,Sat,Philippines,4-pc. Chicken McNuggets Happy Meal,147.00,2.69,Happy Meal,Regular
+191,2023/07/22,Sat,Philippines,Cheesy Eggdesal Happy Meal,131.00,2.39,Happy Meal,Breakfast
+192,2023/07/22,Sat,Philippines,McSpaghetti Happy Meal,140.00,2.56,Happy Meal,Regular
+193,2023/07/22,Sat,Philippines,2-pc. Hotcakes Happy Meal,126.00,2.30,Happy Meal,Breakfast
+194,2023/07/22,Sat,Philippines,Burger McDo Happy Meal,129.00,2.36,Happy Meal,All Day
+195,2023/07/22,Sat,Philippines,1-pc. Chicken McDo Happy Meal,178.00,3.25,Happy Meal,All Day
+196,2023/07/22,Sat,Philippines,McDo Party Box 999 (Good for 5),999.00,18.25,McDo Party Box,All Day
+197,2023/07/22,Sat,Philippines,Big Breakfast Meal,179.00,3.27,BREAKFAST HOURS,Breakfast
+198,2023/07/22,Sat,Philippines,Sausage McMuffin w/ Egg Meal,164.00,3.00,BREAKFAST HOURS,Breakfast
+199,2023/07/22,Sat,Philippines,Cheesy Eggdesal Meal,130.00,2.38,BREAKFAST HOURS,Breakfast
+200,2023/07/22,Sat,Philippines,2-pc. Hotcakes Meal,99.00,1.81,BREAKFAST HOURS,Breakfast
+201,2023/07/22,Sat,Philippines,Longganisa w/ Egg Meal,184.00,3.36,BREAKFAST HOURS,Breakfast
+202,2023/07/22,Sat,Philippines,2-pc. Mushroom Pepper Steak Meal,135.00,2.47,LUNCH HOURS,Regular
+203,2023/07/22,Sat,Philippines,Big Mac Meal,267.00,4.88,LUNCH HOURS,Regular
+204,2023/07/22,Sat,Philippines,1-pc. Chicken McDo & Fries Meal,187.00,3.42,LUNCH HOURS,All Day
+205,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet w/ Fries Meal,153.00,2.80,LUNCH HOURS,All Day
+206,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Fries Meal,191.00,3.49,LUNCH HOURS,Regular
+207,2023/07/22,Sat,Philippines,Snack Burger McShare,380.00,6.94,PM SNACK HOURS,Regular
+208,2023/07/22,Sat,Philippines,BFF Fries N' McFloat Combo,282.00,5.15,PM SNACK HOURS,Regular
+209,2023/07/22,Sat,Philippines,6-pc. Chicken McNuggets,99.00,1.81,PM SNACK HOURS,Regular
+210,2023/07/22,Sat,Philippines,McCafé Iced Coffee Vanilla,69.00,1.26,PM SNACK HOURS,All Day
+211,2023/07/22,Sat,Philippines,6-pc. Chicken McNuggets w/ Fries Meal,203.00,3.71,PM SNACK HOURS,Regular
+212,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Fries Meal,191.00,3.49,PM SNACK HOURS,Regular
+213,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet Ala King Meal,119.00,2.17,DINNER HOURS,All Day
+214,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Fries Meal,191.00,3.49,DINNER HOURS,Regular
+215,2023/07/22,Sat,Philippines,BFF Fries,169.00,3.09,AFTER DINNER HOURS,All Day
+216,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Fries Meal,191.00,3.49,AFTER DINNER HOURS,Regular
+217,2023/07/22,Sat,Philippines,Fries,83.00,1.52,,All Day
+218,2023/07/22,Sat,Philippines,"Party Hats, Tray Mats, Balloons, and Classic Happy Meal Toys",50.00,0.91,,All Day
+219,2023/07/22,Sat,Philippines,McCrispy Chicken Sandwich Solo,61.00,1.11,,All Day
+220,2023/07/22,Sat,Philippines,Shake Shake Fries BBQ,93.00,1.70,,All Day
+221,2023/07/22,Sat,Philippines,Cheeseburger Solo,74.00,1.35,Add-ons,All Day
+222,2023/07/22,Sat,Philippines,Free 6-pc. Chicken McNuggets,0.00,0.00,Add-ons,All Day
+223,2023/07/22,Sat,Philippines,Shake Shake Fries Honey Butter,75.00,1.37,Add-ons,All Day
+224,2023/07/22,Sat,Philippines,Burger McDo Solo,44.00,0.80,Add-ons,All Day
+225,2023/07/22,Sat,Philippines,Coke McFloat,55.00,1.00,Add-ons,All Day
+226,2023/07/22,Sat,Philippines,Free Big Mac Solo,0.00,0.00,Add-ons,All Day
+227,2023/07/22,Sat,Philippines,Free Quarter Pounder with Cheese,0.00,0.00,Add-ons,All Day
+228,2023/07/22,Sat,Philippines,Free Cheeseburger Solo,0.00,0.00,Add-ons,All Day
+229,2023/07/22,Sat,Philippines,Extra Lettuce,15.00,0.27,Add-ons,Regular
+230,2023/07/22,Sat,Philippines,Extra Tomatoes,15.00,0.27,Add-ons,Regular
+231,2023/07/22,Sat,Philippines,Extra Lettuce & Tomatoes,25.00,0.46,Add-ons,Regular
+232,2023/07/22,Sat,Philippines,Free McCrispy Chicken Sandwich,0.00,0.00,Add-ons,All Day
+233,2023/07/22,Sat,Philippines,Free Double Cheeseburger,0.00,0.00,Add-ons,Regular
+234,2023/07/22,Sat,Philippines,Free Double Cheeseburger Small Meal,0.00,0.00,Add-ons,Regular
+235,2023/07/22,Sat,Philippines,Free McSpicy Solo,0.00,0.00,Add-ons,Regular
+236,2023/07/22,Sat,Philippines,Free 1pc Spicy Chicken McDo Small Meal,0.00,0.00,Add-ons,Regular
+237,2023/07/22,Sat,Philippines,Free Big Mac Solo,0.00,0.00,Add-ons,All Day
+238,2023/07/22,Sat,Philippines,Free Double Cheeseburger Solo,0.00,0.00,Add-ons,All Day
+239,2023/07/22,Sat,Philippines,Free Big Mac Solo,0.00,0.00,Add-ons,All Day
+240,2023/07/22,Sat,Philippines,Free Quarter Pounder w/ Cheese,0.00,0.00,Add-ons,All Day
+241,2023/07/22,Sat,Philippines,Free Double Cheeseburger,0.00,0.00,Add-ons,All Day
+242,2023/07/22,Sat,Philippines,Free McSpaghetti Platter,0.00,0.00,Add-ons,All Day
+243,2023/07/22,Sat,Philippines,Free McSpaghetti Platter,0.00,0.00,Add-ons,All Day
+244,2023/07/22,Sat,Philippines,Free Coke McFloat Medium,0.00,0.00,Add-ons,All Day
+245,2023/07/22,Sat,Philippines,Free Small Fries,0.00,0.00,Add-ons,All Day
+246,2023/07/22,Sat,Philippines,Free Medium Fries,0.00,0.00,Add-ons,All Day
+247,2023/07/22,Sat,Philippines,McSpaghetti Platter,199.00,3.64,McDelivery Exclusive,Regular
+248,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Chimmy,150.00,2.74,Add-ons,All Day
+249,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Cooky,150.00,2.74,Add-ons,All Day
+250,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Koya,150.00,2.74,Add-ons,All Day
+251,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Mang,150.00,2.74,Add-ons,All Day
+252,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - RJ,150.00,2.74,Add-ons,All Day
+253,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Shooky,150.00,2.74,Add-ons,All Day
+254,2023/07/22,Sat,Philippines,Add-on: BT21 Toy - Tata,150.00,2.74,Add-ons,All Day
+255,2023/07/22,Sat,Philippines,20-pc. Chicken McNuggets Bundle,495.00,9.04,McDelivery Exclusive,Regular
+256,2023/07/22,Sat,Philippines,6-pc. Chicken McShare Box,399.00,7.29,McDelivery Exclusive,All Day
+257,2023/07/22,Sat,Philippines,8-pc Chicken McShare Box,519.00,9.48,McDelivery Exclusive,All Day
+258,2023/07/22,Sat,Philippines,Big Breakfast Meal,179.00,3.27,,Breakfast
+259,2023/07/22,Sat,Philippines,Sausage McMuffin w/ Egg Meal,164.00,3.00,,Breakfast
+260,2023/07/22,Sat,Philippines,Sausage McMuffin Meal,147.00,2.69,,Breakfast
+261,2023/07/22,Sat,Philippines,Egg McMuffin Meal,154.00,2.81,,Breakfast
+262,2023/07/22,Sat,Philippines,Cheesy Eggdesal w/ Sausage Meal,160.00,2.92,,Breakfast
+263,2023/07/22,Sat,Philippines,Cheesy Eggdesal w/ Ham Meal,148.00,2.70,,Breakfast
+264,2023/07/22,Sat,Philippines,Cheesy Eggdesal Meal,130.00,2.38,,Breakfast
+265,2023/07/22,Sat,Philippines,2-pc. Hotcakes & Sausage Meal,170.00,3.11,,Breakfast
+266,2023/07/22,Sat,Philippines,2-pc. Hotcakes Meal,99.00,1.81,,Breakfast
+267,2023/07/22,Sat,Philippines,2-pc. Mushroom Pepper Steak w/ Egg Meal,208.00,3.80,,Breakfast
+268,2023/07/22,Sat,Philippines,1-pc. Mushroom Pepper Steak w/ Egg Meal,178.00,3.25,,Breakfast
+269,2023/07/22,Sat,Philippines,Sausage w/ Egg Meal,184.00,3.36,,Breakfast
+270,2023/07/22,Sat,Philippines,Longganisa w/ Egg Meal,184.00,3.36,,Breakfast
+271,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet w/ Egg Meal,170.00,3.11,,Breakfast
+272,2023/07/22,Sat,Philippines,McCrispy Chicken Fillet Ala King w/ Egg Meal,174.00,3.18,,Breakfast
+273,2023/07/22,Sat,Philippines,1-pc. Chicken McDo w/ Egg Meal,224.00,4.09,,Breakfast
+274,2023/07/22,Sat,Philippines,1-pc. Spicy Chicken McDo & Egg Meal,214.00,3.91,,Breakfast
+275,2023/07/22,Sat,Philippines,2-pc. Chicken McDo w/ Egg Meal,277.00,5.06,,Breakfast
+276,2023/07/22,Sat,Philippines,2-pc. Spicy Chicken McDo & Egg Meal,273.00,4.99,,Breakfast
+277,2023/07/22,Sat,Philippines,Cheeseburger Meal,142.00,2.59,McDelivery Exclusive,Regular
+278,2023/07/22,Sat,Philippines,Double Cheeseburger Meal,195.00,3.56,McDelivery Exclusive,Regular
+279,2023/07/22,Sat,Philippines,Double Big Mac Meal,327.00,5.97,McDelivery Exclusive,Regular
+280,2023/07/22,Sat,Philippines,Double Quarter Pounder w/ Cheese Meal,323.00,5.90,McDelivery Exclusive,Regular
+281,2023/07/22,Sat,Philippines,Triple Cheeseburger Meal,242.00,4.42,McDelivery Exclusive,Regular
+282,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & Burger McDo,217.00,3.96,McDelivery Exclusive,Breakfast
+283,2023/07/22,Sat,Philippines,Mega Meal - Chicken McDo w/ Fries & McFlurry,220.00,4.02,McDelivery Exclusive,All Day
+284,2023/07/22,Sat,Philippines,The BCB Meal,260.00,4.75,McDelivery Exclusive,Regular
+285,2023/07/22,Sat,Philippines,2-pc. Hotcakes with Hashbrown Meal,134.00,2.45,,Breakfast
