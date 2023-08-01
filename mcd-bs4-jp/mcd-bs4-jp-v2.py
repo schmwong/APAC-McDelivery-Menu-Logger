@@ -91,7 +91,7 @@ try:
     script_elements: list[str] = category_page.select(head > script)
     for script_element in script_elements:
       if (len(script_element.text.strip()) > 0):
-        if (script_element.text.strip()[:16] = "window.dataLayer"):
+        if (script_element.text.strip()[:16] == "window.dataLayer"):
 	  data = script_element.text.strip().split(";")[1].strip().replace("dataLayer.push(", "")[:-1].replace("undefined", "\"\"")
 	  break
 
