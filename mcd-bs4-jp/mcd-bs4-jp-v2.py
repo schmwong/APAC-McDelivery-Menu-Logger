@@ -88,9 +88,13 @@ try:
   for category_name, category_url in categories.items():
     category_page = BS(session.get(url=category_url, headers=my_headers).content, "lxml")
     # Scraping the JSON data from the <script> tag in the <head> element
-    data = category_page.select(
-      "head > script:nth-child(21)"
-    )[0].text.strip().split(";")[1].strip().replace("dataLayer.push(", "")[:-1].replace("undefined", "\"\"")
+    script_elements: list[str] = category_page.select(head > script)
+    for script_element in script_elements:
+      if (len(script_element.text.strip()) > 0):
+        if (script_element.text.strip()[:16] = "window.dataLayer"):
+	  data = script_element.text.strip().split(";")[1].strip().replace("dataLayer.push(", "")[:-1].replace("undefined", "\"\"")
+	  break
+
     # Converting the JSON string to a Python dictionary list
     data = json.loads(data)["ecommerce"]["impressions"]
 
