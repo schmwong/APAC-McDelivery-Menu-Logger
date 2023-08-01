@@ -92,8 +92,8 @@ try:
     for script_element in script_elements:
       if (len(script_element.text.strip()) > 0):
         if (script_element.text.strip()[:16] == "window.dataLayer"):
-	  data = script_element.text.strip().split(";")[1].strip().replace("dataLayer.push(", "")[:-1].replace("undefined", "\"\"")
-	  break
+          data = script_element.text.strip().split(";")[1].strip().replace("dataLayer.push(", "")[:-1].replace("undefined", "\"\"")
+          break
 
     # Converting the JSON string to a Python dictionary list
     data = json.loads(data)["ecommerce"]["impressions"]
