@@ -26666,3 +26666,110 @@ console.error: RemoteSecuritySettings.jsm:
   Failed to download attachment: TypeError: NetworkError: Network request failed
 console.error: RemoteSecuritySettings.jsm: 
   Failed to download attachment: TypeError: NetworkError: Network request failed
+1692555852362	geckodriver	INFO	Listening on 127.0.0.1:46853
+1692555852880	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "58697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev0aGSB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1692555857634	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1692555858397	Marionette	INFO	Listening on port 44551
+WebDriver BiDi listening on ws://127.0.0.1:58697
+Read port: 44551
+1692555859051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58697/devtools/browser/db1784fd-efb6-4aae-9345-6d347a45f13d
+JavaScript warning: https://www.xe.com/_next/static/chunks/12b85881aa8a9330520218bb2964c5f40e5c3442.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=801713&moatClientLevel2=14731222&moatClientLevel3=m:11565055;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=931530216&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:272837&zMoatCtn=adRootContainer_931530216&zMoatTP=372215983&zMoatExp=interactiveInframe, line 285: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=801713&moatClientLevel2=14731222&moatClientLevel3=m:11565055;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=931530216&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:272837&zMoatCtn=adRootContainer_931530216&zMoatTP=372215983&zMoatExp=interactiveInframe, line 285: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=801713&moatClientLevel2=14731222&moatClientLevel3=m:11565055;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=931530216&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:272837&zMoatCtn=adRootContainer_931530216&zMoatTP=372215983&zMoatExp=interactiveInframe, line 285: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/exponential54894892/moatad.js#moatClientLevel1=801713&moatClientLevel2=14731222&moatClientLevel3=m:11565055;p:2;sz:728x90&moatClientLevel4=728x90&moatClientSlicer1=14380&moatClientSlicer2=19931_&zMoatINV=iab&zMoatRND=931530216&zMoatCT=UNITED%20STATES&zMoatDEV=deviceID:170080;osID:190067;browserID:272837&zMoatCtn=adRootContainer_931530216&zMoatTP=372215983&zMoatExp=interactiveInframe, line 285: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-jd_BcJ2_muHebna6aM-t4BwAJqN83NnF3hDm83RPZ4.js line 2 > eval line 3255 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-jd_BcJ2_muHebna6aM-t4BwAJqN83NnF3hDm83RPZ4.js line 2 > eval line 3255 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f371b3a9300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-TksL9e/firefox-116.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f371b3a9300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-TksL9e/firefox-116.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/3.11.2-3/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f371b3abd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-TksL9e/firefox-116.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 2005, MediaDecoderStateMachine #1] WARNING: Decoder=7f371b3abd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-TksL9e/firefox-116.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: https://cdnx.tribalfusion.com/media/git/common/richmedia/html5/3.12.0-24/tokens/creative.js, line 11: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://www.xe.com/_next/static/chunks/main-45288f6bf3593f2af945.js, line 1: Script terminated by timeout at:
+c@https://www.xe.com/_next/static/chunks/main-45288f6bf3593f2af945.js:1:17499
+
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914, line 91: Script terminated by timeout at:
+fd@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:91:1845
+Cj.prototype.ping/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:176:834
+Cj.prototype.ping@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:176:811
+If.prototype.sendNow@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:119:245
+hl/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:211:381
+hl/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:211:354
+Kc.prototype.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:85:513
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:916
+m.lh@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:80:1883
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:916
+m.lh@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:80:1883
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:916
+m.lh@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:80:1883
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:78:916
+m.lh@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:80:1883
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+yf.prototype.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:116:115
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+Kc.prototype.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:85:601
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:105:352
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+bl/</h/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:205:1936
+Qa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:44:339
+Na.prototype.flush@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:44:147
+Pa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:330
+Nj/c/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:182:292
+m.md@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+wj/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:362
+uj/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:173:1013
+Ma.prototype.La/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+wj/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:371
+m.md@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+wj/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:362
+uj/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:173:1013
+Ma.prototype.La/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:43:162
+wj/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:371
+m.md@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:75:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:859
+ld/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692555895731	Marionette	INFO	Stopped listening on port 44551
