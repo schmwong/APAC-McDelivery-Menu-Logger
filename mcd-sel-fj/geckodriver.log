@@ -30555,3 +30555,28 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
 1693247280492	Marionette	INFO	Stopped listening on port 46603
+1693333622638	geckodriver	INFO	Listening on 127.0.0.1:37189
+1693333623253	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "50973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3lvFtL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1693333636035	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1693333638081	Marionette	INFO	Listening on port 46049
+WebDriver BiDi listening on ws://127.0.0.1:50973
+Read port: 46049
+1693333640207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50973/devtools/browser/bc0fd132-a729-4ccc-bcd1-93d38812601e
+JavaScript warning: https://www.xe.com/_next/static/chunks/5cd9aee0eb4940505c4135ae4af9da38c050a55a.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.xe.com/_next/static/chunks/main-641a2b4aa0f5cb164fcb.js, line 1: Script terminated by timeout at:
+c@https://www.xe.com/_next/static/chunks/main-641a2b4aa0f5cb164fcb.js:1:17499
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22bhyLu181a2VDQ2hobmpKanhJWUgzUHRkVmxseHB4SWc1M1dKOCUyQnNXUEFtZ0JHZUF5RTFMVzhwOUF5M3lEcmhydGpIT2RMVmc4TnJNaGFZUCUyRm1hQUQ2RHV5UlR3REU2b0olMkI3JTJCSUczeXQwSHl4cXVGMEYlMkJqZDJXU2k1TW82VWRPZ0FrSWEyUVFSYUl2MmEzWVVZUXB4M2wxOTlPJTJGUDclMkJmNngxdHpWeWoza3NWNGpZSSUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:135,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8067895113459265%22}, line 16: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22bhyLu181a2VDQ2hobmpKanhJWUgzUHRkVmxseHB4SWc1M1dKOCUyQnNXUEFtZ0JHZUF5RTFMVzhwOUF5M3lEcmhydGpIT2RMVmc4TnJNaGFZUCUyRm1hQUQ2RHV5UlR3REU2b0olMkI3JTJCSUczeXQwSHl4cXVGMEYlMkJqZDJXU2k1TW82VWRPZ0FrSWEyUVFSYUl2MmEzWVVZUXB4M2wxOTlPJTJGUDclMkJmNngxdHpWeWoza3NWNGpZSSUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:135,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8067895113459265%22}:16:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22bhyLu181a2VDQ2hobmpKanhJWUgzUHRkVmxseHB4SWc1M1dKOCUyQnNXUEFtZ0JHZUF5RTFMVzhwOUF5M3lEcmhydGpIT2RMVmc4TnJNaGFZUCUyRm1hQUQ2RHV5UlR3REU2b0olMkI3JTJCSUczeXQwSHl4cXVGMEYlMkJqZDJXU2k1TW82VWRPZ0FrSWEyUVFSYUl2MmEzWVVZUXB4M2wxOTlPJTJGUDclMkJmNngxdHpWeWoza3NWNGpZSSUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:135,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8067895113459265%22}:16:3665
+
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1693333679247	Marionette	INFO	Stopped listening on port 46049
