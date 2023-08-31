@@ -30696,3 +30696,21 @@ md/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache
 
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
 1693420078751	Marionette	INFO	Stopped listening on port 37763
+1693506429804	geckodriver	INFO	Listening on 127.0.0.1:37825
+1693506430427	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "51387" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefmZkNz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1693506437088	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1693506438276	Marionette	INFO	Listening on port 33903
+Read port: 33903
+WebDriver BiDi listening on ws://127.0.0.1:51387
+1693506438502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51387/devtools/browser/ee897f2b-5fdf-48f6-ab79-4a9c980ce50c
+JavaScript warning: https://www.xe.com/_next/static/chunks/5cd9aee0eb4940505c4135ae4af9da38c050a55a.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1693506657454	Marionette	INFO	Stopped listening on port 33903
