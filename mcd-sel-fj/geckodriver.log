@@ -32689,3 +32689,29 @@ r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag
 r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:135,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.7480934965603122%22}:14:3642
 
 1694456877716	Marionette	INFO	Stopped listening on port 43793
+1694543169593	geckodriver	INFO	Listening on 127.0.0.1:42161
+1694543170172	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "49715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenCdWf4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1694543174043	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1694543174721	Marionette	INFO	Listening on port 42957
+Read port: 42957
+WebDriver BiDi listening on ws://127.0.0.1:49715
+1694543174953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49715/devtools/browser/75fbbada-851c-496d-ac2c-2ea1eb4637c8
+JavaScript warning: https://www.xe.com/_next/static/chunks/5cd9aee0eb4940505c4135ae4af9da38c050a55a.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js, line 7: Script terminated by timeout at:
+he@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:131378
+we@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:132405
+11974/f/<@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:119660
+l@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:120049
+11974/f/<@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:119509
+f@https://cdn.topsrvimp.com/cmpp/prebid7.46.0.js:7:119742
+
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1694543201546	Marionette	INFO	Stopped listening on port 42957
