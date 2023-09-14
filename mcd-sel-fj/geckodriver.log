@@ -32749,3 +32749,71 @@ r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22u
 
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 1694629686814	Marionette	INFO	Stopped listening on port 33165
+1694715998838	geckodriver	INFO	Listening on 127.0.0.1:47991
+1694715999415	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ox" "--remote-debugging-port" "37183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7OkQos"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1694716005949	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1694716007218	Marionette	INFO	Listening on port 41591
+WebDriver BiDi listening on ws://127.0.0.1:37183
+Read port: 41591
+1694716007533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37183/devtools/browser/43d9cc09-26ca-4e93-bd42-551723fae670
+JavaScript warning: https://www.xe.com/_next/static/chunks/5cd9aee0eb4940505c4135ae4af9da38c050a55a.5c045e2e38ab272de817.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3m8HFB-ShPtDzcYempcQY_ASUwv-AHBHVawPPC3Nvm0.js line 2 > eval line 6206 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3m8HFB-ShPtDzcYempcQY_ASUwv-AHBHVawPPC3Nvm0.js line 2 > eval line 6206 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YBinSErTekvxupjb6vinQNaPBzh8KEiIox6QinbqyX4.js line 2 > eval line 1535 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YBinSErTekvxupjb6vinQNaPBzh8KEiIox6QinbqyX4.js line 2 > eval line 1535 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914, line 42: Script terminated by timeout at:
+Oa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:42:350
+Pa@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:42:283
+Yj/c/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:182:292
+m.od@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:71:859
+Hj/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:362
+Fj/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:173:1013
+Ma.prototype.La/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:42:162
+Hj/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:371
+m.od@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:71:859
+Hj/</</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:362
+Fj/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:173:1013
+Ma.prototype.La/<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:42:162
+Hj/</</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:174:371
+m.od@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:74:425
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:73:439
+m.m@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:72:223
+m.next@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:71:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:92:671
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6935381613342724%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6935381613342724%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.xe.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22xe.com%22,%22topUrl%22:%22www.xe.com%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6935381613342724%22}:14:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1694716037272	Marionette	INFO	Stopped listening on port 41591
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:907:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
