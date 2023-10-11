@@ -5,7 +5,7 @@ name: scrape-au-auto
 # Controls when the action will run
 on:
   schedule:
-  - cron: 15 23 * * *           # runs once a day at 19:15 UTC (05:15 AEST)
+  - cron: 15 00 * * *           # runs once a day at 19:15 UTC (05:15 AEST)
 
 concurrency:
   group: scrape-and-schedule
