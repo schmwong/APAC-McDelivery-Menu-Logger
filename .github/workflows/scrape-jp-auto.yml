@@ -5,7 +5,7 @@ name: scrape-jp-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 16 17 * * *           # runs once a day at 15:16 UTC (00:16 JST)
+  - cron: 16 18 * * *           # runs once a day at 15:16 UTC (00:16 JST)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
