@@ -67,7 +67,7 @@ try:
     # findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
     # Extracting only the number from the text string and converting it to a float value (decimal number)
     exchange_rate = float(re.findall(
-        r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
+        r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p[class*=result__BigRate-sc-1bsijpp-1]").text)[0])
 
     print(exchange_rate)
     print()
