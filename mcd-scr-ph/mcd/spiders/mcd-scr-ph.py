@@ -80,7 +80,7 @@ class McdScrPhSpider(scrapy.Spider):
 			# parsing the CSS selectors return string values, which are concatenated, and 
 			# the resulting string is stored as a float (decimal) value, to be used in later mathematical operations
 			exchange_rate = float(
-				response.css("p.result__BigRate-sc-1bsijpp-1.iGrAod::text").get() +
+				response.css("p[class*=result__BigRate-sc-1bsijpp-1]::text").get() +
 				response.css("span.faded-digits::text").get()
 			)
 	
