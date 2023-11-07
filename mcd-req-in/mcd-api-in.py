@@ -37,7 +37,7 @@ class ParseXeRate(HTMLParser):
     self.feed(self.page)
 
   def handle_starttag(self, tag, attrs):
-    if (tag == "p") and (("class", "result__BigRate-sc-1bsijpp-1") in attrs):
+    if (tag == "p") and (attrs[2][1].startswith("result__BigRate-sc-1bsijpp-1")):
       self.found_element = True
     elif (tag == "span") and (("class", "faded-digits") in attrs):
       self.found_element = True
