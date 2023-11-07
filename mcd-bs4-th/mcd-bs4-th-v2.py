@@ -42,7 +42,7 @@ try:
 	# findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
 	# Extracting only the number from the text string and converting it to a float value (decimal number)
   exchange_rate = float(re.findall(
-	    r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")[0].text)[0])
+	    r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p[class*=result__BigRate-sc-1bsijpp-1]")[0].text)[0])
   
   print(f"\nParse FX time: {round((time() - start), 6)} seconds")
   print(f"1 THB = {exchange_rate} USD on {local_datetime.strftime('%A, %-d %B %Y')}\n")
