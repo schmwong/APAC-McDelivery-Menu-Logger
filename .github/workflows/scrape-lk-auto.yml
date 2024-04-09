@@ -5,7 +5,7 @@ name: scrape-lk-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 11 13 * * *           # runs once a day at 22:11 UTC (03:41 SLST)
+  - cron: 11 14 * * *           # runs once a day at 22:11 UTC (03:41 SLST)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
