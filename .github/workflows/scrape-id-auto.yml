@@ -6,6 +6,7 @@ name: scrape-id-auto
 on:
   schedule:
   - cron: 55 14 * * *           # runs once a day at 19:55 UTC (02:55 WIB)
+
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
