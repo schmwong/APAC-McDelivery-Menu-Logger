@@ -18,6 +18,7 @@ import datetime as dt
 import pytz
 from pathlib import Path
 import traceback
+from pprint import pprint 
 
 
 # Reflects local time
@@ -137,17 +138,32 @@ class McdScrNzSpider(scrapy.Spider):
 	def parse_products(self, response):
 
 		try:
-			parsed_json = json.loads(response.body)["data"]
+			parsed_json = json.loads(
+				response.css("script#__REACT_QUERY_STATE__//text()")
+			)
+			print()
+			pprint(parsed_json)
+			print()
+			
+			"""
+			parsed_json = json.loads(
+				response.xpath("//main[@id='main-content']/script[@type='application/ld+json']")
+			)
 			headers = response.meta["req_h"]
 			exchange_rate = response.meta["fx"]
 	
-			outlet = parsed_json["title"]
-			address = parsed_json["location"]["address"]
+			outlet = parsed_json["name"]
+
+			address = f'{parsed_json["address"]["streetAddress"]}, \
+			{parsed_json["address"]["addressLocality"]} \
+			{parsed_json["address"]["postalCode"]}, \
+			{parsed_json["address"]["addressCountry"]}'
+			
 			order_page = headers["referer"]
 	
 	
 			section_dict = {}
-			menu_sections = parsed_json["sections"]
+			menu_sections = parsed_json["hasMenu"]["hasMenuSection"]
 	
 			for menu_section in menu_sections:
 				menu_id = menu_section.get("uuid")
@@ -248,6 +264,7 @@ class McdScrNzSpider(scrapy.Spider):
 				float_format="%.2f", encoding="utf-8")
 	
 			# Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-scr-nz.csv"
+			"""
 
 
 		except Exception:
