@@ -11,6 +11,7 @@
 
 
 import scrapy  # version ^2.6.1 at time of writing
+import re
 import json
 import pandas as pd
 import datetime as dt
