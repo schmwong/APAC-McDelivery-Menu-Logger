@@ -18,6 +18,7 @@ import datetime as dt
 import pytz
 from pathlib import Path
 import traceback
+import re
 from pprint import pprint 
 
 
@@ -144,7 +145,7 @@ class McdScrNzSpider(scrapy.Spider):
 			print()
 			pprint(parsed_json)
 			print()
-			
+
 			"""
 			parsed_json = json.loads(
 				response.xpath("//main[@id='main-content']/script[@type='application/ld+json']")
