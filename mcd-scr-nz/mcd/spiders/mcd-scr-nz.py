@@ -83,13 +83,13 @@ class McdScrNzSpider(scrapy.Spider):
 			url = "https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA"
 	
 			headers = {
-				'authority': 'www.ubereats.com',
+				# 'authority': 'www.ubereats.com',
 				'accept': 'application/json, text/plain, */*',
 				'accept-language': 'en-GB,en;q=0.9',
 				# 'content-type': 'application/json',
 				'dnt': '1',
-				'origin': 'https://www.ubereats.com',
-				'referer': 'https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA',
+				# 'origin': 'https://www.ubereats.com',
+				# 'referer': 'https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA',
 				# 'referer': 'https://www.ubereats.com/nz/store/mcdonalds-frankton/mNH7d7B5Sq-uVm3qkSmthw',
 				'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
 				'sec-ch-ua-mobile': '?0',
