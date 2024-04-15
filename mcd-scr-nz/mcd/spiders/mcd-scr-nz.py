@@ -78,13 +78,13 @@ class McdScrNzSpider(scrapy.Spider):
 			print()
 	
 			
-			url = "https://www.ubereats.com/api/getStoreV1?localeCode=nz"
+			url = "https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA"
 	
 			headers = {
 				'authority': 'www.ubereats.com',
 				'accept': 'application/json, text/plain, */*',
 				'accept-language': 'en-GB,en;q=0.9',
-				'content-type': 'application/json',
+				# 'content-type': 'application/json',
 				'dnt': '1',
 				'origin': 'https://www.ubereats.com',
 				'referer': 'https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA',
@@ -109,7 +109,7 @@ class McdScrNzSpider(scrapy.Spider):
 			})
 	
 			yield scrapy.Request(
-				url, headers=headers, body=body, method="POST",
+				url, headers=headers, body=body, method="GET",
 				callback=self.parse_products,
 				meta={"req_h": headers, "fx": exchange_rate}
 			)
