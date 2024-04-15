@@ -76,13 +76,22 @@ class McdScrPhSpider(scrapy.Spider):
 	def parse_fx(self, response):
 
 		try:
-			# exchange rate is stored in two parts, across two HTML elements
-			# parsing the CSS selectors return string values, which are concatenated, and 
-			# the resulting string is stored as a float (decimal) value, to be used in later mathematical operations
+			# exchange rate is stored in two parts, across two HTML elements (one in the parent, one in the child element)
+			# XPath selector locates child element then selects its immediate parent (because the child element has a constant class attribute value)
+			# parsing the xpath here returns the text values of the selected element and all its children,
+			# regex is used to extract only numerical portions of the parsed text,
+			# and the resulting string is stored as a float (decimal) value, to be used in later mathematical operations
 			exchange_rate = float(
-				response.css("p[class*=result__BigRate-sc-1bsijpp-1]::text").get() +
-				response.css("span.faded-digits::text").get()
+				re.findall(
+					r"[-+]?(?:\d*\.\d+|\d+)",
+					response.xpath("//span[contains(@class,'faded-digits')]/..//text()").get()
+				)[0]
 			)
+
+			print(
+				f"\n1 PHP = {exchange_rate} USD (1 USD = {1/exchange_rate} PHP) on {local_datetime.strftime('%A, %-d %B %Y')}"
+			)
+			print()
 	
 	
 			url = "https://haku-prod-api-service.mcdelivery.com.ph/api/v2/auth/authenticate-user"
