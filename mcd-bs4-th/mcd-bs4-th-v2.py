@@ -41,12 +41,12 @@ try:
 	# Scraping the text from the selected element (CSS selector)
 	# findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
 	# Extracting only the number from the text string and converting it to a float value (decimal number)
-  	exchange_rate = float(
-		re.findall(
-			r"[-+]?(?:\d*\.\d+|\d+)",
-			XE.select("span[class*=faded-digits]")[0].parent.text
-		)[0]
-	)
+  exchange_rate = float(
+    re.findall(
+      r"[-+]?(?:\d*\.\d+|\d+)",
+      XE.select("span[class*=faded-digits]")[0].parent.text
+    )[0]
+  )
   
   print(f"\nParse FX time: {round((time() - start), 6)} seconds")
   print(f"1 THB = {exchange_rate} USD (1 USD = {1/exchange_rate} THB) on {local_datetime.strftime('%A, %-d %B %Y')}\n")
