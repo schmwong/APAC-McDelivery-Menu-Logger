@@ -38,7 +38,7 @@ try:
 	# Scraping the text from the selected element (CSS selector)
 	# Extracting only the number from the text string and converting it to a float value (decimal number)
 	# findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
-		exchange_rate = float(
+	exchange_rate = float(
 		re.findall(
 			r"[-+]?(?:\d*\.\d+|\d+)",
 			XE.select("span[class*=faded-digits]")[0].parent.text
