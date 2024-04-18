@@ -148,7 +148,7 @@ class McdScrNzSpider(scrapy.Spider):
 		try:
 			parsed_text = response.css("script#__REACT_QUERY_STATE__::text").get()
 			print()
-			pprint(parsed_text.replace("\u0022", '"'))
+			pprint(parsed_text.replace("\\u0022", '"'))
 			print()
 
 			"""
