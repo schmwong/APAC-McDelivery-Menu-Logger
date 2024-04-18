@@ -146,11 +146,9 @@ class McdScrNzSpider(scrapy.Spider):
 	def parse_products(self, response):
 
 		try:
-			parsed_json = json.loads(
-				response.css("script#__REACT_QUERY_STATE__::text").get().replace("\u0022", '"')
-			)
+			parsed_text = response.css("script#__REACT_QUERY_STATE__::text").get().replace("\u0022", '"')
 			print()
-			pprint(parsed_json)
+			pprint(parsed_text)
 			print()
 
 			"""
