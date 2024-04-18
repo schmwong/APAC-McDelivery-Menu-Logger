@@ -87,8 +87,11 @@ class McdScrNzSpider(scrapy.Spider):
 			url = "https://www.ubereats.com/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA"
 	
 			headers = {
-				# 'authority': 'www.ubereats.com',
-				'accept': 'application/json, text/plain, */*',
+				'authority': 'www.ubereats.com',
+				'method': 'GET',
+				'path': '/nz/store/mcdonalds-point-chevalier/1h7CdIIqR-GG5jVOuHqoFA',
+				'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+				'accept-encoding': 'gzip, deflate, br, zstd',
 				'accept-language': 'en-GB,en;q=0.9',
 				# 'content-type': 'application/json',
 				'dnt': '1',
@@ -98,12 +101,11 @@ class McdScrNzSpider(scrapy.Spider):
 				# 'referer': 'https://www.ubereats.com/nz/store/mcdonalds-frankton/mNH7d7B5Sq-uVm3qkSmthw',
 				'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
 				'sec-ch-ua-mobile': '?0',
-				'sec-ch-ua-platform': '"macOS"',
-				'sec-fetch-dest': 'empty',
-				'sec-fetch-mode': 'cors',
-				'sec-fetch-site': 'same-origin',
-				'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
-				'x-csrf-token': 'x',
+				'sec-ch-ua-platform': '"Linux"',
+				'sec-fetch-dest': 'document',
+				'sec-fetch-mode': 'navigate',
+				'sec-fetch-site': 'none',
+				'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36'
 			}
 	
 			body = json.dumps({
@@ -116,7 +118,7 @@ class McdScrNzSpider(scrapy.Spider):
 			})
 	
 			yield scrapy.Request(
-				url, headers=headers, body=body, method="GET",
+				url, headers=headers, method="GET",
 				callback=self.parse_products,
 				meta={"req_h": headers, "fx": exchange_rate}
 			)
