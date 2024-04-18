@@ -148,7 +148,7 @@ class McdScrNzSpider(scrapy.Spider):
 		try:
 			parsed_text = response.css("script#__REACT_QUERY_STATE__::text").get().replace("\\u0022", '"')
 			print()
-			pprint(parsed_text)
+			pprint(json.loads(parsed_text))
 			print()
 
 			"""
