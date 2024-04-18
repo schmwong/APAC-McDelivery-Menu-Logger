@@ -28,6 +28,10 @@ local_datetime = dt.datetime.now(pytz.timezone("Pacific/Auckland"))
 
 class McdScrNzSpider(scrapy.Spider):
 	name = 'mcd-scr-nz'
+	allowed_domains = [
+		'xe.com',
+		'ubereats.com'
+	]
 	
 	''' ====================================================== ''''''
 	Step 1: Send GET request to fetch HTML webpage from Xe.com
