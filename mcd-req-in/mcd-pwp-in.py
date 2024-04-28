@@ -99,7 +99,7 @@ def scrape_product_data(_product_cards):
 
 if __name__ == "__main__":
     with sync_playwright() as pw:
-        browser = pw.firefox.launch(headless=False)
+        browser = pw.firefox.launch(headless=True)
         page = browser.new_page(no_viewport=True)
         exchange_rate = scrape_exchange_rate()
         product_cards = page.locator("div.menu.menus__list-card")
