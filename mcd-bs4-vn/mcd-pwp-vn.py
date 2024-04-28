@@ -163,12 +163,12 @@ def set_delivery_date_time(date: str, time: str):
 # ----------------------------------------------------- #
 
 def scrape_category_urls() -> dict[str, str]:
-    # menu = page.locator("li.primary-menu-item.selected > a > span").inner_text()
+    menu = page.locator("li.primary-menu-item.selected > a > span").inner_text()
     categories = {
         f"{a.locator(' > span').inner_text()}": f"{mcd_menu}{a.get_attribute('href')}"
         for a in page.locator("li.secondary-menu-item > a").all()
     }
-    # print(f"\n{menu} menu has {len(categories)} categories:")
+    print(f"\n{menu} menu has {len(categories)} categories:")
     for index, category in enumerate(categories):
         print(index + 1, category, f"   {categories[category]}")
     print()
