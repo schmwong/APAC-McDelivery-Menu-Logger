@@ -5,7 +5,7 @@ name: scrape-vn-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 33 02 * * *           # runs once a day at 21:44 UTC (04:44 ICT)
+  - cron: 33 03 * * *           # runs once a day at 21:44 UTC (04:44 ICT)
   workflow_dispatch:
 concurrency:
   group: scrape-and-schedule
@@ -25,7 +25,7 @@ jobs:
     - name: setup python
       uses: actions/setup-python@v5
       with:
-         python-version: 3.9.6
+        python-version: 3.9.6
     - name: setup dependencies
       working-directory: ./mcd-bs4-vn
       run: |
