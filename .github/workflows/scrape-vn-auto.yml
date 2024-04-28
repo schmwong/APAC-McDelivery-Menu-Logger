@@ -31,6 +31,7 @@ jobs:
       working-directory: ./mcd-bs4-vn
       run: |
         pip install -r requirements.txt
+        playwright install firefox
     - name: execute py script       # run mcd-bs4-vn.py to get the latest data
       working-directory: ./mcd-bs4-vn
       run: |
