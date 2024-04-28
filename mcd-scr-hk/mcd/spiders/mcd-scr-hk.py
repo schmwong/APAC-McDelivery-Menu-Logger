@@ -15,6 +15,7 @@
 
 
 import scrapy  # version ^2.6.1 at time of writing
+import re
 import json
 import pandas as pd
 import datetime as dt
@@ -65,13 +66,22 @@ class McdScrHkSpider(scrapy.Spider):
 
 	def parse_fx(self, response):
 
-		# exchange rate is stored in two parts, across two HTML elements
-		# parsing the CSS selectors return string values, which are concatenated,
+		# exchange rate is stored in two parts, across two HTML elements (one in the parent, one in the child element)
+		# XPath selector locates child element then selects its immediate parent (because the child element has a constant class attribute value)
+		# parsing the xpath here returns the text values of the selected element and all its children,
+		# regex is used to extract only numerical portions of the parsed text,
 		# and the resulting string is stored as a float (decimal) value, to be used in later mathematical operations
 		exchange_rate = float(
-			response.css("p.result__BigRate-sc-1bsijpp-1.iGrAod::text").get() +
-			response.css("span.faded-digits::text").get()
+			re.findall(
+				r"[-+]?(?:\d*\.\d+|\d+)",
+				response.xpath("//span[contains(@class,'faded-digits')]/..//text()").get()
+			)[0]
 		)
+
+		print(
+			f"\n1 HKD = {exchange_rate} USD (1 USD = {1/exchange_rate} HKD) on {local_datetime.strftime('%A, %-d %B %Y')}"
+		)
+		print()
 
 
 		url = "https://hk.fd-api.com/api/v5/vendors/q8hc?include=menus,bundles,multiple_discounts&language_id=1&dynamic_pricing=0&opening_type=delivery&basket_currency=HKD"

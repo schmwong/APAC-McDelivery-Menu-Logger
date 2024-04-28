@@ -1,0 +1,367 @@
+,Date,Day,Territory,Menu Item,Price (AUD),Price (USD),Category,Menu
+1,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Most popular,Breakfast Menu
+2,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,Most popular,Breakfast Menu
+3,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,Most popular,Breakfast Menu
+4,2023/07/22,Sat,Australia,Bacon & Egg McMuffin,6.15,4.14,Most popular,Breakfast Menu
+5,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Most popular,Breakfast Menu
+6,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Most popular,Breakfast Menu
+7,2023/07/22,Sat,Australia,Sausage & Egg McMuffin,6.45,4.34,Most popular,Breakfast Menu
+8,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Most popular,Breakfast Menu
+9,2023/07/22,Sat,Australia,Mighty McMuffin,8.45,5.69,Most popular,Breakfast Menu
+10,2023/07/22,Sat,Australia,Hotcakes with Butter & Syrup,7.40,4.98,Most popular,Breakfast Menu
+11,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,Most Popular,Breakfast Menu
+12,2023/07/22,Sat,Australia,Bacon & Egg McMuffin,6.15,4.14,Most Popular,Breakfast Menu
+13,2023/07/22,Sat,Australia,Mighty McMuffin,8.45,5.69,Most Popular,Breakfast Menu
+14,2023/07/22,Sat,Australia,Sausage & Egg McMuffin,6.45,4.34,Most Popular,Breakfast Menu
+15,2023/07/22,Sat,Australia,Hotcakes with Butter & Syrup,7.40,4.98,Most Popular,Breakfast Menu
+16,2023/07/22,Sat,Australia,Brekkie Bundle,29.95,20.17,Most Popular,Breakfast Menu
+17,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,All Day Menu,Breakfast Menu
+18,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,All Day Menu,Breakfast Menu
+19,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,All Day Menu,Breakfast Menu
+20,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,All Day Menu,Breakfast Menu
+21,2023/07/22,Sat,Australia,Small Fries,3.40,2.29,All Day Menu,Breakfast Menu
+22,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,All Day Menu,Breakfast Menu
+23,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,All Day Menu,Breakfast Menu
+24,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,All Day Menu,Breakfast Menu
+25,2023/07/22,Sat,Australia,Bacon & Egg McMuffin,6.15,4.14,McMuffins,Breakfast Menu
+26,2023/07/22,Sat,Australia,Sausage & Egg McMuffin,6.45,4.34,McMuffins,Breakfast Menu
+27,2023/07/22,Sat,Australia,Mighty McMuffin,8.45,5.69,McMuffins,Breakfast Menu
+28,2023/07/22,Sat,Australia,Sausage McMuffin,6.00,4.04,McMuffins,Breakfast Menu
+29,2023/07/22,Sat,Australia,Double Sausage & Egg McMuffin,7.50,5.05,McMuffins,Breakfast Menu
+30,2023/07/22,Sat,Australia,Big Brekkie Burger,9.35,6.30,McMuffins,Breakfast Menu
+31,2023/07/22,Sat,Australia,Double Bacon & Egg McMuffin,7.20,4.85,McMuffins,Breakfast Menu
+32,2023/07/22,Sat,Australia,Brekkie Bundle,29.95,20.17,McMuffins,Breakfast Menu
+33,2023/07/22,Sat,Australia,Double Sausage McMuffin,7.40,4.98,McMuffins,Breakfast Menu
+34,2023/07/22,Sat,Australia,Small Chocolate Shake,5.65,3.81,Shakes & Frappes,Breakfast Menu
+35,2023/07/22,Sat,Australia,Medium Chocolate Frappé,6.10,4.11,Shakes & Frappes,Breakfast Menu
+36,2023/07/22,Sat,Australia,Medium Coffee Frappé,6.10,4.11,Shakes & Frappes,Breakfast Menu
+37,2023/07/22,Sat,Australia,Medium Salted Caramel Frappé,6.10,4.11,Shakes & Frappes,Breakfast Menu
+38,2023/07/22,Sat,Australia,Small Vanilla Shake,5.65,3.81,Shakes & Frappes,Breakfast Menu
+39,2023/07/22,Sat,Australia,Small Strawberry Shake,5.65,3.81,Shakes & Frappes,Breakfast Menu
+40,2023/07/22,Sat,Australia,Small Coke®,4.30,2.90,Soft Drinks,Breakfast Menu
+41,2023/07/22,Sat,Australia,Small Coke® No Sugar,4.30,2.90,Soft Drinks,Breakfast Menu
+42,2023/07/22,Sat,Australia,Small Frozen Coke®,4.30,2.90,Soft Drinks,Breakfast Menu
+43,2023/07/22,Sat,Australia,Small Vanilla Coke®,4.30,2.90,Soft Drinks,Breakfast Menu
+44,2023/07/22,Sat,Australia,Small Sprite® Zero Sugar,4.30,2.90,Soft Drinks,Breakfast Menu
+45,2023/07/22,Sat,Australia,Small Fanta®,4.30,2.90,Soft Drinks,Breakfast Menu
+46,2023/07/22,Sat,Australia,Small Frozen Fanta® Flavours,4.30,2.90,Soft Drinks,Breakfast Menu
+47,2023/07/22,Sat,Australia,Small Sparkling Water,4.30,2.90,Soft Drinks,Breakfast Menu
+48,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Desserts,Breakfast Menu
+49,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Desserts,Breakfast Menu
+50,2023/07/22,Sat,Australia,Hot Apple Pie,3.65,2.46,Desserts,Breakfast Menu
+51,2023/07/22,Sat,Australia,M&M'S® MINIS McFlurry,6.75,4.55,Desserts,Breakfast Menu
+52,2023/07/22,Sat,Australia,Maltesers® McFlurry®,6.75,4.55,Desserts,Breakfast Menu
+53,2023/07/22,Sat,Australia,Caramel Sundae,5.20,3.50,Desserts,Breakfast Menu
+54,2023/07/22,Sat,Australia,McDonaldland Cookies,1.90,1.28,Desserts,Breakfast Menu
+55,2023/07/22,Sat,Australia,Strawberry Sundae,5.20,3.50,Desserts,Breakfast Menu
+56,2023/07/22,Sat,Australia,Double Choc Muffin,5.00,3.37,Desserts,Breakfast Menu
+57,2023/07/22,Sat,Australia,Apple Crumble Muffin,5.00,3.37,Desserts,Breakfast Menu
+58,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,More Brekkie Favourites,Breakfast Menu
+59,2023/07/22,Sat,Australia,Hotcakes with Butter & Syrup,7.40,4.98,More Brekkie Favourites,Breakfast Menu
+60,2023/07/22,Sat,Australia,Big Brekkie Burger,9.35,6.30,More Brekkie Favourites,Breakfast Menu
+61,2023/07/22,Sat,Australia,Double Choc Muffin,5.00,3.37,More Brekkie Favourites,Breakfast Menu
+62,2023/07/22,Sat,Australia,Apple Crumble Muffin,5.00,3.37,More Brekkie Favourites,Breakfast Menu
+63,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,More Brekkie Favourites,Breakfast Menu
+64,2023/07/22,Sat,Australia,Sweet 'n Sour Sauce,0.75,0.51,Breakfast Condiments,Breakfast Menu
+65,2023/07/22,Sat,Australia,McChicken Sauce,0.75,0.51,Breakfast Condiments,Breakfast Menu
+66,2023/07/22,Sat,Australia,Ketchup,0.30,0.20,Breakfast Condiments,Breakfast Menu
+67,2023/07/22,Sat,Australia,Barbecue Sauce,0.75,0.51,Breakfast Condiments,Breakfast Menu
+68,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Breakfast Condiments,Breakfast Menu
+69,2023/07/22,Sat,Australia,Hot Cake Syrup,1.00,0.67,Breakfast Condiments,Breakfast Menu
+70,2023/07/22,Sat,Australia,Mustard Sauce,0.75,0.51,Breakfast Condiments,Breakfast Menu
+71,2023/07/22,Sat,Australia,Small Latté McCafe,5.00,3.37,McCafe Drinks,Breakfast Menu
+72,2023/07/22,Sat,Australia,Small Long Black McCafe,5.00,3.37,McCafe Drinks,Breakfast Menu
+73,2023/07/22,Sat,Australia,Small Chai Latte McCafé,4.90,3.30,McCafe Drinks,Breakfast Menu
+74,2023/07/22,Sat,Australia,Small Hot Chocolate McCafé,4.90,3.30,McCafe Drinks,Breakfast Menu
+75,2023/07/22,Sat,Australia,Small Iced Chocolate McCafé,5.20,3.50,McCafe Drinks,Breakfast Menu
+76,2023/07/22,Sat,Australia,Small Iced Latté McCafé,5.20,3.50,McCafe Drinks,Breakfast Menu
+77,2023/07/22,Sat,Australia,Small Cappuccino McCafe,5.00,3.37,McCafe Drinks,Breakfast Menu
+78,2023/07/22,Sat,Australia,Small Flat White McCafe,5.00,3.37,McCafe Drinks,Breakfast Menu
+79,2023/07/22,Sat,Australia,Small Mocha McCafe,5.25,3.54,McCafe Drinks,Breakfast Menu
+80,2023/07/22,Sat,Australia,Small McCafé Deluxe Iced Coffee,7.60,5.12,McCafe Drinks,Breakfast Menu
+81,2023/07/22,Sat,Australia,Small Iced Long Black - McCafé,5.20,3.50,McCafe Drinks,Breakfast Menu
+82,2023/07/22,Sat,Australia,Small Iced Mocha McCafé,5.50,3.70,McCafe Drinks,Breakfast Menu
+83,2023/07/22,Sat,Australia,Espresso McCafé,3.95,2.66,McCafe Drinks,Breakfast Menu
+84,2023/07/22,Sat,Australia,Small Iced Chai Latte McCafé,5.00,3.37,McCafe Drinks,Breakfast Menu
+85,2023/07/22,Sat,Australia,Small Flavoured Iced Latte McCafé,6.40,4.31,McCafe Drinks,Breakfast Menu
+86,2023/07/22,Sat,Australia,Zoetic Peppermint Tea,4.25,2.86,McCafe Drinks,Breakfast Menu
+87,2023/07/22,Sat,Australia,Macchiato McCafé,3.95,2.66,McCafe Drinks,Breakfast Menu
+88,2023/07/22,Sat,Australia,Piccolo Latte,3.95,2.66,McCafe Drinks,Breakfast Menu
+89,2023/07/22,Sat,Australia,Zoetic Green Tea,4.25,2.86,McCafe Drinks,Breakfast Menu
+90,2023/07/22,Sat,Australia,Zoetic English Breakfast Tea,4.25,2.86,McCafe Drinks,Breakfast Menu
+91,2023/07/22,Sat,Australia,Small Orange Juice,5.00,3.37,Juice & Bottled Drinks,Breakfast Menu
+92,2023/07/22,Sat,Australia,Apple Juice 250mL,4.75,3.20,Juice & Bottled Drinks,Breakfast Menu
+93,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,Juice & Bottled Drinks,Breakfast Menu
+94,2023/07/22,Sat,Australia,CalciYum™ Chocolate Flavoured Milk,5.10,3.43,Juice & Bottled Drinks,Breakfast Menu
+95,2023/07/22,Sat,Australia,Bottled Water 250mL,4.35,2.93,Juice & Bottled Drinks,Breakfast Menu
+96,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,RMHC Support,Breakfast Menu
+97,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Most popular,Overnight Menu
+98,2023/07/22,Sat,Australia,Quarter Pounder,8.00,5.39,Most popular,Overnight Menu
+99,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Most popular,Overnight Menu
+100,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,Most popular,Overnight Menu
+101,2023/07/22,Sat,Australia,Double Quarter Pounder,10.55,7.11,Most popular,Overnight Menu
+102,2023/07/22,Sat,Australia,McChicken,7.95,5.35,Most popular,Overnight Menu
+103,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Most popular,Overnight Menu
+104,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,Most popular,Overnight Menu
+105,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Most popular,Overnight Menu
+106,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Most popular,Overnight Menu
+107,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Family & Sharing,Overnight Menu
+108,2023/07/22,Sat,Australia,Meal For 2,29.95,20.17,Family & Sharing,Overnight Menu
+109,2023/07/22,Sat,Australia,Footy McValue Family Box,30.95,20.84,Family & Sharing,Overnight Menu
+110,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Family & Sharing,Overnight Menu
+111,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Family & Sharing,Overnight Menu
+112,2023/07/22,Sat,Australia,Footy McFavourites Box,47.95,32.29,Family & Sharing,Overnight Menu
+113,2023/07/22,Sat,Australia,Footy McFamily Box,57.95,39.03,Family & Sharing,Overnight Menu
+114,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Family & Sharing,Overnight Menu
+115,2023/07/22,Sat,Australia,Quarter Pounder,8.00,5.39,Beef,Overnight Menu
+116,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Beef,Overnight Menu
+117,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,Beef,Overnight Menu
+118,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,Beef,Overnight Menu
+119,2023/07/22,Sat,Australia,Double Quarter Pounder,10.55,7.11,Beef,Overnight Menu
+120,2023/07/22,Sat,Australia,Double Big Mac,10.00,6.73,Beef,Overnight Menu
+121,2023/07/22,Sat,Australia,Triple Cheeseburger,8.70,5.86,Beef,Overnight Menu
+122,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Beef,Overnight Menu
+123,2023/07/22,Sat,Australia,Hamburger,4.30,2.90,Beef,Overnight Menu
+124,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Chicken & Fish,Overnight Menu
+125,2023/07/22,Sat,Australia,McChicken,7.95,5.35,Chicken & Fish,Overnight Menu
+126,2023/07/22,Sat,Australia,McSpicy Burger,10.10,6.80,Chicken & Fish,Overnight Menu
+127,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Chicken & Fish,Overnight Menu
+128,2023/07/22,Sat,Australia,Chicken 'n' Cheese,5.85,3.94,Chicken & Fish,Overnight Menu
+129,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Chicken & Fish,Overnight Menu
+130,2023/07/22,Sat,Australia,Filet-O-Fish,6.85,4.61,Chicken & Fish,Overnight Menu
+131,2023/07/22,Sat,Australia,Double McChicken,10.20,6.87,Chicken & Fish,Overnight Menu
+132,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Chicken & Fish,Overnight Menu
+133,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Chicken & Fish,Overnight Menu
+134,2023/07/22,Sat,Australia,Double Filet-O-Fish,9.10,6.13,Chicken & Fish,Overnight Menu
+135,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Chicken & Fish,Overnight Menu
+136,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Chicken McNuggets,Overnight Menu
+137,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Chicken McNuggets,Overnight Menu
+138,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Chicken McNuggets,Overnight Menu
+139,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Chicken McNuggets,Overnight Menu
+140,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Chicken McNuggets,Overnight Menu
+141,2023/07/22,Sat,Australia,Small Fries,3.40,2.29,Snacks & Fries,Overnight Menu
+142,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,Snacks & Fries,Overnight Menu
+143,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Snacks & Fries,Overnight Menu
+144,2023/07/22,Sat,Australia,Hot Apple Pie,3.65,2.46,Snacks & Fries,Overnight Menu
+145,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Snacks & Fries,Overnight Menu
+146,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Snacks & Fries,Overnight Menu
+147,2023/07/22,Sat,Australia,Quarter Pounder Burger,7.90,5.32,Snacks & Fries,Overnight Menu
+148,2023/07/22,Sat,Australia,Hamburger,4.30,2.90,Snacks & Fries,Overnight Menu
+149,2023/07/22,Sat,Australia,McDonaldland Cookies,1.90,1.28,Snacks & Fries,Overnight Menu
+150,2023/07/22,Sat,Australia,Grape Tomatoes,3.25,2.19,Snacks & Fries,Overnight Menu
+151,2023/07/22,Sat,Australia,Small Long Black McCafe,5.00,3.37,McCafe Drinks,Overnight Menu
+152,2023/07/22,Sat,Australia,Small Latté McCafe,5.00,3.37,McCafe Drinks,Overnight Menu
+153,2023/07/22,Sat,Australia,Small Mocha McCafe,5.25,3.54,McCafe Drinks,Overnight Menu
+154,2023/07/22,Sat,Australia,Small Cappuccino McCafe,5.00,3.37,McCafe Drinks,Overnight Menu
+155,2023/07/22,Sat,Australia,Small Hot Chocolate McCafé,4.90,3.30,McCafe Drinks,Overnight Menu
+156,2023/07/22,Sat,Australia,Small Flat White McCafe,5.00,3.37,McCafe Drinks,Overnight Menu
+157,2023/07/22,Sat,Australia,Small Iced Chai Latte McCafé,5.00,3.37,McCafe Drinks,Overnight Menu
+158,2023/07/22,Sat,Australia,Small Iced Latté McCafé,5.20,3.50,McCafe Drinks,Overnight Menu
+159,2023/07/22,Sat,Australia,Small Chai Latte McCafé,4.90,3.30,McCafe Drinks,Overnight Menu
+160,2023/07/22,Sat,Australia,Small McCafé Deluxe Iced Coffee,7.60,5.12,McCafe Drinks,Overnight Menu
+161,2023/07/22,Sat,Australia,Small Flavoured Iced Latte McCafé,6.40,4.31,McCafe Drinks,Overnight Menu
+162,2023/07/22,Sat,Australia,Small Iced Chocolate McCafé,5.20,3.50,McCafe Drinks,Overnight Menu
+163,2023/07/22,Sat,Australia,Piccolo Latte,3.95,2.66,McCafe Drinks,Overnight Menu
+164,2023/07/22,Sat,Australia,Small Iced Mocha McCafé,5.50,3.70,McCafe Drinks,Overnight Menu
+165,2023/07/22,Sat,Australia,Zoetic Peppermint Tea,4.25,2.86,McCafe Drinks,Overnight Menu
+166,2023/07/22,Sat,Australia,Small Iced Long Black - McCafé,5.20,3.50,McCafe Drinks,Overnight Menu
+167,2023/07/22,Sat,Australia,Espresso McCafé,3.95,2.66,McCafe Drinks,Overnight Menu
+168,2023/07/22,Sat,Australia,Macchiato McCafé,3.95,2.66,McCafe Drinks,Overnight Menu
+169,2023/07/22,Sat,Australia,Zoetic Earl Grey Tea,4.25,2.86,McCafe Drinks,Overnight Menu
+170,2023/07/22,Sat,Australia,Zoetic Green Tea,4.25,2.86,McCafe Drinks,Overnight Menu
+171,2023/07/22,Sat,Australia,Zoetic English Breakfast Tea,4.25,2.86,McCafe Drinks,Overnight Menu
+172,2023/07/22,Sat,Australia,Cheeseburger Happy Meal,7.85,5.29,Happy Meals,Overnight Menu
+173,2023/07/22,Sat,Australia,Chicken McNuggets 6pc Happy Meal,10.65,7.17,Happy Meals,Overnight Menu
+174,2023/07/22,Sat,Australia,Chicken McNuggets 3pc Happy Meal,7.85,5.29,Happy Meals,Overnight Menu
+175,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Happy Meals,Overnight Menu
+176,2023/07/22,Sat,Australia,Grape Tomatoes,3.25,2.19,Happy Meals,Overnight Menu
+177,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Desserts,Overnight Menu
+178,2023/07/22,Sat,Australia,Hot Apple Pie,3.65,2.46,Desserts,Overnight Menu
+179,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Desserts,Overnight Menu
+180,2023/07/22,Sat,Australia,M&M'S® MINIS McFlurry,6.75,4.55,Desserts,Overnight Menu
+181,2023/07/22,Sat,Australia,Maltesers® McFlurry®,6.75,4.55,Desserts,Overnight Menu
+182,2023/07/22,Sat,Australia,Caramel Sundae,5.20,3.50,Desserts,Overnight Menu
+183,2023/07/22,Sat,Australia,McDonaldland Cookies,1.90,1.28,Desserts,Overnight Menu
+184,2023/07/22,Sat,Australia,Strawberry Sundae,5.20,3.50,Desserts,Overnight Menu
+185,2023/07/22,Sat,Australia,Double Choc Muffin,5.00,3.37,Desserts,Overnight Menu
+186,2023/07/22,Sat,Australia,Apple Crumble Muffin,5.00,3.37,Desserts,Overnight Menu
+187,2023/07/22,Sat,Australia,Small Coke® No Sugar,4.30,2.90,Soft Drinks,Overnight Menu
+188,2023/07/22,Sat,Australia,Small Coke®,4.30,2.90,Soft Drinks,Overnight Menu
+189,2023/07/22,Sat,Australia,Small Fanta®,4.30,2.90,Soft Drinks,Overnight Menu
+190,2023/07/22,Sat,Australia,Small Sprite® Zero Sugar,4.30,2.90,Soft Drinks,Overnight Menu
+191,2023/07/22,Sat,Australia,Small Frozen Coke®,4.30,2.90,Soft Drinks,Overnight Menu
+192,2023/07/22,Sat,Australia,Small Vanilla Coke®,4.30,2.90,Soft Drinks,Overnight Menu
+193,2023/07/22,Sat,Australia,Small Sparkling Water,4.30,2.90,Soft Drinks,Overnight Menu
+194,2023/07/22,Sat,Australia,Small Frozen Fanta® Flavours,4.30,2.90,Soft Drinks,Overnight Menu
+195,2023/07/22,Sat,Australia,Small Chocolate Shake,5.65,3.81,Shakes & Frappes,Overnight Menu
+196,2023/07/22,Sat,Australia,Medium Coffee Frappé,6.10,4.11,Shakes & Frappes,Overnight Menu
+197,2023/07/22,Sat,Australia,Medium Chocolate Frappé,6.10,4.11,Shakes & Frappes,Overnight Menu
+198,2023/07/22,Sat,Australia,Small Vanilla Shake,5.65,3.81,Shakes & Frappes,Overnight Menu
+199,2023/07/22,Sat,Australia,Medium Salted Caramel Frappé,6.10,4.11,Shakes & Frappes,Overnight Menu
+200,2023/07/22,Sat,Australia,Small Strawberry Shake,5.65,3.81,Shakes & Frappes,Overnight Menu
+201,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,Juice & Bottled Drinks,Overnight Menu
+202,2023/07/22,Sat,Australia,Apple Juice 250mL,4.75,3.20,Juice & Bottled Drinks,Overnight Menu
+203,2023/07/22,Sat,Australia,CalciYum™ Chocolate Flavoured Milk,5.10,3.43,Juice & Bottled Drinks,Overnight Menu
+204,2023/07/22,Sat,Australia,Small Orange Juice,5.00,3.37,Juice & Bottled Drinks,Overnight Menu
+205,2023/07/22,Sat,Australia,Bottled Water 250mL,4.35,2.93,Juice & Bottled Drinks,Overnight Menu
+206,2023/07/22,Sat,Australia,Big Mac Special Sauce,0.75,0.51,Condiments,Overnight Menu
+207,2023/07/22,Sat,Australia,Sweet 'n Sour Sauce,0.75,0.51,Condiments,Overnight Menu
+208,2023/07/22,Sat,Australia,Aioli Sauce Tub,0.75,0.51,Condiments,Overnight Menu
+209,2023/07/22,Sat,Australia,Barbecue Sauce,0.75,0.51,Condiments,Overnight Menu
+210,2023/07/22,Sat,Australia,McChicken Sauce,0.75,0.51,Condiments,Overnight Menu
+211,2023/07/22,Sat,Australia,Ketchup,0.30,0.20,Condiments,Overnight Menu
+212,2023/07/22,Sat,Australia,Mustard Sauce,0.75,0.51,Condiments,Overnight Menu
+213,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Condiments,Overnight Menu
+214,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,RMHC Support,Overnight Menu
+215,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Most popular,Regular Menu
+216,2023/07/22,Sat,Australia,Quarter Pounder,8.00,5.39,Most popular,Regular Menu
+217,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Most popular,Regular Menu
+218,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,Most popular,Regular Menu
+219,2023/07/22,Sat,Australia,Double Quarter Pounder,10.55,7.11,Most popular,Regular Menu
+220,2023/07/22,Sat,Australia,McChicken,7.95,5.35,Most popular,Regular Menu
+221,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,Most popular,Regular Menu
+222,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Most popular,Regular Menu
+223,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Most popular,Regular Menu
+224,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Most popular,Regular Menu
+225,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Most Popular,Regular Menu
+226,2023/07/22,Sat,Australia,Small Fries,3.40,2.29,Most Popular,Regular Menu
+227,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,Most Popular,Regular Menu
+228,2023/07/22,Sat,Australia,Filet-O-Fish,6.85,4.61,Most Popular,Regular Menu
+229,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Family & Sharing,Regular Menu
+230,2023/07/22,Sat,Australia,Footy McValue Family Box,30.95,20.84,Family & Sharing,Regular Menu
+231,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Family & Sharing,Regular Menu
+232,2023/07/22,Sat,Australia,Footy McFavourites Box,47.95,32.29,Family & Sharing,Regular Menu
+233,2023/07/22,Sat,Australia,Footy McFamily Box,57.95,39.03,Family & Sharing,Regular Menu
+234,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Family & Sharing,Regular Menu
+235,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Family & Sharing,Regular Menu
+236,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Beef,Regular Menu
+237,2023/07/22,Sat,Australia,Quarter Pounder,8.00,5.39,Beef,Regular Menu
+238,2023/07/22,Sat,Australia,Double Cheeseburger,6.35,4.28,Beef,Regular Menu
+239,2023/07/22,Sat,Australia,Big Mac,8.00,5.39,Beef,Regular Menu
+240,2023/07/22,Sat,Australia,Double Quarter Pounder,10.55,7.11,Beef,Regular Menu
+241,2023/07/22,Sat,Australia,Classic Angus,10.75,7.24,Beef,Regular Menu
+242,2023/07/22,Sat,Australia,Triple Cheeseburger,8.70,5.86,Beef,Regular Menu
+243,2023/07/22,Sat,Australia,BBQ Bacon Angus,11.45,7.71,Beef,Regular Menu
+244,2023/07/22,Sat,Australia,Double Big Mac,10.00,6.73,Beef,Regular Menu
+245,2023/07/22,Sat,Australia,Hamburger,4.30,2.90,Beef,Regular Menu
+246,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Beef,Regular Menu
+247,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Chicken & Fish,Regular Menu
+248,2023/07/22,Sat,Australia,McChicken,7.95,5.35,Chicken & Fish,Regular Menu
+249,2023/07/22,Sat,Australia,McSpicy Burger,10.10,6.80,Chicken & Fish,Regular Menu
+250,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Chicken & Fish,Regular Menu
+251,2023/07/22,Sat,Australia,Crispy Chicken Deluxe Burger,9.00,6.06,Chicken & Fish,Regular Menu
+252,2023/07/22,Sat,Australia,Filet-O-Fish,6.85,4.61,Chicken & Fish,Regular Menu
+253,2023/07/22,Sat,Australia,Chicken 'n' Cheese,5.85,3.94,Chicken & Fish,Regular Menu
+254,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Chicken & Fish,Regular Menu
+255,2023/07/22,Sat,Australia,Double McChicken,10.20,6.87,Chicken & Fish,Regular Menu
+256,2023/07/22,Sat,Australia,Crispy Chicken Snack Wrap,5.70,3.84,Chicken & Fish,Regular Menu
+257,2023/07/22,Sat,Australia,Aioli Crispy Chicken McWrap,10.55,7.11,Chicken & Fish,Regular Menu
+258,2023/07/22,Sat,Australia,Caesar Crispy Chicken McWrap,10.55,7.11,Chicken & Fish,Regular Menu
+259,2023/07/22,Sat,Australia,Grilled Chicken Deluxe Burger,9.00,6.06,Chicken & Fish,Regular Menu
+260,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Chicken & Fish,Regular Menu
+261,2023/07/22,Sat,Australia,Grilled Chicken Snack Wrap,5.70,3.84,Chicken & Fish,Regular Menu
+262,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Chicken & Fish,Regular Menu
+263,2023/07/22,Sat,Australia,Double Filet-O-Fish,9.10,6.13,Chicken & Fish,Regular Menu
+264,2023/07/22,Sat,Australia,Aioli Grilled Chicken McWrap,10.55,7.11,Chicken & Fish,Regular Menu
+265,2023/07/22,Sat,Australia,Caesar Crispy Chicken Salad,12.10,8.15,Chicken & Fish,Regular Menu
+266,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Chicken & Fish,Regular Menu
+267,2023/07/22,Sat,Australia,Caesar Grilled Chicken McWrap,10.55,7.11,Chicken & Fish,Regular Menu
+268,2023/07/22,Sat,Australia,Classic Grilled Chicken Salad,12.10,8.15,Chicken & Fish,Regular Menu
+269,2023/07/22,Sat,Australia,Caesar Grilled Chicken Salad,12.10,8.15,Chicken & Fish,Regular Menu
+270,2023/07/22,Sat,Australia,Garden Salad,5.15,3.47,Chicken & Fish,Regular Menu
+271,2023/07/22,Sat,Australia,Classic Crispy Chicken Salad,12.10,8.15,Chicken & Fish,Regular Menu
+272,2023/07/22,Sat,Australia,Cheeseburger Happy Meal,7.85,5.29,Happy Meals,Regular Menu
+273,2023/07/22,Sat,Australia,Chicken McNuggets 6pc Happy Meal,10.65,7.17,Happy Meals,Regular Menu
+274,2023/07/22,Sat,Australia,Chicken McNuggets 3pc Happy Meal,7.85,5.29,Happy Meals,Regular Menu
+275,2023/07/22,Sat,Australia,Crispy Chicken Snack Wrap Happy Meal,7.85,5.29,Happy Meals,Regular Menu
+276,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Happy Meals,Regular Menu
+277,2023/07/22,Sat,Australia,Grape Tomatoes,3.25,2.19,Happy Meals,Regular Menu
+278,2023/07/22,Sat,Australia,Grilled Chicken Snack Wrap Happy Meal,7.85,5.29,Happy Meals,Regular Menu
+279,2023/07/22,Sat,Australia,Crispy Chicken Snack Wrap,5.70,3.84,Wraps & Salads,Regular Menu
+280,2023/07/22,Sat,Australia,Caesar Crispy Chicken McWrap,10.55,7.11,Wraps & Salads,Regular Menu
+281,2023/07/22,Sat,Australia,Aioli Crispy Chicken McWrap,10.55,7.11,Wraps & Salads,Regular Menu
+282,2023/07/22,Sat,Australia,Grilled Chicken Snack Wrap,5.70,3.84,Wraps & Salads,Regular Menu
+283,2023/07/22,Sat,Australia,Caesar Grilled Chicken Salad,12.10,8.15,Wraps & Salads,Regular Menu
+284,2023/07/22,Sat,Australia,Caesar Grilled Chicken McWrap,10.55,7.11,Wraps & Salads,Regular Menu
+285,2023/07/22,Sat,Australia,Aioli Grilled Chicken McWrap,10.55,7.11,Wraps & Salads,Regular Menu
+286,2023/07/22,Sat,Australia,Garden Salad,5.15,3.47,Wraps & Salads,Regular Menu
+287,2023/07/22,Sat,Australia,Caesar Crispy Chicken Salad,12.10,8.15,Wraps & Salads,Regular Menu
+288,2023/07/22,Sat,Australia,Classic Grilled Chicken Salad,12.10,8.15,Wraps & Salads,Regular Menu
+289,2023/07/22,Sat,Australia,Classic Crispy Chicken Salad,12.10,8.15,Wraps & Salads,Regular Menu
+290,2023/07/22,Sat,Australia,Chicken McNuggets - 10pc,10.20,6.87,Chicken McNuggets,Regular Menu
+291,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Chicken McNuggets,Regular Menu
+292,2023/07/22,Sat,Australia,Chicken McNuggets - 20pc,15.45,10.41,Chicken McNuggets,Regular Menu
+293,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Chicken McNuggets,Regular Menu
+294,2023/07/22,Sat,Australia,Chicken McNuggets - 40pc,29.45,19.83,Chicken McNuggets,Regular Menu
+295,2023/07/22,Sat,Australia,Small Fries,3.40,2.29,Snacks & Fries,Regular Menu
+296,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,Snacks & Fries,Regular Menu
+297,2023/07/22,Sat,Australia,Cheeseburger,4.80,3.23,Snacks & Fries,Regular Menu
+298,2023/07/22,Sat,Australia,Chicken McNuggets - 6pc,8.35,5.62,Snacks & Fries,Regular Menu
+299,2023/07/22,Sat,Australia,Hot Apple Pie,3.65,2.46,Snacks & Fries,Regular Menu
+300,2023/07/22,Sat,Australia,Chicken 'n' Cheese,5.85,3.94,Snacks & Fries,Regular Menu
+301,2023/07/22,Sat,Australia,Chicken McNuggets - 3pc,5.40,3.64,Snacks & Fries,Regular Menu
+302,2023/07/22,Sat,Australia,Crispy Chicken Snack Wrap,5.70,3.84,Snacks & Fries,Regular Menu
+303,2023/07/22,Sat,Australia,McDonaldland Cookies,1.90,1.28,Snacks & Fries,Regular Menu
+304,2023/07/22,Sat,Australia,Quarter Pounder Burger,7.90,5.32,Snacks & Fries,Regular Menu
+305,2023/07/22,Sat,Australia,Hamburger,4.30,2.90,Snacks & Fries,Regular Menu
+306,2023/07/22,Sat,Australia,Grape Tomatoes,3.25,2.19,Snacks & Fries,Regular Menu
+307,2023/07/22,Sat,Australia,Grilled Chicken Snack Wrap,5.70,3.84,Snacks & Fries,Regular Menu
+308,2023/07/22,Sat,Australia,Hash Brown,3.40,2.29,Extended Breakfast,Regular Menu
+309,2023/07/22,Sat,Australia,Apple Crumble Muffin,5.00,3.37,Extended Breakfast,Regular Menu
+310,2023/07/22,Sat,Australia,Small Latté McCafe,5.00,3.37,McCafe Drinks,Regular Menu
+311,2023/07/22,Sat,Australia,Small Hot Chocolate McCafé,4.90,3.30,McCafe Drinks,Regular Menu
+312,2023/07/22,Sat,Australia,Small Iced Latté McCafé,5.20,3.50,McCafe Drinks,Regular Menu
+313,2023/07/22,Sat,Australia,Small Long Black McCafe,5.00,3.37,McCafe Drinks,Regular Menu
+314,2023/07/22,Sat,Australia,Small Flat White McCafe,5.00,3.37,McCafe Drinks,Regular Menu
+315,2023/07/22,Sat,Australia,Small Iced Chocolate McCafé,5.20,3.50,McCafe Drinks,Regular Menu
+316,2023/07/22,Sat,Australia,Small Cappuccino McCafe,5.00,3.37,McCafe Drinks,Regular Menu
+317,2023/07/22,Sat,Australia,Small McCafé Deluxe Iced Coffee,7.60,5.12,McCafe Drinks,Regular Menu
+318,2023/07/22,Sat,Australia,Small Chai Latte McCafé,4.90,3.30,McCafe Drinks,Regular Menu
+319,2023/07/22,Sat,Australia,Small Flavoured Iced Latte McCafé,6.40,4.31,McCafe Drinks,Regular Menu
+320,2023/07/22,Sat,Australia,Small Mocha McCafe,5.25,3.54,McCafe Drinks,Regular Menu
+321,2023/07/22,Sat,Australia,Small Iced Chai Latte McCafé,5.00,3.37,McCafe Drinks,Regular Menu
+322,2023/07/22,Sat,Australia,Small Iced Long Black - McCafé,5.20,3.50,McCafe Drinks,Regular Menu
+323,2023/07/22,Sat,Australia,Small Iced Mocha McCafé,5.50,3.70,McCafe Drinks,Regular Menu
+324,2023/07/22,Sat,Australia,Espresso McCafé,3.95,2.66,McCafe Drinks,Regular Menu
+325,2023/07/22,Sat,Australia,Piccolo Latte,3.95,2.66,McCafe Drinks,Regular Menu
+326,2023/07/22,Sat,Australia,Zoetic Peppermint Tea,4.25,2.86,McCafe Drinks,Regular Menu
+327,2023/07/22,Sat,Australia,Zoetic Earl Grey Tea,4.25,2.86,McCafe Drinks,Regular Menu
+328,2023/07/22,Sat,Australia,Macchiato McCafé,3.95,2.66,McCafe Drinks,Regular Menu
+329,2023/07/22,Sat,Australia,Zoetic Green Tea,4.25,2.86,McCafe Drinks,Regular Menu
+330,2023/07/22,Sat,Australia,Zoetic English Breakfast Tea,4.25,2.86,McCafe Drinks,Regular Menu
+331,2023/07/22,Sat,Australia,Hot Fudge Sundae,5.20,3.50,Desserts,Regular Menu
+332,2023/07/22,Sat,Australia,Hot Apple Pie,3.65,2.46,Desserts,Regular Menu
+333,2023/07/22,Sat,Australia,OREO® McFlurry,6.75,4.55,Desserts,Regular Menu
+334,2023/07/22,Sat,Australia,Maltesers® McFlurry®,6.75,4.55,Desserts,Regular Menu
+335,2023/07/22,Sat,Australia,M&M'S® MINIS McFlurry,6.75,4.55,Desserts,Regular Menu
+336,2023/07/22,Sat,Australia,Caramel Sundae,5.20,3.50,Desserts,Regular Menu
+337,2023/07/22,Sat,Australia,McDonaldland Cookies,1.90,1.28,Desserts,Regular Menu
+338,2023/07/22,Sat,Australia,Strawberry Sundae,5.20,3.50,Desserts,Regular Menu
+339,2023/07/22,Sat,Australia,Double Choc Muffin,5.00,3.37,Desserts,Regular Menu
+340,2023/07/22,Sat,Australia,Apple Crumble Muffin,5.00,3.37,Desserts,Regular Menu
+341,2023/07/22,Sat,Australia,Small Coke®,4.30,2.90,Soft Drinks,Regular Menu
+342,2023/07/22,Sat,Australia,Small Coke® No Sugar,4.30,2.90,Soft Drinks,Regular Menu
+343,2023/07/22,Sat,Australia,Small Fanta®,4.30,2.90,Soft Drinks,Regular Menu
+344,2023/07/22,Sat,Australia,Small Sprite® Zero Sugar,4.30,2.90,Soft Drinks,Regular Menu
+345,2023/07/22,Sat,Australia,Small Vanilla Coke®,4.30,2.90,Soft Drinks,Regular Menu
+346,2023/07/22,Sat,Australia,Small Sparkling Water,4.30,2.90,Soft Drinks,Regular Menu
+347,2023/07/22,Sat,Australia,Small Chocolate Shake,5.65,3.81,Shakes & Frappes,Regular Menu
+348,2023/07/22,Sat,Australia,Medium Chocolate Frappé,6.10,4.11,Shakes & Frappes,Regular Menu
+349,2023/07/22,Sat,Australia,Small Vanilla Shake,5.65,3.81,Shakes & Frappes,Regular Menu
+350,2023/07/22,Sat,Australia,Medium Coffee Frappé,6.10,4.11,Shakes & Frappes,Regular Menu
+351,2023/07/22,Sat,Australia,Medium Salted Caramel Frappé,6.10,4.11,Shakes & Frappes,Regular Menu
+352,2023/07/22,Sat,Australia,Small Strawberry Shake,5.65,3.81,Shakes & Frappes,Regular Menu
+353,2023/07/22,Sat,Australia,Small Orange Juice,5.00,3.37,Juice & Bottled Drinks,Regular Menu
+354,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,Juice & Bottled Drinks,Regular Menu
+355,2023/07/22,Sat,Australia,Apple Juice 250mL,4.75,3.20,Juice & Bottled Drinks,Regular Menu
+356,2023/07/22,Sat,Australia,Bottled Water 250mL,4.35,2.93,Juice & Bottled Drinks,Regular Menu
+357,2023/07/22,Sat,Australia,CalciYum™ Chocolate Flavoured Milk,5.10,3.43,Juice & Bottled Drinks,Regular Menu
+358,2023/07/22,Sat,Australia,Sweet 'n Sour Sauce,0.75,0.51,Condiments,Regular Menu
+359,2023/07/22,Sat,Australia,Big Mac Special Sauce,0.75,0.51,Condiments,Regular Menu
+360,2023/07/22,Sat,Australia,Ketchup,0.30,0.20,Condiments,Regular Menu
+361,2023/07/22,Sat,Australia,Barbecue Sauce,0.75,0.51,Condiments,Regular Menu
+362,2023/07/22,Sat,Australia,McChicken Sauce,0.75,0.51,Condiments,Regular Menu
+363,2023/07/22,Sat,Australia,Aioli Sauce Tub,0.75,0.51,Condiments,Regular Menu
+364,2023/07/22,Sat,Australia,Mustard Sauce,0.75,0.51,Condiments,Regular Menu
+365,2023/07/22,Sat,Australia,AFL Captain Cards,2.00,1.35,Condiments,Regular Menu
+366,2023/07/22,Sat,Australia,Bottled Water 600mL,5.15,3.47,RMHC Support,Regular Menu

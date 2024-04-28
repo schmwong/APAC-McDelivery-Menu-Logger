@@ -66,10 +66,16 @@ try:
     # Scraping the text from the selected element (CSS selector)
     # findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
     # Extracting only the number from the text string and converting it to a float value (decimal number)
-    exchange_rate = float(re.findall(
-        r"[-+]?(?:\d*\.\d+|\d+)", browser.find_element(By.CSS_SELECTOR, "p.result__BigRate-sc-1bsijpp-1.iGrAod").text)[0])
+    exchange_rate = float(
+        re.findall(
+            r"[-+]?(?:\d*\.\d+|\d+)",
+            browser.find_element(By.XPATH, "//span[contains(@class,'faded-digits')]/..").text
+        )[0]
+    )
 
-    print(exchange_rate)
+    print(
+        f"1 FJD = {exchange_rate} USD (1 USD = {1/exchange_rate} FJD) on {local_datetime.strftime('%A, %-d %B %Y')}"
+    )
     print()
 
     # -------------------------------------- #
@@ -98,7 +104,7 @@ try:
                 r"[a-zA-Z]+",
                 ((browser.find_element(
                     By.CSS_SELECTOR,
-                    f'nav.scrollspy-menu a[data-slug="{category_id}"]'
+                    f'nav.scrollspy-menu a[href="#{category_id}"]'
                 )).text)
             )
         )

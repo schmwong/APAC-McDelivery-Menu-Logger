@@ -70,19 +70,19 @@ Price figures recorded here are from each territory's online McDelivery menu, wh
 [hk-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-hk-auto.yml
 
 [in]: https://www.mcdelivery.co.in/home
-[India]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-req-in/mcd-req-in.py
+[India]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-req-in/mcd-api-in.py
 [mcd-req-in.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-req-in/scraped-data
 [in-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-in-auto.yml/badge.svg
 [in-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-in-auto.yml
 
-[id]: https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=1&locale=en"
+[id]: https://www.mcdelivery.co.id/id/browse/menu.html?daypartId=1&locale=en
 [Indonesia]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-id/mcd-bs4-id.py
 [mcd-bs4-id.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-id/scraped-data
 [id-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-id-auto.yml/badge.svg
 [id-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-id-auto.yml
 
-[jp]: https://mcdelivery.mcdonalds.com/jp/browse/menu.html?daypartId=1&catId=1&locale=en
-[Japan]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-jp/mcd-bs4-jp.py
+[jp]: https://www.mcdonalds.co.jp/en/mcdelivery/menu/
+[Japan]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-jp/mcd-bs4-jp-v2.py
 [mcd-bs4-jp.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-jp/scraped-data
 [jp-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-jp-auto.yml/badge.svg
 [jp-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-jp-auto.yml
@@ -136,7 +136,7 @@ Price figures recorded here are from each territory's online McDelivery menu, wh
 [tw-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-tw-auto.yml
 
 [th]: https://www.mcdonalds.co.th/mcDelivery/nonMember/category/promotion&lang=en
-[Thailand]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-th/mcd-bs4-th.py
+[Thailand]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/mcd-bs4-th/mcd-bs4-th-v2.py
 [mcd-bs4-th.csv]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/tree/main/mcd-bs4-th/scraped-data
 [th-logo]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/actions/workflows/scrape-th-auto.yml/badge.svg
 [th-yaml]: https://github.com/schmwong/APAC-McDelivery-Menu-Logger/blob/main/.github/workflows/scrape-th-auto.yml

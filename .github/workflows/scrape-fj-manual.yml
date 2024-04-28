@@ -26,9 +26,9 @@ jobs:
               patterns: ./mcd-sel-fj
 
           - name: setup python
-            uses: actions/setup-python@v2
-#             with:
-#                 python-version: 3.8.2
+            uses: actions/setup-python@v4
+            with:
+                python-version: '3.11'
           - name: setup dependencies
             working-directory: ./mcd-sel-fj
             run: |

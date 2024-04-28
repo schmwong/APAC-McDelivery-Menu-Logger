@@ -1,0 +1,221 @@
+,Date,Day,Territory,Menu Item,Price (INR),Price (USD),Category
+1,2023/10/30,Mon,India,2 Cheesy Italian Chicken + Fries (L) + 2 Coke,529.04,105176855.28,Match Time Sharers
+2,2023/10/30,Mon,India,2 Cheesy Italian Veg + Fries (L) + 2 Coke,499.16,99236502.12,Match Time Sharers
+3,2023/10/30,Mon,India,2 McCheese Burger Veg + Fries (L) + 2 Coke,619.42,123145031.94,Match Time Sharers
+4,2023/10/30,Mon,India,2 McCheese Burger Chicken + Fries (L)  + 2 Coke,648.88,129001886.16,Match Time Sharers
+5,2023/10/30,Mon,India,2 Corn and Cheese Burger + Fries (L) + 2 Coke,419.25,83349834.75,Match Time Sharers
+6,2023/10/30,Mon,India,2 Grilled Chicken and Cheese Burger + Fries (L) + 2 Coke,469.38,93316029.66,Match Time Sharers
+7,2023/10/30,Mon,India,2 McSpicy Chicken Burger + Fries (L) + 2 Coke,490.48,97510857.36,Match Time Sharers
+8,2023/10/30,Mon,India,2 McVeggie Burger + Fries (L) + 2 Coke,388.58,77252424.06,Match Time Sharers
+9,2023/10/30,Mon,India,2 McChicken Burger + Fries (L) + 2 Coke,388.58,77252424.06,Match Time Sharers
+10,2023/10/30,Mon,India,Corn & Cheese Burger +McVeggie Burger+Fries (M),329.52,65510882.64,Match Time Sharers
+11,2023/10/30,Mon,India,McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff,306.67,60968142.69,Match Time Sharers
+12,2023/10/30,Mon,India,2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff,491.43,97699724.01,Match Time Sharers
+13,2023/10/30,Mon,India,2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff,388.57,77250435.99,Match Time Sharers
+14,2023/10/30,Mon,India,McSpicy Paneer Burger + Fries (L) + 2 Coke + McAloo Tikki Burger,388.58,77252424.06,Match Time Sharers
+15,2023/10/30,Mon,India,McVeggie Burger + Fries (L) + 2 Coke + McAloo Tikki Burger,337.15,67027780.05,Match Time Sharers
+16,2023/10/30,Mon,India,2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff,388.57,77250435.99,Match Time Sharers
+17,2023/10/30,Mon,India,2 Chicken Maharaja Mac + 2 Coke + Fries (L) + McFlurry Oreo (M),610.48,121367697.36,Match Time Sharers
+18,2023/10/30,Mon,India,2 McAloo Tikki + 2 Fries (L),317.14,63049651.98,Match Time Sharers
+19,2023/10/30,Mon,India,McSpicy Paneer Burger + 2 Fries M + McAloo Tikki + Veg Pizza McPuff,387.62,77061569.34,Match Time Sharers
+20,2023/10/30,Mon,India,McSpicy Chicken Burger + McChicken Burger + Fries (M),373.33,74220617.31,Match Time Sharers
+21,2023/10/30,Mon,India,6 Pc Nuggets + McChicken + Coke,325.77,64765356.39,Match Time Sharers
+22,2023/10/30,Mon,India,Corn and Cheese Burger + Coke + Fries (M) + Veg Pizza McPuff,354.29,70435332.03,Match Time Meals
+23,2023/10/30,Mon,India,Corn & Cheese Burger + Fries (R),180.00,35785260.00,Match Time Meals
+24,2023/10/30,Mon,India,Grilled Chicken & Cheese Burger + Coke,215.24,42791218.68,Match Time Meals
+25,2023/10/30,Mon,India,Corn & Cheese Burger + Coke,225.72,44874716.04,Match Time Meals
+26,2023/10/30,Mon,India,Grilled Chicken & Cheese Burger + Veg Pizza McPuff,169.52,33701762.64,Match Time Meals
+27,2023/10/30,Mon,India,Corn & Cheese Burger + Veg Pizza McPuff,173.33,34459217.31,Match Time Meals
+28,2023/10/30,Mon,India,McChicken Burger + Fries (L),226.67,45063582.69,Match Time Meals
+29,2023/10/30,Mon,India,McSpicy Paneer + Fries (M) + Piri Piri Spice Mix,258.10,51312086.70,Match Time Meals
+30,2023/10/30,Mon,India,McAloo Tikki + Veg Pizza McPuff + Fries (R),158.10,31431386.70,Match Time Meals
+31,2023/10/30,Mon,India,McVeggie Burger + Veg Pizza McPuff + Fries (L),264.76,52636141.32,Match Time Meals
+32,2023/10/30,Mon,India,Strawberry Shake + Fries (M),195.24,38815078.68,Match Time Meals
+33,2023/10/30,Mon,India,Mexican McAloo Tikki Burger + Fries (R),115.24,22910518.68,Match Time Meals
+34,2023/10/30,Mon,India,McChicken Burger + Fries (R),175.24,34838938.68,Match Time Meals
+35,2023/10/30,Mon,India,McVeggie Burger + Veg Pizza McPuff,170.48,33892617.36,Match Time Meals
+36,2023/10/30,Mon,India,Chicken McNuggets 6 Pc + Fries (M) + Piri Piri Spice Mix,244.82,48671929.74,Match Time Meals
+37,2023/10/30,Mon,India,Chocolate Shake + Fries (M),195.24,38815078.68,Match Time Meals
+38,2023/10/30,Mon,India,McSpicy Chicken + Mexican Cheesy Fries,258.10,51312086.70,Match Time Meals
+39,2023/10/30,Mon,India,McSpicy Chicken + Fries (M) + Piri Piri Spice Mix,272.38,54151050.66,Match Time Meals
+40,2023/10/30,Mon,India,McSpicy Paneer + Mexican Cheesy Fries,258.10,51312086.70,Match Time Meals
+41,2023/10/30,Mon,India,Pizza Mc Puff + McSpicy Chicken,188.57,37489035.99,Match Time Meals
+42,2023/10/30,Mon,India,McSaver Masala McEgg,75.24,14958238.68,Match Time Meals
+43,2023/10/30,Mon,India,McSaver Pizza McPuff,103.81,20638154.67,Match Time Meals
+44,2023/10/30,Mon,India,McSaver Mexican McAloo Tikki,103.81,20638154.67,Match Time Meals
+45,2023/10/30,Mon,India,McAloo Tikki Burger + Veg Pizza McPuff + Piri Piri Spice Mix,126.67,25182882.69,Match Time Meals
+46,2023/10/30,Mon,India,McVeggie + Fries (M),189.52,37677902.64,Match Time Meals
+47,2023/10/30,Mon,India,Mexican McAloo Tikki Burger + Fries (L),173.33,34459217.31,Match Time Meals
+48,2023/10/30,Mon,India,McVeggie Burger + Fries (M) + Piri Piri Mix,231.43,46009904.01,Match Time Meals
+49,2023/10/30,Mon,India,McVeggie Burger + Fries (R),175.24,34838938.68,Match Time Meals
+50,2023/10/30,Mon,India,McSaver Small Fries,103.81,20638154.67,Match Time Meals
+51,2023/10/30,Mon,India,McSaver Chicken Nuggets (4 Pc),103.81,20638154.67,Match Time Meals
+52,2023/10/30,Mon,India,McSaver McAloo Tikki,103.81,20638154.67,Match Time Meals
+53,2023/10/30,Mon,India,McChicken + Fries (M),189.52,37677902.64,Match Time Meals
+54,2023/10/30,Mon,India,McVeggie Burger + Fries (L),221.90,44115273.30,Match Time Meals
+55,2023/10/30,Mon,India,McAloo Tikki + Fries (R),106.67,21206742.69,Match Time Meals
+56,2023/10/30,Mon,India,McChicken + McSpicy Chicken Burger,289.52,57558602.64,Match Time Meals
+57,2023/10/30,Mon,India,McVeggie + McAloo Tikki Burger,180.00,35785260.00,Match Time Meals
+58,2023/10/30,Mon,India,McAloo Tikki + Veg Pizza McPuff + Coke,160.96,31999974.72,Match Time Meals
+59,2023/10/30,Mon,India,McChicken Burger + Veg Pizza McPuff,170.48,33892617.36,Match Time Meals
+60,2023/10/30,Mon,India,2 McFlurry Oreo (S),155.24,30862798.68,Match Time Meals
+61,2023/10/30,Mon,India,2 McVeggie Burger,249.52,49606322.64,Match Time Meals
+62,2023/10/30,Mon,India,2 Iced Coffee,200.00,39761400.00,Match Time Meals
+63,2023/10/30,Mon,India,2 Coke,162.86,32377708.02,Match Time Meals
+64,2023/10/30,Mon,India,2 Fries (R),111.43,22153064.01,Match Time Meals
+65,2023/10/30,Mon,India,2 Soft Serve Hot Fudge (M),155.24,30862798.68,Match Time Meals
+66,2023/10/30,Mon,India,2 Cappuccino,195.24,38815078.68,Match Time Meals
+67,2023/10/30,Mon,India,Cheesy Veg Nuggets 9 pc + Fries (M),255.24,50743498.68,Match Time Meals
+68,2023/10/30,Mon,India,Black Forest Mcflurry (M) BOGO,115.24,22910518.68,Match Time Meals
+69,2023/10/30,Mon,India,McSaver McCheese Burger Veg Meal,384.76,76492981.32,Veg Specials
+70,2023/10/30,Mon,India,Cheesy Veg Nuggets - 4 Pc,94.29,18745512.03,Veg Specials
+71,2023/10/30,Mon,India,Cheesy Veg Nuggets - 9 Pc,199.05,39572533.35,Veg Specials
+72,2023/10/30,Mon,India,Cheesy Veg Nuggets - 2 Pc,51.43,10224644.01,Veg Specials
+73,2023/10/30,Mon,India,McCheese Burger Veg,261.90,52067553.30,Veg Specials
+74,2023/10/30,Mon,India,Classic Cheesy Dip,14.29,2840952.03,Veg Specials
+75,2023/10/30,Mon,India,Cheesy Italian Veg Burger,170.48,33892617.36,Burgers & Wraps
+76,2023/10/30,Mon,India,Cheesy Italian Chicken Burger,175.24,34838938.68,Burgers & Wraps
+77,2023/10/30,Mon,India,McCheese Burger Chicken,280.95,55854826.65,Burgers & Wraps
+78,2023/10/30,Mon,India,Grilled Chicken & Cheese Burger,163.81,32566574.67,Burgers & Wraps
+79,2023/10/30,Mon,India,Corn & Cheese Burger,144.76,28779301.32,Burgers & Wraps
+80,2023/10/30,Mon,India,McSpicy Premium Chicken Burger,260.00,51689820.00,Burgers & Wraps
+81,2023/10/30,Mon,India,McSpicy Premium Veg Burger,248.57,49417455.99,Burgers & Wraps
+82,2023/10/30,Mon,India,McAloo Tikki Burger,65.71,13063607.97,Burgers & Wraps
+83,2023/10/30,Mon,India,McChicken Burger,138.10,27455246.70,Burgers & Wraps
+84,2023/10/30,Mon,India,McVeggie Burger,157.14,31240531.98,Burgers & Wraps
+85,2023/10/30,Mon,India,Filet-O-Fish Burger,184.76,36731581.32,Burgers & Wraps
+86,2023/10/30,Mon,India,Chicken Maharaja Mac,258.10,51312086.70,Burgers & Wraps
+87,2023/10/30,Mon,India,Veg Maharaja Mac,220.00,43737540.00,Burgers & Wraps
+88,2023/10/30,Mon,India,Mexican McAloo Tikki Burger,74.29,14769372.03,Burgers & Wraps
+89,2023/10/30,Mon,India,Chicken Kebab Burger,111.43,22153064.01,Burgers & Wraps
+90,2023/10/30,Mon,India,Masala McEgg Burger,68.57,13632195.99,Burgers & Wraps
+91,2023/10/30,Mon,India,McSpicy Paneer Burger,200.00,39761400.00,Burgers & Wraps
+92,2023/10/30,Mon,India,McSpicy Chicken Burger,189.52,37677902.64,Burgers & Wraps
+93,2023/10/30,Mon,India,Big Spicy Chicken Wrap,239.05,47524813.35,Burgers & Wraps
+94,2023/10/30,Mon,India,Big Spicy Paneer Wrap,210.48,41844897.36,Burgers & Wraps
+95,2023/10/30,Mon,India,McCheese Burger Veg,261.90,52067553.30,Burgers & Wraps
+96,2023/10/30,Mon,India,McSaver Cheesy Italian Veg Meal,314.29,62483052.03,Meals for One
+97,2023/10/30,Mon,India,McSaver Cheesy Italian Chicken Meal,327.61,65131161.27,Meals for One
+98,2023/10/30,Mon,India,McSaver McCheese Burger Chicken Meal,384.76,76492981.32,Meals for One
+99,2023/10/30,Mon,India,McSaver McCheese Burger Veg Meal,384.76,76492981.32,Meals for One
+100,2023/10/30,Mon,India,McSaver Corn & Cheese Burger Meal,299.05,59453233.35,Meals for One
+101,2023/10/30,Mon,India,McSaver Grilled Chicken & Cheese Burger Meal,317.14,63049651.98,Meals for One
+102,2023/10/30,Mon,India,McSaver McVeggie Meal,279.05,55477093.35,Meals for One
+103,2023/10/30,Mon,India,McSaver McChicken Meal,304.76,60588421.32,Meals for One
+104,2023/10/30,Mon,India,McSaver Filet-O-Fish Meal,358.10,71192786.70,Meals for One
+105,2023/10/30,Mon,India,McSaver McAloo Tikki Meal,204.76,40707721.32,Meals for One
+106,2023/10/30,Mon,India,McSaver Mexican McAloo Tikki Meal,215.24,42791218.68,Meals for One
+107,2023/10/30,Mon,India,McSaver McSpicy Chicken Meal,328.57,65322015.99,Meals for One
+108,2023/10/30,Mon,India,McSaver McSpicy Paneer Meal,315.24,62671918.68,Meals for One
+109,2023/10/30,Mon,India,McSaver McSpicy Premium Chicken Meal,384.76,76492981.32,Meals for One
+110,2023/10/30,Mon,India,McSaver McSpicy Premium Veg Meal,384.76,76492981.32,Meals for One
+111,2023/10/30,Mon,India,McSaver Veg Maharaja Mac Meal,384.76,76492981.32,Meals for One
+112,2023/10/30,Mon,India,McSaver Chicken Maharaja Mac Meal,384.76,76492981.32,Meals for One
+113,2023/10/30,Mon,India,McSaver Big Spicy Paneer Wrap Meal,400.95,79711666.65,Meals for One
+114,2023/10/30,Mon,India,McSaver Big Spicy Chicken Wrap Meal,412.38,81984030.66,Meals for One
+115,2023/10/30,Mon,India,McSaver Masala McEgg Meal,230.48,45821037.36,Meals for One
+116,2023/10/30,Mon,India,McSaver Chicken Kebab Burger Meal,268.57,53393595.99,Meals for One
+117,2023/10/30,Mon,India,McSaver Chicken McNuggets 9 Pcs Meal,376.30,74811074.10,Meals for One
+118,2023/10/30,Mon,India,McSaver Chicken McNuggets 6 Pcs Meal,345.77,68741496.39,Meals for One
+119,2023/10/30,Mon,India,Festive Sharing Meal for 4 (Premium),1322.86,262993828.02,"Festive Sharing Meals
+"
+120,2023/10/30,Mon,India,Festive Sharing Meal for 4,914.30,181769240.10,"Festive Sharing Meals
+"
+121,2023/10/30,Mon,India,Festive Sharing Meal for 3,713.34,141816985.38,"Festive Sharing Meals
+"
+122,2023/10/30,Mon,India,Festive Sharing Meal for 2,380.00,75546660.00,"Festive Sharing Meals
+"
+123,2023/10/30,Mon,India,Hazelnut Cold Coffee,246.67,49039722.69,Coffee & Beverages (Hot and Cold)
+124,2023/10/30,Mon,India,Hazelnut Cappuccino Reguler,227.62,45252449.34,Coffee & Beverages (Hot and Cold)
+125,2023/10/30,Mon,India,Hazelnut Cappuccino Small,199.04,39570545.28,Coffee & Beverages (Hot and Cold)
+126,2023/10/30,Mon,India,Hazelnut Hot Chocolate Regular,237.13,47143103.91,Coffee & Beverages (Hot and Cold)
+127,2023/10/30,Mon,India,Hazelnut Hot Chocolate Small,204.75,40705733.25,Coffee & Beverages (Hot and Cold)
+128,2023/10/30,Mon,India,Cappuccino (S),164.76,32755441.32,Coffee & Beverages (Hot and Cold)
+129,2023/10/30,Mon,India,Cappuccino (R),200.00,39761400.00,Coffee & Beverages (Hot and Cold)
+130,2023/10/30,Mon,India,Hot Chocolate (S),183.81,36542714.67,Coffee & Beverages (Hot and Cold)
+131,2023/10/30,Mon,India,Hot Chocolate (R),216.19,42980085.33,Coffee & Beverages (Hot and Cold)
+132,2023/10/30,Mon,India,Latte (S),169.52,33701762.64,Coffee & Beverages (Hot and Cold)
+133,2023/10/30,Mon,India,Latte (R),200.00,39761400.00,Coffee & Beverages (Hot and Cold)
+134,2023/10/30,Mon,India,Mocha (S),210.48,41844897.36,Coffee & Beverages (Hot and Cold)
+135,2023/10/30,Mon,India,Mocha (R),236.19,46956225.33,Coffee & Beverages (Hot and Cold)
+136,2023/10/30,Mon,India,Berry Lemonade Splash Regular,132.38,26318070.66,Coffee & Beverages (Hot and Cold)
+137,2023/10/30,Mon,India,Green Apple Chiller,180.00,35785260.00,Coffee & Beverages (Hot and Cold)
+138,2023/10/30,Mon,India,Lemon Chiller,180.00,35785260.00,Coffee & Beverages (Hot and Cold)
+139,2023/10/30,Mon,India,Chocolate Shake,175.24,34838938.68,Coffee & Beverages (Hot and Cold)
+140,2023/10/30,Mon,India,Strawberry Shake,175.24,34838938.68,Coffee & Beverages (Hot and Cold)
+141,2023/10/30,Mon,India,American Mud Pie,195.24,38815078.68,Coffee & Beverages (Hot and Cold)
+142,2023/10/30,Mon,India,Mango Smoothie,210.48,41844897.36,Coffee & Beverages (Hot and Cold)
+143,2023/10/30,Mon,India,Mixed Berry Smoothie,210.48,41844897.36,Coffee & Beverages (Hot and Cold)
+144,2023/10/30,Mon,India,McCafe-Mocha Frappe,278.10,55288226.70,Coffee & Beverages (Hot and Cold)
+145,2023/10/30,Mon,India,Kit Kat Frappe,256.19,50932365.33,Coffee & Beverages (Hot and Cold)
+146,2023/10/30,Mon,India,McCafe-Ice Coffee,200.00,39761400.00,Coffee & Beverages (Hot and Cold)
+147,2023/10/30,Mon,India,Mccafe Iced Americano,180.00,35785260.00,Coffee & Beverages (Hot and Cold)
+148,2023/10/30,Mon,India,McCafe-Chocolate Frappe,278.10,55288226.70,Coffee & Beverages (Hot and Cold)
+149,2023/10/30,Mon,India,Strawberry Chiller,180.00,35785260.00,Coffee & Beverages (Hot and Cold)
+150,2023/10/30,Mon,India,McCafe Americano (S),169.52,33701762.64,Coffee & Beverages (Hot and Cold)
+151,2023/10/30,Mon,India,McCafe-Classic Coffee,215.24,42791218.68,Coffee & Beverages (Hot and Cold)
+152,2023/10/30,Mon,India,McCafe Americano (R),190.48,37868757.36,Coffee & Beverages (Hot and Cold)
+153,2023/10/30,Mon,India,Moroccan Mint Green Tea,190.48,37868757.36,Coffee & Beverages (Hot and Cold)
+154,2023/10/30,Mon,India,English Breakfast,159.05,31620253.35,Coffee & Beverages (Hot and Cold)
+155,2023/10/30,Mon,India,Flat White,173.33,34459217.31,Coffee & Beverages (Hot and Cold)
+156,2023/10/30,Mon,India,Strawberry Green Tea (S),153.33,30483077.31,Coffee & Beverages (Hot and Cold)
+157,2023/10/30,Mon,India,Coke,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+158,2023/10/30,Mon,India,Fanta,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+159,2023/10/30,Mon,India,Sprite,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+160,2023/10/30,Mon,India,Coke zero can,63.49,12622256.43,Coffee & Beverages (Hot and Cold)
+161,2023/10/30,Mon,India,Chilli Guava Coke,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+162,2023/10/30,Mon,India,Chilli Guava Sprite,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+163,2023/10/30,Mon,India,Masala Pop Coke,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+164,2023/10/30,Mon,India,Masala Pop Sprite,102.86,20449288.02,Coffee & Beverages (Hot and Cold)
+165,2023/10/30,Mon,India,Mixed Fruit Beverage,75.24,14958238.68,Coffee & Beverages (Hot and Cold)
+166,2023/10/30,Mon,India,Vedica Zen Water Bottle,45.36,9017885.52,Coffee & Beverages (Hot and Cold)
+167,2023/10/30,Mon,India,Festive Dip Box,46.66,9276334.62,Fries & Sides
+168,2023/10/30,Mon,India,Tangy Pepper Dip ,23.80,4731606.60,Fries & Sides
+169,2023/10/30,Mon,India,Sweet Chilli Dip ,23.80,4731606.60,Fries & Sides
+170,2023/10/30,Mon,India,Chicken McNuggets - 20 Pcs,375.40,74632147.80,Fries & Sides
+171,2023/10/30,Mon,India,Chicken McNuggets - 9 Pcs,211.54,42055632.78,Fries & Sides
+172,2023/10/30,Mon,India,Chicken McNuggets - 6 Pcs,179.10,35606333.70,Fries & Sides
+173,2023/10/30,Mon,India,Salsa Cheesy Fries,135.24,26886658.68,Fries & Sides
+174,2023/10/30,Mon,India,Fries (L),139.05,27644113.35,Fries & Sides
+175,2023/10/30,Mon,India,Fries (M),119.05,23667973.35,Fries & Sides
+176,2023/10/30,Mon,India,Fries (R),78.10,15526826.70,Fries & Sides
+177,2023/10/30,Mon,India,Cheesy Veg Nuggets 9 Pc + Piri Piri Spice Mix,223.81,44494994.67,Fries & Sides
+178,2023/10/30,Mon,India,Cheesy Veg Nuggets 4 Pc + Piri Piri Spice Mix,113.33,22530797.31,Fries & Sides
+179,2023/10/30,Mon,India,Cheesy Veg Nuggets - 4 Pc,94.29,18745512.03,Fries & Sides
+180,2023/10/30,Mon,India,Classic Cheesy Fries,145.71,28968167.97,Fries & Sides
+181,2023/10/30,Mon,India,Chicken McNuggets 4 PC,95.24,18934378.68,Fries & Sides
+182,2023/10/30,Mon,India,Veg Pizza McPuff,60.95,12117286.65,Fries & Sides
+183,2023/10/30,Mon,India,Cheesy Veg Nuggets - 9 Pc,199.05,39572533.35,Fries & Sides
+184,2023/10/30,Mon,India,Cheesy Veg Nuggets - 2 Pc,51.43,10224644.01,Fries & Sides
+185,2023/10/30,Mon,India,Fries (M) + Piri Piri Mix,120.00,23856840.00,Fries & Sides
+186,2023/10/30,Mon,India,Classic Corn Cup,89.52,17797202.64,Fries & Sides
+187,2023/10/30,Mon,India,Mustard Sauce,18.15,3608347.05,Fries & Sides
+188,2023/10/30,Mon,India,Barbeque Sauce,18.15,3608347.05,Fries & Sides
+189,2023/10/30,Mon,India,Chilli Sauce Sachet,1.90,377733.30,Fries & Sides
+190,2023/10/30,Mon,India,Piri Piri Spice Mix,22.67,4506954.69,Fries & Sides
+191,2023/10/30,Mon,India,Tomato Ketchup Sachet,0.95,188866.65,Fries & Sides
+192,2023/10/30,Mon,India,Classic Cheesy Dip,14.29,2840952.03,Fries & Sides
+193,2023/10/30,Mon,India,KitKat McFlurry with Brownie (Med),137.14,27264391.98,Desserts
+194,2023/10/30,Mon,India,KitKat McFlurry with Brownie (Reg),127.62,25371749.34,Desserts
+195,2023/10/30,Mon,India,Kit Kat Sundae (M),99.05,19691833.35,Desserts
+196,2023/10/30,Mon,India,Soft Serve Hot Fudge (M),64.76,12874741.32,Desserts
+197,2023/10/30,Mon,India,Black Forest McFlurry Medium,115.24,22910518.68,Desserts
+198,2023/10/30,Mon,India,McFlurry Oreo Medium,128.57,25560615.99,Desserts
+199,2023/10/30,Mon,India,Soft Serve Strawberry (M),64.76,12874741.32,Desserts
+200,2023/10/30,Mon,India,Brownie Hot Fudge (M),138.10,27455246.70,Desserts
+201,2023/10/30,Mon,India,Vanilla Chocolate Muffin,128.57,25560615.99,Desserts
+202,2023/10/30,Mon,India,Chocolate Chip Muffin,139.05,27644113.35,Desserts
+203,2023/10/30,Mon,India,Blueberry Cheese Cake,228.57,45441315.99,Desserts
+204,2023/10/30,Mon,India,Chocolate Express Cake,200.00,39761400.00,Desserts
+205,2023/10/30,Mon,India,Mcflurry Oreo Small,91.43,18176924.01,Desserts
+206,2023/10/30,Mon,India,McVeggie Happy Meal,305.72,60779276.04,Happy Meals
+207,2023/10/30,Mon,India,McChicken Happy Meal,326.67,64944282.69,Happy Meals
+208,2023/10/30,Mon,India,4 Pc Chicken Nuggets HM,267.62,53204729.34,Happy Meals
+209,2023/10/30,Mon,India,McAloo Tikki Happy Meal,211.43,42033764.01,Happy Meals
+210,2023/10/30,Mon,India,McEgg Happy Meal,237.14,47145091.98,Happy Meals
+211,2023/10/30,Mon,India,2 Pc Chicken Nuggets HM,220.00,43737540.00,Happy Meals
+212,2023/10/30,Mon,India,Birthday Party Package - McVeggie,2197.15,436808800.05,Happy Meals
+213,2023/10/30,Mon,India,Birthday Party Package - McChicken,2197.15,436808800.05,Happy Meals
+214,2023/10/30,Mon,India,Jain Meal - McCheese Burger Veg,399.05,79333933.35,Jain Friendly
+215,2023/10/30,Mon,India,McCheese Burger Veg,261.90,52067553.30,Jain Friendly
+216,2023/10/30,Mon,India,Classic Cheesy Dip,14.29,2840952.03,Jain Friendly

@@ -38,8 +38,16 @@ try:
 	# Scraping the text from the selected element (CSS selector)
 	# Extracting only the number from the text string and converting it to a float value (decimal number)
 	# findall() and select() methods return a list, indicate index [0] to extract the first element as a string value
-	exchange_rate = float(re.findall(
-	    r"[-+]?(?:\d*\.\d+|\d+)", XE.select("p.result__BigRate-sc-1bsijpp-1.iGrAod")[0].text)[0])
+	exchange_rate = float(
+		re.findall(
+			r"[-+]?(?:\d*\.\d+|\d+)",
+			XE.select("span[class*=faded-digits]")[0].parent.text
+		)[0]
+	)
+	
+	print(
+		f"1 PKR = {exchange_rate} USD (1 USD = {1/exchange_rate} PKR) on {local_datetime.strftime('%A, %-d %B %Y')}"
+	)
 	
 	
 	# --------------------------------------- #

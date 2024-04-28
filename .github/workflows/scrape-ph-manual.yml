@@ -46,4 +46,4 @@ jobs:
               git add -A
               timestamp=$(date -u)
               git commit -m "Scraped: [${timestamp}] mcd-scr-ph (manual)" 
-              git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+              git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD || exit 0

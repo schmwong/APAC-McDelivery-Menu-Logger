@@ -50,7 +50,7 @@ jobs:
         timestamp=$(date -u)
         if ! git diff-index --quiet HEAD; then
           git commit -m "Scraped: [${timestamp}] mcd-scr-bn (auto)" 
-          git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+          git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD || exit 0
         fi
 
 #EOF
