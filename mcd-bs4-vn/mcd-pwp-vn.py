@@ -267,7 +267,7 @@ if __name__ == "__main__":
 
         timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
-        output_file = str(timestamp + " mcd-bs4-vn.csv")
+        output_file = str(timestamp + " mcd-pwp-vn.csv")
         output_dir = Path("./scraped-data")
 
         # Create directory as required; won't raise an error if directory already exists
@@ -279,4 +279,4 @@ if __name__ == "__main__":
             encoding="utf-8"
         )
 
-        # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-bs4-vn.csv"
+        # Output filename format: "[YYYY-MM-DD hh:mm:ss] mcd-pwp-vn.csv"
