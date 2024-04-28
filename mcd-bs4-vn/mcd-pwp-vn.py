@@ -243,7 +243,7 @@ def scrape_all_products():
 
 if __name__ == "__main__":
     with sync_playwright() as pw:
-        browser = pw.firefox.launch(headless=False)
+        browser = pw.firefox.launch(headless=True)
         page = browser.new_page(no_viewport=True)
         exchange_rate = scrape_exchange_rate()
         set_delivery_address()
