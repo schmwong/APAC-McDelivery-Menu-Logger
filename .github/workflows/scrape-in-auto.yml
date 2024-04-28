@@ -13,27 +13,34 @@ concurrency:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  scrape:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: checkout repo content
-      uses: actions/checkout@v3       # checkout the repository content to github runner.
+      uses: actions/checkout@v4       # checkout the repository content to GitHub runner.
     - name: setup python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
-    - name: execute py script       # run mcd-api-in.py to get the latest data
+        python-version: 3.9.6
+
+    - name: setup dependencies
       working-directory: ./mcd-req-in
       run: |
-        python mcd-api-in.py
+        pip install -r requirements.txt
+        playwright install firefox
+
+    - name: execute py script       # run mcd-pwp-in.py to get the latest data
+      working-directory: ./mcd-req-in
+      run: |
+        python mcd-pwp-in.py
     - name: Commit and push if it changed
       run: |
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Scraped: [${timestamp}] mcd-req-in (auto)" 
-        git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main || exit 0
+        git commit -m "Scraped: [${timestamp}] mcd-pwp-in (auto)" 
+        git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD || exit 0
