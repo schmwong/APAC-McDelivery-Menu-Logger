@@ -1,0 +1,135 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/05/01,Wed,Brunei,Jimat Meal Filet-O-Fish (S),3.90,2.85,Jimat Meal Promotion
+2,2024/05/01,Wed,Brunei,Jimat Meal Cheeseburger (S),3.90,2.85,Jimat Meal Promotion
+3,2024/05/01,Wed,Brunei,Jimat Meal 1 Piece Ayam Goreng McD (S),3.90,2.85,Jimat Meal Promotion
+4,2024/05/01,Wed,Brunei,Jimat Meal McChicken (S),4.90,3.58,Jimat Meal Promotion
+5,2024/05/01,Wed,Brunei,Jimat Meal Bubur McD and 1 Piece Cakoi (S),4.90,3.58,Jimat Meal Promotion
+6,2024/05/01,Wed,Brunei,Jimat Meal 1 Piece Nasi Lemak McD Set B (S),4.90,3.58,Jimat Meal Promotion
+7,2024/05/01,Wed,Brunei,Sausage McMuffin Ala Carte,2.80,2.04,Breakfast
+8,2024/05/01,Wed,Brunei,Sausage McMuffin Meal,3.50,2.55,Breakfast
+9,2024/05/01,Wed,Brunei,Sausage Egg McMuffin Ala Carte,3.80,2.77,Breakfast
+10,2024/05/01,Wed,Brunei,Sausage Egg McMuffin Meal,4.40,3.21,Breakfast
+11,2024/05/01,Wed,Brunei,Chicken McMuffin Ala Carte,4.20,3.07,Breakfast
+12,2024/05/01,Wed,Brunei,Chicken McMuffin Meal,6.20,4.53,Breakfast
+13,2024/05/01,Wed,Brunei,Scramble Egg with Sausage Ala Carte,3.50,2.55,Breakfast
+14,2024/05/01,Wed,Brunei,Scramble Egg with Sausage Meal,4.50,3.29,Breakfast
+15,2024/05/01,Wed,Brunei,Egg McMuffin with Chicken Roll Ala Carte,3.30,2.41,Breakfast
+16,2024/05/01,Wed,Brunei,Egg McMuffin with Chicken Roll Meal,5.50,4.01,Breakfast
+17,2024/05/01,Wed,Brunei,Scramble Egg with Chicken Roll Ala Carte,3.50,2.55,Breakfast
+18,2024/05/01,Wed,Brunei,Scramble Egg with Chicken Roll Meal,4.50,3.29,Breakfast
+19,2024/05/01,Wed,Brunei,Big Breakfast Ala Carte,5.00,3.65,Breakfast
+20,2024/05/01,Wed,Brunei,Big Breakfast Meal,6.60,4.82,Breakfast
+21,2024/05/01,Wed,Brunei,Breakfast Filet-O-Fish Ala Carte,3.80,2.77,Breakfast
+22,2024/05/01,Wed,Brunei,Breakfast Meal Fillet-O-Fish Meal,5.60,4.09,Breakfast
+23,2024/05/01,Wed,Brunei,3pcs Hotcakes Ala Carte,3.90,2.85,Breakfast
+24,2024/05/01,Wed,Brunei,3pcs Hotcakes Meal,6.00,4.38,Breakfast
+25,2024/05/01,Wed,Brunei,Happy Meal 2 pcs Hotcakes Meal,5.20,3.80,Happy Meal Breakfast
+26,2024/05/01,Wed,Brunei,Happy Meal Bubur with Corn,5.20,3.80,Happy Meal Breakfast
+27,2024/05/01,Wed,Brunei,Happy Meal Bubur with Hashbrown,5.20,3.80,Happy Meal Breakfast
+28,2024/05/01,Wed,Brunei,Happy Meal Sausage McMuffin with Corn,5.20,3.80,Happy Meal Breakfast
+29,2024/05/01,Wed,Brunei,Happy Meal Sausage McMuffin with Hashbrown,5.20,3.80,Happy Meal Breakfast
+30,2024/05/01,Wed,Brunei,Big Mac Ala Carte,5.50,4.01,Regular Menu
+31,2024/05/01,Wed,Brunei,Big Mac Medium Meal,6.50,4.75,Regular Menu
+32,2024/05/01,Wed,Brunei,Big Mac Large Meal,7.10,5.18,Regular Menu
+33,2024/05/01,Wed,Brunei,Double Cheeseburger Ala Carte,5.10,3.72,Regular Menu
+34,2024/05/01,Wed,Brunei,Double Cheeseburger Medium Meal,6.20,4.53,Regular Menu
+35,2024/05/01,Wed,Brunei,Double Cheeseburger Large Meal,6.80,4.96,Regular Menu
+36,2024/05/01,Wed,Brunei,Quarter Pounder with Cheese Ala Carte,6.60,4.82,Regular Menu
+37,2024/05/01,Wed,Brunei,Quarter Pounder with Cheese Medium Meal,7.60,5.55,Regular Menu
+38,2024/05/01,Wed,Brunei,Quarter Pounder with Cheese Large Meal,8.20,5.99,Regular Menu
+39,2024/05/01,Wed,Brunei,McChicken Ala Carte,5.00,3.65,Regular Menu
+40,2024/05/01,Wed,Brunei,McChicken Medium Meal,6.00,4.38,Regular Menu
+41,2024/05/01,Wed,Brunei,McChicken Large Meal,6.60,4.82,Regular Menu
+42,2024/05/01,Wed,Brunei,McChicken Deluxe Ala Carte,5.20,3.80,Regular Menu
+43,2024/05/01,Wed,Brunei,McChicken Deluxe Medium Meal,6.20,4.53,Regular Menu
+44,2024/05/01,Wed,Brunei,McChicken Deluxe Large Meal,6.80,4.96,Regular Menu
+45,2024/05/01,Wed,Brunei,Spicy Chicken McDeluxe Ala Carte,5.60,4.09,Regular Menu
+46,2024/05/01,Wed,Brunei,Spicy Chicken McDeluxe Medium Meal,6.80,4.96,Regular Menu
+47,2024/05/01,Wed,Brunei,Spicy Chicken McDeluxe Large Meal,7.40,5.40,Regular Menu
+48,2024/05/01,Wed,Brunei,Fish-O-Fillet Ala Carte,3.80,2.77,Regular Menu
+49,2024/05/01,Wed,Brunei,Fish-O-Fillet Medium Meal,5.60,4.09,Regular Menu
+50,2024/05/01,Wed,Brunei,Fish-O-Fillet Large Meal,6.20,4.53,Regular Menu
+51,2024/05/01,Wed,Brunei,Chicken McNuggets 6pcs Ala Carte,4.60,3.36,Regular Menu
+52,2024/05/01,Wed,Brunei,Chicken McNuggets 6pcs Medium Meal,6.10,4.45,Regular Menu
+53,2024/05/01,Wed,Brunei,Chicken McNuggets 6pcs Large Meal,6.70,4.89,Regular Menu
+54,2024/05/01,Wed,Brunei,Chicken McNuggets 9pcs Ala Carte,6.30,4.60,Regular Menu
+55,2024/05/01,Wed,Brunei,Chicken McNuggets 9pcs Medium Meal,6.80,4.96,Regular Menu
+56,2024/05/01,Wed,Brunei,Chicken McNuggets 9pcs Large Meal,7.40,5.40,Regular Menu
+57,2024/05/01,Wed,Brunei,Chicken McNugget 20pcs Ala Carte,12.60,9.20,Regular Menu
+58,2024/05/01,Wed,Brunei,Bubur McD Ala Carte (Small),3.20,2.34,Regular Menu
+59,2024/05/01,Wed,Brunei,Bubur McD Ala Carte (Large),3.70,2.70,Regular Menu
+60,2024/05/01,Wed,Brunei,Bubur McD Spicy Ala Carte (Small),3.20,2.34,Regular Menu
+61,2024/05/01,Wed,Brunei,Bubur McD Spicy Ala Carte (Large),3.70,2.70,Regular Menu
+62,2024/05/01,Wed,Brunei,Ayam Goreng McD 2pcs Ala Carte,5.30,3.87,Regular Menu
+63,2024/05/01,Wed,Brunei,Ayam Goreng McD 5pcs,12.00,8.76,Regular Menu
+64,2024/05/01,Wed,Brunei,Ayam Goreng McD 9pcs,21.80,15.91,Regular Menu
+65,2024/05/01,Wed,Brunei,Ayam Goreng McD 2pcs Medium Meal,6.30,4.60,Regular Menu
+66,2024/05/01,Wed,Brunei,Ayam Goreng McD 2pcs Large Meal,6.90,5.04,Regular Menu
+67,2024/05/01,Wed,Brunei,4pcs Chicken Nuggets,5.50,4.01,Happy Meal
+68,2024/05/01,Wed,Brunei,Happy Meal Cheeseburger,5.20,3.80,Happy Meal
+69,2024/05/01,Wed,Brunei,Happy Meal Beef Burger,4.90,3.58,Happy Meal
+70,2024/05/01,Wed,Brunei,Happy Meal Chicken Burger,5.20,3.80,Happy Meal
+71,2024/05/01,Wed,Brunei,Happy Meal Bubur McD (Small),5.20,3.80,Happy Meal
+72,2024/05/01,Wed,Brunei,Happy Meal 1pc Ayam Goreng McD,5.20,3.80,Happy Meal
+73,2024/05/01,Wed,Brunei,Hot Coffee Medium,1.60,1.17,Beverage Hot Drinks
+74,2024/05/01,Wed,Brunei,Hot Coffee Large,2.40,1.75,Beverage Hot Drinks
+75,2024/05/01,Wed,Brunei,Hot Milo Medium,2.00,1.46,Beverage Hot Drinks
+76,2024/05/01,Wed,Brunei,Hot Milo Large,2.80,2.04,Beverage Hot Drinks
+77,2024/05/01,Wed,Brunei,Hot Tea Medium,1.60,1.17,Beverage Hot Drinks
+78,2024/05/01,Wed,Brunei,Hot Tea Large,2.40,1.75,Beverage Hot Drinks
+79,2024/05/01,Wed,Brunei,Iced Lemon Tea Medium,2.40,1.75,Beverage Cold Drinks
+80,2024/05/01,Wed,Brunei,Iced Lemon Tea Large,3.00,2.19,Beverage Cold Drinks
+81,2024/05/01,Wed,Brunei,Orange Juice Medium,2.80,2.04,Beverage Cold Drinks
+82,2024/05/01,Wed,Brunei,Orange Juice Large,3.90,2.85,Beverage Cold Drinks
+83,2024/05/01,Wed,Brunei,Iced Milo Medium,2.80,2.04,Beverage Cold Drinks
+84,2024/05/01,Wed,Brunei,Iced Milo Large,3.90,2.85,Beverage Cold Drinks
+85,2024/05/01,Wed,Brunei,Iced Lychee Tea Medium,3.00,2.19,Beverage Cold Drinks
+86,2024/05/01,Wed,Brunei,Iced Lychee Tea Large,3.60,2.63,Beverage Cold Drinks
+87,2024/05/01,Wed,Brunei,Mineral Water 600ml,1.00,0.73,Beverage Cold Drinks
+88,2024/05/01,Wed,Brunei,Coke Medium,1.90,1.39,Beverage Cold Drinks
+89,2024/05/01,Wed,Brunei,Coke Large,2.20,1.61,Beverage Cold Drinks
+90,2024/05/01,Wed,Brunei,Coke Zero Medium,1.90,1.39,Beverage Cold Drinks
+91,2024/05/01,Wed,Brunei,Coke Zero Large,2.20,1.61,Beverage Cold Drinks
+92,2024/05/01,Wed,Brunei,Sprite Medium,1.90,1.39,Beverage Cold Drinks
+93,2024/05/01,Wed,Brunei,Sprite Large,2.20,1.61,Beverage Cold Drinks
+94,2024/05/01,Wed,Brunei,Fanta Strawberry Medium,1.90,1.39,Beverage Cold Drinks
+95,2024/05/01,Wed,Brunei,Fanta Strawberry Large,2.20,1.61,Beverage Cold Drinks
+96,2024/05/01,Wed,Brunei,Hot Americano,3.50,2.55,McCafe Hot Drinks
+97,2024/05/01,Wed,Brunei,Hot Latte,3.50,2.55,McCafe Hot Drinks
+98,2024/05/01,Wed,Brunei,Hot Cappuccino,3.50,2.55,McCafe Hot Drinks
+99,2024/05/01,Wed,Brunei,Hot Espresso 4oz,2.00,1.46,McCafe Hot Drinks
+100,2024/05/01,Wed,Brunei,Iced Latte Medium,4.00,2.92,McCafe Hot Drinks
+101,2024/05/01,Wed,Brunei,Iced Latte Large,5.00,3.65,McCafe Hot Drinks
+102,2024/05/01,Wed,Brunei,Iced Americano Medium,4.00,2.92,McCafe Hot Drinks
+103,2024/05/01,Wed,Brunei,Iced Americano Large,5.00,3.65,McCafe Hot Drinks
+104,2024/05/01,Wed,Brunei,Iced Chocolate Medium,4.50,3.29,McCafe Hot Drinks
+105,2024/05/01,Wed,Brunei,Iced Chocolate Large,5.50,4.01,McCafe Hot Drinks
+106,2024/05/01,Wed,Brunei,Iced Mocha Medium,5.00,3.65,McCafe Hot Drinks
+107,2024/05/01,Wed,Brunei,Iced Mocha Large,6.00,4.38,McCafe Hot Drinks
+108,2024/05/01,Wed,Brunei,Oreo McFlurry,3.50,2.55,Dessert
+109,2024/05/01,Wed,Brunei,Apple Pie,1.80,1.31,Dessert
+110,2024/05/01,Wed,Brunei,2pcs Apple Pie,3.30,2.41,Dessert
+111,2024/05/01,Wed,Brunei,McChicken Ala Carte,4.90,3.58,Jimat Meal
+112,2024/05/01,Wed,Brunei,McChicken Medium Meal,5.90,4.31,Jimat Meal
+113,2024/05/01,Wed,Brunei,Small Bubur & 1pc Cakoi Ala Carte,4.90,3.58,Jimat Meal
+114,2024/05/01,Wed,Brunei,Small Bubur & 1pc Cakoi Medium,5.90,4.31,Jimat Meal
+115,2024/05/01,Wed,Brunei,1pc Ayam Goreng with Fries Ala Carte,3.90,2.85,Jimat Meal
+116,2024/05/01,Wed,Brunei,1pc Ayam Goreng with Fries Medium,4.90,3.58,Jimat Meal
+117,2024/05/01,Wed,Brunei,1pc Ayam Goreng with Rice Ala Carte,3.90,2.85,Jimat Meal
+118,2024/05/01,Wed,Brunei,1pc Ayam Goreng with Rice Medium,4.60,3.36,Jimat Meal
+119,2024/05/01,Wed,Brunei,Cheeseburger Ala Carte,3.90,2.85,Jimat Meal
+120,2024/05/01,Wed,Brunei,Cheeseburger Medium,4.90,3.58,Jimat Meal
+121,2024/05/01,Wed,Brunei,Filet-O-Fish Ala Carte,3.90,2.85,Jimat Meal
+122,2024/05/01,Wed,Brunei,Filet-O-Fish Medium,4.90,3.58,Jimat Meal
+123,2024/05/01,Wed,Brunei,BBQ,0.50,0.36,Sauces
+124,2024/05/01,Wed,Brunei,Sweet & Sour,0.50,0.36,Sauces
+125,2024/05/01,Wed,Brunei,Fries Small,1.50,1.09,Sides
+126,2024/05/01,Wed,Brunei,Fries Medium,2.20,1.61,Sides
+127,2024/05/01,Wed,Brunei,Fries Large,2.50,1.82,Sides
+128,2024/05/01,Wed,Brunei,Twister Fries Medium,2.90,2.12,Sides
+129,2024/05/01,Wed,Brunei,Twister Fries Large,3.30,2.41,Sides
+130,2024/05/01,Wed,Brunei,Corn 5oz,2.00,1.46,Sides
+131,2024/05/01,Wed,Brunei,Cakoi 1pc,1.50,1.09,Sides
+132,2024/05/01,Wed,Brunei,Cakoi 2pcs,2.80,2.04,Sides
+133,2024/05/01,Wed,Brunei,Rice,0.80,0.58,Sides
+134,2024/05/01,Wed,Brunei,Hash Brown,1.70,1.24,Sides
