@@ -34,8 +34,9 @@ jobs:
     - name: execute py script       # run mcd-pwp-nz.py to get the latest data
       working-directory: ./mcd-scr-nz
       run: |
-        scrapy crawl mcd-scr-nz
         xvfb-run -- python3 mcd-pwp-nz.py
+#        scrapy crawl mcd-scr-nz
+
     - name: Commit and push if it changed
       run: |
         git config user.name "${GITHUB_ACTOR}"
