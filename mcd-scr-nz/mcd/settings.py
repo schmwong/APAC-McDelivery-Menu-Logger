@@ -15,6 +15,8 @@ NEWSPIDER_MODULE = 'mcd.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mcd_scr_nz (+http://www.yourdomain.com)'
+USER_AGENT = ('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 '
+              'Safari/537.36')
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -86,3 +88,19 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+
+PLAYWRIGHT_LAUNCH_OPTIONS = {
+    "headless": False,
+    "args": ["--start-maximized"]
+}
+
+PLAYWRIGHT_ACCEPT_REQUEST_PREDICATE = lambda req: req.resource_type not in ("image", "script")
