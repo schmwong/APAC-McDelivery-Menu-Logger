@@ -1,0 +1,67 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/05/08,Wed,Brunei,Sausage McMuffin Ala Carte,2.80,2.04,Breakfast
+2,2024/05/08,Wed,Brunei,Sausage McMuffin Meal,3.50,2.55,Breakfast
+3,2024/05/08,Wed,Brunei,Sausage Egg McMuffin Ala Carte,3.80,2.77,Breakfast
+4,2024/05/08,Wed,Brunei,Sausage Egg McMuffin Meal,4.40,3.21,Breakfast
+5,2024/05/08,Wed,Brunei,Chicken McMuffin Ala Carte,4.20,3.07,Breakfast
+6,2024/05/08,Wed,Brunei,Chicken McMuffin Meal,6.20,4.53,Breakfast
+7,2024/05/08,Wed,Brunei,Scramble Egg with Sausage Ala Carte,3.50,2.55,Breakfast
+8,2024/05/08,Wed,Brunei,Scramble Egg with Sausage Meal,4.50,3.29,Breakfast
+9,2024/05/08,Wed,Brunei,Egg McMuffin with Chicken Roll Ala Carte,3.30,2.41,Breakfast
+10,2024/05/08,Wed,Brunei,Egg McMuffin with Chicken Roll Meal,5.50,4.01,Breakfast
+11,2024/05/08,Wed,Brunei,Scramble Egg with Chicken Roll Ala Carte,3.50,2.55,Breakfast
+12,2024/05/08,Wed,Brunei,Scramble Egg with Chicken Roll Meal,4.50,3.29,Breakfast
+13,2024/05/08,Wed,Brunei,Big Breakfast Ala Carte,5.00,3.65,Breakfast
+14,2024/05/08,Wed,Brunei,Big Breakfast Meal,6.60,4.82,Breakfast
+15,2024/05/08,Wed,Brunei,Breakfast Filet-O-Fish Ala Carte,3.80,2.77,Breakfast
+16,2024/05/08,Wed,Brunei,Breakfast Meal Fillet-O-Fish Meal,5.60,4.09,Breakfast
+17,2024/05/08,Wed,Brunei,3pcs Hotcakes Ala Carte,3.90,2.85,Breakfast
+18,2024/05/08,Wed,Brunei,3pcs Hotcakes Meal,6.00,4.38,Breakfast
+19,2024/05/08,Wed,Brunei,Happy Meal 2 pcs Hotcakes Meal,5.20,3.80,Happy Meal Breakfast
+20,2024/05/08,Wed,Brunei,Happy Meal Bubur with Corn,5.20,3.80,Happy Meal Breakfast
+21,2024/05/08,Wed,Brunei,Happy Meal Bubur with Hashbrown,5.20,3.80,Happy Meal Breakfast
+22,2024/05/08,Wed,Brunei,Happy Meal Sausage McMuffin with Corn,5.20,3.80,Happy Meal Breakfast
+23,2024/05/08,Wed,Brunei,Happy Meal Sausage McMuffin with Hashbrown,5.20,3.80,Happy Meal Breakfast
+24,2024/05/08,Wed,Brunei,Big Mac Ala Carte,5.50,4.01,Regular Menu
+25,2024/05/08,Wed,Brunei,Big Mac Medium Meal,6.50,4.75,Regular Menu
+26,2024/05/08,Wed,Brunei,Big Mac Large Meal,7.10,5.18,Regular Menu
+27,2024/05/08,Wed,Brunei,Double Cheeseburger Ala Carte,5.10,3.72,Regular Menu
+28,2024/05/08,Wed,Brunei,Double Cheeseburger Medium Meal,6.20,4.53,Regular Menu
+29,2024/05/08,Wed,Brunei,Double Cheeseburger Large Meal,6.80,4.96,Regular Menu
+30,2024/05/08,Wed,Brunei,Quarter Pounder with Cheese Ala Carte,6.60,4.82,Regular Menu
+31,2024/05/08,Wed,Brunei,Quarter Pounder with Cheese Medium Meal,7.60,5.55,Regular Menu
+32,2024/05/08,Wed,Brunei,Quarter Pounder with Cheese Large Meal,8.20,5.99,Regular Menu
+33,2024/05/08,Wed,Brunei,McChicken Ala Carte,5.00,3.65,Regular Menu
+34,2024/05/08,Wed,Brunei,McChicken Medium Meal,6.00,4.38,Regular Menu
+35,2024/05/08,Wed,Brunei,McChicken Large Meal,6.60,4.82,Regular Menu
+36,2024/05/08,Wed,Brunei,McChicken Deluxe Ala Carte,5.20,3.80,Regular Menu
+37,2024/05/08,Wed,Brunei,McChicken Deluxe Medium Meal,6.20,4.53,Regular Menu
+38,2024/05/08,Wed,Brunei,McChicken Deluxe Large Meal,6.80,4.96,Regular Menu
+39,2024/05/08,Wed,Brunei,Spicy Chicken McDeluxe Ala Carte,5.60,4.09,Regular Menu
+40,2024/05/08,Wed,Brunei,Spicy Chicken McDeluxe Medium Meal,6.80,4.96,Regular Menu
+41,2024/05/08,Wed,Brunei,Spicy Chicken McDeluxe Large Meal,7.40,5.40,Regular Menu
+42,2024/05/08,Wed,Brunei,Fish-O-Fillet Ala Carte,3.80,2.77,Regular Menu
+43,2024/05/08,Wed,Brunei,Fish-O-Fillet Medium Meal,5.60,4.09,Regular Menu
+44,2024/05/08,Wed,Brunei,Fish-O-Fillet Large Meal,6.20,4.53,Regular Menu
+45,2024/05/08,Wed,Brunei,Chicken McNuggets 6pcs Ala Carte,4.60,3.36,Regular Menu
+46,2024/05/08,Wed,Brunei,Chicken McNuggets 6pcs Medium Meal,6.10,4.45,Regular Menu
+47,2024/05/08,Wed,Brunei,Chicken McNuggets 6pcs Large Meal,6.70,4.89,Regular Menu
+48,2024/05/08,Wed,Brunei,Chicken McNuggets 9pcs Ala Carte,6.30,4.60,Regular Menu
+49,2024/05/08,Wed,Brunei,Chicken McNuggets 9pcs Medium Meal,6.80,4.96,Regular Menu
+50,2024/05/08,Wed,Brunei,Chicken McNuggets 9pcs Large Meal,7.40,5.40,Regular Menu
+51,2024/05/08,Wed,Brunei,Chicken McNugget 20pcs Ala Carte,12.60,9.20,Regular Menu
+52,2024/05/08,Wed,Brunei,Bubur McD Ala Carte (Small),3.20,2.34,Regular Menu
+53,2024/05/08,Wed,Brunei,Bubur McD Ala Carte (Large),3.70,2.70,Regular Menu
+54,2024/05/08,Wed,Brunei,Bubur McD Spicy Ala Carte (Small),3.20,2.34,Regular Menu
+55,2024/05/08,Wed,Brunei,Bubur McD Spicy Ala Carte (Large),3.70,2.70,Regular Menu
+56,2024/05/08,Wed,Brunei,Ayam Goreng McD 2pcs Ala Carte,5.30,3.87,Regular Menu
+57,2024/05/08,Wed,Brunei,Ayam Goreng McD 5pcs,12.00,8.76,Regular Menu
+58,2024/05/08,Wed,Brunei,Ayam Goreng McD 9pcs,21.80,15.91,Regular Menu
+59,2024/05/08,Wed,Brunei,Ayam Goreng McD 2pcs Medium Meal,6.30,4.60,Regular Menu
+60,2024/05/08,Wed,Brunei,Ayam Goreng McD 2pcs Large Meal,6.90,5.04,Regular Menu
+61,2024/05/08,Wed,Brunei,4pcs Chicken Nuggets,5.50,4.01,Happy Meal
+62,2024/05/08,Wed,Brunei,Happy Meal Cheeseburger,5.20,3.80,Happy Meal
+63,2024/05/08,Wed,Brunei,Happy Meal Beef Burger,4.90,3.58,Happy Meal
+64,2024/05/08,Wed,Brunei,Happy Meal Chicken Burger,5.20,3.80,Happy Meal
+65,2024/05/08,Wed,Brunei,Happy Meal Bubur McD (Small),5.20,3.80,Happy Meal
+66,2024/05/08,Wed,Brunei,Happy Meal 1pc Ayam Goreng McD,5.20,3.80,Happy Meal
