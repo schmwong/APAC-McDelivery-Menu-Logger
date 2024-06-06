@@ -31,7 +31,7 @@ jobs:
     - name: execute py script       # run mcd-scr-sg.py to get the latest data
       working-directory: ./mcd-bs4-sg
       run: |
-        scrapy crawl mcd-bs4-sg
+        scrapy crawl mcd-scr-sg
     - name: Commit and push if it changed
       run: |
         git config user.name "${GITHUB_ACTOR}"
