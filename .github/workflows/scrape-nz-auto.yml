@@ -5,7 +5,7 @@ name: scrape-nz-auto
 # Controls when the action will run.
 on:
   schedule:
-  - cron: 20 17 * * *           # runs once a day at 13:20 UTC (01:20 NZST)
+  - cron: 20 18 * * *           # runs once a day at 13:20 UTC (01:20 NZST)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
