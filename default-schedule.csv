@@ -5,7 +5,7 @@
 4,sg,Asia/Singapore,03:06,06 03 * * *,+08:00,11:06,Scrapy
 5,hk,Asia/Hong_Kong,03:33,33 03 * * *,+08:00,11:33,Scrapy
 6,bn,Asia/Brunei,06:44,44 06 * * *,+08:00,14:44,Scrapy
-7,nz,Pacific/Auckland,13:20,20 13 * * *,+12:00,01:20,Playwright Python
+7,nz,Pacific/Auckland,12:20,20 12 * * *,+13:00,01:20,Playwright Python
 8,jp,Asia/Tokyo,15:16,16 15 * * *,+09:00,00:16,Beautiful Soup 4
 9,kr,Asia/Seoul,16:33,33 16 * * *,+09:00,01:33,Beautiful Soup 4
 10,fj,Pacific/Fiji,18:12,12 18 * * *,+12:00,06:12,Selenium
