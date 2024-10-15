@@ -1,0 +1,277 @@
+,Date,Day,Territory,Menu Item,Price (IDR),Price (USD),Category,Menu
+1,2024/10/16,Wed,Indonesia,Collector's Meal Burger,145500.00,9.37,Promotion,Regular
+2,2024/10/16,Wed,Indonesia,Collector's Meal Paket Kenyang,150000.00,9.66,Promotion,Regular
+3,2024/10/16,Wed,Indonesia,Iced Coffee Tiramisu,20000.00,1.29,Promotion,Regular
+4,2024/10/16,Wed,Indonesia,Iced Mocha,34000.00,2.19,Promotion,Regular
+5,2024/10/16,Wed,Indonesia,Double Cheeseburger McFlavor Set,65000.00,4.19,Promotion,Regular
+6,2024/10/16,Wed,Indonesia,Big Mac McFlavor Set,65000.00,4.19,Promotion,Regular
+7,2024/10/16,Wed,Indonesia,Triple Cheeseburger McFlavor Set,85000.00,5.47,Promotion,Regular
+8,2024/10/16,Wed,Indonesia,Double Big Mac McFlavor Set,89500.00,5.76,Promotion,Regular
+9,2024/10/16,Wed,Indonesia,Cheeseburger Deluxe McFlavor Set,58500.00,3.77,Promotion,Regular
+10,2024/10/16,Wed,Indonesia,Cheeseburger McFlavor Set,56500.00,3.64,Promotion,Regular
+11,2024/10/16,Wed,Indonesia,Beef Burger Deluxe McFlavor Set,51000.00,3.28,Promotion,Regular
+12,2024/10/16,Wed,Indonesia,McSpicy Chicken Burger McFlavor Set,64000.00,4.12,Promotion,Regular
+13,2024/10/16,Wed,Indonesia,McChicken Burger McFlavor Set,56000.00,3.61,Promotion,Regular
+14,2024/10/16,Wed,Indonesia,Chicken Burger Deluxe McFlavor Set,51000.00,3.28,Promotion,Regular
+15,2024/10/16,Wed,Indonesia,Fish Fillet Burger McFlavor Set,56000.00,3.61,Promotion,Regular
+16,2024/10/16,Wed,Indonesia,6pcs McNuggets® McFlavor Set,60500.00,3.90,Promotion,Regular
+17,2024/10/16,Wed,Indonesia,Double Big Mac®,67000.00,4.31,Promotion,Regular
+18,2024/10/16,Wed,Indonesia,Beef Truffle McFlavor Fries,28000.00,1.80,Promotion,Regular
+19,2024/10/16,Wed,Indonesia,Bundling 2 Pcs Choco Caramel Pie,28000.00,1.80,Promotion,Regular
+20,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Sprinkle Crumbs,18000.00,1.16,Promotion,Regular
+21,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Oreo,18000.00,1.16,Promotion,Regular
+22,2024/10/16,Wed,Indonesia,Original Hello Kitty Plush Bag Tag,37500.00,2.41,Promotion,Regular
+23,2024/10/16,Wed,Indonesia,Collector's Meal Breakfast,145000.00,9.34,Promotion,Breakfast
+24,2024/10/16,Wed,Indonesia,Iced Coffee Tiramisu,20000.00,1.29,Promotion,Breakfast
+25,2024/10/16,Wed,Indonesia,Iced Mocha,34000.00,2.19,Promotion,Breakfast
+26,2024/10/16,Wed,Indonesia,Bundling 2 Pcs Choco Caramel Pie,28000.00,1.80,Promotion,Breakfast
+27,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Sprinkle Crumbs,18000.00,1.16,Promotion,Breakfast
+28,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Oreo,18000.00,1.16,Promotion,Breakfast
+29,2024/10/16,Wed,Indonesia,Original Hello Kitty Plush Bag Tag,37500.00,2.41,Promotion,Breakfast
+30,2024/10/16,Wed,Indonesia,Collector's Meal Burger,145500.00,9.37,Exclusive Delivery,Regular
+31,2024/10/16,Wed,Indonesia,Collector's Meal Paket Kenyang,150000.00,9.66,Exclusive Delivery,Regular
+32,2024/10/16,Wed,Indonesia,Paket Ngemil,110000.00,7.08,Exclusive Delivery,Regular
+33,2024/10/16,Wed,Indonesia,Paket Manis,71500.00,4.60,Exclusive Delivery,Regular
+34,2024/10/16,Wed,Indonesia,Double Big Mac®,67000.00,4.31,Burger & McNuggets,Regular
+35,2024/10/16,Wed,Indonesia,Big Mac®,44500.00,2.87,Burger & McNuggets,Regular
+36,2024/10/16,Wed,Indonesia,Triple Cheeseburger,63500.00,4.09,Burger & McNuggets,Regular
+37,2024/10/16,Wed,Indonesia,Double Cheeseburger,42000.00,2.70,Burger & McNuggets,Regular
+38,2024/10/16,Wed,Indonesia,Cheeseburger Deluxe,35000.00,2.25,Burger & McNuggets,Regular
+39,2024/10/16,Wed,Indonesia,Cheeseburger,33000.00,2.12,Burger & McNuggets,Regular
+40,2024/10/16,Wed,Indonesia,Beef Burger Deluxe,27500.00,1.77,Burger & McNuggets,Regular
+41,2024/10/16,Wed,Indonesia,McSpicy Chicken Burger,42500.00,2.74,Burger & McNuggets,Regular
+42,2024/10/16,Wed,Indonesia,McChicken Burger,33000.00,2.12,Burger & McNuggets,Regular
+43,2024/10/16,Wed,Indonesia,Chicken Burger Deluxe,27500.00,1.77,Burger & McNuggets,Regular
+44,2024/10/16,Wed,Indonesia,Fish Burger,33500.00,2.16,Burger & McNuggets,Regular
+45,2024/10/16,Wed,Indonesia,McNuggets®  9pcs,55000.00,3.54,Burger & McNuggets,Regular
+46,2024/10/16,Wed,Indonesia,McNuggets® 6pcs,52500.00,3.38,Burger & McNuggets,Regular
+47,2024/10/16,Wed,Indonesia,McNuggets®  4pcs,27000.00,1.74,Burger & McNuggets,Regular
+48,2024/10/16,Wed,Indonesia,PaNas 2 with Fries,53500.00,3.45,Ayam McD,Regular
+49,2024/10/16,Wed,Indonesia,PaNas 2 with Rice,51500.00,3.32,Ayam McD,Regular
+50,2024/10/16,Wed,Indonesia,PaNas Spesial,47000.00,3.03,Ayam McD,Regular
+51,2024/10/16,Wed,Indonesia,PaNas 1,39000.00,2.51,Ayam McD,Regular
+52,2024/10/16,Wed,Indonesia,PaNas Korean Soy Garlic Wings,45000.00,2.90,Ayam McD,Regular
+53,2024/10/16,Wed,Indonesia,PaMer 7,185000.00,11.91,Ayam McD,Regular
+54,2024/10/16,Wed,Indonesia,PaMer 5,132500.00,8.53,Ayam McD,Regular
+55,2024/10/16,Wed,Indonesia,Paket Berlima,135000.00,8.69,Ayam McD,Regular
+56,2024/10/16,Wed,Indonesia,Paket Ber 4,90000.00,5.80,Ayam McD,Regular
+57,2024/10/16,Wed,Indonesia,Paket Big Order,587500.00,37.83,Ayam McD,Regular
+58,2024/10/16,Wed,Indonesia,Paket Keluarga Seru Tanpa Mainan,75500.00,4.86,Family Package,Regular
+59,2024/10/16,Wed,Indonesia,Paket Keluarga Seru Dengan Mainan,94000.00,6.05,Family Package,Regular
+60,2024/10/16,Wed,Indonesia,PaMer 5,132500.00,8.53,Family Package,Regular
+61,2024/10/16,Wed,Indonesia,PaMer 7,185000.00,11.91,Family Package,Regular
+62,2024/10/16,Wed,Indonesia,Paket Berlima,135000.00,8.69,Family Package,Regular
+63,2024/10/16,Wed,Indonesia,Paket Ber 4,90000.00,5.80,Family Package,Regular
+64,2024/10/16,Wed,Indonesia,Happy Meal® McNuggets® 4Pcs,45000.00,2.90,Happy Meals,Regular
+65,2024/10/16,Wed,Indonesia,Happy Meal® Beef Burger,45000.00,2.90,Happy Meals,Regular
+66,2024/10/16,Wed,Indonesia,Happy Meal® Chicken,45000.00,2.90,Happy Meals,Regular
+67,2024/10/16,Wed,Indonesia,Paket HeBat - Korean Soy Garlic Wings,30500.00,1.96,Paket HeBat,Regular
+68,2024/10/16,Wed,Indonesia,Paket HeBat - Beef Burger Deluxe,33000.00,2.12,Paket HeBat,Regular
+69,2024/10/16,Wed,Indonesia,Paket HeBat - Chicken Burger Deluxe,33000.00,2.12,Paket HeBat,Regular
+70,2024/10/16,Wed,Indonesia,Chocolate Sundae,12000.00,0.77,Menu Receh,Regular
+71,2024/10/16,Wed,Indonesia,Strawberry Sundae,12000.00,0.77,Menu Receh,Regular
+72,2024/10/16,Wed,Indonesia,"French Fries, small",12000.00,0.77,Menu Receh,Regular
+73,2024/10/16,Wed,Indonesia,McFloat Fanta,12000.00,0.77,Menu Receh,Regular
+74,2024/10/16,Wed,Indonesia,McFloat Coke,12000.00,0.77,Menu Receh,Regular
+75,2024/10/16,Wed,Indonesia,Apple Pie,12500.00,0.80,Menu Receh,Regular
+76,2024/10/16,Wed,Indonesia,Spicy Chicken Bites,13000.00,0.84,Menu Receh,Regular
+77,2024/10/16,Wed,Indonesia,"MILO, small",12000.00,0.77,Menu Receh,Regular
+78,2024/10/16,Wed,Indonesia,Iced Coffee,13500.00,0.87,Menu Receh,Regular
+79,2024/10/16,Wed,Indonesia,McFlurry® feat. OREO,14000.00,0.90,Menu Receh,Regular
+80,2024/10/16,Wed,Indonesia,Choco McFlurry®,14000.00,0.90,Menu Receh,Regular
+81,2024/10/16,Wed,Indonesia,2pcs Korean Soy Garlic Wings,16500.00,1.06,Menu Receh,Regular
+82,2024/10/16,Wed,Indonesia,Chicken Snack Wrap™,17500.00,1.13,Menu Receh,Regular
+83,2024/10/16,Wed,Indonesia,Beef Burger,22500.00,1.45,Menu Receh,Regular
+84,2024/10/16,Wed,Indonesia,Chicken Burger,22500.00,1.45,Menu Receh,Regular
+85,2024/10/16,Wed,Indonesia,Nasi Uduk McD,21500.00,1.38,Menu Receh,Regular
+86,2024/10/16,Wed,Indonesia,Spicy Chicken Bites,13000.00,0.84,Snack,Regular
+87,2024/10/16,Wed,Indonesia,French Fries,21000.00,1.35,Snack,Regular
+88,2024/10/16,Wed,Indonesia,6pcs Korean Soy Garlic Wings,49500.00,3.19,Snack,Regular
+89,2024/10/16,Wed,Indonesia,McNuggets®  9pcs,55000.00,3.54,Snack,Regular
+90,2024/10/16,Wed,Indonesia,McNuggets® 6pcs,40000.00,2.58,Snack,Regular
+91,2024/10/16,Wed,Indonesia,McNuggets®  4pcs,27000.00,1.74,Snack,Regular
+92,2024/10/16,Wed,Indonesia,Chicken Snack Wrap™,17500.00,1.13,Snack,Regular
+93,2024/10/16,Wed,Indonesia,Choco Caramel Pie,17000.00,1.09,Snack,Regular
+94,2024/10/16,Wed,Indonesia,Apple Pie,12500.00,0.80,Snack,Regular
+95,2024/10/16,Wed,Indonesia,Sweet Corn,13000.00,0.84,Snack,Regular
+96,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Sprinkle Crumbs,18000.00,1.16,Desserts,Regular
+97,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Oreo,18000.00,1.16,Desserts,Regular
+98,2024/10/16,Wed,Indonesia,McFlurry® feat. OREO,14000.00,0.90,Desserts,Regular
+99,2024/10/16,Wed,Indonesia,Choco McFlurry®,14000.00,0.90,Desserts,Regular
+100,2024/10/16,Wed,Indonesia,Double Choco Sundae,13500.00,0.87,Desserts,Regular
+101,2024/10/16,Wed,Indonesia,Chocolate Strawberry Sundae,13500.00,0.87,Desserts,Regular
+102,2024/10/16,Wed,Indonesia,Chocolate Sundae,12000.00,0.77,Desserts,Regular
+103,2024/10/16,Wed,Indonesia,Strawberry Sundae,12000.00,0.77,Desserts,Regular
+104,2024/10/16,Wed,Indonesia,Iced Coffee Tiramisu,20000.00,1.29,Drinks,Regular
+105,2024/10/16,Wed,Indonesia,Iced Coffee,23000.00,1.48,Drinks,Regular
+106,2024/10/16,Wed,Indonesia,Coca Cola®,10000.00,0.64,Drinks,Regular
+107,2024/10/16,Wed,Indonesia,Fanta®,10000.00,0.64,Drinks,Regular
+108,2024/10/16,Wed,Indonesia,Sprite®,10000.00,0.64,Drinks,Regular
+109,2024/10/16,Wed,Indonesia,Fruit Tea Lemon,10000.00,0.64,Drinks,Regular
+110,2024/10/16,Wed,Indonesia,Tehbotol Sosro® Pack 250ml.,12000.00,0.77,Drinks,Regular
+111,2024/10/16,Wed,Indonesia,Tehbotol Sosro® Tawar 350ML,12000.00,0.77,Drinks,Regular
+112,2024/10/16,Wed,Indonesia,McFloat Fanta,12000.00,0.77,Drinks,Regular
+113,2024/10/16,Wed,Indonesia,McFloat Coke,12000.00,0.77,Drinks,Regular
+114,2024/10/16,Wed,Indonesia,Iced Lychee Tea,20000.00,1.29,Drinks,Regular
+115,2024/10/16,Wed,Indonesia,Milo ,20000.00,1.29,Drinks,Regular
+116,2024/10/16,Wed,Indonesia,Mineral Water 600ml.,10000.00,0.64,Drinks,Regular
+117,2024/10/16,Wed,Indonesia,Fruit Tea Blackcurrant 200ml.,12000.00,0.77,Drinks,Regular
+118,2024/10/16,Wed,Indonesia,Hot Coffee,12000.00,0.77,Drinks,Regular
+119,2024/10/16,Wed,Indonesia,Hot Tea,12000.00,0.77,Drinks,Regular
+120,2024/10/16,Wed,Indonesia,Iced Mocha,34000.00,2.19,McCafé,Regular
+121,2024/10/16,Wed,Indonesia,Choco Frappe,36000.00,2.32,McCafé,Regular
+122,2024/10/16,Wed,Indonesia,Frappe Hazelnut Latte,41000.00,2.64,McCafé,Regular
+123,2024/10/16,Wed,Indonesia,Matcha Frappe,41000.00,2.64,McCafé,Regular
+124,2024/10/16,Wed,Indonesia,Iced Mocha Frappe,36000.00,2.32,McCafé,Regular
+125,2024/10/16,Wed,Indonesia,Iced Latte Frappe,35000.00,2.25,McCafé,Regular
+126,2024/10/16,Wed,Indonesia,Mango Frappe,31000.00,2.00,McCafé,Regular
+127,2024/10/16,Wed,Indonesia,Iced Vanilla Latte,36000.00,2.32,McCafé,Regular
+128,2024/10/16,Wed,Indonesia,Iced Caramel Latte,36000.00,2.32,McCafé,Regular
+129,2024/10/16,Wed,Indonesia,Iced Hazelnut Latte,36000.00,2.32,McCafé,Regular
+130,2024/10/16,Wed,Indonesia,Iced Cappucino,31000.00,2.00,McCafé,Regular
+131,2024/10/16,Wed,Indonesia,Iced Café Latte,31000.00,2.00,McCafé,Regular
+132,2024/10/16,Wed,Indonesia,Iced Coffee,29000.00,1.87,McCafé,Regular
+133,2024/10/16,Wed,Indonesia,Iced Café Matcha Fushion,37000.00,2.38,McCafé,Regular
+134,2024/10/16,Wed,Indonesia,Iced Matcha Latte,36000.00,2.32,McCafé,Regular
+135,2024/10/16,Wed,Indonesia,Iced Chocolate,33000.00,2.12,McCafé,Regular
+136,2024/10/16,Wed,Indonesia,Hot Vanilla Latte,30000.00,1.93,McCafé,Regular
+137,2024/10/16,Wed,Indonesia,Hot Caramel Latte,32000.00,2.06,McCafé,Regular
+138,2024/10/16,Wed,Indonesia,Hot Hazelnut Latte,30000.00,1.93,McCafé,Regular
+139,2024/10/16,Wed,Indonesia,Hot Matcha Latte,30000.00,1.93,McCafé,Regular
+140,2024/10/16,Wed,Indonesia,Hot Mocha,28500.00,1.84,McCafé,Regular
+141,2024/10/16,Wed,Indonesia,Hot Chocolate,28000.00,1.80,McCafé,Regular
+142,2024/10/16,Wed,Indonesia,Hot Cappucino,26000.00,1.67,McCafé,Regular
+143,2024/10/16,Wed,Indonesia,Hot Café Latte,26000.00,1.67,McCafé,Regular
+144,2024/10/16,Wed,Indonesia,Hot Flat White,26000.00,1.67,McCafé,Regular
+145,2024/10/16,Wed,Indonesia,Hot Long Black,26000.00,1.67,McCafé,Regular
+146,2024/10/16,Wed,Indonesia,Hot Lemon Grass Tasseo Tea,23500.00,1.51,McCafé,Regular
+147,2024/10/16,Wed,Indonesia,Hot Java Jasmine Tasseo Tea,23500.00,1.51,McCafé,Regular
+148,2024/10/16,Wed,Indonesia,Hot Pure Green Tasseo Tea,23500.00,1.51,McCafé,Regular
+149,2024/10/16,Wed,Indonesia,Klepon Cake,36000.00,2.32,McCafé,Regular
+150,2024/10/16,Wed,Indonesia,Choco Lover,36000.00,2.32,McCafé,Regular
+151,2024/10/16,Wed,Indonesia,Choco Chip Muffin,26000.00,1.67,McCafé,Regular
+152,2024/10/16,Wed,Indonesia,Banana Muffin,26000.00,1.67,McCafé,Regular
+153,2024/10/16,Wed,Indonesia,Cheese Croissant,35000.00,2.25,McCafé,Regular
+154,2024/10/16,Wed,Indonesia,Tuna Puff Pastry,34000.00,2.19,McCafé,Regular
+155,2024/10/16,Wed,Indonesia,Cheese Stick,24500.00,1.58,McCafé,Regular
+156,2024/10/16,Wed,Indonesia,Butter Croissant,25500.00,1.64,McCafé,Regular
+157,2024/10/16,Wed,Indonesia,Rice,10000.00,0.64,Rice,Regular
+158,2024/10/16,Wed,Indonesia,Nasi Uduk McD,30500.00,1.96,Rice,Regular
+159,2024/10/16,Wed,Indonesia,Original Hello Kitty Plush Bag Tag,37500.00,2.41,Merchandise,Regular
+160,2024/10/16,Wed,Indonesia,Collector's Meal Breakfast,145000.00,9.34,Exclusive Delivery,Breakfast
+161,2024/10/16,Wed,Indonesia,Paket Manis,71500.00,4.60,Exclusive Delivery,Breakfast
+162,2024/10/16,Wed,Indonesia,Big Breakfast,42000.00,2.70,Breakfast Menu,Breakfast
+163,2024/10/16,Wed,Indonesia,Egg & Cheese Muffin,20000.00,1.29,Breakfast Menu,Breakfast
+164,2024/10/16,Wed,Indonesia,Egg & Cheese Muffin,27000.00,1.74,Breakfast Menu,Breakfast
+165,2024/10/16,Wed,Indonesia,Sausage McMuffin® with Egg,34500.00,2.22,Breakfast Menu,Breakfast
+166,2024/10/16,Wed,Indonesia,Chicken McMuffin® with Egg,33500.00,2.16,Breakfast Menu,Breakfast
+167,2024/10/16,Wed,Indonesia,Egg McMuffin®,29500.00,1.90,Breakfast Menu,Breakfast
+168,2024/10/16,Wed,Indonesia,Sausage McMuffin®,31000.00,2.00,Breakfast Menu,Breakfast
+169,2024/10/16,Wed,Indonesia,Chicken Muffin,29000.00,1.87,Breakfast Menu,Breakfast
+170,2024/10/16,Wed,Indonesia,Sausage Wrap,32000.00,2.06,Breakfast Menu,Breakfast
+171,2024/10/16,Wed,Indonesia,Breakfast Wrap,29500.00,1.90,Breakfast Menu,Breakfast
+172,2024/10/16,Wed,Indonesia,Hotcakes 3pcs,33000.00,2.12,Breakfast Menu,Breakfast
+173,2024/10/16,Wed,Indonesia,Hotcakes 2pcs,28000.00,1.80,Breakfast Menu,Breakfast
+174,2024/10/16,Wed,Indonesia,Nasi Uduk McD,30500.00,1.96,Breakfast Menu,Breakfast
+175,2024/10/16,Wed,Indonesia,Bubur Ayam McD,15000.00,0.97,Breakfast Menu,Breakfast
+176,2024/10/16,Wed,Indonesia,PaNas 2 with Rice,51500.00,3.32,Ayam McD,Breakfast
+177,2024/10/16,Wed,Indonesia,PaNas Spesial,47000.00,3.03,Ayam McD,Breakfast
+178,2024/10/16,Wed,Indonesia,PaNas 1,39000.00,2.51,Ayam McD,Breakfast
+179,2024/10/16,Wed,Indonesia,PaNas Korean Soy Garlic Wings,45000.00,2.90,Ayam McD,Breakfast
+180,2024/10/16,Wed,Indonesia,PaMer 7,185000.00,11.91,Ayam McD,Breakfast
+181,2024/10/16,Wed,Indonesia,PaMer 5,132500.00,8.53,Ayam McD,Breakfast
+182,2024/10/16,Wed,Indonesia,Paket Berlima,135000.00,8.69,Ayam McD,Breakfast
+183,2024/10/16,Wed,Indonesia,Paket Ber 4,90000.00,5.80,Ayam McD,Breakfast
+184,2024/10/16,Wed,Indonesia,Paket Big Order,587500.00,37.83,Ayam McD,Breakfast
+185,2024/10/16,Wed,Indonesia,Paket Keluarga Seru Tanpa Mainan,75500.00,4.86,Family Package,Breakfast
+186,2024/10/16,Wed,Indonesia,Paket Keluarga Seru Dengan Mainan,94000.00,6.05,Family Package,Breakfast
+187,2024/10/16,Wed,Indonesia,PaMer 5,132500.00,8.53,Family Package,Breakfast
+188,2024/10/16,Wed,Indonesia,PaMer 7,185000.00,11.91,Family Package,Breakfast
+189,2024/10/16,Wed,Indonesia,Paket Berlima,135000.00,8.69,Family Package,Breakfast
+190,2024/10/16,Wed,Indonesia,Paket Ber 4,90000.00,5.80,Family Package,Breakfast
+191,2024/10/16,Wed,Indonesia,Happy Meal® Egg & Cheese Muffin,45000.00,2.90,Happy Meals,Breakfast
+192,2024/10/16,Wed,Indonesia,Happy Meal® Chicken,45000.00,2.90,Happy Meals,Breakfast
+193,2024/10/16,Wed,Indonesia,Paket HeBat - Korean Soy Garlic Wings,30500.00,1.96,Paket HeBat,Breakfast
+194,2024/10/16,Wed,Indonesia,Chocolate Sundae,12000.00,0.77,Menu Receh,Breakfast
+195,2024/10/16,Wed,Indonesia,Strawberry Sundae,12000.00,0.77,Menu Receh,Breakfast
+196,2024/10/16,Wed,Indonesia,McFloat Fanta,12000.00,0.77,Menu Receh,Breakfast
+197,2024/10/16,Wed,Indonesia,McFloat Coke,12000.00,0.77,Menu Receh,Breakfast
+198,2024/10/16,Wed,Indonesia,Apple Pie,12500.00,0.80,Menu Receh,Breakfast
+199,2024/10/16,Wed,Indonesia,Bubur Ayam McD,15000.00,0.97,Menu Receh,Breakfast
+200,2024/10/16,Wed,Indonesia,"MILO, small",12000.00,0.77,Menu Receh,Breakfast
+201,2024/10/16,Wed,Indonesia,Iced Coffee,13500.00,0.87,Menu Receh,Breakfast
+202,2024/10/16,Wed,Indonesia,McFlurry® feat. OREO,14000.00,0.90,Menu Receh,Breakfast
+203,2024/10/16,Wed,Indonesia,Choco McFlurry®,14000.00,0.90,Menu Receh,Breakfast
+204,2024/10/16,Wed,Indonesia,Hash Brown,14000.00,0.90,Menu Receh,Breakfast
+205,2024/10/16,Wed,Indonesia,2pcs Korean Soy Garlic Wings,16500.00,1.06,Menu Receh,Breakfast
+206,2024/10/16,Wed,Indonesia,Breakfast Wrap,20000.00,1.29,Menu Receh,Breakfast
+207,2024/10/16,Wed,Indonesia,Nasi Uduk McD,21500.00,1.38,Menu Receh,Breakfast
+208,2024/10/16,Wed,Indonesia,6pcs Korean Soy Garlic Wings,49500.00,3.19,Snack,Breakfast
+209,2024/10/16,Wed,Indonesia,Hash Brown,14000.00,0.90,Snack,Breakfast
+210,2024/10/16,Wed,Indonesia,Choco Caramel Pie,17000.00,1.09,Snack,Breakfast
+211,2024/10/16,Wed,Indonesia,Apple Pie,12500.00,0.80,Snack,Breakfast
+212,2024/10/16,Wed,Indonesia,Sweet Corn,13000.00,0.84,Snack,Breakfast
+213,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Sprinkle Crumbs,18000.00,1.16,Desserts,Breakfast
+214,2024/10/16,Wed,Indonesia,Banana McFlurry®  With Oreo,18000.00,1.16,Desserts,Breakfast
+215,2024/10/16,Wed,Indonesia,McFlurry® feat. OREO,14000.00,0.90,Desserts,Breakfast
+216,2024/10/16,Wed,Indonesia,Choco McFlurry®,14000.00,0.90,Desserts,Breakfast
+217,2024/10/16,Wed,Indonesia,Double Choco Sundae,13500.00,0.87,Desserts,Breakfast
+218,2024/10/16,Wed,Indonesia,Chocolate Strawberry Sundae,13500.00,0.87,Desserts,Breakfast
+219,2024/10/16,Wed,Indonesia,Chocolate Sundae,12000.00,0.77,Desserts,Breakfast
+220,2024/10/16,Wed,Indonesia,Strawberry Sundae,12000.00,0.77,Desserts,Breakfast
+221,2024/10/16,Wed,Indonesia,Iced Coffee Tiramisu,20000.00,1.29,Drinks,Breakfast
+222,2024/10/16,Wed,Indonesia,Iced Coffee,23000.00,1.48,Drinks,Breakfast
+223,2024/10/16,Wed,Indonesia,Coca Cola®,10000.00,0.64,Drinks,Breakfast
+224,2024/10/16,Wed,Indonesia,Fanta®,10000.00,0.64,Drinks,Breakfast
+225,2024/10/16,Wed,Indonesia,Sprite®,10000.00,0.64,Drinks,Breakfast
+226,2024/10/16,Wed,Indonesia,Fruit Tea Lemon,10000.00,0.64,Drinks,Breakfast
+227,2024/10/16,Wed,Indonesia,Tehbotol Sosro® Pack 250ml.,12000.00,0.77,Drinks,Breakfast
+228,2024/10/16,Wed,Indonesia,Tehbotol Sosro® Tawar 350ML,12000.00,0.77,Drinks,Breakfast
+229,2024/10/16,Wed,Indonesia,McFloat Fanta,12000.00,0.77,Drinks,Breakfast
+230,2024/10/16,Wed,Indonesia,McFloat Coke,12000.00,0.77,Drinks,Breakfast
+231,2024/10/16,Wed,Indonesia,Iced Lychee Tea,20000.00,1.29,Drinks,Breakfast
+232,2024/10/16,Wed,Indonesia,Milo ,20000.00,1.29,Drinks,Breakfast
+233,2024/10/16,Wed,Indonesia,Mineral Water 600ml.,10000.00,0.64,Drinks,Breakfast
+234,2024/10/16,Wed,Indonesia,Fruit Tea Blackcurrant 200ml.,12000.00,0.77,Drinks,Breakfast
+235,2024/10/16,Wed,Indonesia,Hot Coffee,12000.00,0.77,Drinks,Breakfast
+236,2024/10/16,Wed,Indonesia,Hot Tea,12000.00,0.77,Drinks,Breakfast
+237,2024/10/16,Wed,Indonesia,Iced Mocha,34000.00,2.19,McCafé,Breakfast
+238,2024/10/16,Wed,Indonesia,Choco Frappe,36000.00,2.32,McCafé,Breakfast
+239,2024/10/16,Wed,Indonesia,Frappe Hazelnut Latte,41000.00,2.64,McCafé,Breakfast
+240,2024/10/16,Wed,Indonesia,Matcha Frappe,41000.00,2.64,McCafé,Breakfast
+241,2024/10/16,Wed,Indonesia,Iced Mocha Frappe,36000.00,2.32,McCafé,Breakfast
+242,2024/10/16,Wed,Indonesia,Iced Latte Frappe,35000.00,2.25,McCafé,Breakfast
+243,2024/10/16,Wed,Indonesia,Mango Frappe,31000.00,2.00,McCafé,Breakfast
+244,2024/10/16,Wed,Indonesia,Iced Vanilla Latte,36000.00,2.32,McCafé,Breakfast
+245,2024/10/16,Wed,Indonesia,Iced Caramel Latte,36000.00,2.32,McCafé,Breakfast
+246,2024/10/16,Wed,Indonesia,Iced Hazelnut Latte,36000.00,2.32,McCafé,Breakfast
+247,2024/10/16,Wed,Indonesia,Iced Cappucino,31000.00,2.00,McCafé,Breakfast
+248,2024/10/16,Wed,Indonesia,Iced Café Latte,31000.00,2.00,McCafé,Breakfast
+249,2024/10/16,Wed,Indonesia,Iced Coffee,29000.00,1.87,McCafé,Breakfast
+250,2024/10/16,Wed,Indonesia,Iced Café Matcha Fushion,37000.00,2.38,McCafé,Breakfast
+251,2024/10/16,Wed,Indonesia,Iced Matcha Latte,36000.00,2.32,McCafé,Breakfast
+252,2024/10/16,Wed,Indonesia,Iced Chocolate,33000.00,2.12,McCafé,Breakfast
+253,2024/10/16,Wed,Indonesia,Hot Vanilla Latte,30000.00,1.93,McCafé,Breakfast
+254,2024/10/16,Wed,Indonesia,Hot Caramel Latte,32000.00,2.06,McCafé,Breakfast
+255,2024/10/16,Wed,Indonesia,Hot Hazelnut Latte,30000.00,1.93,McCafé,Breakfast
+256,2024/10/16,Wed,Indonesia,Hot Matcha Latte,30000.00,1.93,McCafé,Breakfast
+257,2024/10/16,Wed,Indonesia,Hot Mocha,28500.00,1.84,McCafé,Breakfast
+258,2024/10/16,Wed,Indonesia,Hot Chocolate,28000.00,1.80,McCafé,Breakfast
+259,2024/10/16,Wed,Indonesia,Hot Cappucino,26000.00,1.67,McCafé,Breakfast
+260,2024/10/16,Wed,Indonesia,Hot Café Latte,26000.00,1.67,McCafé,Breakfast
+261,2024/10/16,Wed,Indonesia,Hot Flat White,26000.00,1.67,McCafé,Breakfast
+262,2024/10/16,Wed,Indonesia,Hot Long Black,26000.00,1.67,McCafé,Breakfast
+263,2024/10/16,Wed,Indonesia,Hot Lemon Grass Tasseo Tea,23500.00,1.51,McCafé,Breakfast
+264,2024/10/16,Wed,Indonesia,Hot Java Jasmine Tasseo Tea,23500.00,1.51,McCafé,Breakfast
+265,2024/10/16,Wed,Indonesia,Hot Pure Green Tasseo Tea,23500.00,1.51,McCafé,Breakfast
+266,2024/10/16,Wed,Indonesia,Klepon Cake,36000.00,2.32,McCafé,Breakfast
+267,2024/10/16,Wed,Indonesia,Choco Lover,36000.00,2.32,McCafé,Breakfast
+268,2024/10/16,Wed,Indonesia,Choco Chip Muffin,26000.00,1.67,McCafé,Breakfast
+269,2024/10/16,Wed,Indonesia,Banana Muffin,26000.00,1.67,McCafé,Breakfast
+270,2024/10/16,Wed,Indonesia,Cheese Croissant,35000.00,2.25,McCafé,Breakfast
+271,2024/10/16,Wed,Indonesia,Tuna Puff Pastry,34000.00,2.19,McCafé,Breakfast
+272,2024/10/16,Wed,Indonesia,Cheese Stick,24500.00,1.58,McCafé,Breakfast
+273,2024/10/16,Wed,Indonesia,Butter Croissant,25500.00,1.64,McCafé,Breakfast
+274,2024/10/16,Wed,Indonesia,Rice,10000.00,0.64,Rice,Breakfast
+275,2024/10/16,Wed,Indonesia,Nasi Uduk McD,30500.00,1.96,Rice,Breakfast
+276,2024/10/16,Wed,Indonesia,Original Hello Kitty Plush Bag Tag,37500.00,2.41,Merchandise,Breakfast
