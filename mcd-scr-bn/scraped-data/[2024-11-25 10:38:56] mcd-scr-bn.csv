@@ -1,0 +1,86 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/11/25,Mon,Brunei,Big Mac (Value Meal) — Medium,6.50,4.81,Regular Value Meal
+2,2024/11/25,Mon,Brunei,Big Mac (Value Meal) — Large,7.10,5.25,Regular Value Meal
+3,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Medium,6.30,4.66,Regular Value Meal
+4,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Regular (Value Meal) — Large,6.90,5.11,Regular Value Meal
+5,2024/11/25,Mon,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.59,Regular Value Meal
+6,2024/11/25,Mon,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,5.03,Regular Value Meal
+7,2024/11/25,Mon,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.85,Regular Value Meal
+8,2024/11/25,Mon,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.96,Regular Value Meal
+9,2024/11/25,Mon,Brunei,Big Mac (A La Carte),5.50,4.07,Regular Value Meal
+10,2024/11/25,Mon,Brunei,Double Cheeseburger (A La Carte),5.10,3.77,Regular Value Meal
+11,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,3.92,Regular Value Meal
+12,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Regular (A La Carte),5.30,3.92,Regular Value Meal
+13,2024/11/25,Mon,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.14,Regular Value Meal
+14,2024/11/25,Mon,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.14,Regular Value Meal
+15,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.66,Regular Value Meal
+16,2024/11/25,Mon,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,5.11,Regular Value Meal
+17,2024/11/25,Mon,Brunei,Filet-O-Fish (A La Carte),3.80,2.81,Regular Value Meal
+18,2024/11/25,Mon,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,5.03,Regular Value Meal
+19,2024/11/25,Mon,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.40,Regular Value Meal
+20,2024/11/25,Mon,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.51,Regular Value Meal
+21,2024/11/25,Mon,Brunei,Chicken McNuggets — 20 pieces - A la Carte,12.60,9.32,Regular Value Meal
+22,2024/11/25,Mon,Brunei,McChicken — Ala Carte,5.00,3.70,Regular Value Meal
+23,2024/11/25,Mon,Brunei,McChicken — Medium,6.00,4.44,Regular Value Meal
+24,2024/11/25,Mon,Brunei,McChicken — Large,6.60,4.88,Regular Value Meal
+25,2024/11/25,Mon,Brunei,Chicken Nuggets — 6 Pieces - A la carte,4.60,3.40,Regular Value Meal
+26,2024/11/25,Mon,Brunei,Chicken Nuggets — 6 Pieces - Medium Value Meal,6.10,4.51,Regular Value Meal
+27,2024/11/25,Mon,Brunei,Chicken Nuggets — 9 Pieces - A la carte,6.30,4.66,Regular Value Meal
+28,2024/11/25,Mon,Brunei,Chicken Nuggets — 9 pieces - Medium Value Meal,6.80,5.03,Regular Value Meal
+29,2024/11/25,Mon,Brunei,Chicken Nuggets — 9 pieces - Large Value Meal,7.40,5.48,Regular Value Meal
+30,2024/11/25,Mon,Brunei,Chicken Nuggets — 20 pieces - A la Carte,12.60,9.32,Regular Value Meal
+31,2024/11/25,Mon,Brunei,Rice,0.80,0.59,Sides
+32,2024/11/25,Mon,Brunei,French Fries — Medium,2.20,1.63,Sides
+33,2024/11/25,Mon,Brunei,French Fries — Large,2.50,1.85,Sides
+34,2024/11/25,Mon,Brunei,Bubur McD — Small,3.20,2.37,Sides
+35,2024/11/25,Mon,Brunei,Bubur McD — Large,3.70,2.74,Sides
+36,2024/11/25,Mon,Brunei,Sauces — Tartar Sauce,0.50,0.37,Sides
+37,2024/11/25,Mon,Brunei,Sauces — Nasi Lemak McD Sambal,0.50,0.37,Sides
+38,2024/11/25,Mon,Brunei,6pc. Spicy Chicken McNugget (Ala Carte),4.60,3.40,Promotion: Limited Time Only
+39,2024/11/25,Mon,Brunei,6pc. Spicy Chicken McNugget (Medium),6.10,4.51,Promotion: Limited Time Only
+40,2024/11/25,Mon,Brunei,6pc. Spicy Chicken McNugget (Large),6.70,4.96,Promotion: Limited Time Only
+41,2024/11/25,Mon,Brunei,9pc. Spicy Chicken McNugget (Ala Carte),6.30,4.66,Promotion: Limited Time Only
+42,2024/11/25,Mon,Brunei,9pc. Spicy Chicken McNugget (Medium),6.80,5.03,Promotion: Limited Time Only
+43,2024/11/25,Mon,Brunei,9pc. Spicy Chicken McNugget (Large),7.40,5.48,Promotion: Limited Time Only
+44,2024/11/25,Mon,Brunei,20pc. Spicy Chicken McNugget,12.60,9.32,Promotion: Limited Time Only
+45,2024/11/25,Mon,Brunei,Jimat Meal Filet-O-Fish (S),3.90,2.89,Jimat Meal
+46,2024/11/25,Mon,Brunei,Jimat Meal Cheeseburger (S),3.90,2.89,Jimat Meal
+47,2024/11/25,Mon,Brunei,Jimat Meal McChicken (S),4.90,3.63,Jimat Meal
+48,2024/11/25,Mon,Brunei,Hot Coffee,1.60,1.18,Beverages
+49,2024/11/25,Mon,Brunei,Hot Milo,2.00,1.48,Beverages
+50,2024/11/25,Mon,Brunei,Hot Tea,1.60,1.18,Beverages
+51,2024/11/25,Mon,Brunei,Hot Americano,3.50,2.59,Beverages
+52,2024/11/25,Mon,Brunei,Iced Lemon Tea (Medium),2.40,1.78,Beverages
+53,2024/11/25,Mon,Brunei,Ice Lemon Tea (Large),3.00,2.22,Beverages
+54,2024/11/25,Mon,Brunei,Orange Juice (Medium),2.80,2.07,Beverages
+55,2024/11/25,Mon,Brunei,Orange Juice (Large),3.90,2.89,Beverages
+56,2024/11/25,Mon,Brunei,Ice Milo (Medium),2.80,2.07,Beverages
+57,2024/11/25,Mon,Brunei,Ice Milo (Large),3.90,2.89,Beverages
+58,2024/11/25,Mon,Brunei,Ice Lychee Tea (Medium),3.00,2.22,Beverages
+59,2024/11/25,Mon,Brunei,Ice Lychee Tea (Large),3.60,2.66,Beverages
+60,2024/11/25,Mon,Brunei,Mineral Water,1.00,0.74,Beverages
+61,2024/11/25,Mon,Brunei,Coke (Medium),1.90,1.41,Beverages
+62,2024/11/25,Mon,Brunei,Coke (Large),2.20,1.63,Beverages
+63,2024/11/25,Mon,Brunei,Coke Zero (Medium),1.90,1.41,Beverages
+64,2024/11/25,Mon,Brunei,Coke Zero (Large),2.20,1.63,Beverages
+65,2024/11/25,Mon,Brunei,Sprite (Medium),1.90,1.41,Beverages
+66,2024/11/25,Mon,Brunei,Sprite (Large),2.20,1.63,Beverages
+67,2024/11/25,Mon,Brunei,Fanta Strawberry (Medium),1.90,1.41,Beverages
+68,2024/11/25,Mon,Brunei,Fanta Strawberry (Large),2.20,1.63,Beverages
+69,2024/11/25,Mon,Brunei,McCafe Americano,3.50,2.59,Beverages
+70,2024/11/25,Mon,Brunei,McCafe Latte,3.50,2.59,Beverages
+71,2024/11/25,Mon,Brunei,McCafe Cappucino,3.50,2.59,Beverages
+72,2024/11/25,Mon,Brunei,Espresso (4 Oz),2.00,1.48,Beverages
+73,2024/11/25,Mon,Brunei,McCafe Iced Latte (Medium),4.00,2.96,Beverages
+74,2024/11/25,Mon,Brunei,McCafe Iced Latte (Large),5.00,3.70,Beverages
+75,2024/11/25,Mon,Brunei,McCafe Iced Americano (Medium),4.00,2.96,Beverages
+76,2024/11/25,Mon,Brunei,McCafe Iced Americano (Large),5.00,3.70,Beverages
+77,2024/11/25,Mon,Brunei,McCafe Iced Chocolate (Medium),4.50,3.33,Beverages
+78,2024/11/25,Mon,Brunei,McCafe Iced Chocolate (Large),5.50,4.07,Beverages
+79,2024/11/25,Mon,Brunei,McCafe Iced Mocha (Medium),5.00,3.70,Beverages
+80,2024/11/25,Mon,Brunei,McCafe Iced Mocha (Large),6.00,4.44,Beverages
+81,2024/11/25,Mon,Brunei,Hot Coffee (Large),2.40,1.78,Beverages
+82,2024/11/25,Mon,Brunei,Hot Milo (Large),2.80,2.07,Beverages
+83,2024/11/25,Mon,Brunei,Hot Tea (Large),2.40,1.78,Beverages
+84,2024/11/25,Mon,Brunei,Hot Americano (Medium),4.00,2.96,Beverages
+85,2024/11/25,Mon,Brunei,Hot Americano (Large),4.50,3.33,Beverages
