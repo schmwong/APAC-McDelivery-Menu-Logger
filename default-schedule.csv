@@ -2,8 +2,8 @@
 1,bn,Asia/Brunei,01:09,09 01 * * *,+08:00,09:09,Scrapy
 2,in,Asia/Kolkata,01:36,36 01 * * *,+05:30,07:06,Playwright Python
 3,ph,Asia/Manila,02:46,46 02 * * *,+08:00,10:46,Scrapy
-4,sg,Asia/Singapore,03:06,06 03 * * *,+08:00,11:06,Scrapy
-5,hk,Asia/Hong_Kong,03:33,33 03 * * *,+08:00,11:33,Scrapy
+4,hk,Asia/Hong_Kong,03:33,33 03 * * *,+08:00,11:33,Scrapy
+5,sg,Asia/Singapore,04:34,34 04 * * *,+08:00,12:34,Scrapy
 6,bn,Asia/Brunei,06:44,44 06 * * *,+08:00,14:44,Scrapy
 7,nz,Pacific/Auckland,12:20,20 12 * * *,+13:00,01:20,Playwright Python
 8,jp,Asia/Tokyo,15:16,16 15 * * *,+09:00,00:16,Beautiful Soup 4
