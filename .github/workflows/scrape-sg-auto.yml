@@ -5,7 +5,7 @@ name: scrape-sg-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 06 03 * * *           # runs at 03:06 UTC (11:06 SGT) for Regular Menu
+  - cron: 34 04 * * *           # runs at 03:06 UTC (11:06 SGT) for Regular Menu
   - cron: 33 20 * * *           # runs at 20:33 UTC (04:33 SGT) for Breakfast Menu
 concurrency:
   group: scrape-and-schedule
