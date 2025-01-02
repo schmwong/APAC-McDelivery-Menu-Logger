@@ -1,0 +1,103 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2025/01/02,Thu,Brunei,Big Mac (Value Meal) — Medium,6.50,4.75,Regular Value Meal
+2,2025/01/02,Thu,Brunei,Big Mac (Value Meal) — Large,7.10,5.18,Regular Value Meal
+3,2025/01/02,Thu,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.53,Regular Value Meal
+4,2025/01/02,Thu,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,4.96,Regular Value Meal
+5,2025/01/02,Thu,Brunei,Nasi Lemak Set B (1 Pc Chicken),5.20,3.80,Regular Value Meal
+6,2025/01/02,Thu,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.89,Regular Value Meal
+7,2025/01/02,Thu,Brunei,Big Mac (A La Carte),5.50,4.01,Regular Value Meal
+8,2025/01/02,Thu,Brunei,Double Cheeseburger (A La Carte),5.10,3.72,Regular Value Meal
+9,2025/01/02,Thu,Brunei,2 Pcs Ayam Goreng Spicy (A La Carte),5.30,3.87,Regular Value Meal
+10,2025/01/02,Thu,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.09,Regular Value Meal
+11,2025/01/02,Thu,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.09,Regular Value Meal
+12,2025/01/02,Thu,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Medium,6.30,4.60,Regular Value Meal
+13,2025/01/02,Thu,Brunei,2 Pcs Ayam Goreng Spicy (Value Meal) — Large,6.90,5.04,Regular Value Meal
+14,2025/01/02,Thu,Brunei,Filet-O-Fish (A La Carte),3.80,2.77,Regular Value Meal
+15,2025/01/02,Thu,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,4.96,Regular Value Meal
+16,2025/01/02,Thu,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.36,Regular Value Meal
+17,2025/01/02,Thu,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.45,Regular Value Meal
+18,2025/01/02,Thu,Brunei,Chicken McNuggets — 20 pieces - A la Carte,12.60,9.20,Regular Value Meal
+19,2025/01/02,Thu,Brunei,McChicken — Ala Carte,5.00,3.65,Regular Value Meal
+20,2025/01/02,Thu,Brunei,McChicken — Medium,6.00,4.38,Regular Value Meal
+21,2025/01/02,Thu,Brunei,McChicken — Large,6.60,4.82,Regular Value Meal
+22,2025/01/02,Thu,Brunei,Spicy Double Cheese Burger (Ala Carte),5.40,3.94,Regular Value Meal
+23,2025/01/02,Thu,Brunei,Spicy Double Cheese Burger (Medium),6.50,4.75,Regular Value Meal
+24,2025/01/02,Thu,Brunei,Spicy Double Cheese Burger (Large),7.10,5.18,Regular Value Meal
+25,2025/01/02,Thu,Brunei,Spicy Cheese Burger (Ala Carte),3.30,2.41,Regular Value Meal
+26,2025/01/02,Thu,Brunei,Spicy Cheese Burger (Medium),5.20,3.80,Regular Value Meal
+27,2025/01/02,Thu,Brunei,Spicy Cheese Burger (Large),5.80,4.23,Regular Value Meal
+28,2025/01/02,Thu,Brunei,2pcs Ayam Goreng McD,5.30,3.87,Sides
+29,2025/01/02,Thu,Brunei,Rice,0.80,0.58,Sides
+30,2025/01/02,Thu,Brunei,French Fries — Medium,2.20,1.61,Sides
+31,2025/01/02,Thu,Brunei,French Fries — Large,2.50,1.82,Sides
+32,2025/01/02,Thu,Brunei,Bubur McD — Small,3.20,2.34,Sides
+33,2025/01/02,Thu,Brunei,Bubur McD — Large,3.70,2.70,Sides
+34,2025/01/02,Thu,Brunei,Sauces — Tartar Sauce,0.50,0.36,Sides
+35,2025/01/02,Thu,Brunei,Sauces — Nasi Lemak McD Sambal,0.50,0.36,Sides
+36,2025/01/02,Thu,Brunei,6pc. Spicy Chicken McNugget (Ala Carte),4.60,3.36,Promotion: Limited Time Only
+37,2025/01/02,Thu,Brunei,6pc. Spicy Chicken McNugget (Medium),6.10,4.45,Promotion: Limited Time Only
+38,2025/01/02,Thu,Brunei,6pc. Spicy Chicken McNugget (Large),6.70,4.89,Promotion: Limited Time Only
+39,2025/01/02,Thu,Brunei,9pc. Spicy Chicken McNugget (Ala Carte),6.30,4.60,Promotion: Limited Time Only
+40,2025/01/02,Thu,Brunei,9pc. Spicy Chicken McNugget (Medium),6.80,4.96,Promotion: Limited Time Only
+41,2025/01/02,Thu,Brunei,9pc. Spicy Chicken McNugget (Large),7.40,5.40,Promotion: Limited Time Only
+42,2025/01/02,Thu,Brunei,20pc. Spicy Chicken McNugget,12.60,9.20,Promotion: Limited Time Only
+43,2025/01/02,Thu,Brunei,Beef Prosperity Burger (Ala Carte),7.00,5.11,Promotion: Limited Time Only
+44,2025/01/02,Thu,Brunei,Beef Prosperity Burger (Medium),8.20,5.99,Promotion: Limited Time Only
+45,2025/01/02,Thu,Brunei,Beef Prosperity Burger (Large),8.80,6.42,Promotion: Limited Time Only
+46,2025/01/02,Thu,Brunei,Chicken Prosperity Burger (Ala Carte),7.00,5.11,Promotion: Limited Time Only
+47,2025/01/02,Thu,Brunei,Chicken Prosperity Burger (Medium),8.20,5.99,Promotion: Limited Time Only
+48,2025/01/02,Thu,Brunei,Chicken Prosperity Burger (Large),8.80,6.42,Promotion: Limited Time Only
+49,2025/01/02,Thu,Brunei,Curly Fries (A La Carte) Medium,2.90,2.12,Promotion: Limited Time Only
+50,2025/01/02,Thu,Brunei,Curly Fries (A La Carte) Large,3.30,2.41,Promotion: Limited Time Only
+51,2025/01/02,Thu,Brunei,New! Family Meal 1,34.90,25.48,Promotion: Limited Time Only
+52,2025/01/02,Thu,Brunei,New! Family Meal 2,34.90,25.48,Promotion: Limited Time Only
+53,2025/01/02,Thu,Brunei,Iced Matcha (Medium),5.00,3.65,Promotion: Limited Time Only
+54,2025/01/02,Thu,Brunei,Iced Matcha (Large),5.50,4.01,Promotion: Limited Time Only
+55,2025/01/02,Thu,Brunei,Iced Strawberry Matcha (Medium),5.50,4.01,Promotion: Limited Time Only
+56,2025/01/02,Thu,Brunei,Iced Strawberry Matcha (Large),6.00,4.38,Promotion: Limited Time Only
+57,2025/01/02,Thu,Brunei,Iced Dirty Matcha (Medium),5.50,4.01,Promotion: Limited Time Only
+58,2025/01/02,Thu,Brunei,Iced Dirty Matcha (Large),6.00,4.38,Promotion: Limited Time Only
+59,2025/01/02,Thu,Brunei,Jimat Meal Filet-O-Fish (S),3.90,2.85,Jimat Meal
+60,2025/01/02,Thu,Brunei,Jimat Meal Cheeseburger (S),3.90,2.85,Jimat Meal
+61,2025/01/02,Thu,Brunei,Jimat Meal 1 Piece Ayam Goreng McD (S),3.90,2.85,Jimat Meal
+62,2025/01/02,Thu,Brunei,Jimat Meal McChicken (S),4.90,3.58,Jimat Meal
+63,2025/01/02,Thu,Brunei,Jimat Meal Bubur McD and 1 Piece Cakoi (S),4.90,3.58,Jimat Meal
+64,2025/01/02,Thu,Brunei,Jimat Meal 1 Piece Nasi Lemak McD Set B (S),4.90,3.58,Jimat Meal
+65,2025/01/02,Thu,Brunei,Hot Coffee,1.60,1.17,Beverages
+66,2025/01/02,Thu,Brunei,Hot Milo,2.00,1.46,Beverages
+67,2025/01/02,Thu,Brunei,Hot Tea,1.60,1.17,Beverages
+68,2025/01/02,Thu,Brunei,Hot Americano,3.50,2.55,Beverages
+69,2025/01/02,Thu,Brunei,Iced Lemon Tea (Medium),2.40,1.75,Beverages
+70,2025/01/02,Thu,Brunei,Ice Lemon Tea (Large),3.00,2.19,Beverages
+71,2025/01/02,Thu,Brunei,Orange Juice (Medium),2.80,2.04,Beverages
+72,2025/01/02,Thu,Brunei,Orange Juice (Large),3.90,2.85,Beverages
+73,2025/01/02,Thu,Brunei,Ice Milo (Medium),2.80,2.04,Beverages
+74,2025/01/02,Thu,Brunei,Ice Milo (Large),3.90,2.85,Beverages
+75,2025/01/02,Thu,Brunei,Ice Lychee Tea (Medium),3.00,2.19,Beverages
+76,2025/01/02,Thu,Brunei,Ice Lychee Tea (Large),3.60,2.63,Beverages
+77,2025/01/02,Thu,Brunei,Mineral Water,1.00,0.73,Beverages
+78,2025/01/02,Thu,Brunei,Coke (Medium),1.90,1.39,Beverages
+79,2025/01/02,Thu,Brunei,Coke (Large),2.20,1.61,Beverages
+80,2025/01/02,Thu,Brunei,Coke Zero (Medium),1.90,1.39,Beverages
+81,2025/01/02,Thu,Brunei,Coke Zero (Large),2.20,1.61,Beverages
+82,2025/01/02,Thu,Brunei,Sprite (Medium),1.90,1.39,Beverages
+83,2025/01/02,Thu,Brunei,Sprite (Large),2.20,1.61,Beverages
+84,2025/01/02,Thu,Brunei,Fanta Strawberry (Medium),1.90,1.39,Beverages
+85,2025/01/02,Thu,Brunei,Fanta Strawberry (Large),2.20,1.61,Beverages
+86,2025/01/02,Thu,Brunei,McCafe Americano,3.50,2.55,Beverages
+87,2025/01/02,Thu,Brunei,McCafe Latte,3.50,2.55,Beverages
+88,2025/01/02,Thu,Brunei,McCafe Cappucino,3.50,2.55,Beverages
+89,2025/01/02,Thu,Brunei,Espresso (4 Oz),2.00,1.46,Beverages
+90,2025/01/02,Thu,Brunei,McCafe Iced Latte (Medium),4.00,2.92,Beverages
+91,2025/01/02,Thu,Brunei,McCafe Iced Latte (Large),5.00,3.65,Beverages
+92,2025/01/02,Thu,Brunei,McCafe Iced Americano (Medium),4.00,2.92,Beverages
+93,2025/01/02,Thu,Brunei,McCafe Iced Americano (Large),5.00,3.65,Beverages
+94,2025/01/02,Thu,Brunei,McCafe Iced Chocolate (Medium),4.50,3.29,Beverages
+95,2025/01/02,Thu,Brunei,McCafe Iced Chocolate (Large),5.50,4.01,Beverages
+96,2025/01/02,Thu,Brunei,McCafe Iced Mocha (Medium),5.00,3.65,Beverages
+97,2025/01/02,Thu,Brunei,McCafe Iced Mocha (Large),6.00,4.38,Beverages
+98,2025/01/02,Thu,Brunei,Hot Coffee (Large),2.40,1.75,Beverages
+99,2025/01/02,Thu,Brunei,Hot Milo (Large),2.80,2.04,Beverages
+100,2025/01/02,Thu,Brunei,Hot Tea (Large),2.40,1.75,Beverages
+101,2025/01/02,Thu,Brunei,Hot Americano (Medium),4.00,2.92,Beverages
+102,2025/01/02,Thu,Brunei,Hot Americano (Large),4.50,3.29,Beverages
