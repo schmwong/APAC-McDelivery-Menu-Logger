@@ -16,12 +16,22 @@ local_datetime = dt.datetime.now(pytz.timezone("Asia/Kuala_Lumpur"))
 
 # Set headers to make HTTP request to seem to be from a normal browser
 json_headers = {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET",
-    "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Max-Age": "3600",
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-    "Accept": "application/json; charset=utf-8"
+    'authority': 'hk.fd-api.com',
+    'accept': '''application/json,application/xhtml+xml,application/xml;q=0.9,
+    image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9''',
+    'accept-language': 'en-GB,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'dnt': '1',
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"macOS"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': '''Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.
+    36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36''',
 }
 
 my_headers = {
