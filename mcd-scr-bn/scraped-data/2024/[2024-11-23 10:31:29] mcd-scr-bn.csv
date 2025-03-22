@@ -1,0 +1,53 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/11/23,Sat,Brunei,Sundae Chocolate,2.50,1.85,Dessert
+2,2024/11/23,Sat,Brunei,Sundae Strawberry,2.50,1.85,Dessert
+3,2024/11/23,Sat,Brunei,Oreo Berry McFlurry,4.00,2.96,Dessert
+4,2024/11/23,Sat,Brunei,Oreo Mudpie McFlurry,4.00,2.96,Dessert
+5,2024/11/23,Sat,Brunei,Oreo McFlurry,2.00,1.48,Dessert
+6,2024/11/23,Sat,Brunei,Greentea Oreo McFlurry,4.00,2.96,Dessert
+7,2024/11/23,Sat,Brunei,Apple Pie — 1 Pc,1.80,1.33,Dessert
+8,2024/11/23,Sat,Brunei,Apple Pie — 2 Pc,3.30,2.44,Dessert
+9,2024/11/23,Sat,Brunei,6pc. Spicy Chicken McNugget (Ala Carte),4.60,3.40,Promotion: Limited Time Only
+10,2024/11/23,Sat,Brunei,6pc. Spicy Chicken McNugget (Medium),6.10,4.51,Promotion: Limited Time Only
+11,2024/11/23,Sat,Brunei,6pc. Spicy Chicken McNugget (Large),6.70,4.96,Promotion: Limited Time Only
+12,2024/11/23,Sat,Brunei,9pc. Spicy Chicken McNugget (Ala Carte),6.30,4.66,Promotion: Limited Time Only
+13,2024/11/23,Sat,Brunei,9pc. Spicy Chicken McNugget (Medium),6.80,5.03,Promotion: Limited Time Only
+14,2024/11/23,Sat,Brunei,9pc. Spicy Chicken McNugget (Large),7.40,5.48,Promotion: Limited Time Only
+15,2024/11/23,Sat,Brunei,20pc. Spicy Chicken McNugget,12.60,9.32,Promotion: Limited Time Only
+16,2024/11/23,Sat,Brunei,Hot Coffee,1.60,1.18,Beverages
+17,2024/11/23,Sat,Brunei,Hot Milo,2.00,1.48,Beverages
+18,2024/11/23,Sat,Brunei,Hot Tea,1.60,1.18,Beverages
+19,2024/11/23,Sat,Brunei,Hot Americano,3.00,2.22,Beverages
+20,2024/11/23,Sat,Brunei,Iced Lemon Tea (Medium),2.40,1.78,Beverages
+21,2024/11/23,Sat,Brunei,Ice Lemon Tea (Large),3.00,2.22,Beverages
+22,2024/11/23,Sat,Brunei,Orange Juice (Medium),2.80,2.07,Beverages
+23,2024/11/23,Sat,Brunei,Orange Juice (Large),3.90,2.89,Beverages
+24,2024/11/23,Sat,Brunei,Ice Milo (Medium),2.80,2.07,Beverages
+25,2024/11/23,Sat,Brunei,Ice Milo (Large),3.90,2.89,Beverages
+26,2024/11/23,Sat,Brunei,Ice Lychee Tea (Medium),3.00,2.22,Beverages
+27,2024/11/23,Sat,Brunei,Mineral Water,1.00,0.74,Beverages
+28,2024/11/23,Sat,Brunei,Coke (Medium),1.90,1.41,Beverages
+29,2024/11/23,Sat,Brunei,Coke (Large),2.20,1.63,Beverages
+30,2024/11/23,Sat,Brunei,Coke Zero (Medium),1.90,1.41,Beverages
+31,2024/11/23,Sat,Brunei,Coke Zero (Large),2.20,1.63,Beverages
+32,2024/11/23,Sat,Brunei,Sprite (Medium),1.90,1.41,Beverages
+33,2024/11/23,Sat,Brunei,Sprite (Large),2.20,1.63,Beverages
+34,2024/11/23,Sat,Brunei,Fanta Strawberry (Medium),1.90,1.41,Beverages
+35,2024/11/23,Sat,Brunei,Fanta Strawberry (Large),2.20,1.63,Beverages
+36,2024/11/23,Sat,Brunei,McCafe Americano,3.50,2.59,Beverages
+37,2024/11/23,Sat,Brunei,McCafe Latte,3.50,2.59,Beverages
+38,2024/11/23,Sat,Brunei,McCafe Cappucino,3.50,2.59,Beverages
+39,2024/11/23,Sat,Brunei,Espresso (4 Oz),2.00,1.48,Beverages
+40,2024/11/23,Sat,Brunei,McCafe Iced Latte (Medium),4.00,2.96,Beverages
+41,2024/11/23,Sat,Brunei,McCafe Iced Latte (Large),5.00,3.70,Beverages
+42,2024/11/23,Sat,Brunei,McCafe Iced Americano (Medium),4.00,2.96,Beverages
+43,2024/11/23,Sat,Brunei,McCafe Iced Americano (Large),5.00,3.70,Beverages
+44,2024/11/23,Sat,Brunei,McCafe Iced Chocolate (Medium),4.50,3.33,Beverages
+45,2024/11/23,Sat,Brunei,McCafe Iced Chocolate (Large),5.50,4.07,Beverages
+46,2024/11/23,Sat,Brunei,McCafe Iced Mocha (Medium),5.00,3.70,Beverages
+47,2024/11/23,Sat,Brunei,McCafe Iced Mocha (Large),6.00,4.44,Beverages
+48,2024/11/23,Sat,Brunei,Hot Coffee (Large),2.40,1.78,Beverages
+49,2024/11/23,Sat,Brunei,Hot Milo (Large),2.80,2.07,Beverages
+50,2024/11/23,Sat,Brunei,Hot Tea (Large),2.40,1.78,Beverages
+51,2024/11/23,Sat,Brunei,Hot Americano (Medium),4.00,2.96,Beverages
+52,2024/11/23,Sat,Brunei,Hot Americano (Large),4.50,3.33,Beverages

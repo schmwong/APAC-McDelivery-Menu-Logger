@@ -1,0 +1,75 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/10/22,Tue,Brunei,Happy Meal Cheeseburger,5.20,3.95,Happy Meal
+2,2024/10/22,Tue,Brunei,Happy Meal Beefburger,4.90,3.72,Happy Meal
+3,2024/10/22,Tue,Brunei,Happy Meal Bubur McD (S),5.20,3.95,Happy Meal
+4,2024/10/22,Tue,Brunei,Happy Meal Ayam Goreng McD (1pc),5.20,3.95,Happy Meal
+5,2024/10/22,Tue,Brunei,Happy Meal with Fruit Tea — Happy Meal Ayam Goreng McD (1pc),5.00,3.80,Happy Meal
+6,2024/10/22,Tue,Brunei,Happy Meal with Fruit Tea — Happy Meal Beef Burger,4.70,3.57,Happy Meal
+7,2024/10/22,Tue,Brunei,Happy Meal with Fruit Tea — Happy Meal Bubur Mcd (S),5.00,3.80,Happy Meal
+8,2024/10/22,Tue,Brunei,Happy Meal with Fruit Tea — Happy Cheeseburger,5.00,3.80,Happy Meal
+9,2024/10/22,Tue,Brunei,2pcs Ayam Goreng McD,5.30,4.03,Sides
+10,2024/10/22,Tue,Brunei,5pcs Ayam Goreng McD,12.00,9.12,Sides
+11,2024/10/22,Tue,Brunei,9pcs Ayam Goreng McD,21.80,16.57,Sides
+12,2024/10/22,Tue,Brunei,Rice,0.80,0.61,Sides
+13,2024/10/22,Tue,Brunei,BBQ Dipping Sauce,0.50,0.38,Sides
+14,2024/10/22,Tue,Brunei,Sweet & Sour Dipping Sauce,0.50,0.38,Sides
+15,2024/10/22,Tue,Brunei,French Fries — Medium,2.20,1.67,Sides
+16,2024/10/22,Tue,Brunei,French Fries — Large,2.50,1.90,Sides
+17,2024/10/22,Tue,Brunei,Bubur McD — Small,3.20,2.43,Sides
+18,2024/10/22,Tue,Brunei,Bubur McD — Large,3.70,2.81,Sides
+19,2024/10/22,Tue,Brunei,Cakoi — 1 Pc,1.50,1.14,Sides
+20,2024/10/22,Tue,Brunei,Cakoi — 2 Pc,2.80,2.13,Sides
+21,2024/10/22,Tue,Brunei,Sauces — Tartar Sauce,0.50,0.38,Sides
+22,2024/10/22,Tue,Brunei,Sauces — Nasi Lemak McD Sambal,0.50,0.38,Sides
+23,2024/10/22,Tue,Brunei,Sundae Chocolate,2.50,1.90,Dessert
+24,2024/10/22,Tue,Brunei,Sundae Strawberry,2.50,1.90,Dessert
+25,2024/10/22,Tue,Brunei,Oreo Berry McFlurry,4.00,3.04,Dessert
+26,2024/10/22,Tue,Brunei,Oreo Mudpie McFlurry,4.00,3.04,Dessert
+27,2024/10/22,Tue,Brunei,Oreo McFlurry,2.00,1.52,Dessert
+28,2024/10/22,Tue,Brunei,Greentea Oreo McFlurry,4.00,3.04,Dessert
+29,2024/10/22,Tue,Brunei,Apple Pie — 1 Pc,1.80,1.37,Dessert
+30,2024/10/22,Tue,Brunei,Apple Pie — 2 Pc,3.30,2.51,Dessert
+31,2024/10/22,Tue,Brunei,Jimat Meal Filet-O-Fish (S),3.90,2.96,Jimat Meal Promotion
+32,2024/10/22,Tue,Brunei,Jimat Meal Cheeseburger (S),3.90,2.96,Jimat Meal Promotion
+33,2024/10/22,Tue,Brunei,Jimat Meal 1 Piece Ayam Goreng McD (S),3.90,2.96,Jimat Meal Promotion
+34,2024/10/22,Tue,Brunei,Jimat Meal McChicken (S),4.90,3.72,Jimat Meal Promotion
+35,2024/10/22,Tue,Brunei,Jimat Meal Bubur McD and 1 Piece Cakoi (S),4.90,3.72,Jimat Meal Promotion
+36,2024/10/22,Tue,Brunei,Jimat Meal 1 Piece Nasi Lemak McD Set B (S),4.90,3.72,Jimat Meal Promotion
+37,2024/10/22,Tue,Brunei,Hot Coffee,1.60,1.22,Beverages
+38,2024/10/22,Tue,Brunei,Hot Milo,2.00,1.52,Beverages
+39,2024/10/22,Tue,Brunei,Hot Tea,1.60,1.22,Beverages
+40,2024/10/22,Tue,Brunei,Hot Americano,3.00,2.28,Beverages
+41,2024/10/22,Tue,Brunei,Iced Lemon Tea (Medium),2.40,1.82,Beverages
+42,2024/10/22,Tue,Brunei,Ice Lemon Tea (Large),3.00,2.28,Beverages
+43,2024/10/22,Tue,Brunei,Orange Juice (Medium),2.80,2.13,Beverages
+44,2024/10/22,Tue,Brunei,Orange Juice (Large),3.90,2.96,Beverages
+45,2024/10/22,Tue,Brunei,Ice Milo (Medium),2.80,2.13,Beverages
+46,2024/10/22,Tue,Brunei,Ice Milo (Large),3.90,2.96,Beverages
+47,2024/10/22,Tue,Brunei,Ice Lychee Tea (Medium),3.00,2.28,Beverages
+48,2024/10/22,Tue,Brunei,Ice Lychee Tea (Large),3.60,2.74,Beverages
+49,2024/10/22,Tue,Brunei,Mineral Water,1.00,0.76,Beverages
+50,2024/10/22,Tue,Brunei,Coke (Medium),1.90,1.44,Beverages
+51,2024/10/22,Tue,Brunei,Coke (Large),2.20,1.67,Beverages
+52,2024/10/22,Tue,Brunei,Coke Zero (Medium),1.90,1.44,Beverages
+53,2024/10/22,Tue,Brunei,Coke Zero (Large),2.20,1.67,Beverages
+54,2024/10/22,Tue,Brunei,Sprite (Medium),1.90,1.44,Beverages
+55,2024/10/22,Tue,Brunei,Sprite (Large),2.20,1.67,Beverages
+56,2024/10/22,Tue,Brunei,Fanta Strawberry (Medium),1.90,1.44,Beverages
+57,2024/10/22,Tue,Brunei,Fanta Strawberry (Large),2.20,1.67,Beverages
+58,2024/10/22,Tue,Brunei,McCafe Americano,3.50,2.66,Beverages
+59,2024/10/22,Tue,Brunei,McCafe Latte,3.50,2.66,Beverages
+60,2024/10/22,Tue,Brunei,McCafe Cappucino,3.50,2.66,Beverages
+61,2024/10/22,Tue,Brunei,Espresso (4 Oz),2.00,1.52,Beverages
+62,2024/10/22,Tue,Brunei,McCafe Iced Latte (Medium),4.00,3.04,Beverages
+63,2024/10/22,Tue,Brunei,McCafe Iced Latte (Large),5.00,3.80,Beverages
+64,2024/10/22,Tue,Brunei,McCafe Iced Americano (Medium),4.00,3.04,Beverages
+65,2024/10/22,Tue,Brunei,McCafe Iced Americano (Large),5.00,3.80,Beverages
+66,2024/10/22,Tue,Brunei,McCafe Iced Chocolate (Medium),4.50,3.42,Beverages
+67,2024/10/22,Tue,Brunei,McCafe Iced Chocolate (Large),5.50,4.18,Beverages
+68,2024/10/22,Tue,Brunei,McCafe Iced Mocha (Medium),5.00,3.80,Beverages
+69,2024/10/22,Tue,Brunei,McCafe Iced Mocha (Large),6.00,4.56,Beverages
+70,2024/10/22,Tue,Brunei,Hot Coffee (Large),2.40,1.82,Beverages
+71,2024/10/22,Tue,Brunei,Hot Milo (Large),2.80,2.13,Beverages
+72,2024/10/22,Tue,Brunei,Hot Tea (Large),2.40,1.82,Beverages
+73,2024/10/22,Tue,Brunei,Hot Americano (Medium),4.00,3.04,Beverages
+74,2024/10/22,Tue,Brunei,Hot Americano (Large),4.50,3.42,Beverages

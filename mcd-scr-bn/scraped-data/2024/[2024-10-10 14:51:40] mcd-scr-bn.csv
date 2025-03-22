@@ -1,0 +1,62 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/10/10,Thu,Brunei,2pcs Ayam Goreng McD,5.30,4.03,Sides
+2,2024/10/10,Thu,Brunei,5pcs Ayam Goreng McD,12.00,9.12,Sides
+3,2024/10/10,Thu,Brunei,9pcs Ayam Goreng McD,21.80,16.57,Sides
+4,2024/10/10,Thu,Brunei,Rice,0.80,0.61,Sides
+5,2024/10/10,Thu,Brunei,BBQ Dipping Sauce,0.50,0.38,Sides
+6,2024/10/10,Thu,Brunei,Sweet & Sour Dipping Sauce,0.50,0.38,Sides
+7,2024/10/10,Thu,Brunei,French Fries — Medium,2.20,1.67,Sides
+8,2024/10/10,Thu,Brunei,French Fries — Large,2.50,1.90,Sides
+9,2024/10/10,Thu,Brunei,Bubur McD — Small,3.20,2.43,Sides
+10,2024/10/10,Thu,Brunei,Bubur McD — Large,3.70,2.81,Sides
+11,2024/10/10,Thu,Brunei,Cakoi — 1 Pc,1.50,1.14,Sides
+12,2024/10/10,Thu,Brunei,Cakoi — 2 Pc,2.80,2.13,Sides
+13,2024/10/10,Thu,Brunei,Sauces — Tartar Sauce,0.50,0.38,Sides
+14,2024/10/10,Thu,Brunei,Sauces — Nasi Lemak McD Sambal,0.50,0.38,Sides
+15,2024/10/10,Thu,Brunei,Sundae Chocolate,2.50,1.90,Dessert
+16,2024/10/10,Thu,Brunei,Sundae Strawberry,2.50,1.90,Dessert
+17,2024/10/10,Thu,Brunei,Oreo Berry McFlurry,4.00,3.04,Dessert
+18,2024/10/10,Thu,Brunei,Oreo Mudpie McFlurry,4.00,3.04,Dessert
+19,2024/10/10,Thu,Brunei,Oreo McFlurry,2.00,1.52,Dessert
+20,2024/10/10,Thu,Brunei,Greentea Oreo McFlurry,4.00,3.04,Dessert
+21,2024/10/10,Thu,Brunei,Apple Pie — 1 Pc,1.80,1.37,Dessert
+22,2024/10/10,Thu,Brunei,Apple Pie — 2 Pc,3.30,2.51,Dessert
+23,2024/10/10,Thu,Brunei,McCafe Iced Americano (M),1.80,1.37,Promotion: Limited Time Only
+24,2024/10/10,Thu,Brunei,Hot Coffee,1.60,1.22,Beverages
+25,2024/10/10,Thu,Brunei,Hot Milo,2.00,1.52,Beverages
+26,2024/10/10,Thu,Brunei,Hot Tea,1.60,1.22,Beverages
+27,2024/10/10,Thu,Brunei,Hot Americano,3.00,2.28,Beverages
+28,2024/10/10,Thu,Brunei,Iced Lemon Tea (Medium),2.40,1.82,Beverages
+29,2024/10/10,Thu,Brunei,Ice Lemon Tea (Large),3.00,2.28,Beverages
+30,2024/10/10,Thu,Brunei,Orange Juice (Medium),2.80,2.13,Beverages
+31,2024/10/10,Thu,Brunei,Orange Juice (Large),3.90,2.96,Beverages
+32,2024/10/10,Thu,Brunei,Ice Milo (Medium),2.80,2.13,Beverages
+33,2024/10/10,Thu,Brunei,Ice Milo (Large),3.90,2.96,Beverages
+34,2024/10/10,Thu,Brunei,Ice Lychee Tea (Medium),3.00,2.28,Beverages
+35,2024/10/10,Thu,Brunei,Ice Lychee Tea (Large),3.60,2.74,Beverages
+36,2024/10/10,Thu,Brunei,Mineral Water,1.00,0.76,Beverages
+37,2024/10/10,Thu,Brunei,Coke (Medium),1.90,1.44,Beverages
+38,2024/10/10,Thu,Brunei,Coke (Large),2.20,1.67,Beverages
+39,2024/10/10,Thu,Brunei,Coke Zero (Medium),1.90,1.44,Beverages
+40,2024/10/10,Thu,Brunei,Coke Zero (Large),2.20,1.67,Beverages
+41,2024/10/10,Thu,Brunei,Sprite (Medium),1.90,1.44,Beverages
+42,2024/10/10,Thu,Brunei,Sprite (Large),2.20,1.67,Beverages
+43,2024/10/10,Thu,Brunei,Fanta Strawberry (Medium),1.90,1.44,Beverages
+44,2024/10/10,Thu,Brunei,Fanta Strawberry (Large),2.20,1.67,Beverages
+45,2024/10/10,Thu,Brunei,McCafe Americano,3.50,2.66,Beverages
+46,2024/10/10,Thu,Brunei,McCafe Latte,3.50,2.66,Beverages
+47,2024/10/10,Thu,Brunei,McCafe Cappucino,3.50,2.66,Beverages
+48,2024/10/10,Thu,Brunei,Espresso (4 Oz),2.00,1.52,Beverages
+49,2024/10/10,Thu,Brunei,McCafe Iced Latte (Medium),4.00,3.04,Beverages
+50,2024/10/10,Thu,Brunei,McCafe Iced Latte (Large),5.00,3.80,Beverages
+51,2024/10/10,Thu,Brunei,McCafe Iced Americano (Medium),4.00,3.04,Beverages
+52,2024/10/10,Thu,Brunei,McCafe Iced Americano (Large),5.00,3.80,Beverages
+53,2024/10/10,Thu,Brunei,McCafe Iced Chocolate (Medium),4.50,3.42,Beverages
+54,2024/10/10,Thu,Brunei,McCafe Iced Chocolate (Large),5.50,4.18,Beverages
+55,2024/10/10,Thu,Brunei,McCafe Iced Mocha (Medium),5.00,3.80,Beverages
+56,2024/10/10,Thu,Brunei,McCafe Iced Mocha (Large),6.00,4.56,Beverages
+57,2024/10/10,Thu,Brunei,Hot Coffee (Large),2.40,1.82,Beverages
+58,2024/10/10,Thu,Brunei,Hot Milo (Large),2.80,2.13,Beverages
+59,2024/10/10,Thu,Brunei,Hot Tea (Large),2.40,1.82,Beverages
+60,2024/10/10,Thu,Brunei,Hot Americano (Medium),4.00,3.04,Beverages
+61,2024/10/10,Thu,Brunei,Hot Americano (Large),4.50,3.42,Beverages

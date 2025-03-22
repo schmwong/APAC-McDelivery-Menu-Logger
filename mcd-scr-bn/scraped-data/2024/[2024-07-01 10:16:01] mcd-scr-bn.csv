@@ -1,0 +1,48 @@
+,Date,Day,Territory,Menu Item,Price (BND),Price (USD),Category
+1,2024/07/01,Mon,Brunei,Big Mac (Value Meal) — Medium,6.50,4.75,Regular Value Meal
+2,2024/07/01,Mon,Brunei,Big Mac (Value Meal) — Large,7.10,5.18,Regular Value Meal
+3,2024/07/01,Mon,Brunei,Double Cheeseburger (Value Meal) — Medium,6.20,4.53,Regular Value Meal
+4,2024/07/01,Mon,Brunei,Double Cheeseburger (Value Meal) — Large,6.80,4.96,Regular Value Meal
+5,2024/07/01,Mon,Brunei,Spicy Chicken McDeluxe (Value Meal) — Medium,6.80,4.96,Regular Value Meal
+6,2024/07/01,Mon,Brunei,Spicy Chicken McDeluxe (Value Meal) — Large,7.40,5.40,Regular Value Meal
+7,2024/07/01,Mon,Brunei,Filet-O-Fish (Value Meal) — Medium,5.60,4.09,Regular Value Meal
+8,2024/07/01,Mon,Brunei,Filet-O-Fish (Value Meal) — Large,6.20,4.53,Regular Value Meal
+9,2024/07/01,Mon,Brunei,Nasi Lemak Set A (2 Pcs Chicken),6.70,4.89,Regular Value Meal
+10,2024/07/01,Mon,Brunei,Big Mac (A La Carte),5.50,4.01,Regular Value Meal
+11,2024/07/01,Mon,Brunei,Double Cheeseburger (A La Carte),5.10,3.72,Regular Value Meal
+12,2024/07/01,Mon,Brunei,Spicy Chicken McDeluxe (A La Carte),5.60,4.09,Regular Value Meal
+13,2024/07/01,Mon,Brunei,Filet-O-Fish (A La Carte),3.80,2.77,Regular Value Meal
+14,2024/07/01,Mon,Brunei,Chicken McNuggets — 6 Pieces - A la carte,4.60,3.36,Regular Value Meal
+15,2024/07/01,Mon,Brunei,Chicken McNuggets — 6 Pieces - Medium Value Meal,6.10,4.45,Regular Value Meal
+16,2024/07/01,Mon,Brunei,Chicken McNuggets — 9 Pieces - A la carte,6.30,4.60,Regular Value Meal
+17,2024/07/01,Mon,Brunei,Chicken McNuggets — 9 pieces - Medium Value Meal,6.80,4.96,Regular Value Meal
+18,2024/07/01,Mon,Brunei,Chicken McNuggets — 9 pieces - Large Value Meal,7.40,5.40,Regular Value Meal
+19,2024/07/01,Mon,Brunei,Chicken McNuggets — 20 pieces - A la Carte,12.60,9.20,Regular Value Meal
+20,2024/07/01,Mon,Brunei,McChicken — Ala Carte,5.00,3.65,Regular Value Meal
+21,2024/07/01,Mon,Brunei,McChicken — Large,6.60,4.82,Regular Value Meal
+22,2024/07/01,Mon,Brunei,Happy Meal Bubur McD (S),5.20,3.80,Happy Meal
+23,2024/07/01,Mon,Brunei,Happy Meal Ayam Goreng McD (1pc),5.20,3.80,Happy Meal
+24,2024/07/01,Mon,Brunei,Happy Meal with Fruit Tea — Happy Meal Ayam Goreng McD (1pc),5.00,3.65,Happy Meal
+25,2024/07/01,Mon,Brunei,Happy Meal with Fruit Tea — Happy Meal Beef Burger,4.70,3.43,Happy Meal
+26,2024/07/01,Mon,Brunei,Happy Meal with Fruit Tea — Happy Meal Bubur Mcd (S),5.00,3.65,Happy Meal
+27,2024/07/01,Mon,Brunei,Happy Meal with Fruit Tea — Happy Cheeseburger,5.00,3.65,Happy Meal
+28,2024/07/01,Mon,Brunei,Rice,0.80,0.58,Sides
+29,2024/07/01,Mon,Brunei,French Fries — Medium,2.20,1.61,Sides
+30,2024/07/01,Mon,Brunei,French Fries — Large,2.50,1.82,Sides
+31,2024/07/01,Mon,Brunei,Bubur McD — Small,3.20,2.34,Sides
+32,2024/07/01,Mon,Brunei,Bubur McD — Large,3.70,2.70,Sides
+33,2024/07/01,Mon,Brunei,Sundae Chocolate,2.50,1.82,Dessert
+34,2024/07/01,Mon,Brunei,Sundae Strawberry,2.50,1.82,Dessert
+35,2024/07/01,Mon,Brunei,Oreo Berry McFlurry,4.00,2.92,Dessert
+36,2024/07/01,Mon,Brunei,Oreo Mudpie McFlurry,4.00,2.92,Dessert
+37,2024/07/01,Mon,Brunei,Oreo McFlurry,2.00,1.46,Dessert
+38,2024/07/01,Mon,Brunei,Greentea Oreo McFlurry,4.00,2.92,Dessert
+39,2024/07/01,Mon,Brunei,Apple Pie — 1 Pc,1.80,1.31,Dessert
+40,2024/07/01,Mon,Brunei,Apple Pie — 2 Pc,3.30,2.41,Dessert
+41,2024/07/01,Mon,Brunei,Gula Melaka Oreo McFlurry 1pc,3.50,2.55,Dessert
+42,2024/07/01,Mon,Brunei,Gula Melaka Oreo McFlurry 2pc,6.00,4.38,Dessert
+43,2024/07/01,Mon,Brunei,Cendol Mc Flurry 1pc,3.50,2.55,Dessert
+44,2024/07/01,Mon,Brunei,Cendol Mc Flurry 2pc,6.00,4.38,Dessert
+45,2024/07/01,Mon,Brunei,Jimat Meal Filet-O-Fish (S),3.90,2.85,Jimat Meal Promotion
+46,2024/07/01,Mon,Brunei,Jimat Meal McChicken (S),4.90,3.58,Jimat Meal Promotion
+47,2024/07/01,Mon,Brunei,Jimat Meal Bubur McD and 1 Piece Cakoi (S),4.90,3.58,Jimat Meal Promotion

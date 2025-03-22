@@ -1,0 +1,301 @@
+,Date,Day,Territory,Menu Item,Price (INR),Price (USD),Category
+1,2024/09/29,Sun,India,Veg McMuffin 3 Pc Meal,264.00,3.15,McBreakfast
+2,2024/09/29,Sun,India,Sausage McMuffin 3 Pc Meal,272.00,3.25,McBreakfast
+3,2024/09/29,Sun,India,Sausage with Egg McMuffin 3 Pc Meal,294.00,3.51,McBreakfast
+4,2024/09/29,Sun,India,Double Cheese McMuffin 3 Pc Meal,241.00,2.88,McBreakfast
+5,2024/09/29,Sun,India,Egg & Cheese McMuffin 3 Pc Meal,241.00,2.88,McBreakfast
+6,2024/09/29,Sun,India,Spicy Egg McMuffin 3 Pc Meal,251.00,3.00,McBreakfast
+7,2024/09/29,Sun,India,Hot Cake 3 Pc Meal,279.00,3.33,McBreakfast
+8,2024/09/29,Sun,India,Egg & Cheese McMuffin - Sandwich,101.00,1.21,McBreakfast
+9,2024/09/29,Sun,India,Sausage & Egg McMuffin - Sandwich,153.00,1.83,McBreakfast
+10,2024/09/29,Sun,India,Spicy Egg McMuffin - Sandwich,107.00,1.28,McBreakfast
+11,2024/09/29,Sun,India,Sausage McMuffin - Sandwich,131.00,1.56,McBreakfast
+12,2024/09/29,Sun,India,Veg McMuffin - Sandwich,117.00,1.40,McBreakfast
+13,2024/09/29,Sun,India,Hashbrown,52.00,0.62,McBreakfast
+14,2024/09/29,Sun,India,Hot Cakes With Maple Syrup,147.00,1.76,McBreakfast
+15,2024/09/29,Sun,India,Double Cheese McMuffin- Sandwich,101.00,1.21,McBreakfast
+16,2024/09/29,Sun,India,Hot Cake 2 Pc Meal,263.00,3.14,McBreakfast
+17,2024/09/29,Sun,India,Egg & Cheese McMuffin - sandwich Combo,142.00,1.70,McBreakfast
+18,2024/09/29,Sun,India,Spicy Egg McMuffin - sandwich combo,142.00,1.70,McBreakfast
+19,2024/09/29,Sun,India,Double Cheese McMuffin Sandwich Combo,142.00,1.70,McBreakfast
+20,2024/09/29,Sun,India,Sausage McMuffin Sandwich Combo,251.00,3.00,McBreakfast
+21,2024/09/29,Sun,India,Sausage & Egg McMuffin Sandwich Combo,269.00,3.21,McBreakfast
+22,2024/09/29,Sun,India,Veg McMuffin Sandwich Combo,241.00,2.88,McBreakfast
+23,2024/09/29,Sun,India,McCrispy Chicken Burger + McChicken Burger + Fries (M),409.00,4.89,Newly Launched
+24,2024/09/29,Sun,India,Crispy Veggie Burger + McVeggie Burger + Fries (M),409.00,4.89,Newly Launched
+25,2024/09/29,Sun,India,2 Crispy Veggie Burger + 2 Fries (M) + Veg Pizza McPuff,579.00,6.92,Newly Launched
+26,2024/09/29,Sun,India,2 McCrispy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff,659.00,7.87,Newly Launched
+27,2024/09/29,Sun,India,2 Crispy Veggie Burger + Fries (L) + 2 Coke,609.00,7.28,Newly Launched
+28,2024/09/29,Sun,India,Crispy Veggie Burger,199.00,2.38,Newly Launched
+29,2024/09/29,Sun,India,Crispy Veggie Burger + McAloo Tikki,239.00,2.86,Newly Launched
+30,2024/09/29,Sun,India,2 McCrispy Chicken Burger + Fries (L) + 2 Coke,699.00,8.35,Newly Launched
+31,2024/09/29,Sun,India,McCrispy Chicken Burger,224.00,2.68,Newly Launched
+32,2024/09/29,Sun,India,McCrispy Chicken Burger + McAloo Tikki,289.00,3.45,Newly Launched
+33,2024/09/29,Sun,India,Crispy Veggie Burger + Classic Cheese Fries,309.00,3.69,Newly Launched
+34,2024/09/29,Sun,India,McCrispy Chicken Burger + Classic Cheese Fries,369.00,4.41,Newly Launched
+35,2024/09/29,Sun,India,Crispy Veggie Burger + Piri Piri Fries (M),309.00,3.69,Newly Launched
+36,2024/09/29,Sun,India,McCrispy Chicken Burger + Piri Piri Fries (M),359.00,4.29,Newly Launched
+37,2024/09/29,Sun,India,Crispy Veggie Burger Meal (M),327.00,3.91,Newly Launched
+38,2024/09/29,Sun,India,McCrispy Chicken Burger Meal (M),367.00,4.38,Newly Launched
+39,2024/09/29,Sun,India,Iced Coffee with Cinammon Spice,219.00,2.62,Newly Launched
+40,2024/09/29,Sun,India,Classic Coffee Regular with Cinammon Spice,235.00,2.81,Newly Launched
+41,2024/09/29,Sun,India,Cappuccino Small with Cinammon Spice,184.00,2.20,Newly Launched
+42,2024/09/29,Sun,India,Iced Coffee with French Vanilla,219.00,2.62,Newly Launched
+43,2024/09/29,Sun,India,Classic Coffee Regular with French Vanilla,235.00,2.81,Newly Launched
+44,2024/09/29,Sun,India,Cappuccino Small with French Vanilla,184.00,2.20,Newly Launched
+45,2024/09/29,Sun,India,Iced Coffee with Hazelnut,219.00,2.62,Newly Launched
+46,2024/09/29,Sun,India,Cappuccino Small with Hazelnut,184.00,2.20,Newly Launched
+47,2024/09/29,Sun,India,Classic Coffee Regular with Hazelnut,235.00,2.81,Newly Launched
+48,2024/09/29,Sun,India,McCrispy Chicken Burger + McChicken Burger + Fries (M),409.00,4.89,Group Sharing Combos
+49,2024/09/29,Sun,India,Crispy Veggie Burger + McVeggie Burger + Fries (M),409.00,4.89,Group Sharing Combos
+50,2024/09/29,Sun,India,2 Crispy Veggie Burger + 2 Fries (M) + Veg Pizza McPuff,579.00,6.92,Group Sharing Combos
+51,2024/09/29,Sun,India,2 McCrispy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff,659.00,7.87,Group Sharing Combos
+52,2024/09/29,Sun,India,2 Crispy Veggie Burger + Fries (L) + 2 Coke,609.00,7.28,Group Sharing Combos
+53,2024/09/29,Sun,India,2 McCrispy Chicken Burger + Fries (L) + 2 Coke,699.00,8.35,Group Sharing Combos
+54,2024/09/29,Sun,India,Burger Combo for 2: McChicken Burger,427.00,5.10,Group Sharing Combos
+55,2024/09/29,Sun,India,Burger Combo for 2: McVeggie + McAloo Tikki with Pizza McPuff,391.00,4.67,Group Sharing Combos
+56,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Chicken + McChicken,437.00,5.22,Group Sharing Combos
+57,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Deluxe Paneer Burger,550.00,6.57,Group Sharing Combos
+58,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Deluxe Chicken Burger,499.00,5.96,Group Sharing Combos
+59,2024/09/29,Sun,India,Burger Combo for 2: McCheese Burger Veg,619.00,7.39,Group Sharing Combos
+60,2024/09/29,Sun,India,Burger Combo for 2: McCheese Burger Chicken,649.00,7.75,Group Sharing Combos
+61,2024/09/29,Sun,India,Burger Combo for 2: Corn & Cheese Burger,419.00,5.01,Group Sharing Combos
+62,2024/09/29,Sun,India,Burger Combo for 2: Grilled Chicken & Cheese,470.00,5.61,Group Sharing Combos
+63,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Chicken Burger,490.00,5.85,Group Sharing Combos
+64,2024/09/29,Sun,India,Burger Combo for 2: McVeggie Burger,389.00,4.65,Group Sharing Combos
+65,2024/09/29,Sun,India,Burger Combo for 2: Corn & Cheese + McVeggie,391.00,4.67,Group Sharing Combos
+66,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Chicken Burger with Pizza McPuff,491.00,5.87,Group Sharing Combos
+67,2024/09/29,Sun,India,Burger Combo for 2: McChicken Burger with Pizza McPuff,389.00,4.65,Group Sharing Combos
+68,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Paneer + McAloo Tikki with Coke,389.00,4.65,Group Sharing Combos
+69,2024/09/29,Sun,India,Burger Combo for 2: McVeggie + McAloo Tikki with Coke,337.00,4.03,Group Sharing Combos
+70,2024/09/29,Sun,India,Burger Combo for 2: McVeggie Burger with Pizza McPuff,459.00,5.48,Group Sharing Combos
+71,2024/09/29,Sun,India,2 Chicken Maharaja Mac Burger + 2 Coke + Fries (L) + McFlurry Oreo (M),610.00,7.29,Group Sharing Combos
+72,2024/09/29,Sun,India,Burger Combo for 2: McAloo Tikki,328.00,3.92,Group Sharing Combos
+73,2024/09/29,Sun,India,Burger Combo for 2: McSpicy Paneer + McAloo Tikki with Pizza McPuff,388.00,4.64,Group Sharing Combos
+74,2024/09/29,Sun,India,6 Pc Chicken Nuggets + McChicken Burger + Coke,358.00,4.28,Group Sharing Combos
+75,2024/09/29,Sun,India,Crispy Veggie Burger + McAloo Tikki,239.00,2.86,McSaver Combos (2 Pc Meals)
+76,2024/09/29,Sun,India,McCrispy Chicken Burger + McAloo Tikki,289.00,3.45,McSaver Combos (2 Pc Meals)
+77,2024/09/29,Sun,India,Crispy Veggie Burger + Classic Cheese Fries,309.00,3.69,McSaver Combos (2 Pc Meals)
+78,2024/09/29,Sun,India,McCrispy Chicken Burger + Classic Cheese Fries,369.00,4.41,McSaver Combos (2 Pc Meals)
+79,2024/09/29,Sun,India,Crispy Veggie Burger + Piri Piri Fries (M),309.00,3.69,McSaver Combos (2 Pc Meals)
+80,2024/09/29,Sun,India,McCrispy Chicken Burger + Piri Piri Fries (M),359.00,4.29,McSaver Combos (2 Pc Meals)
+81,2024/09/29,Sun,India,New McSaver Mexican McAloo Tikki NONG,104.00,1.24,McSaver Combos (2 Pc Meals)
+82,2024/09/29,Sun,India,Chicken Surprise Burger + Fries (M),161.00,1.92,McSaver Combos (2 Pc Meals)
+83,2024/09/29,Sun,India,Chicken Surprise Burger + Chocolate Shake,209.00,2.50,McSaver Combos (2 Pc Meals)
+84,2024/09/29,Sun,India,New McSaver Flavours of India McAloo Tikki,110.00,1.31,McSaver Combos (2 Pc Meals)
+85,2024/09/29,Sun,India,New McSaver McAloo Tikki NONG,104.00,1.24,McSaver Combos (2 Pc Meals)
+86,2024/09/29,Sun,India,Chicken Surprise Burger + McChicken Burger,199.00,2.38,McSaver Combos (2 Pc Meals)
+87,2024/09/29,Sun,India,New McSaver Chicken Nuggets (4 Pc),104.00,1.24,McSaver Combos (2 Pc Meals)
+88,2024/09/29,Sun,India,New McSaver Mexican McAloo Tikki,104.00,1.24,McSaver Combos (2 Pc Meals)
+89,2024/09/29,Sun,India,New McSaver Small Fries,104.00,1.24,McSaver Combos (2 Pc Meals)
+90,2024/09/29,Sun,India,New McSaver Masala McEgg,104.00,1.24,McSaver Combos (2 Pc Meals)
+91,2024/09/29,Sun,India,New McSaver Pizza McPuff,104.00,1.24,McSaver Combos (2 Pc Meals)
+92,2024/09/29,Sun,India,New McSaver McAloo Tikki,104.00,1.24,McSaver Combos (2 Pc Meals)
+93,2024/09/29,Sun,India,McChicken Burger + Fries (M),224.00,2.68,McSaver Combos (2 Pc Meals)
+94,2024/09/29,Sun,India,McAloo Tikki Burger + Veg Pizza McPuff + Fries (R),201.00,2.40,McSaver Combos (2 Pc Meals)
+95,2024/09/29,Sun,India,McAloo Tikki + Fries (R),107.00,1.28,McSaver Combos (2 Pc Meals)
+96,2024/09/29,Sun,India,2 McVeggie Burger,250.00,2.99,McSaver Combos (2 Pc Meals)
+97,2024/09/29,Sun,India,New McSaver Chicken Surprise,104.00,1.24,McSaver Combos (2 Pc Meals)
+98,2024/09/29,Sun,India,Corn & Cheese Burger + Coke + Fries (M) + Veg Pizza McPuff,354.00,4.23,McSaver Combos (2 Pc Meals)
+99,2024/09/29,Sun,India,Corn & Cheese Burger + Fries (R),187.00,2.23,McSaver Combos (2 Pc Meals)
+100,2024/09/29,Sun,India,Grilled Chicken & Cheese Burger + Coke,215.00,2.57,McSaver Combos (2 Pc Meals)
+101,2024/09/29,Sun,India,Corn & Cheese Burger + Coke,226.00,2.70,McSaver Combos (2 Pc Meals)
+102,2024/09/29,Sun,India,Grilled Chicken & Cheese Burger + Veg Pizza McPuff,190.00,2.27,McSaver Combos (2 Pc Meals)
+103,2024/09/29,Sun,India,Corn & Cheese Burger + Veg Pizza McPuff,176.00,2.10,McSaver Combos (2 Pc Meals)
+104,2024/09/29,Sun,India,McChicken Burger + Fries (L),227.00,2.71,McSaver Combos (2 Pc Meals)
+105,2024/09/29,Sun,India,McSpicy Paneer Burger + Fries (M) + Piri Piri Spice Mix,258.00,3.08,McSaver Combos (2 Pc Meals)
+106,2024/09/29,Sun,India,McVeggie Burger + Veg Pizza McPuff + Fries (L),265.00,3.17,McSaver Combos (2 Pc Meals)
+107,2024/09/29,Sun,India,Strawberry Shake + Fries (M),195.00,2.33,McSaver Combos (2 Pc Meals)
+108,2024/09/29,Sun,India,Mexican McAloo Tikki Burger + Fries (R),115.00,1.37,McSaver Combos (2 Pc Meals)
+109,2024/09/29,Sun,India,McChicken Burger + Fries (R),175.00,2.09,McSaver Combos (2 Pc Meals)
+110,2024/09/29,Sun,India,McVeggie Burger + Veg Pizza McPuff,170.00,2.03,McSaver Combos (2 Pc Meals)
+111,2024/09/29,Sun,India,6 Pc Chicken Nuggets + Fries (M) + Piri Piri Spice Mix,246.00,2.94,McSaver Combos (2 Pc Meals)
+112,2024/09/29,Sun,India,Chocolate Flavoured Shake+ Fries (M),195.00,2.33,McSaver Combos (2 Pc Meals)
+113,2024/09/29,Sun,India,McSpicy Chicken Burger + Mexican Cheese Fries,272.00,3.25,McSaver Combos (2 Pc Meals)
+114,2024/09/29,Sun,India,McSpicy Chicken Burger + Fries (M) + Piri Piri Spice Mix,272.00,3.25,McSaver Combos (2 Pc Meals)
+115,2024/09/29,Sun,India,McSpicy Paneer + Classic Cheese Fries,258.00,3.08,McSaver Combos (2 Pc Meals)
+116,2024/09/29,Sun,India,Veg Pizza McPuff + McSpicy Chicken Burger,238.00,2.84,McSaver Combos (2 Pc Meals)
+117,2024/09/29,Sun,India,McAloo Tikki Burger + Veg Pizza McPuff + Piri Piri Spice Mix,127.00,1.52,McSaver Combos (2 Pc Meals)
+118,2024/09/29,Sun,India,McVeggie Burger + Fries (M),190.00,2.27,McSaver Combos (2 Pc Meals)
+119,2024/09/29,Sun,India,Mexican McAloo Tikki Burger + Fries (L),173.00,2.07,McSaver Combos (2 Pc Meals)
+120,2024/09/29,Sun,India,McVeggie Burger + Fries (M) + Piri Piri Mix,231.00,2.76,McSaver Combos (2 Pc Meals)
+121,2024/09/29,Sun,India,McVeggie Burger + Fries (R),175.00,2.09,McSaver Combos (2 Pc Meals)
+122,2024/09/29,Sun,India,McVeggie Burger + Fries (L),222.00,2.65,McSaver Combos (2 Pc Meals)
+123,2024/09/29,Sun,India,McChicken Burger + McSpicy Chicken Burger,290.00,3.46,McSaver Combos (2 Pc Meals)
+124,2024/09/29,Sun,India,McVeggie Burger + McAloo Tikki Burger,190.00,2.27,McSaver Combos (2 Pc Meals)
+125,2024/09/29,Sun,India,McAloo Tikki Burger + Veg Pizza McPuff + Coke,161.00,1.92,McSaver Combos (2 Pc Meals)
+126,2024/09/29,Sun,India,McChicken Burger + Veg Pizza McPuff,170.00,2.03,McSaver Combos (2 Pc Meals)
+127,2024/09/29,Sun,India,2 McFlurry Oreo (S),155.00,1.85,McSaver Combos (2 Pc Meals)
+128,2024/09/29,Sun,India,2 Iced Coffee,237.00,2.83,McSaver Combos (2 Pc Meals)
+129,2024/09/29,Sun,India,2 Coke,163.00,1.95,McSaver Combos (2 Pc Meals)
+130,2024/09/29,Sun,India,2 Fries (R),111.00,1.33,McSaver Combos (2 Pc Meals)
+131,2024/09/29,Sun,India,2 Soft Serve Hot Fudge (M),155.00,1.85,McSaver Combos (2 Pc Meals)
+132,2024/09/29,Sun,India,2 Cappuccino,237.00,2.83,McSaver Combos (2 Pc Meals)
+133,2024/09/29,Sun,India,Black Forest Mcflurry (M) BOGO,115.00,1.37,McSaver Combos (2 Pc Meals)
+134,2024/09/29,Sun,India,Crispy Veggie Burger Meal (M),327.00,3.91,Burger Combos ( 3 Pc Meals )
+135,2024/09/29,Sun,India,McCrispy Chicken Burger Meal (M),367.00,4.38,Burger Combos ( 3 Pc Meals )
+136,2024/09/29,Sun,India,Mexican McAloo Tikki NONG Burger Combo ( M),224.00,2.68,Burger Combos ( 3 Pc Meals )
+137,2024/09/29,Sun,India,McAloo Tikki NONG Burger Combo ( M),207.00,2.47,Burger Combos ( 3 Pc Meals )
+138,2024/09/29,Sun,India,Flavours of India McAloo Tikki Burger Combo,211.00,2.52,Burger Combos ( 3 Pc Meals )
+139,2024/09/29,Sun,India,Flavours of India McChicken Burger Combo,310.00,3.70,Burger Combos ( 3 Pc Meals )
+140,2024/09/29,Sun,India,Flavours of India McVeggie Burger Combo,285.00,3.40,Burger Combos ( 3 Pc Meals )
+141,2024/09/29,Sun,India,Chicken Surprise Burger + 4 Pc Chicken McNuggets + Coke,237.00,2.83,Burger Combos ( 3 Pc Meals )
+142,2024/09/29,Sun,India,Chicken Surprise Burger Combo,237.00,2.83,Burger Combos ( 3 Pc Meals )
+143,2024/09/29,Sun,India,Mexican McAloo Tikki Double Patty Burger Combo,243.00,2.90,Burger Combos ( 3 Pc Meals )
+144,2024/09/29,Sun,India,McSpicy Deluxe Chicken Double Patty Burger Combo,428.00,5.11,Burger Combos ( 3 Pc Meals )
+145,2024/09/29,Sun,India,McSpicy Chicken Double Patty Burger combo,409.00,4.89,Burger Combos ( 3 Pc Meals )
+146,2024/09/29,Sun,India,McChicken Double Patty Burger Combo,343.00,4.10,Burger Combos ( 3 Pc Meals )
+147,2024/09/29,Sun,India,McVeggie Double Patty Burger Combo,319.00,3.81,Burger Combos ( 3 Pc Meals )
+148,2024/09/29,Sun,India,McAloo Tikki Double Patty Burger Combo,224.00,2.68,Burger Combos ( 3 Pc Meals )
+149,2024/09/29,Sun,India,McSpicy Deluxe Paneer Burger Combo,361.00,4.31,Burger Combos ( 3 Pc Meals )
+150,2024/09/29,Sun,India,McSpicy Deluxe Chicken Burger Combo,370.00,4.42,Burger Combos ( 3 Pc Meals )
+151,2024/09/29,Sun,India,McCheese Burger Chicken Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+152,2024/09/29,Sun,India,McCheese Burger Veg Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+153,2024/09/29,Sun,India,Corn & cheese Burger Combo,299.00,3.57,Burger Combos ( 3 Pc Meals )
+154,2024/09/29,Sun,India,Grilled Cheese and Chicken Burger Combo,304.00,3.63,Burger Combos ( 3 Pc Meals )
+155,2024/09/29,Sun,India,McVeggie Burger Combo,279.00,3.33,Burger Combos ( 3 Pc Meals )
+156,2024/09/29,Sun,India,McChicken Burger Combo,305.00,3.64,Burger Combos ( 3 Pc Meals )
+157,2024/09/29,Sun,India,Filet-O-Fish Burger Combo,350.00,4.18,Burger Combos ( 3 Pc Meals )
+158,2024/09/29,Sun,India,McAloo Tikki Burger Combo,205.00,2.45,Burger Combos ( 3 Pc Meals )
+159,2024/09/29,Sun,India,Mexican McAloo Tikki Burger Combo,224.00,2.68,Burger Combos ( 3 Pc Meals )
+160,2024/09/29,Sun,India,McSpicy Chicken Burger Combo,351.00,4.19,Burger Combos ( 3 Pc Meals )
+161,2024/09/29,Sun,India,McSpicy Paneer Burger Combo,342.00,4.09,Burger Combos ( 3 Pc Meals )
+162,2024/09/29,Sun,India,McSpicy Premium Burger Chicken Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+163,2024/09/29,Sun,India,McSpicy Premium Burger Veg Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+164,2024/09/29,Sun,India,Veg Maharaja Mac Burger Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+165,2024/09/29,Sun,India,Chicken Maharaja Mac Burger Combo,385.00,4.60,Burger Combos ( 3 Pc Meals )
+166,2024/09/29,Sun,India,Big Spicy Paneer Wrap Combo,361.00,4.31,Burger Combos ( 3 Pc Meals )
+167,2024/09/29,Sun,India,Big Spicy Chicken Wrap Combo,370.00,4.42,Burger Combos ( 3 Pc Meals )
+168,2024/09/29,Sun,India,Masala McEgg Burger Combo,225.00,2.69,Burger Combos ( 3 Pc Meals )
+169,2024/09/29,Sun,India,9 Pc Chicken Nuggets Combo,387.00,4.62,Burger Combos ( 3 Pc Meals )
+170,2024/09/29,Sun,India,Chicken McNuggets 6 Pcs Combo,347.00,4.15,Burger Combos ( 3 Pc Meals )
+171,2024/09/29,Sun,India,McVeggie Burger Happy Meal,306.00,3.66,Burger Combos ( 3 Pc Meals )
+172,2024/09/29,Sun,India,McChicken Burger Happy Meal,327.00,3.91,Burger Combos ( 3 Pc Meals )
+173,2024/09/29,Sun,India,4 Pc Chicken Nuggets Happy Meal,268.00,3.20,Burger Combos ( 3 Pc Meals )
+174,2024/09/29,Sun,India,McAloo Tikki Burger Happy Meal,211.00,2.52,Burger Combos ( 3 Pc Meals )
+175,2024/09/29,Sun,India,McEgg Burger Happy Meal,237.00,2.83,Burger Combos ( 3 Pc Meals )
+176,2024/09/29,Sun,India,2 Pc Chicken Nuggets Happy Meal,220.00,2.63,Burger Combos ( 3 Pc Meals )
+177,2024/09/29,Sun,India,Birthday Party Package - McVeggie,2.00,0.02,Burger Combos ( 3 Pc Meals )
+178,2024/09/29,Sun,India,Birthday Party Package - McChicken,2.00,0.02,Burger Combos ( 3 Pc Meals )
+179,2024/09/29,Sun,India,McCheese Burger Veg Combo with Corn,417.00,4.98,Burger Combos ( 3 Pc Meals )
+180,2024/09/29,Sun,India,Crispy Veggie Burger,199.00,2.38,Burgers & Wraps
+181,2024/09/29,Sun,India,McCrispy Chicken Burger,224.00,2.68,Burgers & Wraps
+182,2024/09/29,Sun,India,Mexican McAloo Tikki Burger NONG,74.00,0.88,Burgers & Wraps
+183,2024/09/29,Sun,India,McAloo Tikki Burger NONG,70.00,0.84,Burgers & Wraps
+184,2024/09/29,Sun,India,Flavours of India McChicken Burger,147.00,1.76,Burgers & Wraps
+185,2024/09/29,Sun,India,Flavours of India McVeggie Burger,154.00,1.84,Burgers & Wraps
+186,2024/09/29,Sun,India,Chicken Surprise Burger,75.00,0.90,Burgers & Wraps
+187,2024/09/29,Sun,India,Flavours of India McAloo Tikki Burger,74.00,0.88,Burgers & Wraps
+188,2024/09/29,Sun,India,Mexican McAloo Tikki Double Patty Burger,93.00,1.11,Burgers & Wraps
+189,2024/09/29,Sun,India,McSpicy Deluxe Chicken Double Patty Burger,290.00,3.46,Burgers & Wraps
+190,2024/09/29,Sun,India,McSpicy Chicken Double Patty Burger,271.00,3.24,Burgers & Wraps
+191,2024/09/29,Sun,India,McChicken Double Patty Burger,172.00,2.05,Burgers & Wraps
+192,2024/09/29,Sun,India,McVeggie Double Patty Burger,188.00,2.25,Burgers & Wraps
+193,2024/09/29,Sun,India,McAloo Tikki Double Patty Burger,89.00,1.06,Burgers & Wraps
+194,2024/09/29,Sun,India,McSpicy Deluxe Paneer Burger,233.00,2.78,Burgers & Wraps
+195,2024/09/29,Sun,India,McSpicy Deluxe Chicken Burger,233.00,2.78,Burgers & Wraps
+196,2024/09/29,Sun,India,McCheese Burger Chicken,281.00,3.36,Burgers & Wraps
+197,2024/09/29,Sun,India,Grilled Chicken & Cheese Burger,164.00,1.96,Burgers & Wraps
+198,2024/09/29,Sun,India,Corn & Cheese Burger,152.00,1.82,Burgers & Wraps
+199,2024/09/29,Sun,India,McSpicy Premium Chicken Burger,260.00,3.11,Burgers & Wraps
+200,2024/09/29,Sun,India,McSpicy Premium Veg Burger,249.00,2.97,Burgers & Wraps
+201,2024/09/29,Sun,India,McAloo Tikki Burger,70.00,0.84,Burgers & Wraps
+202,2024/09/29,Sun,India,McChicken Burger,142.00,1.70,Burgers & Wraps
+203,2024/09/29,Sun,India,McVeggie Burger,149.00,1.78,Burgers & Wraps
+204,2024/09/29,Sun,India,Filet-O-Fish Burger,185.00,2.21,Burgers & Wraps
+205,2024/09/29,Sun,India,Chicken Maharaja Mac Burger,258.00,3.08,Burgers & Wraps
+206,2024/09/29,Sun,India,Veg Maharaja Mac Burger,224.00,2.68,Burgers & Wraps
+207,2024/09/29,Sun,India,Mexican McAloo Tikki Burger,74.00,0.88,Burgers & Wraps
+208,2024/09/29,Sun,India,Masala McEgg Burger,69.00,0.82,Burgers & Wraps
+209,2024/09/29,Sun,India,McSpicy Paneer Burger,215.00,2.57,Burgers & Wraps
+210,2024/09/29,Sun,India,McSpicy Chicken Burger,215.00,2.57,Burgers & Wraps
+211,2024/09/29,Sun,India,Big Spicy Chicken Wrap,249.00,2.97,Burgers & Wraps
+212,2024/09/29,Sun,India,Big Spicy Paneer Wrap,230.00,2.75,Burgers & Wraps
+213,2024/09/29,Sun,India,McCheese Burger Veg,262.00,3.13,Burgers & Wraps
+214,2024/09/29,Sun,India,Fries (M) + Piri Piri Mix,120.00,1.43,Fries & Sides
+215,2024/09/29,Sun,India,20 Pc Chicken Nuggets,422.00,5.04,Fries & Sides
+216,2024/09/29,Sun,India,9 Pc Chicken Nuggets,213.00,2.54,Fries & Sides
+217,2024/09/29,Sun,India,6 Pc Chicken Nuggets,180.00,2.15,Fries & Sides
+218,2024/09/29,Sun,India,Salsa Cheese Fries,135.00,1.61,Fries & Sides
+219,2024/09/29,Sun,India,Fries (Large),139.00,1.66,Fries & Sides
+220,2024/09/29,Sun,India,Fries (Medium),119.00,1.42,Fries & Sides
+221,2024/09/29,Sun,India,Fries (Regular),78.00,0.93,Fries & Sides
+222,2024/09/29,Sun,India,Classic Cheese Fries,155.00,1.85,Fries & Sides
+223,2024/09/29,Sun,India,4 Pcs Chicken Nuggets,110.00,1.31,Fries & Sides
+224,2024/09/29,Sun,India,Veg Pizza McPuff,61.00,0.73,Fries & Sides
+225,2024/09/29,Sun,India,Classic Corn Cup,90.00,1.08,Fries & Sides
+226,2024/09/29,Sun,India,Mustard Sauce,19.00,0.23,Fries & Sides
+227,2024/09/29,Sun,India,Barbeque Sauce,19.00,0.23,Fries & Sides
+228,2024/09/29,Sun,India,Chilli Sauce Sachet,2.00,0.02,Fries & Sides
+229,2024/09/29,Sun,India,Piri Piri Spice Mix,24.00,0.29,Fries & Sides
+230,2024/09/29,Sun,India,Tomato Ketchup Sachet,1.00,0.01,Fries & Sides
+231,2024/09/29,Sun,India,Iced Coffee with Cinammon Spice,219.00,2.62,Coffee & Beverages (Hot and Cold)
+232,2024/09/29,Sun,India,Classic Coffee Regular with Cinammon Spice,235.00,2.81,Coffee & Beverages (Hot and Cold)
+233,2024/09/29,Sun,India,Cappuccino Small with Cinammon Spice,184.00,2.20,Coffee & Beverages (Hot and Cold)
+234,2024/09/29,Sun,India,Iced Coffee with French Vanilla,219.00,2.62,Coffee & Beverages (Hot and Cold)
+235,2024/09/29,Sun,India,Classic Coffee Regular with French Vanilla,235.00,2.81,Coffee & Beverages (Hot and Cold)
+236,2024/09/29,Sun,India,Classic Coffee Regular with Hazelnut,235.00,2.81,Coffee & Beverages (Hot and Cold)
+237,2024/09/29,Sun,India,Cappuccino Small with French Vanilla,184.00,2.20,Coffee & Beverages (Hot and Cold)
+238,2024/09/29,Sun,India,Iced Coffee with Hazelnut,219.00,2.62,Coffee & Beverages (Hot and Cold)
+239,2024/09/29,Sun,India,Cappuccino Small with Hazelnut,184.00,2.20,Coffee & Beverages (Hot and Cold)
+240,2024/09/29,Sun,India,Cappuccino Coffee (S),165.00,1.97,Coffee & Beverages (Hot and Cold)
+241,2024/09/29,Sun,India,Cappuccino Coffee (R),200.00,2.39,Coffee & Beverages (Hot and Cold)
+242,2024/09/29,Sun,India,Hot Chocolate (S),184.00,2.20,Coffee & Beverages (Hot and Cold)
+243,2024/09/29,Sun,India,Hot Chocolate (R),216.00,2.58,Coffee & Beverages (Hot and Cold)
+244,2024/09/29,Sun,India,Latte Coffee (S),170.00,2.03,Coffee & Beverages (Hot and Cold)
+245,2024/09/29,Sun,India,Latte Coffee (R),200.00,2.39,Coffee & Beverages (Hot and Cold)
+246,2024/09/29,Sun,India,Mocha Coffee (S),210.00,2.51,Coffee & Beverages (Hot and Cold)
+247,2024/09/29,Sun,India,Mocha Coffee (R),236.00,2.82,Coffee & Beverages (Hot and Cold)
+248,2024/09/29,Sun,India,Berry Lemonade Regular,132.00,1.58,Coffee & Beverages (Hot and Cold)
+249,2024/09/29,Sun,India,Ice Tea - Green Apple flavour,180.00,2.15,Coffee & Beverages (Hot and Cold)
+250,2024/09/29,Sun,India,Ice Tea - lemon flavour,180.00,2.15,Coffee & Beverages (Hot and Cold)
+251,2024/09/29,Sun,India,Chocolate Flavoured Shake,175.00,2.09,Coffee & Beverages (Hot and Cold)
+252,2024/09/29,Sun,India,Strawberry Shake,175.00,2.09,Coffee & Beverages (Hot and Cold)
+253,2024/09/29,Sun,India,American Mud Pie Shake,195.00,2.33,Coffee & Beverages (Hot and Cold)
+254,2024/09/29,Sun,India,Mango Smoothie,210.00,2.51,Coffee & Beverages (Hot and Cold)
+255,2024/09/29,Sun,India,Mixed Berry Smoothie,210.00,2.51,Coffee & Beverages (Hot and Cold)
+256,2024/09/29,Sun,India,Mocha Frappe,278.00,3.32,Coffee & Beverages (Hot and Cold)
+257,2024/09/29,Sun,India,McCafe-Ice Coffee,200.00,2.39,Coffee & Beverages (Hot and Cold)
+258,2024/09/29,Sun,India,Ice Americano Coffee,180.00,2.15,Coffee & Beverages (Hot and Cold)
+259,2024/09/29,Sun,India,Chocolate Frappe,278.00,3.32,Coffee & Beverages (Hot and Cold)
+260,2024/09/29,Sun,India,Ice Tea- strawberry flavour,180.00,2.15,Coffee & Beverages (Hot and Cold)
+261,2024/09/29,Sun,India,Americano Coffee (S),170.00,2.03,Coffee & Beverages (Hot and Cold)
+262,2024/09/29,Sun,India,McCafe-Classic Coffee,215.00,2.57,Coffee & Beverages (Hot and Cold)
+263,2024/09/29,Sun,India,Americano Coffee (R),190.00,2.27,Coffee & Beverages (Hot and Cold)
+264,2024/09/29,Sun,India,Moroccan Mint Green Tea (R ),190.00,2.27,Coffee & Beverages (Hot and Cold)
+265,2024/09/29,Sun,India,English Breakfast Tea,159.00,1.90,Coffee & Beverages (Hot and Cold)
+266,2024/09/29,Sun,India,Flat White Coffee,173.00,2.07,Coffee & Beverages (Hot and Cold)
+267,2024/09/29,Sun,India,Strawberry Green Tea (S),153.00,1.83,Coffee & Beverages (Hot and Cold)
+268,2024/09/29,Sun,India,Espresso Shot,115.00,1.37,Coffee & Beverages (Hot and Cold)
+269,2024/09/29,Sun,India,Coke,103.00,1.23,Coffee & Beverages (Hot and Cold)
+270,2024/09/29,Sun,India,Fanta,103.00,1.23,Coffee & Beverages (Hot and Cold)
+271,2024/09/29,Sun,India,Sprite,103.00,1.23,Coffee & Beverages (Hot and Cold)
+272,2024/09/29,Sun,India,Coke zero can,67.00,0.80,Coffee & Beverages (Hot and Cold)
+273,2024/09/29,Sun,India,Mixed Fruit Beverage,75.00,0.90,Coffee & Beverages (Hot and Cold)
+274,2024/09/29,Sun,India,Vedica Zen Water Bottle,48.00,0.57,Coffee & Beverages (Hot and Cold)
+275,2024/09/29,Sun,India,Treat Combo,170.00,2.03,Cakes Brownies and Cookies
+276,2024/09/29,Sun,India,Refresh Combo,170.00,2.03,Cakes Brownies and Cookies
+277,2024/09/29,Sun,India,Take a break Combo,170.00,2.03,Cakes Brownies and Cookies
+278,2024/09/29,Sun,India,Indulge Combo,170.00,2.03,Cakes Brownies and Cookies
+279,2024/09/29,Sun,India,Hot Coffee Combo,170.00,2.03,Cakes Brownies and Cookies
+280,2024/09/29,Sun,India,Cold Coffee Combo,170.00,2.03,Cakes Brownies and Cookies
+281,2024/09/29,Sun,India,Cinnamon Raisin Cookie,94.00,1.12,Cakes Brownies and Cookies
+282,2024/09/29,Sun,India,Vanilla Chocolate Muffin,129.00,1.54,Cakes Brownies and Cookies
+283,2024/09/29,Sun,India,Chocochip Muffin,142.00,1.70,Cakes Brownies and Cookies
+284,2024/09/29,Sun,India,Choco Crunch Cookie,94.00,1.12,Cakes Brownies and Cookies
+285,2024/09/29,Sun,India,Choco Brownie,94.00,1.12,Cakes Brownies and Cookies
+286,2024/09/29,Sun,India,Indulge Choco Jar Dessert,75.00,0.90,Cakes Brownies and Cookies
+287,2024/09/29,Sun,India,Chocolate Overload McFlurry with Oreo Small,104.00,1.24,Desserts
+288,2024/09/29,Sun,India,Chocolate Overload McFlurry with Oreo Medium,138.00,1.65,Desserts
+289,2024/09/29,Sun,India,Soft Serve Hot Fudge (M),65.00,0.78,Desserts
+290,2024/09/29,Sun,India,Black Forest McFlurry Medium,115.00,1.37,Desserts
+291,2024/09/29,Sun,India,McFlurry Oreo ( M ),129.00,1.54,Desserts
+292,2024/09/29,Sun,India,Soft Serve Strawberry (M),65.00,0.78,Desserts
+293,2024/09/29,Sun,India,Brownie Hot Fudge (M),138.00,1.65,Desserts
+294,2024/09/29,Sun,India,Mcflurry Oreo ( S ),94.00,1.12,Desserts
+295,2024/09/29,Sun,India,McSpicy Paneer Burger with Multi-Millet Bun,224.00,2.68,Burgers With Millet Bun
+296,2024/09/29,Sun,India,McSpicy Chicken Burger with Multi-Millet Bun,224.00,2.68,Burgers With Millet Bun
+297,2024/09/29,Sun,India,McChicken Burger with Multi-Millet Bun,151.00,1.80,Burgers With Millet Bun
+298,2024/09/29,Sun,India,McVeggie Burger with Multi-Millet Bun,159.00,1.90,Burgers With Millet Bun
+299,2024/09/29,Sun,India,Chicken Surprise Burger with Multi-Millet Bun,85.00,1.02,Burgers With Millet Bun
+300,2024/09/29,Sun,India,McAloo Tikki Burger with Multi-Millet Bun,79.00,0.94,Burgers With Millet Bun
