@@ -17,8 +17,8 @@ local_datetime = dt.datetime.now(pytz.timezone("Asia/Kuala_Lumpur"))
 # Set headers to make HTTP request to seem to be from a normal browser
 json_headers = {
     'authority': 'hk.fd-api.com',
-    'accept': '''application/json,application/xhtml+xml,application/xml;q=0.9,
-    image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9''',
+    'accept': 'application/json,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,'
+              '*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-language': 'en-GB,en;q=0.9',
     'cache-control': 'max-age=0',
     'dnt': '1',
@@ -30,8 +30,8 @@ json_headers = {
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': '''Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.
-    36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36''',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/102.0.5005.61 Safari/537.36'
 }
 
 my_headers = {
