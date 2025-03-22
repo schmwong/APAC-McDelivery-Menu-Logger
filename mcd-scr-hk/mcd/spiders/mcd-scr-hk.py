@@ -87,7 +87,7 @@ class McdScrHkSpider(scrapy.Spider):
 		url = "https://hk.fd-api.com/api/v5/vendors/q8hc?include=menus,bundles,multiple_discounts&language_id=1&dynamic_pricing=0&opening_type=delivery&basket_currency=HKD"
 
 		headers = {
-			':authority': 'hk.fd-api.com',
+			'authority': 'hk.fd-api.com',
 			'accept': '''application/json,application/xhtml+xml,application/xml;q=0.9,
 			image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9''',
 			'accept-language': 'en-GB,en;q=0.9',
