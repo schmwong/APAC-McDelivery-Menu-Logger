@@ -30,8 +30,8 @@ json_headers = {
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': '''Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.
-    36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36''',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/102.0.5005.61 Safari/537.36'
 }
 
 my_headers = {
