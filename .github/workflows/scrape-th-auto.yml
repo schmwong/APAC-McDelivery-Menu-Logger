@@ -5,7 +5,7 @@ name: scrape-th-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 22 21 * * *           # runs once a day at 20:22 UTC (03:22 ICT)
+  - cron: 22 20 * * *           # runs once a day at 20:22 UTC (03:22 ICT)
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
