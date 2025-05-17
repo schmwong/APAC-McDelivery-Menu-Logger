@@ -71,7 +71,7 @@ class McdScrSgSpider(scrapy.Spider):
         url = "https://sg.fd-api.com/api/v5/vendors/p8kd?include=menus,bundles,multiple_discounts&language_id=1&opening_type=delivery&basket_currency=SGD"
 
         headers = {
-            ':authority': 'hk.fd-api.com',
+            'authority': 'sg.fd-api.com',
             'accept': 'application/json,application/xhtml+xml,application/xml;q=0.9,'
             'image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en;q=0.9',
@@ -87,6 +87,8 @@ class McdScrSgSpider(scrapy.Spider):
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.'
             '36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
+            'perseus-client-id': '1746696460344.649562605883151673.f90gfab4o0',
+            'perseus-session-id': '1746696460344.368356967772194548.qldz8wgx9w'
         }
 
         try:
@@ -213,8 +215,8 @@ class McdScrSgSpider(scrapy.Spider):
             # Create directory as required; won't raise an error if directory already exists
             output_dir.mkdir(parents=True, exist_ok=True)
 
-            product_list_df.to_csv((output_dir / output_file),
-                                   float_format="%.2f", encoding="utf-8")
+            # product_list_df.to_csv((output_dir / output_file),
+            #                        float_format="%.2f", encoding="utf-8")
 
             print(
                 f"\n\nExported to file: "
