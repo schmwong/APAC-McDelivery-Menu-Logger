@@ -74,6 +74,8 @@ class McdScrSgSpider(scrapy.Spider):
             'authority': 'sg.fd-api.com',
             'accept': 'application/json,application/xhtml+xml,application/xml;q=0.9,'
             'image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'access-control-request-headers': 'api-version,authorization,dps-session-id,perseus-client-id,'
+                                              'perseus-session-id,x-fp-api-key,x-pd-language-id',
             'accept-language': 'en-GB,en;q=0.9',
             'cache-control': 'max-age=0',
             'dnt': '1',
@@ -85,11 +87,14 @@ class McdScrSgSpider(scrapy.Spider):
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.'
-            '36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
-            'perseus-client-id': '1746696460344.649562605883151673.f90gfab4o0',
-            'perseus-session-id': '1746696460344.368356967772194548.qldz8wgx9w',
-            'referer': 'https://www.foodpanda.sg/restaurant/p8kd/mcdonalds-marine-cove'
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
+            'perseus-client-id': '1747460963110.017832519969032824.63qpkeiaox',
+            'perseus-session-id': '1747460963111.421008809318960797.szlfc3kdq5',
+            'referer': 'https://www.foodpanda.sg/restaurant/p8kd/mcdonalds-marine-cove',
+            'api-version': '7',
+            'dps-session-id': 'eyJzZXNzaW9uX2lkIjoiZGVhYzg2NjFlMDc2OThjZDI5YTFkZDQ5ZTc2NzRmYjgiLCJwZXJzZXVzX2lkIjoiMTc0NzQ2MDk2MzExMC4wMTc4MzI1MTk5NjkwMzI4MjQuNjNxcGtlaWFveCIsInRpbWVzdGFtcCI6MTc0NzQ2MDk3MH0=',
+            'x-fp-api-key': 'volo',
+            'x-pd-language-id': '1'
         }
 
         try:
