@@ -88,7 +88,8 @@ class McdScrSgSpider(scrapy.Spider):
             'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.'
             '36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
             'perseus-client-id': '1746696460344.649562605883151673.f90gfab4o0',
-            'perseus-session-id': '1746696460344.368356967772194548.qldz8wgx9w'
+            'perseus-session-id': '1746696460344.368356967772194548.qldz8wgx9w',
+            'referer': 'https://www.foodpanda.sg/restaurant/p8kd/mcdonalds-marine-cove'
         }
 
         try:
