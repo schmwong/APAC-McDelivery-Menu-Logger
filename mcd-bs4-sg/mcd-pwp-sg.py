@@ -68,7 +68,7 @@ def test_get_prices(page: Page):
     restaurant_address = page.locator("div.mx-md h1").inner_text().strip()
     print(f"Outlet Address: {restaurant_address}")
     page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
-    page.reload(wait_until="domcontentloaded")
+    page.locator("button[aria-label='Close']").click()
 
     categories = page.locator("div#category-tabs button[role='tab']").all()
     print(f"\n{len(categories)} categories found")
