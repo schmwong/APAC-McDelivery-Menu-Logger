@@ -35,6 +35,7 @@ def test_get_exchange_rate(page: Page):
         snapshots=True
     )
     page.goto("https://www.xe.com/currencyconverter/convert/?Amount=1&From=SGD&To=USD")
+    page.wait_for_load_state("domcontentloaded")
     global exchange_rate
     exchange_rate = float(
         re.findall(
@@ -67,7 +68,7 @@ def test_get_prices(page: Page):
     restaurant_address = page.locator("div.mx-md h1").inner_text().strip()
     print(f"Outlet Address: {restaurant_address}")
     page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
-    page.keyboard.press("Enter")
+    page.reload(wait_until="domcontentloaded")
 
     categories = page.locator("div#category-tabs button[role='tab']").all()
     print(f"\n{len(categories)} categories found")
