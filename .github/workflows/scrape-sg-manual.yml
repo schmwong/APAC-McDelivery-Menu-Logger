@@ -30,7 +30,6 @@ jobs:
             run: |
               pip install -r requirements.txt
               playwright install chromium
-              apt-get install -y xvfb
           - name: execute py script # run mcd-pwp-sg.py to get the latest data
             working-directory: ./mcd-bs4-sg
             run: |
