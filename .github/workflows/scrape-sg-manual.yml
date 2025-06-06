@@ -42,9 +42,10 @@ jobs:
             uses: actions/upload-artifact@v4
             with:
               name: playwright-trace-sg
-              path: "*trace.zip"
+              path: "./mcd-bs4-sg/**trace.zip"
 
           - name: Commit and push if it changed
+            working-directory: ./mcd-bs4-sg
             run: |
               git config user.name "${GITHUB_ACTOR}"
               git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
