@@ -24,14 +24,16 @@ jobs:
           - name: setup python
             uses: actions/setup-python@v5
             with:
-              python-version: 3.10.14
+              python-version: 3.9.6
           - name: setup dependencies
             working-directory: ./mcd-bs4-sg
-            run: pip install -r requirements.txt
-          - name: execute py script # run mcd-scr-sg.py to get the latest data
+            run: |
+              pip install -r requirements.txt
+              playwright install firefox
+          - name: execute py script # run mcd-pwp-sg.py to get the latest data
             working-directory: ./mcd-bs4-sg
             run: |
-              scrapy crawl mcd-scr-sg
+              xvfb-run -- pytest -vs --headed --browser firefox mcd-pwp-sg.py
           - name: Commit and push if it changed
             run: |
               git config user.name "${GITHUB_ACTOR}"
