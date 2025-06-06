@@ -29,11 +29,11 @@ jobs:
             working-directory: ./mcd-bs4-sg
             run: |
               pip install -r requirements.txt
-              playwright install firefox
+              playwright install chromium
           - name: execute py script # run mcd-pwp-sg.py to get the latest data
             working-directory: ./mcd-bs4-sg
             run: |
-              xvfb-run -- pytest -vs --headed --browser firefox mcd-pwp-sg.py
+              xvfb-run -- pytest -vs --headed --browser chromium mcd-pwp-sg.py
           - name: Commit and push if it changed
             run: |
               git config user.name "${GITHUB_ACTOR}"
