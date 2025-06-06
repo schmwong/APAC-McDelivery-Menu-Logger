@@ -19,7 +19,7 @@ from pathlib import Path
 
 # Reflects local time
 local_datetime = dt.datetime.now(pytz.timezone("Asia/Singapore"))
-timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
+timestamp = str(local_datetime.strftime("[%Y-%m-%d %H：%M：%S]"))
 
 exchange_rate: float
 fx_statement: str
@@ -113,7 +113,7 @@ def test_get_prices(page: Page):
 
 
 def test_export_data(page: Page):
-    global timestamp, price_list, restaurant_name, restaurant_address
+    global price_list, restaurant_name, restaurant_address
     page.context.tracing.start(
         name=f'{timestamp} mcd-sg-df-trace',
         title="Create DataFrame from scraped menu data",
@@ -133,8 +133,6 @@ def test_export_data(page: Page):
         start=1, stop=(len(df.index) + 1), step=1
     )
     print(df)
-
-    timestamp = str(local_datetime.strftime("[%Y-%m-%d %H:%M:%S]"))
 
     output_file = str(timestamp + " mcd-pwp-sg.csv")
     output_dir = Path("./scraped-data")
