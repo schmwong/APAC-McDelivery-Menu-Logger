@@ -38,11 +38,15 @@ jobs:
             run: |
               xvfb-run -- pytest -vs --headed --browser chromium mcd-pwp-sg.py
 
+          - name: List Playwright trace files
+            working-directory:  ./mcd-bs4-sg
+            run:  find . -type f -name "*trace.zip"
+
           - name: Save Playwright trace files as artifacts
             uses: actions/upload-artifact@v4
             with:
               name: playwright-trace-sg
-              path: "./mcd-bs4-sg/**trace.zip"
+              path: "./mcd-bs4-sg/*trace.zip"
 
           - name: Commit and push if it changed
             working-directory: ./mcd-bs4-sg
