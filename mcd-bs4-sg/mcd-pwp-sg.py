@@ -59,20 +59,6 @@ def test_get_prices(page: Page):
         snapshots=True
     )
     page.goto("https://www.foodpanda.sg/restaurant/p8kd/mcdonalds-marine-cove")
-    try:
-        page.get_by_test_id("vendor-info-more-info-btn").click()
-        global restaurant_name
-        restaurant_name = page.locator("h2#vendor-info-modal-vendor-name").inner_text().strip()
-        print(f"\nMaccas Outlet: {restaurant_name}")
-        page.evaluate("restaurant_name => console.log('Maccas Outlet: ', restaurant_name)", restaurant_name)
-        global restaurant_address
-        restaurant_address = page.locator("div.mx-md h1").inner_text().strip()
-        print(f"Outlet Address: {restaurant_address}")
-        page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
-        page.locator("button.bds-c-modal__close-button").click()
-    except TimeoutError:
-        print("Failed to get restaurant name and address from modal.")
-        page.locator("button.bds-c-modal__close-button").click()
 
     categories = page.locator("div#category-tabs button[role='tab']").all()
     print(f"\n{len(categories)} categories found")
@@ -113,11 +99,27 @@ def test_get_prices(page: Page):
             global price_list
             price_list.append(product)
 
+    # Open modal to get restaurant address
+    try:
+        page.get_by_test_id("vendor-info-more-info-btn").click()
+        global restaurant_name
+        restaurant_name = page.locator("h2#vendor-info-modal-vendor-name").inner_text().strip()
+        print(f"\nMaccas Outlet: {restaurant_name}")
+        page.evaluate("restaurant_name => console.log('Maccas Outlet: ', restaurant_name)", restaurant_name)
+        global restaurant_address
+        restaurant_address = page.locator("div.mx-md h1").inner_text().strip()
+        print(f"Outlet Address: {restaurant_address}")
+        page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
+        page.locator("button.bds-c-modal__close-button").click()
+    except TimeoutError:
+        print("Failed to get restaurant name and address from modal.")
+        page.locator("button.bds-c-modal__close-button").click()
+
     page.context.tracing.stop(path=f'{timestamp} mcd-sg2-prices-trace.zip')
 
 
 def test_export_data(page: Page):
-    global price_list, restaurant_name, restaurant_address
+    # global price_list, restaurant_name, restaurant_address
     page.context.tracing.start(
         name=f'{timestamp} mcd-sg-df-trace',
         title="Create DataFrame from scraped menu data",
@@ -156,8 +158,8 @@ def test_export_data(page: Page):
     print()
     print(df_str)
 
-    page.evaluate("restaurant_name => console.log('Maccas Outlet: ', restaurant_name)", restaurant_name)
-    page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
+    # page.evaluate("restaurant_name => console.log('Maccas Outlet: ', restaurant_name)", restaurant_name)
+    # page.evaluate("restaurant_address => console.log('Outlet Address: ', restaurant_address)", restaurant_address)
     page.evaluate("fx_statement => console.log(fx_statement)", fx_statement)
     page.evaluate("df_str => console.log(df_str)", df_str)
 
