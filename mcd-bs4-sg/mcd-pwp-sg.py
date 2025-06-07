@@ -19,7 +19,7 @@ from pathlib import Path
 
 # Reflects local time
 local_datetime = dt.datetime.now(pytz.timezone("Asia/Singapore"))
-timestamp = str(local_datetime.strftime("[%Y-%m-%d %H：%M：%S]"))
+timestamp = str(local_datetime.strftime("[%Y-%m-%d %H.%M.%S]"))
 
 exchange_rate: float
 fx_statement: str
