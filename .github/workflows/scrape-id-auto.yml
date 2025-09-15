@@ -5,7 +5,7 @@ name: scrape-id-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 55 04 * * *           # runs once a day at 19:55 UTC (02:55 WIB)
+  - cron: 55 05 * * *           # runs once a day at 19:55 UTC (02:55 WIB)
 
 concurrency:
   group: scrape-and-schedule
