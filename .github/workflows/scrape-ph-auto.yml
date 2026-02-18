@@ -5,8 +5,8 @@ name: scrape-ph-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 46 17 * * *           # runs at 02:46 UTC (10:46 PHT) for Regular Menu
-  - cron: 26 13 * * *           # runs at 22:26 UTC (06:26 PHT) for Breakfast Menu
+  - cron: 46 18 * * *           # runs at 02:46 UTC (10:46 PHT) for Regular Menu
+  - cron: 26 14 * * *           # runs at 22:26 UTC (06:26 PHT) for Breakfast Menu
 concurrency:
   group: scrape-and-schedule
   cancel-in-progress: false
