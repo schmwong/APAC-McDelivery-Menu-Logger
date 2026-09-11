@@ -5,7 +5,7 @@ name: scrape-kr-auto
 # Controls when the workflow will run
 on:
   schedule:
-  - cron: 33 16 * * *           # runs once a day at 16:33 UTC (01:33 KST)
+  - cron: 33 17 * * *           # runs once a day at 16:33 UTC (01:33 KST)
 
 concurrency:
   group: scrape-and-schedule
